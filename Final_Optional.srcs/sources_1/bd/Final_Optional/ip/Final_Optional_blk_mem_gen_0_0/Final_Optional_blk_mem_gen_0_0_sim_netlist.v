@@ -3,8 +3,8 @@
 // Tool Version: Vivado v.2017.2 (win64) Build 1909853 Thu Jun 15 18:39:09 MDT 2017
 // Date        : Wed May 29 19:03:56 2019
 // Host        : c4d1 running 64-bit major release  (build 9200)
-// Command     : write_verilog -force -mode funcsim
-//               c:/Users/ibai.ros/Final_Optional/Final_Optional.srcs/sources_1/bd/Final_Optional/ip/Final_Optional_blk_mem_gen_0_0/Final_Optional_blk_mem_gen_0_0_sim_netlist.v
+// Command     : write_verilog -force -mode funcsim -rename_top Final_Optional_blk_mem_gen_0_0 -prefix
+//               Final_Optional_blk_mem_gen_0_0_ Final_Optional_blk_mem_gen_0_0_sim_netlist.v
 // Design      : Final_Optional_blk_mem_gen_0_0
 // Purpose     : This verilog netlist is a functional simulation representation of the design and should not be modified
 //               or synthesized. This netlist cannot be used for SDF annotated simulation.
@@ -198,7 +198,6 @@ module Final_Optional_blk_mem_gen_0_0
         .web(1'b0));
 endmodule
 
-(* ORIG_REF_NAME = "blk_mem_gen_generic_cstr" *) 
 module Final_Optional_blk_mem_gen_0_0_blk_mem_gen_generic_cstr
    (doutb,
     clka,
@@ -368,7 +367,6 @@ module Final_Optional_blk_mem_gen_0_0_blk_mem_gen_mux__parameterized0
         .R(1'b0));
 endmodule
 
-(* ORIG_REF_NAME = "blk_mem_gen_prim_width" *) 
 module Final_Optional_blk_mem_gen_0_0_blk_mem_gen_prim_width
    (DOUTB,
     clka,
@@ -566,7 +564,6 @@ module Final_Optional_blk_mem_gen_0_0_blk_mem_gen_prim_width__parameterized4
         .dina(dina));
 endmodule
 
-(* ORIG_REF_NAME = "blk_mem_gen_prim_wrapper" *) 
 module Final_Optional_blk_mem_gen_0_0_blk_mem_gen_prim_wrapper
    (DOUTB,
     clka,
@@ -3359,7 +3356,6 @@ module Final_Optional_blk_mem_gen_0_0_blk_mem_gen_prim_wrapper__parameterized4
         .WEBWE({1'b0,1'b0,1'b0,1'b0,1'b0,1'b0,1'b0,1'b0}));
 endmodule
 
-(* ORIG_REF_NAME = "blk_mem_gen_top" *) 
 module Final_Optional_blk_mem_gen_0_0_blk_mem_gen_top
    (doutb,
     clka,
@@ -3414,7 +3410,7 @@ endmodule
 (* C_USE_URAM = "0" *) (* C_WEA_WIDTH = "1" *) (* C_WEB_WIDTH = "1" *) 
 (* C_WRITE_DEPTH_A = "131072" *) (* C_WRITE_DEPTH_B = "131072" *) (* C_WRITE_MODE_A = "NO_CHANGE" *) 
 (* C_WRITE_MODE_B = "READ_FIRST" *) (* C_WRITE_WIDTH_A = "3" *) (* C_WRITE_WIDTH_B = "3" *) 
-(* C_XDEVICEFAMILY = "zynq" *) (* ORIG_REF_NAME = "blk_mem_gen_v8_3_6" *) (* downgradeipidentifiedwarnings = "yes" *) 
+(* C_XDEVICEFAMILY = "zynq" *) (* downgradeipidentifiedwarnings = "yes" *) 
 module Final_Optional_blk_mem_gen_0_0_blk_mem_gen_v8_3_6
    (clka,
     rsta,
@@ -3626,7 +3622,6 @@ module Final_Optional_blk_mem_gen_0_0_blk_mem_gen_v8_3_6
         .wea(wea));
 endmodule
 
-(* ORIG_REF_NAME = "blk_mem_gen_v8_3_6_synth" *) 
 module Final_Optional_blk_mem_gen_0_0_blk_mem_gen_v8_3_6_synth
    (doutb,
     clka,

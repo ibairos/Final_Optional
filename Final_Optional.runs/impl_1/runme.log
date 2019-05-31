@@ -10,94 +10,103 @@
 
 source Final_Optional_wrapper.tcl -notrace
 INFO: [IP_Flow 19-234] Refreshing IP repositories
-INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/ibai/ESDC/Final_Optional/IPs/control_ball'.
-INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/ibai/ESDC/Final_Optional/IPs/memory_bar'.
-INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/ibai/ESDC/Final_Optional/IPs/mem_control_unit'.
-INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/ibai/ESDC/Final_Optional/IPs/mux_control'.
-INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/ibai/ESDC/Final_Optional/IPs/memory_ball'.
-INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/ibai/ESDC/Final_Optional/IPs/control_bar'.
-INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/ibai/ESDC/Final_Optional/IPs/add_generator'.
-INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/ibai/ESDC/Final_Optional/IPs/VGA_SYNC'.
-INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/ProgramFiles/Xilinx/Vivado/2017.2/data/ip'.
-add_files: Time (s): cpu = 00:00:04 ; elapsed = 00:00:06 . Memory (MB): peak = 341.480 ; gain = 43.086
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/ibai.ros/Final_Optional/IPs/control_ball'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/ibai.ros/Final_Optional/IPs/memory_bar'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/ibai.ros/Final_Optional/IPs/mem_control_unit'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/ibai.ros/Final_Optional/IPs/mux_control'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/ibai.ros/Final_Optional/IPs/memory_ball'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/ibai.ros/Final_Optional/IPs/control_bar'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/ibai.ros/Final_Optional/IPs/add_generator'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/ibai.ros/Final_Optional/IPs/VGA_SYNC'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2017.2/data/ip'.
+WARNING: [IP_Flow 19-3664] IP 'Final_Optional_axi_gpio_2_0' generated file not found 'c:/Users/ibai.ros/Final_Optional/Final_Optional.srcs/sources_1/bd/Final_Optional/ip/Final_Optional_axi_gpio_2_0/stats.txt'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'Final_Optional_rst_ps7_0_100M_1' generated file not found 'c:/Users/ibai.ros/Final_Optional/Final_Optional.srcs/sources_1/bd/Final_Optional/ip/Final_Optional_rst_ps7_0_100M_1/stats.txt'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'Final_Optional_axi_gpio_0_2' generated file not found 'c:/Users/ibai.ros/Final_Optional/Final_Optional.srcs/sources_1/bd/Final_Optional/ip/Final_Optional_axi_gpio_0_2/stats.txt'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'Final_Optional_auto_pc_1' generated file not found 'c:/Users/ibai.ros/Final_Optional/Final_Optional.srcs/sources_1/bd/Final_Optional/ip/Final_Optional_auto_pc_1/stats.txt'. Please regenerate to continue.
 Design is defaulting to srcset: sources_1
 Design is defaulting to constrset: constrs_1
-INFO: [Project 1-454] Reading design checkpoint 'c:/Users/ibai/ESDC/Final_Optional/Final_Optional.srcs/sources_1/bd/Final_Optional/ip/Final_Optional_VGA_SYNC_0_0/Final_Optional_VGA_SYNC_0_0.dcp' for cell 'Final_Optional_i/VGA_SYNC_0'
-INFO: [Project 1-454] Reading design checkpoint 'c:/Users/ibai/ESDC/Final_Optional/Final_Optional.srcs/sources_1/bd/Final_Optional/ip/Final_Optional_add_generator_0_0/Final_Optional_add_generator_0_0.dcp' for cell 'Final_Optional_i/add_generator_0'
-INFO: [Project 1-454] Reading design checkpoint 'c:/Users/ibai/ESDC/Final_Optional/Final_Optional.srcs/sources_1/bd/Final_Optional/ip/Final_Optional_blk_mem_gen_0_0/Final_Optional_blk_mem_gen_0_0.dcp' for cell 'Final_Optional_i/blk_mem_gen_0'
-INFO: [Project 1-454] Reading design checkpoint 'c:/Users/ibai/ESDC/Final_Optional/Final_Optional.srcs/sources_1/bd/Final_Optional/ip/Final_Optional_axi_gpio_1_0/Final_Optional_axi_gpio_1_0.dcp' for cell 'Final_Optional_i/buttons'
-INFO: [Project 1-454] Reading design checkpoint 'c:/Users/ibai/ESDC/Final_Optional/Final_Optional.srcs/sources_1/bd/Final_Optional/ip/Final_Optional_control_ball_0_1/Final_Optional_control_ball_0_1.dcp' for cell 'Final_Optional_i/control_ball_0'
-INFO: [Project 1-454] Reading design checkpoint 'c:/Users/ibai/ESDC/Final_Optional/Final_Optional.srcs/sources_1/bd/Final_Optional/ip/Final_Optional_control_bar_0_0/Final_Optional_control_bar_0_0.dcp' for cell 'Final_Optional_i/control_bar_0'
-INFO: [Project 1-454] Reading design checkpoint 'c:/Users/ibai/ESDC/Final_Optional/Final_Optional.srcs/sources_1/bd/Final_Optional/ip/Final_Optional_axi_gpio_0_0/Final_Optional_axi_gpio_0_0.dcp' for cell 'Final_Optional_i/game_over'
-INFO: [Project 1-454] Reading design checkpoint 'c:/Users/ibai/ESDC/Final_Optional/Final_Optional.srcs/sources_1/bd/Final_Optional/ip/Final_Optional_mem_control_unit_0_2/Final_Optional_mem_control_unit_0_2.dcp' for cell 'Final_Optional_i/mem_control_unit_0'
-INFO: [Project 1-454] Reading design checkpoint 'c:/Users/ibai/ESDC/Final_Optional/Final_Optional.srcs/sources_1/bd/Final_Optional/ip/Final_Optional_memory_ball_0_0/Final_Optional_memory_ball_0_0.dcp' for cell 'Final_Optional_i/memory_ball_0'
-INFO: [Project 1-454] Reading design checkpoint 'c:/Users/ibai/ESDC/Final_Optional/Final_Optional.srcs/sources_1/bd/Final_Optional/ip/Final_Optional_memory_bar_0_0/Final_Optional_memory_bar_0_0.dcp' for cell 'Final_Optional_i/memory_bar_0'
-INFO: [Project 1-454] Reading design checkpoint 'c:/Users/ibai/ESDC/Final_Optional/Final_Optional.srcs/sources_1/bd/Final_Optional/ip/Final_Optional_mux_control_0_2/Final_Optional_mux_control_0_2.dcp' for cell 'Final_Optional_i/mux_control_0'
-INFO: [Project 1-454] Reading design checkpoint 'c:/Users/ibai/ESDC/Final_Optional/Final_Optional.srcs/sources_1/bd/Final_Optional/ip/Final_Optional_processing_system7_0_0/Final_Optional_processing_system7_0_0.dcp' for cell 'Final_Optional_i/processing_system7_0'
-INFO: [Project 1-454] Reading design checkpoint 'c:/Users/ibai/ESDC/Final_Optional/Final_Optional.srcs/sources_1/bd/Final_Optional/ip/Final_Optional_rst_ps7_0_100M_0/Final_Optional_rst_ps7_0_100M_0.dcp' for cell 'Final_Optional_i/rst_ps7_0_100M'
-INFO: [Project 1-454] Reading design checkpoint 'c:/Users/ibai/ESDC/Final_Optional/Final_Optional.srcs/sources_1/bd/Final_Optional/ip/Final_Optional_axi_gpio_2_0/Final_Optional_axi_gpio_2_0.dcp' for cell 'Final_Optional_i/switches'
-INFO: [Project 1-454] Reading design checkpoint 'c:/Users/ibai/ESDC/Final_Optional/Final_Optional.srcs/sources_1/bd/Final_Optional/ip/Final_Optional_xbar_0/Final_Optional_xbar_0.dcp' for cell 'Final_Optional_i/ps7_0_axi_periph/xbar'
-INFO: [Project 1-454] Reading design checkpoint 'c:/Users/ibai/ESDC/Final_Optional/Final_Optional.srcs/sources_1/bd/Final_Optional/ip/Final_Optional_auto_pc_0/Final_Optional_auto_pc_0.dcp' for cell 'Final_Optional_i/ps7_0_axi_periph/s00_couplers/auto_pc'
-INFO: [Netlist 29-17] Analyzing 77 Unisim elements for replacement
+INFO: [Project 1-454] Reading design checkpoint 'c:/Users/ibai.ros/Final_Optional/Final_Optional.srcs/sources_1/bd/Final_Optional/ip/Final_Optional_VGA_SYNC_0_0/Final_Optional_VGA_SYNC_0_0.dcp' for cell 'Final_Optional_i/VGA_SYNC_0'
+INFO: [Project 1-454] Reading design checkpoint 'c:/Users/ibai.ros/Final_Optional/Final_Optional.srcs/sources_1/bd/Final_Optional/ip/Final_Optional_add_generator_0_0/Final_Optional_add_generator_0_0.dcp' for cell 'Final_Optional_i/add_generator_0'
+INFO: [Project 1-454] Reading design checkpoint 'c:/Users/ibai.ros/Final_Optional/Final_Optional.srcs/sources_1/bd/Final_Optional/ip/Final_Optional_blk_mem_gen_0_0/Final_Optional_blk_mem_gen_0_0.dcp' for cell 'Final_Optional_i/blk_mem_gen_0'
+INFO: [Project 1-454] Reading design checkpoint 'c:/Users/ibai.ros/Final_Optional/Final_Optional.srcs/sources_1/bd/Final_Optional/ip/Final_Optional_axi_gpio_1_0/Final_Optional_axi_gpio_1_0.dcp' for cell 'Final_Optional_i/buttons'
+INFO: [Project 1-454] Reading design checkpoint 'c:/Users/ibai.ros/Final_Optional/Final_Optional.srcs/sources_1/bd/Final_Optional/ip/Final_Optional_control_ball_0_1/Final_Optional_control_ball_0_1.dcp' for cell 'Final_Optional_i/control_ball_0'
+INFO: [Project 1-454] Reading design checkpoint 'c:/Users/ibai.ros/Final_Optional/Final_Optional.srcs/sources_1/bd/Final_Optional/ip/Final_Optional_control_bar_0_0/Final_Optional_control_bar_0_0.dcp' for cell 'Final_Optional_i/control_bar_0'
+INFO: [Project 1-454] Reading design checkpoint 'c:/Users/ibai.ros/Final_Optional/Final_Optional.srcs/sources_1/bd/Final_Optional/ip/Final_Optional_axi_gpio_0_2/Final_Optional_axi_gpio_0_2.dcp' for cell 'Final_Optional_i/game_over'
+INFO: [Project 1-454] Reading design checkpoint 'c:/Users/ibai.ros/Final_Optional/Final_Optional.srcs/sources_1/bd/Final_Optional/ip/Final_Optional_axi_gpio_0_3/Final_Optional_axi_gpio_0_3.dcp' for cell 'Final_Optional_i/leds'
+INFO: [Project 1-454] Reading design checkpoint 'c:/Users/ibai.ros/Final_Optional/Final_Optional.srcs/sources_1/bd/Final_Optional/ip/Final_Optional_mem_control_unit_0_2/Final_Optional_mem_control_unit_0_2.dcp' for cell 'Final_Optional_i/mem_control_unit_0'
+INFO: [Project 1-454] Reading design checkpoint 'c:/Users/ibai.ros/Final_Optional/Final_Optional.srcs/sources_1/bd/Final_Optional/ip/Final_Optional_memory_ball_0_0/Final_Optional_memory_ball_0_0.dcp' for cell 'Final_Optional_i/memory_ball_0'
+INFO: [Project 1-454] Reading design checkpoint 'c:/Users/ibai.ros/Final_Optional/Final_Optional.srcs/sources_1/bd/Final_Optional/ip/Final_Optional_memory_bar_0_0/Final_Optional_memory_bar_0_0.dcp' for cell 'Final_Optional_i/memory_bar_0'
+INFO: [Project 1-454] Reading design checkpoint 'c:/Users/ibai.ros/Final_Optional/Final_Optional.srcs/sources_1/bd/Final_Optional/ip/Final_Optional_mux_control_0_2/Final_Optional_mux_control_0_2.dcp' for cell 'Final_Optional_i/mux_control_0'
+INFO: [Project 1-454] Reading design checkpoint 'c:/Users/ibai.ros/Final_Optional/Final_Optional.srcs/sources_1/bd/Final_Optional/ip/Final_Optional_processing_system7_0_0/Final_Optional_processing_system7_0_0.dcp' for cell 'Final_Optional_i/processing_system7_0'
+INFO: [Project 1-454] Reading design checkpoint 'c:/Users/ibai.ros/Final_Optional/Final_Optional.srcs/sources_1/bd/Final_Optional/ip/Final_Optional_rst_ps7_0_100M_1/Final_Optional_rst_ps7_0_100M_1.dcp' for cell 'Final_Optional_i/rst_ps7_0_100M'
+INFO: [Project 1-454] Reading design checkpoint 'c:/Users/ibai.ros/Final_Optional/Final_Optional.srcs/sources_1/bd/Final_Optional/ip/Final_Optional_axi_gpio_2_0/Final_Optional_axi_gpio_2_0.dcp' for cell 'Final_Optional_i/switches'
+INFO: [Project 1-454] Reading design checkpoint 'c:/Users/ibai.ros/Final_Optional/Final_Optional.srcs/sources_1/bd/Final_Optional/ip/Final_Optional_xbar_1/Final_Optional_xbar_1.dcp' for cell 'Final_Optional_i/ps7_0_axi_periph/xbar'
+INFO: [Project 1-454] Reading design checkpoint 'c:/Users/ibai.ros/Final_Optional/Final_Optional.srcs/sources_1/bd/Final_Optional/ip/Final_Optional_auto_pc_1/Final_Optional_auto_pc_1.dcp' for cell 'Final_Optional_i/ps7_0_axi_periph/s00_couplers/auto_pc'
+INFO: [Netlist 29-17] Analyzing 81 Unisim elements for replacement
 INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
 INFO: [Project 1-479] Netlist was created with Vivado 2017.2
 INFO: [Device 21-403] Loading part xc7z010clg400-1
 INFO: [Project 1-570] Preparing netlist for logic optimization
-Parsing XDC File [c:/Users/ibai/ESDC/Final_Optional/Final_Optional.srcs/sources_1/bd/Final_Optional/ip/Final_Optional_processing_system7_0_0/Final_Optional_processing_system7_0_0.xdc] for cell 'Final_Optional_i/processing_system7_0/inst'
-Finished Parsing XDC File [c:/Users/ibai/ESDC/Final_Optional/Final_Optional.srcs/sources_1/bd/Final_Optional/ip/Final_Optional_processing_system7_0_0/Final_Optional_processing_system7_0_0.xdc] for cell 'Final_Optional_i/processing_system7_0/inst'
-Parsing XDC File [c:/Users/ibai/ESDC/Final_Optional/Final_Optional.srcs/sources_1/bd/Final_Optional/ip/Final_Optional_axi_gpio_0_0/Final_Optional_axi_gpio_0_0_board.xdc] for cell 'Final_Optional_i/game_over/U0'
-Finished Parsing XDC File [c:/Users/ibai/ESDC/Final_Optional/Final_Optional.srcs/sources_1/bd/Final_Optional/ip/Final_Optional_axi_gpio_0_0/Final_Optional_axi_gpio_0_0_board.xdc] for cell 'Final_Optional_i/game_over/U0'
-Parsing XDC File [c:/Users/ibai/ESDC/Final_Optional/Final_Optional.srcs/sources_1/bd/Final_Optional/ip/Final_Optional_axi_gpio_0_0/Final_Optional_axi_gpio_0_0.xdc] for cell 'Final_Optional_i/game_over/U0'
-Finished Parsing XDC File [c:/Users/ibai/ESDC/Final_Optional/Final_Optional.srcs/sources_1/bd/Final_Optional/ip/Final_Optional_axi_gpio_0_0/Final_Optional_axi_gpio_0_0.xdc] for cell 'Final_Optional_i/game_over/U0'
-Parsing XDC File [c:/Users/ibai/ESDC/Final_Optional/Final_Optional.srcs/sources_1/bd/Final_Optional/ip/Final_Optional_axi_gpio_1_0/Final_Optional_axi_gpio_1_0_board.xdc] for cell 'Final_Optional_i/buttons/U0'
-Finished Parsing XDC File [c:/Users/ibai/ESDC/Final_Optional/Final_Optional.srcs/sources_1/bd/Final_Optional/ip/Final_Optional_axi_gpio_1_0/Final_Optional_axi_gpio_1_0_board.xdc] for cell 'Final_Optional_i/buttons/U0'
-Parsing XDC File [c:/Users/ibai/ESDC/Final_Optional/Final_Optional.srcs/sources_1/bd/Final_Optional/ip/Final_Optional_axi_gpio_1_0/Final_Optional_axi_gpio_1_0.xdc] for cell 'Final_Optional_i/buttons/U0'
-Finished Parsing XDC File [c:/Users/ibai/ESDC/Final_Optional/Final_Optional.srcs/sources_1/bd/Final_Optional/ip/Final_Optional_axi_gpio_1_0/Final_Optional_axi_gpio_1_0.xdc] for cell 'Final_Optional_i/buttons/U0'
-Parsing XDC File [c:/Users/ibai/ESDC/Final_Optional/Final_Optional.srcs/sources_1/bd/Final_Optional/ip/Final_Optional_axi_gpio_2_0/Final_Optional_axi_gpio_2_0_board.xdc] for cell 'Final_Optional_i/switches/U0'
-Finished Parsing XDC File [c:/Users/ibai/ESDC/Final_Optional/Final_Optional.srcs/sources_1/bd/Final_Optional/ip/Final_Optional_axi_gpio_2_0/Final_Optional_axi_gpio_2_0_board.xdc] for cell 'Final_Optional_i/switches/U0'
-Parsing XDC File [c:/Users/ibai/ESDC/Final_Optional/Final_Optional.srcs/sources_1/bd/Final_Optional/ip/Final_Optional_axi_gpio_2_0/Final_Optional_axi_gpio_2_0.xdc] for cell 'Final_Optional_i/switches/U0'
-Finished Parsing XDC File [c:/Users/ibai/ESDC/Final_Optional/Final_Optional.srcs/sources_1/bd/Final_Optional/ip/Final_Optional_axi_gpio_2_0/Final_Optional_axi_gpio_2_0.xdc] for cell 'Final_Optional_i/switches/U0'
-Parsing XDC File [c:/Users/ibai/ESDC/Final_Optional/Final_Optional.srcs/sources_1/bd/Final_Optional/ip/Final_Optional_rst_ps7_0_100M_0/Final_Optional_rst_ps7_0_100M_0_board.xdc] for cell 'Final_Optional_i/rst_ps7_0_100M/U0'
-Finished Parsing XDC File [c:/Users/ibai/ESDC/Final_Optional/Final_Optional.srcs/sources_1/bd/Final_Optional/ip/Final_Optional_rst_ps7_0_100M_0/Final_Optional_rst_ps7_0_100M_0_board.xdc] for cell 'Final_Optional_i/rst_ps7_0_100M/U0'
-Parsing XDC File [c:/Users/ibai/ESDC/Final_Optional/Final_Optional.srcs/sources_1/bd/Final_Optional/ip/Final_Optional_rst_ps7_0_100M_0/Final_Optional_rst_ps7_0_100M_0.xdc] for cell 'Final_Optional_i/rst_ps7_0_100M/U0'
-Finished Parsing XDC File [c:/Users/ibai/ESDC/Final_Optional/Final_Optional.srcs/sources_1/bd/Final_Optional/ip/Final_Optional_rst_ps7_0_100M_0/Final_Optional_rst_ps7_0_100M_0.xdc] for cell 'Final_Optional_i/rst_ps7_0_100M/U0'
-Parsing XDC File [C:/Users/ibai/ESDC/Final_Optional/zyboVGA_HW.xdc]
-WARNING: [Vivado 12-584] No ports matched 'clk'. [C:/Users/ibai/ESDC/Final_Optional/zyboVGA_HW.xdc:9]
-CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/ibai/ESDC/Final_Optional/zyboVGA_HW.xdc:9]
+Parsing XDC File [c:/Users/ibai.ros/Final_Optional/Final_Optional.srcs/sources_1/bd/Final_Optional/ip/Final_Optional_processing_system7_0_0/Final_Optional_processing_system7_0_0.xdc] for cell 'Final_Optional_i/processing_system7_0/inst'
+Finished Parsing XDC File [c:/Users/ibai.ros/Final_Optional/Final_Optional.srcs/sources_1/bd/Final_Optional/ip/Final_Optional_processing_system7_0_0/Final_Optional_processing_system7_0_0.xdc] for cell 'Final_Optional_i/processing_system7_0/inst'
+Parsing XDC File [c:/Users/ibai.ros/Final_Optional/Final_Optional.srcs/sources_1/bd/Final_Optional/ip/Final_Optional_axi_gpio_1_0/Final_Optional_axi_gpio_1_0_board.xdc] for cell 'Final_Optional_i/buttons/U0'
+Finished Parsing XDC File [c:/Users/ibai.ros/Final_Optional/Final_Optional.srcs/sources_1/bd/Final_Optional/ip/Final_Optional_axi_gpio_1_0/Final_Optional_axi_gpio_1_0_board.xdc] for cell 'Final_Optional_i/buttons/U0'
+Parsing XDC File [c:/Users/ibai.ros/Final_Optional/Final_Optional.srcs/sources_1/bd/Final_Optional/ip/Final_Optional_axi_gpio_1_0/Final_Optional_axi_gpio_1_0.xdc] for cell 'Final_Optional_i/buttons/U0'
+Finished Parsing XDC File [c:/Users/ibai.ros/Final_Optional/Final_Optional.srcs/sources_1/bd/Final_Optional/ip/Final_Optional_axi_gpio_1_0/Final_Optional_axi_gpio_1_0.xdc] for cell 'Final_Optional_i/buttons/U0'
+Parsing XDC File [c:/Users/ibai.ros/Final_Optional/Final_Optional.srcs/sources_1/bd/Final_Optional/ip/Final_Optional_axi_gpio_2_0/Final_Optional_axi_gpio_2_0_board.xdc] for cell 'Final_Optional_i/switches/U0'
+Finished Parsing XDC File [c:/Users/ibai.ros/Final_Optional/Final_Optional.srcs/sources_1/bd/Final_Optional/ip/Final_Optional_axi_gpio_2_0/Final_Optional_axi_gpio_2_0_board.xdc] for cell 'Final_Optional_i/switches/U0'
+Parsing XDC File [c:/Users/ibai.ros/Final_Optional/Final_Optional.srcs/sources_1/bd/Final_Optional/ip/Final_Optional_axi_gpio_2_0/Final_Optional_axi_gpio_2_0.xdc] for cell 'Final_Optional_i/switches/U0'
+Finished Parsing XDC File [c:/Users/ibai.ros/Final_Optional/Final_Optional.srcs/sources_1/bd/Final_Optional/ip/Final_Optional_axi_gpio_2_0/Final_Optional_axi_gpio_2_0.xdc] for cell 'Final_Optional_i/switches/U0'
+Parsing XDC File [c:/Users/ibai.ros/Final_Optional/Final_Optional.srcs/sources_1/bd/Final_Optional/ip/Final_Optional_rst_ps7_0_100M_1/Final_Optional_rst_ps7_0_100M_1_board.xdc] for cell 'Final_Optional_i/rst_ps7_0_100M/U0'
+Finished Parsing XDC File [c:/Users/ibai.ros/Final_Optional/Final_Optional.srcs/sources_1/bd/Final_Optional/ip/Final_Optional_rst_ps7_0_100M_1/Final_Optional_rst_ps7_0_100M_1_board.xdc] for cell 'Final_Optional_i/rst_ps7_0_100M/U0'
+Parsing XDC File [c:/Users/ibai.ros/Final_Optional/Final_Optional.srcs/sources_1/bd/Final_Optional/ip/Final_Optional_rst_ps7_0_100M_1/Final_Optional_rst_ps7_0_100M_1.xdc] for cell 'Final_Optional_i/rst_ps7_0_100M/U0'
+Finished Parsing XDC File [c:/Users/ibai.ros/Final_Optional/Final_Optional.srcs/sources_1/bd/Final_Optional/ip/Final_Optional_rst_ps7_0_100M_1/Final_Optional_rst_ps7_0_100M_1.xdc] for cell 'Final_Optional_i/rst_ps7_0_100M/U0'
+Parsing XDC File [c:/Users/ibai.ros/Final_Optional/Final_Optional.srcs/sources_1/bd/Final_Optional/ip/Final_Optional_axi_gpio_0_2/Final_Optional_axi_gpio_0_2_board.xdc] for cell 'Final_Optional_i/game_over/U0'
+Finished Parsing XDC File [c:/Users/ibai.ros/Final_Optional/Final_Optional.srcs/sources_1/bd/Final_Optional/ip/Final_Optional_axi_gpio_0_2/Final_Optional_axi_gpio_0_2_board.xdc] for cell 'Final_Optional_i/game_over/U0'
+Parsing XDC File [c:/Users/ibai.ros/Final_Optional/Final_Optional.srcs/sources_1/bd/Final_Optional/ip/Final_Optional_axi_gpio_0_2/Final_Optional_axi_gpio_0_2.xdc] for cell 'Final_Optional_i/game_over/U0'
+Finished Parsing XDC File [c:/Users/ibai.ros/Final_Optional/Final_Optional.srcs/sources_1/bd/Final_Optional/ip/Final_Optional_axi_gpio_0_2/Final_Optional_axi_gpio_0_2.xdc] for cell 'Final_Optional_i/game_over/U0'
+Parsing XDC File [c:/Users/ibai.ros/Final_Optional/Final_Optional.srcs/sources_1/bd/Final_Optional/ip/Final_Optional_axi_gpio_0_3/Final_Optional_axi_gpio_0_3_board.xdc] for cell 'Final_Optional_i/leds/U0'
+Finished Parsing XDC File [c:/Users/ibai.ros/Final_Optional/Final_Optional.srcs/sources_1/bd/Final_Optional/ip/Final_Optional_axi_gpio_0_3/Final_Optional_axi_gpio_0_3_board.xdc] for cell 'Final_Optional_i/leds/U0'
+Parsing XDC File [c:/Users/ibai.ros/Final_Optional/Final_Optional.srcs/sources_1/bd/Final_Optional/ip/Final_Optional_axi_gpio_0_3/Final_Optional_axi_gpio_0_3.xdc] for cell 'Final_Optional_i/leds/U0'
+Finished Parsing XDC File [c:/Users/ibai.ros/Final_Optional/Final_Optional.srcs/sources_1/bd/Final_Optional/ip/Final_Optional_axi_gpio_0_3/Final_Optional_axi_gpio_0_3.xdc] for cell 'Final_Optional_i/leds/U0'
+Parsing XDC File [C:/Users/ibai.ros/Final_Optional/zyboVGA_HW.xdc]
+WARNING: [Vivado 12-584] No ports matched 'clk'. [C:/Users/ibai.ros/Final_Optional/zyboVGA_HW.xdc:9]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/ibai.ros/Final_Optional/zyboVGA_HW.xdc:9]
 Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
-WARNING: [Vivado 12-584] No ports matched 'clk'. [C:/Users/ibai/ESDC/Final_Optional/zyboVGA_HW.xdc:10]
-CRITICAL WARNING: [Vivado 12-4739] create_clock:No valid object(s) found for '-objects [get_ports clk]'. [C:/Users/ibai/ESDC/Final_Optional/zyboVGA_HW.xdc:10]
+WARNING: [Vivado 12-584] No ports matched 'clk'. [C:/Users/ibai.ros/Final_Optional/zyboVGA_HW.xdc:10]
+CRITICAL WARNING: [Vivado 12-4739] create_clock:No valid object(s) found for '-objects [get_ports clk]'. [C:/Users/ibai.ros/Final_Optional/zyboVGA_HW.xdc:10]
 Resolution: Check if the specified object(s) exists in the current design. If it does, ensure that the correct design hierarchy was specified for the object. If you are working with clocks, make sure create_clock was used to create the clock object before it is referenced.
-WARNING: [Vivado 12-584] No ports matched 'sw[0]'. [C:/Users/ibai/ESDC/Final_Optional/zyboVGA_HW.xdc:34]
-CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/ibai/ESDC/Final_Optional/zyboVGA_HW.xdc:34]
+WARNING: [Vivado 12-584] No ports matched 'sw[0]'. [C:/Users/ibai.ros/Final_Optional/zyboVGA_HW.xdc:34]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/ibai.ros/Final_Optional/zyboVGA_HW.xdc:34]
 Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
-WARNING: [Vivado 12-584] No ports matched 'sw[1]'. [C:/Users/ibai/ESDC/Final_Optional/zyboVGA_HW.xdc:35]
-CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/ibai/ESDC/Final_Optional/zyboVGA_HW.xdc:35]
+WARNING: [Vivado 12-584] No ports matched 'sw[1]'. [C:/Users/ibai.ros/Final_Optional/zyboVGA_HW.xdc:35]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/ibai.ros/Final_Optional/zyboVGA_HW.xdc:35]
 Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
-WARNING: [Vivado 12-584] No ports matched 'sw[2]'. [C:/Users/ibai/ESDC/Final_Optional/zyboVGA_HW.xdc:36]
-CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/ibai/ESDC/Final_Optional/zyboVGA_HW.xdc:36]
+WARNING: [Vivado 12-584] No ports matched 'sw[2]'. [C:/Users/ibai.ros/Final_Optional/zyboVGA_HW.xdc:36]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/ibai.ros/Final_Optional/zyboVGA_HW.xdc:36]
 Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
-WARNING: [Vivado 12-584] No ports matched 'sw[3]'. [C:/Users/ibai/ESDC/Final_Optional/zyboVGA_HW.xdc:37]
-CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/ibai/ESDC/Final_Optional/zyboVGA_HW.xdc:37]
+WARNING: [Vivado 12-584] No ports matched 'sw[3]'. [C:/Users/ibai.ros/Final_Optional/zyboVGA_HW.xdc:37]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/ibai.ros/Final_Optional/zyboVGA_HW.xdc:37]
 Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
-WARNING: [Vivado 12-584] No ports matched 'btn[0]'. [C:/Users/ibai/ESDC/Final_Optional/zyboVGA_HW.xdc:41]
-CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/ibai/ESDC/Final_Optional/zyboVGA_HW.xdc:41]
+WARNING: [Vivado 12-584] No ports matched 'btn[0]'. [C:/Users/ibai.ros/Final_Optional/zyboVGA_HW.xdc:41]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/ibai.ros/Final_Optional/zyboVGA_HW.xdc:41]
 Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
-WARNING: [Vivado 12-584] No ports matched 'btn[1]'. [C:/Users/ibai/ESDC/Final_Optional/zyboVGA_HW.xdc:42]
-CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/ibai/ESDC/Final_Optional/zyboVGA_HW.xdc:42]
+WARNING: [Vivado 12-584] No ports matched 'btn[1]'. [C:/Users/ibai.ros/Final_Optional/zyboVGA_HW.xdc:42]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/ibai.ros/Final_Optional/zyboVGA_HW.xdc:42]
 Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
-WARNING: [Vivado 12-584] No ports matched 'btn[2]'. [C:/Users/ibai/ESDC/Final_Optional/zyboVGA_HW.xdc:43]
-CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/ibai/ESDC/Final_Optional/zyboVGA_HW.xdc:43]
+WARNING: [Vivado 12-584] No ports matched 'btn[2]'. [C:/Users/ibai.ros/Final_Optional/zyboVGA_HW.xdc:43]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/ibai.ros/Final_Optional/zyboVGA_HW.xdc:43]
 Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
-WARNING: [Vivado 12-584] No ports matched 'btn[3]'. [C:/Users/ibai/ESDC/Final_Optional/zyboVGA_HW.xdc:44]
-CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/ibai/ESDC/Final_Optional/zyboVGA_HW.xdc:44]
+WARNING: [Vivado 12-584] No ports matched 'btn[3]'. [C:/Users/ibai.ros/Final_Optional/zyboVGA_HW.xdc:44]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/ibai.ros/Final_Optional/zyboVGA_HW.xdc:44]
 Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
-Finished Parsing XDC File [C:/Users/ibai/ESDC/Final_Optional/zyboVGA_HW.xdc]
+Finished Parsing XDC File [C:/Users/ibai.ros/Final_Optional/zyboVGA_HW.xdc]
 INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
 INFO: [Project 1-111] Unisim Transformation Summary:
-No Unisim elements were transformed.
+  A total of 4 instances were transformed.
+  IOBUF => IOBUF (IBUF, OBUFT): 4 instances
 
-link_design: Time (s): cpu = 00:00:10 ; elapsed = 00:00:14 . Memory (MB): peak = 634.199 ; gain = 292.719
+link_design: Time (s): cpu = 00:00:08 ; elapsed = 00:00:12 . Memory (MB): peak = 662.887 ; gain = 340.105
 Command: opt_design
 Attempting to get a license for feature 'Implementation' and/or device 'xc7z010-clg400'
 INFO: [Common 17-349] Got license for feature 'Implementation' and/or device 'xc7z010-clg400'
@@ -110,7 +119,7 @@ report_drc (run_mandatory_drcs) completed successfully
 INFO: [Project 1-461] DRC finished with 0 Errors
 INFO: [Project 1-462] Please refer to the DRC report (report_drc) for more information.
 
-Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.604 . Memory (MB): peak = 645.844 ; gain = 11.645
+Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.460 . Memory (MB): peak = 673.043 ; gain = 10.156
 INFO: [Timing 38-35] Done setting XDC timing constraints.
 
 Starting Logic Optimization Task
@@ -118,42 +127,42 @@ Starting Logic Optimization Task
 Phase 1 Retarget
 INFO: [Opt 31-138] Pushed 1 inverter(s) to 6 load pin(s).
 INFO: [Opt 31-49] Retargeted 0 cell(s).
-Phase 1 Retarget | Checksum: 17ec886b0
+Phase 1 Retarget | Checksum: 6e2c2aae
 
-Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.192 . Memory (MB): peak = 1116.070 ; gain = 0.000
-INFO: [Opt 31-389] Phase Retarget created 0 cells and removed 102 cells
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.154 . Memory (MB): peak = 1199.801 ; gain = 0.000
+INFO: [Opt 31-389] Phase Retarget created 0 cells and removed 103 cells
 
 Phase 2 Constant propagation
 INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
-Phase 2 Constant propagation | Checksum: 13cb429c4
+Phase 2 Constant propagation | Checksum: c97876f9
 
-Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.356 . Memory (MB): peak = 1116.070 ; gain = 0.000
-INFO: [Opt 31-389] Phase Constant propagation created 50 cells and removed 188 cells
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.296 . Memory (MB): peak = 1199.801 ; gain = 0.000
+INFO: [Opt 31-389] Phase Constant propagation created 49 cells and removed 224 cells
 
 Phase 3 Sweep
-Phase 3 Sweep | Checksum: 1ced33462
+Phase 3 Sweep | Checksum: a1b1d10c
 
-Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.856 . Memory (MB): peak = 1116.070 ; gain = 0.000
-INFO: [Opt 31-389] Phase Sweep created 14 cells and removed 204 cells
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.728 . Memory (MB): peak = 1199.801 ; gain = 0.000
+INFO: [Opt 31-389] Phase Sweep created 14 cells and removed 206 cells
 
 Phase 4 BUFG optimization
-Phase 4 BUFG optimization | Checksum: 1ced33462
+Phase 4 BUFG optimization | Checksum: a1b1d10c
 
-Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.950 . Memory (MB): peak = 1116.070 ; gain = 0.000
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.807 . Memory (MB): peak = 1199.801 ; gain = 0.000
 INFO: [Opt 31-389] Phase BUFG optimization created 0 cells and removed 0 cells
 
 Phase 5 Shift Register Optimization
-Phase 5 Shift Register Optimization | Checksum: 1ced33462
+Phase 5 Shift Register Optimization | Checksum: a1b1d10c
 
-Time (s): cpu = 00:00:01 ; elapsed = 00:00:01 . Memory (MB): peak = 1116.070 ; gain = 0.000
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.815 . Memory (MB): peak = 1199.801 ; gain = 0.000
 INFO: [Opt 31-389] Phase Shift Register Optimization created 0 cells and removed 0 cells
 
 Starting Connectivity Check Task
 
-Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.007 . Memory (MB): peak = 1116.070 ; gain = 0.000
-Ending Logic Optimization Task | Checksum: 1ced33462
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.005 . Memory (MB): peak = 1199.801 ; gain = 0.000
+Ending Logic Optimization Task | Checksum: a1b1d10c
 
-Time (s): cpu = 00:00:01 ; elapsed = 00:00:01 . Memory (MB): peak = 1116.070 ; gain = 0.000
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.832 . Memory (MB): peak = 1199.801 ; gain = 0.000
 
 Starting Power Optimization Task
 INFO: [Pwropt 34-132] Skipping clock gating for clocks with a period < 2.00 ns.
@@ -171,24 +180,24 @@ INFO: [Pwropt 34-201] Structural ODC has moved 0 WE to EN ports
 Number of BRAM Ports augmented: 18 newly gated: 0 Total Ports: 24
 Number of Flops added for Enable Generation: 2
 
-Ending PowerOpt Patch Enables Task | Checksum: eb473655
+Ending PowerOpt Patch Enables Task | Checksum: 1777f128f
 
-Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.030 . Memory (MB): peak = 1227.516 ; gain = 0.000
-Ending Power Optimization Task | Checksum: eb473655
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.023 . Memory (MB): peak = 1324.480 ; gain = 0.000
+Ending Power Optimization Task | Checksum: 1777f128f
 
-Time (s): cpu = 00:00:03 ; elapsed = 00:00:02 . Memory (MB): peak = 1227.516 ; gain = 111.445
-52 Infos, 10 Warnings, 10 Critical Warnings and 0 Errors encountered.
+Time (s): cpu = 00:00:02 ; elapsed = 00:00:01 . Memory (MB): peak = 1324.480 ; gain = 124.680
+53 Infos, 14 Warnings, 10 Critical Warnings and 0 Errors encountered.
 opt_design completed successfully
-opt_design: Time (s): cpu = 00:00:17 ; elapsed = 00:00:15 . Memory (MB): peak = 1227.516 ; gain = 593.316
+opt_design: Time (s): cpu = 00:00:13 ; elapsed = 00:00:11 . Memory (MB): peak = 1324.480 ; gain = 661.594
 Writing placer database...
 Writing XDEF routing.
 Writing XDEF routing logical nets.
 Writing XDEF routing special nets.
-Write XDEF Complete: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.107 . Memory (MB): peak = 1227.516 ; gain = 0.000
-INFO: [Common 17-1381] The checkpoint 'C:/Users/ibai/ESDC/Final_Optional/Final_Optional.runs/impl_1/Final_Optional_wrapper_opt.dcp' has been generated.
+Write XDEF Complete: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.066 . Memory (MB): peak = 1324.480 ; gain = 0.000
+INFO: [Common 17-1381] The checkpoint 'C:/Users/ibai.ros/Final_Optional/Final_Optional.runs/impl_1/Final_Optional_wrapper_opt.dcp' has been generated.
 Command: report_drc -file Final_Optional_wrapper_drc_opted.rpt
 INFO: [DRC 23-27] Running DRC with 2 threads
-INFO: [Coretcl 2-168] The results of DRC are in file C:/Users/ibai/ESDC/Final_Optional/Final_Optional.runs/impl_1/Final_Optional_wrapper_drc_opted.rpt.
+INFO: [Coretcl 2-168] The results of DRC are in file C:/Users/ibai.ros/Final_Optional/Final_Optional.runs/impl_1/Final_Optional_wrapper_drc_opted.rpt.
 report_drc completed successfully
 INFO: [Chipscope 16-241] No debug cores found in the current design.
 Before running the implement_debug_core command, either use the Set Up Debug wizard (GUI mode)
@@ -214,82 +223,82 @@ INFO: [Place 30-611] Multithreading enabled for place_design using a maximum of 
 Phase 1 Placer Initialization
 
 Phase 1.1 Placer Initialization Netlist Sorting
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.006 . Memory (MB): peak = 1227.516 ; gain = 0.000
-Phase 1.1 Placer Initialization Netlist Sorting | Checksum: dc70300b
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.005 . Memory (MB): peak = 1324.480 ; gain = 0.000
+Phase 1.1 Placer Initialization Netlist Sorting | Checksum: 103e6aecd
 
-Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.013 . Memory (MB): peak = 1227.516 ; gain = 0.000
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.010 . Memory (MB): peak = 1324.480 ; gain = 0.000
 INFO: [Timing 38-35] Done setting XDC timing constraints.
 INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.006 . Memory (MB): peak = 1227.516 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.005 . Memory (MB): peak = 1324.480 ; gain = 0.000
 
 Phase 1.2 IO Placement/ Clock Placement/ Build Placer Device
 INFO: [Timing 38-35] Done setting XDC timing constraints.
-Phase 1.2 IO Placement/ Clock Placement/ Build Placer Device | Checksum: 16fbeab73
+Phase 1.2 IO Placement/ Clock Placement/ Build Placer Device | Checksum: 9909cfd2
 
-Time (s): cpu = 00:00:03 ; elapsed = 00:00:03 . Memory (MB): peak = 1227.516 ; gain = 0.000
+Time (s): cpu = 00:00:02 ; elapsed = 00:00:02 . Memory (MB): peak = 1324.480 ; gain = 0.000
 
 Phase 1.3 Build Placer Netlist Model
-Phase 1.3 Build Placer Netlist Model | Checksum: 268bca41a
+Phase 1.3 Build Placer Netlist Model | Checksum: 10ee1b893
 
-Time (s): cpu = 00:00:04 ; elapsed = 00:00:03 . Memory (MB): peak = 1227.516 ; gain = 0.000
+Time (s): cpu = 00:00:02 ; elapsed = 00:00:02 . Memory (MB): peak = 1324.480 ; gain = 0.000
 
 Phase 1.4 Constrain Clocks/Macros
-Phase 1.4 Constrain Clocks/Macros | Checksum: 268bca41a
+Phase 1.4 Constrain Clocks/Macros | Checksum: 10ee1b893
 
-Time (s): cpu = 00:00:04 ; elapsed = 00:00:03 . Memory (MB): peak = 1227.516 ; gain = 0.000
-Phase 1 Placer Initialization | Checksum: 268bca41a
+Time (s): cpu = 00:00:02 ; elapsed = 00:00:02 . Memory (MB): peak = 1324.480 ; gain = 0.000
+Phase 1 Placer Initialization | Checksum: 10ee1b893
 
-Time (s): cpu = 00:00:04 ; elapsed = 00:00:03 . Memory (MB): peak = 1227.516 ; gain = 0.000
+Time (s): cpu = 00:00:02 ; elapsed = 00:00:02 . Memory (MB): peak = 1324.480 ; gain = 0.000
 
 Phase 2 Global Placement
-Phase 2 Global Placement | Checksum: 15275fb79
+Phase 2 Global Placement | Checksum: 1b90547ea
 
-Time (s): cpu = 00:00:06 ; elapsed = 00:00:05 . Memory (MB): peak = 1227.516 ; gain = 0.000
+Time (s): cpu = 00:00:04 ; elapsed = 00:00:03 . Memory (MB): peak = 1324.480 ; gain = 0.000
 
 Phase 3 Detail Placement
 
 Phase 3.1 Commit Multi Column Macros
-Phase 3.1 Commit Multi Column Macros | Checksum: 15275fb79
+Phase 3.1 Commit Multi Column Macros | Checksum: 1b90547ea
 
-Time (s): cpu = 00:00:06 ; elapsed = 00:00:05 . Memory (MB): peak = 1227.516 ; gain = 0.000
+Time (s): cpu = 00:00:04 ; elapsed = 00:00:03 . Memory (MB): peak = 1324.480 ; gain = 0.000
 
 Phase 3.2 Commit Most Macros & LUTRAMs
-Phase 3.2 Commit Most Macros & LUTRAMs | Checksum: 1d3f8d338
+Phase 3.2 Commit Most Macros & LUTRAMs | Checksum: 1ae3ea1b4
 
-Time (s): cpu = 00:00:07 ; elapsed = 00:00:05 . Memory (MB): peak = 1227.516 ; gain = 0.000
+Time (s): cpu = 00:00:05 ; elapsed = 00:00:04 . Memory (MB): peak = 1324.480 ; gain = 0.000
 
 Phase 3.3 Area Swap Optimization
-Phase 3.3 Area Swap Optimization | Checksum: 198a7e6a7
+Phase 3.3 Area Swap Optimization | Checksum: 209376ee6
 
-Time (s): cpu = 00:00:07 ; elapsed = 00:00:05 . Memory (MB): peak = 1227.516 ; gain = 0.000
+Time (s): cpu = 00:00:05 ; elapsed = 00:00:04 . Memory (MB): peak = 1324.480 ; gain = 0.000
 
 Phase 3.4 Pipeline Register Optimization
-Phase 3.4 Pipeline Register Optimization | Checksum: 1e2e5c986
+Phase 3.4 Pipeline Register Optimization | Checksum: 14ae1794a
 
-Time (s): cpu = 00:00:07 ; elapsed = 00:00:06 . Memory (MB): peak = 1227.516 ; gain = 0.000
+Time (s): cpu = 00:00:05 ; elapsed = 00:00:04 . Memory (MB): peak = 1324.480 ; gain = 0.000
 
 Phase 3.5 Timing Path Optimizer
-Phase 3.5 Timing Path Optimizer | Checksum: 1ee290c8f
+Phase 3.5 Timing Path Optimizer | Checksum: 1579daa27
 
-Time (s): cpu = 00:00:07 ; elapsed = 00:00:06 . Memory (MB): peak = 1227.516 ; gain = 0.000
+Time (s): cpu = 00:00:05 ; elapsed = 00:00:04 . Memory (MB): peak = 1324.480 ; gain = 0.000
 
 Phase 3.6 Small Shape Detail Placement
-Phase 3.6 Small Shape Detail Placement | Checksum: 11e389e7e
+Phase 3.6 Small Shape Detail Placement | Checksum: 102543382
 
-Time (s): cpu = 00:00:08 ; elapsed = 00:00:06 . Memory (MB): peak = 1227.516 ; gain = 0.000
+Time (s): cpu = 00:00:05 ; elapsed = 00:00:04 . Memory (MB): peak = 1324.480 ; gain = 0.000
 
 Phase 3.7 Re-assign LUT pins
-Phase 3.7 Re-assign LUT pins | Checksum: 1c2ac8a34
+Phase 3.7 Re-assign LUT pins | Checksum: 1091fba69
 
-Time (s): cpu = 00:00:08 ; elapsed = 00:00:06 . Memory (MB): peak = 1227.516 ; gain = 0.000
+Time (s): cpu = 00:00:06 ; elapsed = 00:00:04 . Memory (MB): peak = 1324.480 ; gain = 0.000
 
 Phase 3.8 Pipeline Register Optimization
-Phase 3.8 Pipeline Register Optimization | Checksum: 1c2ac8a34
+Phase 3.8 Pipeline Register Optimization | Checksum: 1091fba69
 
-Time (s): cpu = 00:00:08 ; elapsed = 00:00:06 . Memory (MB): peak = 1227.516 ; gain = 0.000
-Phase 3 Detail Placement | Checksum: 1c2ac8a34
+Time (s): cpu = 00:00:06 ; elapsed = 00:00:04 . Memory (MB): peak = 1324.480 ; gain = 0.000
+Phase 3 Detail Placement | Checksum: 1091fba69
 
-Time (s): cpu = 00:00:08 ; elapsed = 00:00:06 . Memory (MB): peak = 1227.516 ; gain = 0.000
+Time (s): cpu = 00:00:06 ; elapsed = 00:00:04 . Memory (MB): peak = 1324.480 ; gain = 0.000
 
 Phase 4 Post Placement Optimization and Clean-Up
 
@@ -297,54 +306,54 @@ Phase 4.1 Post Commit Optimization
 INFO: [Timing 38-35] Done setting XDC timing constraints.
 
 Phase 4.1.1 Post Placement Optimization
-Post Placement Optimization Initialization | Checksum: 20da93114
+Post Placement Optimization Initialization | Checksum: 1d321ebc5
 
 Phase 4.1.1.1 BUFG Insertion
 INFO: [Physopt 32-721] Multithreading enabled for phys_opt_design using a maximum of 2 CPUs
 INFO: [Place 46-41] BUFG insertion identified 0 candidate nets, 0 success, 0 skipped for placement/routing, 0 skipped for timing, 0 skipped for netlist change reason.
-Phase 4.1.1.1 BUFG Insertion | Checksum: 20da93114
+Phase 4.1.1.1 BUFG Insertion | Checksum: 1d321ebc5
 
-Time (s): cpu = 00:00:09 ; elapsed = 00:00:07 . Memory (MB): peak = 1227.516 ; gain = 0.000
-INFO: [Place 30-746] Post Placement Timing Summary WNS=3.207. For the most accurate timing information please run report_timing.
-Phase 4.1.1 Post Placement Optimization | Checksum: 1ad9069f5
+Time (s): cpu = 00:00:06 ; elapsed = 00:00:05 . Memory (MB): peak = 1324.480 ; gain = 0.000
+INFO: [Place 30-746] Post Placement Timing Summary WNS=3.671. For the most accurate timing information please run report_timing.
+Phase 4.1.1 Post Placement Optimization | Checksum: 191e6ce7b
 
-Time (s): cpu = 00:00:09 ; elapsed = 00:00:07 . Memory (MB): peak = 1227.516 ; gain = 0.000
-Phase 4.1 Post Commit Optimization | Checksum: 1ad9069f5
+Time (s): cpu = 00:00:06 ; elapsed = 00:00:05 . Memory (MB): peak = 1324.480 ; gain = 0.000
+Phase 4.1 Post Commit Optimization | Checksum: 191e6ce7b
 
-Time (s): cpu = 00:00:09 ; elapsed = 00:00:07 . Memory (MB): peak = 1227.516 ; gain = 0.000
+Time (s): cpu = 00:00:06 ; elapsed = 00:00:05 . Memory (MB): peak = 1324.480 ; gain = 0.000
 
 Phase 4.2 Post Placement Cleanup
-Phase 4.2 Post Placement Cleanup | Checksum: 1ad9069f5
+Phase 4.2 Post Placement Cleanup | Checksum: 191e6ce7b
 
-Time (s): cpu = 00:00:09 ; elapsed = 00:00:07 . Memory (MB): peak = 1227.516 ; gain = 0.000
+Time (s): cpu = 00:00:06 ; elapsed = 00:00:05 . Memory (MB): peak = 1324.480 ; gain = 0.000
 
 Phase 4.3 Placer Reporting
-Phase 4.3 Placer Reporting | Checksum: 1ad9069f5
+Phase 4.3 Placer Reporting | Checksum: 191e6ce7b
 
-Time (s): cpu = 00:00:09 ; elapsed = 00:00:07 . Memory (MB): peak = 1227.516 ; gain = 0.000
+Time (s): cpu = 00:00:06 ; elapsed = 00:00:05 . Memory (MB): peak = 1324.480 ; gain = 0.000
 
 Phase 4.4 Final Placement Cleanup
-Phase 4.4 Final Placement Cleanup | Checksum: 192431e9c
+Phase 4.4 Final Placement Cleanup | Checksum: 204c71a91
 
-Time (s): cpu = 00:00:09 ; elapsed = 00:00:07 . Memory (MB): peak = 1227.516 ; gain = 0.000
-Phase 4 Post Placement Optimization and Clean-Up | Checksum: 192431e9c
+Time (s): cpu = 00:00:06 ; elapsed = 00:00:05 . Memory (MB): peak = 1324.480 ; gain = 0.000
+Phase 4 Post Placement Optimization and Clean-Up | Checksum: 204c71a91
 
-Time (s): cpu = 00:00:09 ; elapsed = 00:00:07 . Memory (MB): peak = 1227.516 ; gain = 0.000
-Ending Placer Task | Checksum: 11ce9e3c8
+Time (s): cpu = 00:00:06 ; elapsed = 00:00:05 . Memory (MB): peak = 1324.480 ; gain = 0.000
+Ending Placer Task | Checksum: 15669a0b9
 
-Time (s): cpu = 00:00:09 ; elapsed = 00:00:07 . Memory (MB): peak = 1227.516 ; gain = 0.000
-71 Infos, 10 Warnings, 10 Critical Warnings and 0 Errors encountered.
+Time (s): cpu = 00:00:06 ; elapsed = 00:00:05 . Memory (MB): peak = 1324.480 ; gain = 0.000
+72 Infos, 14 Warnings, 10 Critical Warnings and 0 Errors encountered.
 place_design completed successfully
-place_design: Time (s): cpu = 00:00:11 ; elapsed = 00:00:10 . Memory (MB): peak = 1227.516 ; gain = 0.000
+place_design: Time (s): cpu = 00:00:08 ; elapsed = 00:00:06 . Memory (MB): peak = 1324.480 ; gain = 0.000
 Writing placer database...
 Writing XDEF routing.
 Writing XDEF routing logical nets.
 Writing XDEF routing special nets.
-Write XDEF Complete: Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.284 . Memory (MB): peak = 1227.516 ; gain = 0.000
-INFO: [Common 17-1381] The checkpoint 'C:/Users/ibai/ESDC/Final_Optional/Final_Optional.runs/impl_1/Final_Optional_wrapper_placed.dcp' has been generated.
-report_io: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.063 . Memory (MB): peak = 1227.516 ; gain = 0.000
-report_utilization: Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.036 . Memory (MB): peak = 1227.516 ; gain = 0.000
-report_control_sets: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.010 . Memory (MB): peak = 1227.516 ; gain = 0.000
+Write XDEF Complete: Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.199 . Memory (MB): peak = 1324.480 ; gain = 0.000
+INFO: [Common 17-1381] The checkpoint 'C:/Users/ibai.ros/Final_Optional/Final_Optional.runs/impl_1/Final_Optional_wrapper_placed.dcp' has been generated.
+report_io: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.051 . Memory (MB): peak = 1324.480 ; gain = 0.000
+report_utilization: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.029 . Memory (MB): peak = 1324.480 ; gain = 0.000
+report_control_sets: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.008 . Memory (MB): peak = 1324.480 ; gain = 0.000
 Command: route_design
 Attempting to get a license for feature 'Implementation' and/or device 'xc7z010-clg400'
 INFO: [Common 17-349] Got license for feature 'Implementation' and/or device 'xc7z010-clg400'
@@ -358,106 +367,114 @@ INFO: [Vivado_Tcl 4-199] Please refer to the DRC report (report_drc) for more in
 
 Starting Routing Task
 INFO: [Route 35-254] Multithreading enabled for route_design using a maximum of 2 CPUs
-Checksum: PlaceDB: c692a5d9 ConstDB: 0 ShapeSum: 56573def RouteDB: 0
+Checksum: PlaceDB: 72b177c2 ConstDB: 0 ShapeSum: e3b828f7 RouteDB: 0
 
 Phase 1 Build RT Design
-Phase 1 Build RT Design | Checksum: 16dc70308
+Phase 1 Build RT Design | Checksum: 7427026f
 
-Time (s): cpu = 00:00:13 ; elapsed = 00:00:12 . Memory (MB): peak = 1227.516 ; gain = 0.000
+Time (s): cpu = 00:00:10 ; elapsed = 00:00:09 . Memory (MB): peak = 1324.480 ; gain = 0.000
 
 Phase 2 Router Initialization
 
 Phase 2.1 Create Timer
-Phase 2.1 Create Timer | Checksum: 16dc70308
+Phase 2.1 Create Timer | Checksum: 7427026f
 
-Time (s): cpu = 00:00:13 ; elapsed = 00:00:12 . Memory (MB): peak = 1227.516 ; gain = 0.000
+Time (s): cpu = 00:00:10 ; elapsed = 00:00:09 . Memory (MB): peak = 1324.480 ; gain = 0.000
 
 Phase 2.2 Fix Topology Constraints
-Phase 2.2 Fix Topology Constraints | Checksum: 16dc70308
+Phase 2.2 Fix Topology Constraints | Checksum: 7427026f
 
-Time (s): cpu = 00:00:13 ; elapsed = 00:00:12 . Memory (MB): peak = 1227.516 ; gain = 0.000
+Time (s): cpu = 00:00:10 ; elapsed = 00:00:09 . Memory (MB): peak = 1324.480 ; gain = 0.000
 
 Phase 2.3 Pre Route Cleanup
-Phase 2.3 Pre Route Cleanup | Checksum: 16dc70308
+Phase 2.3 Pre Route Cleanup | Checksum: 7427026f
 
-Time (s): cpu = 00:00:13 ; elapsed = 00:00:12 . Memory (MB): peak = 1227.516 ; gain = 0.000
+Time (s): cpu = 00:00:10 ; elapsed = 00:00:09 . Memory (MB): peak = 1324.480 ; gain = 0.000
  Number of Nodes with overlaps = 0
 
 Phase 2.4 Update Timing
-Phase 2.4 Update Timing | Checksum: 196d93f73
+Phase 2.4 Update Timing | Checksum: cec64f36
 
-Time (s): cpu = 00:00:15 ; elapsed = 00:00:13 . Memory (MB): peak = 1227.516 ; gain = 0.000
-INFO: [Route 35-416] Intermediate Timing Summary | WNS=3.250  | TNS=0.000  | WHS=-0.646 | THS=-30.248|
+Time (s): cpu = 00:00:11 ; elapsed = 00:00:10 . Memory (MB): peak = 1324.480 ; gain = 0.000
+INFO: [Route 35-416] Intermediate Timing Summary | WNS=3.716  | TNS=0.000  | WHS=-0.606 | THS=-26.888|
 
-Phase 2 Router Initialization | Checksum: 18db338bf
+Phase 2 Router Initialization | Checksum: cc28b34e
 
-Time (s): cpu = 00:00:15 ; elapsed = 00:00:13 . Memory (MB): peak = 1227.516 ; gain = 0.000
+Time (s): cpu = 00:00:11 ; elapsed = 00:00:10 . Memory (MB): peak = 1324.480 ; gain = 0.000
 
 Phase 3 Initial Routing
-Phase 3 Initial Routing | Checksum: 249a9dacc
+Phase 3 Initial Routing | Checksum: 1b48988e7
 
-Time (s): cpu = 00:00:15 ; elapsed = 00:00:13 . Memory (MB): peak = 1227.516 ; gain = 0.000
+Time (s): cpu = 00:00:11 ; elapsed = 00:00:10 . Memory (MB): peak = 1324.480 ; gain = 0.000
 
 Phase 4 Rip-up And Reroute
 
 Phase 4.1 Global Iteration 0
- Number of Nodes with overlaps = 123
+ Number of Nodes with overlaps = 130
  Number of Nodes with overlaps = 0
-INFO: [Route 35-416] Intermediate Timing Summary | WNS=3.859  | TNS=0.000  | WHS=N/A    | THS=N/A    |
+INFO: [Route 35-416] Intermediate Timing Summary | WNS=3.864  | TNS=0.000  | WHS=N/A    | THS=N/A    |
 
-Phase 4.1 Global Iteration 0 | Checksum: 18e4c997d
+Phase 4.1 Global Iteration 0 | Checksum: 20bb1efd1
 
-Time (s): cpu = 00:00:16 ; elapsed = 00:00:14 . Memory (MB): peak = 1227.516 ; gain = 0.000
+Time (s): cpu = 00:00:12 ; elapsed = 00:00:10 . Memory (MB): peak = 1324.480 ; gain = 0.000
 
 Phase 4.2 Global Iteration 1
- Number of Nodes with overlaps = 2
+ Number of Nodes with overlaps = 4
+ Number of Nodes with overlaps = 1
  Number of Nodes with overlaps = 0
-INFO: [Route 35-416] Intermediate Timing Summary | WNS=3.859  | TNS=0.000  | WHS=N/A    | THS=N/A    |
+INFO: [Route 35-416] Intermediate Timing Summary | WNS=3.864  | TNS=0.000  | WHS=N/A    | THS=N/A    |
 
-Phase 4.2 Global Iteration 1 | Checksum: 183a05957
+Phase 4.2 Global Iteration 1 | Checksum: 11d1af03d
 
-Time (s): cpu = 00:00:16 ; elapsed = 00:00:14 . Memory (MB): peak = 1227.516 ; gain = 0.000
-Phase 4 Rip-up And Reroute | Checksum: 183a05957
+Time (s): cpu = 00:00:12 ; elapsed = 00:00:10 . Memory (MB): peak = 1324.480 ; gain = 0.000
+Phase 4 Rip-up And Reroute | Checksum: 11d1af03d
 
-Time (s): cpu = 00:00:16 ; elapsed = 00:00:14 . Memory (MB): peak = 1227.516 ; gain = 0.000
+Time (s): cpu = 00:00:12 ; elapsed = 00:00:10 . Memory (MB): peak = 1324.480 ; gain = 0.000
 
 Phase 5 Delay and Skew Optimization
 
 Phase 5.1 Delay CleanUp
-Phase 5.1 Delay CleanUp | Checksum: 183a05957
 
-Time (s): cpu = 00:00:17 ; elapsed = 00:00:14 . Memory (MB): peak = 1227.516 ; gain = 0.000
+Phase 5.1.1 Update Timing
+Phase 5.1.1 Update Timing | Checksum: ca741952
+
+Time (s): cpu = 00:00:12 ; elapsed = 00:00:11 . Memory (MB): peak = 1324.480 ; gain = 0.000
+INFO: [Route 35-416] Intermediate Timing Summary | WNS=3.883  | TNS=0.000  | WHS=N/A    | THS=N/A    |
+
+Phase 5.1 Delay CleanUp | Checksum: ca741952
+
+Time (s): cpu = 00:00:12 ; elapsed = 00:00:11 . Memory (MB): peak = 1324.480 ; gain = 0.000
 
 Phase 5.2 Clock Skew Optimization
-Phase 5.2 Clock Skew Optimization | Checksum: 183a05957
+Phase 5.2 Clock Skew Optimization | Checksum: ca741952
 
-Time (s): cpu = 00:00:17 ; elapsed = 00:00:14 . Memory (MB): peak = 1227.516 ; gain = 0.000
-Phase 5 Delay and Skew Optimization | Checksum: 183a05957
+Time (s): cpu = 00:00:12 ; elapsed = 00:00:11 . Memory (MB): peak = 1324.480 ; gain = 0.000
+Phase 5 Delay and Skew Optimization | Checksum: ca741952
 
-Time (s): cpu = 00:00:17 ; elapsed = 00:00:14 . Memory (MB): peak = 1227.516 ; gain = 0.000
+Time (s): cpu = 00:00:12 ; elapsed = 00:00:11 . Memory (MB): peak = 1324.480 ; gain = 0.000
 
 Phase 6 Post Hold Fix
 
 Phase 6.1 Hold Fix Iter
 
 Phase 6.1.1 Update Timing
-Phase 6.1.1 Update Timing | Checksum: 10d3e5f81
+Phase 6.1.1 Update Timing | Checksum: f7a15932
 
-Time (s): cpu = 00:00:17 ; elapsed = 00:00:14 . Memory (MB): peak = 1227.516 ; gain = 0.000
-INFO: [Route 35-416] Intermediate Timing Summary | WNS=3.859  | TNS=0.000  | WHS=0.022  | THS=0.000  |
+Time (s): cpu = 00:00:13 ; elapsed = 00:00:11 . Memory (MB): peak = 1324.480 ; gain = 0.000
+INFO: [Route 35-416] Intermediate Timing Summary | WNS=3.883  | TNS=0.000  | WHS=0.042  | THS=0.000  |
 
-Phase 6.1 Hold Fix Iter | Checksum: 1560e583b
+Phase 6.1 Hold Fix Iter | Checksum: 157699a47
 
-Time (s): cpu = 00:00:17 ; elapsed = 00:00:14 . Memory (MB): peak = 1227.516 ; gain = 0.000
-Phase 6 Post Hold Fix | Checksum: 1560e583b
+Time (s): cpu = 00:00:13 ; elapsed = 00:00:11 . Memory (MB): peak = 1324.480 ; gain = 0.000
+Phase 6 Post Hold Fix | Checksum: 157699a47
 
-Time (s): cpu = 00:00:17 ; elapsed = 00:00:14 . Memory (MB): peak = 1227.516 ; gain = 0.000
+Time (s): cpu = 00:00:13 ; elapsed = 00:00:11 . Memory (MB): peak = 1324.480 ; gain = 0.000
 
 Phase 7 Route finalize
 
 Router Utilization Summary
-  Global Vertical Routing Utilization    = 0.635839 %
-  Global Horizontal Routing Utilization  = 0.93796 %
+  Global Vertical Routing Utilization    = 0.703266 %
+  Global Horizontal Routing Utilization  = 1.02872 %
   Routable Net Status*
   *Does not include unroutable nets such as driverless and loadless.
   Run report_route_status for detailed report.
@@ -466,58 +483,58 @@ Router Utilization Summary
   Number of Partially Routed Nets     = 0
   Number of Node Overlaps             = 0
 
-Phase 7 Route finalize | Checksum: 1221b06b6
+Phase 7 Route finalize | Checksum: cc90b620
 
-Time (s): cpu = 00:00:17 ; elapsed = 00:00:14 . Memory (MB): peak = 1227.516 ; gain = 0.000
+Time (s): cpu = 00:00:13 ; elapsed = 00:00:11 . Memory (MB): peak = 1324.480 ; gain = 0.000
 
 Phase 8 Verifying routed nets
 
  Verification completed successfully
-Phase 8 Verifying routed nets | Checksum: 1221b06b6
+Phase 8 Verifying routed nets | Checksum: cc90b620
 
-Time (s): cpu = 00:00:17 ; elapsed = 00:00:14 . Memory (MB): peak = 1227.516 ; gain = 0.000
+Time (s): cpu = 00:00:13 ; elapsed = 00:00:11 . Memory (MB): peak = 1324.480 ; gain = 0.000
 
 Phase 9 Depositing Routes
-Phase 9 Depositing Routes | Checksum: 12b207f51
+Phase 9 Depositing Routes | Checksum: d2075bbb
 
-Time (s): cpu = 00:00:17 ; elapsed = 00:00:14 . Memory (MB): peak = 1227.516 ; gain = 0.000
+Time (s): cpu = 00:00:13 ; elapsed = 00:00:11 . Memory (MB): peak = 1324.480 ; gain = 0.000
 
 Phase 10 Post Router Timing
-INFO: [Route 35-57] Estimated Timing Summary | WNS=3.859  | TNS=0.000  | WHS=0.022  | THS=0.000  |
+INFO: [Route 35-57] Estimated Timing Summary | WNS=3.883  | TNS=0.000  | WHS=0.042  | THS=0.000  |
 
 INFO: [Route 35-327] The final timing numbers are based on the router estimated timing analysis. For a complete and accurate timing signoff, please run report_timing_summary.
-Phase 10 Post Router Timing | Checksum: 12b207f51
+Phase 10 Post Router Timing | Checksum: d2075bbb
 
-Time (s): cpu = 00:00:17 ; elapsed = 00:00:14 . Memory (MB): peak = 1227.516 ; gain = 0.000
+Time (s): cpu = 00:00:13 ; elapsed = 00:00:11 . Memory (MB): peak = 1324.480 ; gain = 0.000
 INFO: [Route 35-16] Router Completed Successfully
 
-Time (s): cpu = 00:00:17 ; elapsed = 00:00:14 . Memory (MB): peak = 1227.516 ; gain = 0.000
+Time (s): cpu = 00:00:13 ; elapsed = 00:00:11 . Memory (MB): peak = 1324.480 ; gain = 0.000
 
 Routing Is Done.
-84 Infos, 10 Warnings, 10 Critical Warnings and 0 Errors encountered.
+86 Infos, 14 Warnings, 10 Critical Warnings and 0 Errors encountered.
 route_design completed successfully
-route_design: Time (s): cpu = 00:00:20 ; elapsed = 00:00:17 . Memory (MB): peak = 1227.516 ; gain = 0.000
+route_design: Time (s): cpu = 00:00:16 ; elapsed = 00:00:12 . Memory (MB): peak = 1324.480 ; gain = 0.000
 Writing placer database...
 Writing XDEF routing.
 Writing XDEF routing logical nets.
 Writing XDEF routing special nets.
-Write XDEF Complete: Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.349 . Memory (MB): peak = 1227.516 ; gain = 0.000
-INFO: [Common 17-1381] The checkpoint 'C:/Users/ibai/ESDC/Final_Optional/Final_Optional.runs/impl_1/Final_Optional_wrapper_routed.dcp' has been generated.
+Write XDEF Complete: Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.250 . Memory (MB): peak = 1324.480 ; gain = 0.000
+INFO: [Common 17-1381] The checkpoint 'C:/Users/ibai.ros/Final_Optional/Final_Optional.runs/impl_1/Final_Optional_wrapper_routed.dcp' has been generated.
 Command: report_drc -file Final_Optional_wrapper_drc_routed.rpt -pb Final_Optional_wrapper_drc_routed.pb -rpx Final_Optional_wrapper_drc_routed.rpx
 INFO: [DRC 23-27] Running DRC with 2 threads
-INFO: [Coretcl 2-168] The results of DRC are in file C:/Users/ibai/ESDC/Final_Optional/Final_Optional.runs/impl_1/Final_Optional_wrapper_drc_routed.rpt.
+INFO: [Coretcl 2-168] The results of DRC are in file C:/Users/ibai.ros/Final_Optional/Final_Optional.runs/impl_1/Final_Optional_wrapper_drc_routed.rpt.
 report_drc completed successfully
 Command: report_methodology -file Final_Optional_wrapper_methodology_drc_routed.rpt -rpx Final_Optional_wrapper_methodology_drc_routed.rpx
 INFO: [Timing 38-35] Done setting XDC timing constraints.
 INFO: [DRC 23-133] Running Methodology with 2 threads
-INFO: [Coretcl 2-1520] The results of Report Methodology are in file C:/Users/ibai/ESDC/Final_Optional/Final_Optional.runs/impl_1/Final_Optional_wrapper_methodology_drc_routed.rpt.
+INFO: [Coretcl 2-1520] The results of Report Methodology are in file C:/Users/ibai.ros/Final_Optional/Final_Optional.runs/impl_1/Final_Optional_wrapper_methodology_drc_routed.rpt.
 report_methodology completed successfully
 Command: report_power -file Final_Optional_wrapper_power_routed.rpt -pb Final_Optional_wrapper_power_summary_routed.pb -rpx Final_Optional_wrapper_power_routed.rpx
 INFO: [Timing 38-35] Done setting XDC timing constraints.
 Running Vector-less Activity Propagation...
 
 Finished Running Vector-less Activity Propagation
-91 Infos, 10 Warnings, 10 Critical Warnings and 0 Errors encountered.
+93 Infos, 14 Warnings, 10 Critical Warnings and 0 Errors encountered.
 report_power completed successfully
 INFO: [Timing 38-91] UpdateTimingParams: Speed grade: -1, Delay Type: min_max.
 INFO: [Timing 38-191] Multithreading enabled for timing update using a maximum of 2 CPUs
@@ -540,9 +557,9 @@ Creating bitmap...
 Creating bitstream...
 Writing bitstream ./Final_Optional_wrapper.bit...
 INFO: [Vivado 12-1842] Bitgen Completed Successfully.
-INFO: [Project 1-120] WebTalk data collection is mandatory when using a WebPACK part without a full Vivado license. To see the specific WebTalk data collected for your design, open the usage_statistics_webtalk.html or usage_statistics_webtalk.xml file in the implementation directory.
-INFO: [Common 17-186] 'C:/Users/ibai/ESDC/Final_Optional/Final_Optional.runs/impl_1/usage_statistics_webtalk.xml' has been successfully sent to Xilinx on Fri May 31 13:02:04 2019. For additional details about this file, please refer to the WebTalk help file at D:/ProgramFiles/Xilinx/Vivado/2017.2/doc/webtalk_introduction.html.
-102 Infos, 10 Warnings, 10 Critical Warnings and 0 Errors encountered.
+INFO: [Project 1-118] WebTalk data collection is enabled (User setting is ON. Install Setting is ON.).
+INFO: [Common 17-186] 'C:/Users/ibai.ros/Final_Optional/Final_Optional.runs/impl_1/usage_statistics_webtalk.xml' has been successfully sent to Xilinx on Fri May 31 16:26:26 2019. For additional details about this file, please refer to the WebTalk help file at C:/Xilinx/Vivado/2017.2/doc/webtalk_introduction.html.
+104 Infos, 14 Warnings, 10 Critical Warnings and 0 Errors encountered.
 write_bitstream completed successfully
-write_bitstream: Time (s): cpu = 00:00:17 ; elapsed = 00:00:17 . Memory (MB): peak = 1574.246 ; gain = 336.285
-INFO: [Common 17-206] Exiting Vivado at Fri May 31 13:02:04 2019...
+write_bitstream: Time (s): cpu = 00:00:13 ; elapsed = 00:00:14 . Memory (MB): peak = 1733.219 ; gain = 399.059
+INFO: [Common 17-206] Exiting Vivado at Fri May 31 16:26:26 2019...

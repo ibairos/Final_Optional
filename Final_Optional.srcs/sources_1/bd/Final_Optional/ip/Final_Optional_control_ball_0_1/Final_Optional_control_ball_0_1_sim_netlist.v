@@ -1,10 +1,10 @@
 // Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
 // --------------------------------------------------------------------------------
 // Tool Version: Vivado v.2017.2 (win64) Build 1909853 Thu Jun 15 18:39:09 MDT 2017
-// Date        : Fri May 31 12:27:07 2019
-// Host        : ibaipc running 64-bit major release  (build 9200)
+// Date        : Fri May 31 16:18:53 2019
+// Host        : c4d8 running 64-bit major release  (build 9200)
 // Command     : write_verilog -force -mode funcsim
-//               C:/Users/ibai/ESDC/Final_Optional/Final_Optional.srcs/sources_1/bd/Final_Optional/ip/Final_Optional_control_ball_0_1/Final_Optional_control_ball_0_1_sim_netlist.v
+//               C:/Users/ibai.ros/Final_Optional/Final_Optional.srcs/sources_1/bd/Final_Optional/ip/Final_Optional_control_ball_0_1/Final_Optional_control_ball_0_1_sim_netlist.v
 // Design      : Final_Optional_control_ball_0_1
 // Purpose     : This verilog netlist is a functional simulation representation of the design and should not be modified
 //               or synthesized. This netlist cannot be used for SDF annotated simulation.
@@ -188,6 +188,7 @@ module Final_Optional_control_ball_0_1_control_ball
   wire geqOp33_in;
   wire geqOp35_in;
   wire geqOp_carry_i_11_n_0;
+  wire geqOp_carry_i_14_n_0;
   wire geqOp_carry_i_1_n_0;
   wire geqOp_carry_i_2_n_0;
   wire geqOp_carry_i_3_n_0;
@@ -432,7 +433,7 @@ module Final_Optional_control_ball_0_1_control_ball
   wire [9:1]new_sw_x0_in;
   wire \new_sw_x[9]_i_1_n_0 ;
   wire new_sw_y;
-  wire \new_sw_y[1]_i_1_n_0 ;
+  wire \new_sw_y[8]_i_3_n_0 ;
   wire [8:1]new_sw_y_reg__0;
   wire [9:1]old_sw_x;
   wire [8:1]old_sw_y;
@@ -446,8 +447,11 @@ module Final_Optional_control_ball_0_1_control_ball
   wire plusOp__3_carry__0_i_1_n_0;
   wire plusOp__3_carry__0_i_2_n_0;
   wire plusOp__3_carry__0_i_3_n_0;
+  wire plusOp__3_carry__0_i_4_n_0;
+  wire plusOp__3_carry__0_n_1;
   wire plusOp__3_carry__0_n_2;
   wire plusOp__3_carry__0_n_3;
+  wire plusOp__3_carry__0_n_4;
   wire plusOp__3_carry__0_n_5;
   wire plusOp__3_carry__0_n_6;
   wire plusOp__3_carry__0_n_7;
@@ -538,8 +542,7 @@ module Final_Optional_control_ball_0_1_control_ball
   wire [3:0]\NLW_ltOp_inferred__1/i__carry_O_UNCONNECTED ;
   wire [3:0]\NLW_minusOp_inferred__1/i__carry__1_CO_UNCONNECTED ;
   wire [3:1]\NLW_minusOp_inferred__1/i__carry__1_O_UNCONNECTED ;
-  wire [3:2]NLW_plusOp__3_carry__0_CO_UNCONNECTED;
-  wire [3:3]NLW_plusOp__3_carry__0_O_UNCONNECTED;
+  wire [3:3]NLW_plusOp__3_carry__0_CO_UNCONNECTED;
 
   LUT6 #(
     .INIT(64'hFFFFFFFFFFFFFFFE)) 
@@ -863,6 +866,7 @@ module Final_Optional_control_ball_0_1_control_ball
         .I2(ld_new),
         .I3(game_over_var_i_2_n_0),
         .O(game_over_var_i_1_n_0));
+  (* SOFT_HLUTNM = "soft_lutpair6" *) 
   LUT4 #(
     .INIT(16'h7FFF)) 
     game_over_var_i_2
@@ -872,14 +876,13 @@ module Final_Optional_control_ball_0_1_control_ball
         .I3(game_over_var_i_3_n_0),
         .O(game_over_var_i_2_n_0));
   (* SOFT_HLUTNM = "soft_lutpair4" *) 
-  LUT5 #(
-    .INIT(32'hFFFEAAAA)) 
+  LUT4 #(
+    .INIT(16'hFEAA)) 
     game_over_var_i_3
        (.I0(new_sw_y_reg__0[5]),
-        .I1(new_sw_y_reg__0[2]),
-        .I2(new_sw_y_reg__0[3]),
-        .I3(new_sw_y_reg__0[1]),
-        .I4(new_sw_y_reg__0[4]),
+        .I1(new_sw_y_reg__0[3]),
+        .I2(new_sw_y_reg__0[2]),
+        .I3(new_sw_y_reg__0[4]),
         .O(game_over_var_i_3_n_0));
   FDRE #(
     .INIT(1'b0)) 
@@ -916,16 +919,16 @@ module Final_Optional_control_ball_0_1_control_ball
         .I4(new_sw_y_reg__0[7]),
         .I5(new_sw_y_reg__0[8]),
         .O(plusOp0[8]));
-  (* SOFT_HLUTNM = "soft_lutpair7" *) 
-  LUT4 #(
-    .INIT(16'hFFFE)) 
+  LUT6 #(
+    .INIT(64'hFFFFFFFFFFFFFEEE)) 
     geqOp_carry_i_11
        (.I0(bar_pos_y[5]),
         .I1(bar_pos_y[3]),
-        .I2(bar_pos_y[4]),
-        .I3(bar_pos_y[6]),
+        .I2(bar_pos_y[2]),
+        .I3(bar_pos_y[1]),
+        .I4(bar_pos_y[4]),
+        .I5(bar_pos_y[6]),
         .O(geqOp_carry_i_11_n_0));
-  (* SOFT_HLUTNM = "soft_lutpair4" *) 
   LUT3 #(
     .INIT(8'h78)) 
     geqOp_carry_i_12
@@ -942,26 +945,35 @@ module Final_Optional_control_ball_0_1_control_ball
         .I2(new_sw_y_reg__0[5]),
         .I3(new_sw_y_reg__0[6]),
         .O(plusOp0[6]));
-  LUT6 #(
-    .INIT(64'h0808088CCECECEE0)) 
+  LUT4 #(
+    .INIT(16'hFFEA)) 
+    geqOp_carry_i_14
+       (.I0(bar_pos_y[3]),
+        .I1(bar_pos_y[2]),
+        .I2(bar_pos_y[1]),
+        .I3(bar_pos_y[4]),
+        .O(geqOp_carry_i_14_n_0));
+  LUT5 #(
+    .INIT(32'h088CCEE0)) 
     geqOp_carry_i_2
        (.I0(plusOp0[5]),
         .I1(plusOp0[6]),
         .I2(bar_pos_y[5]),
-        .I3(bar_pos_y[3]),
-        .I4(bar_pos_y[4]),
-        .I5(bar_pos_y[6]),
+        .I3(geqOp_carry_i_14_n_0),
+        .I4(bar_pos_y[6]),
         .O(geqOp_carry_i_2_n_0));
-  LUT4 #(
-    .INIT(16'h4670)) 
+  LUT6 #(
+    .INIT(64'h0446464667707070)) 
     geqOp_carry_i_3
        (.I0(new_sw_y_reg__0[3]),
         .I1(new_sw_y_reg__0[4]),
         .I2(bar_pos_y[3]),
-        .I3(bar_pos_y[4]),
+        .I3(bar_pos_y[2]),
+        .I4(bar_pos_y[1]),
+        .I5(bar_pos_y[4]),
         .O(geqOp_carry_i_3_n_0));
   LUT4 #(
-    .INIT(16'h2F02)) 
+    .INIT(16'hCB80)) 
     geqOp_carry_i_4
        (.I0(new_sw_y_reg__0[1]),
         .I1(bar_pos_y[1]),
@@ -977,30 +989,31 @@ module Final_Optional_control_ball_0_1_control_ball
         .I3(geqOp_carry_i_11_n_0),
         .I4(bar_pos_y[8]),
         .O(geqOp_carry_i_5_n_0));
-  LUT6 #(
-    .INIT(64'h8484844221212118)) 
+  LUT5 #(
+    .INIT(32'h84422118)) 
     geqOp_carry_i_6
        (.I0(plusOp0[5]),
         .I1(plusOp0[6]),
         .I2(bar_pos_y[5]),
-        .I3(bar_pos_y[3]),
-        .I4(bar_pos_y[4]),
-        .I5(bar_pos_y[6]),
+        .I3(geqOp_carry_i_14_n_0),
+        .I4(bar_pos_y[6]),
         .O(geqOp_carry_i_6_n_0));
-  LUT4 #(
-    .INIT(16'h2184)) 
+  LUT6 #(
+    .INIT(64'h4221212118848484)) 
     geqOp_carry_i_7
        (.I0(new_sw_y_reg__0[3]),
         .I1(new_sw_y_reg__0[4]),
         .I2(bar_pos_y[3]),
-        .I3(bar_pos_y[4]),
+        .I3(bar_pos_y[2]),
+        .I4(bar_pos_y[1]),
+        .I5(bar_pos_y[4]),
         .O(geqOp_carry_i_7_n_0));
   LUT4 #(
-    .INIT(16'h9009)) 
+    .INIT(16'h1842)) 
     geqOp_carry_i_8
        (.I0(new_sw_y_reg__0[1]),
-        .I1(bar_pos_y[1]),
-        .I2(new_sw_y_reg__0[2]),
+        .I1(new_sw_y_reg__0[2]),
+        .I2(bar_pos_y[1]),
         .I3(bar_pos_y[2]),
         .O(geqOp_carry_i_8_n_0));
   (* SOFT_HLUTNM = "soft_lutpair3" *) 
@@ -1050,17 +1063,17 @@ module Final_Optional_control_ball_0_1_control_ball
        (.CI(1'b0),
         .CO({geqOp28_in,\geqOp_inferred__2/i__carry_n_1 ,\geqOp_inferred__2/i__carry_n_2 ,\geqOp_inferred__2/i__carry_n_3 }),
         .CYINIT(1'b1),
-        .DI({i__carry_i_1__5_n_0,i__carry_i_2__5_n_0,i__carry_i_3__5_n_0,i__carry_i_4__5_n_0}),
+        .DI({i__carry_i_1__5_n_0,i__carry_i_2__5_n_0,i__carry_i_3__5_n_0,i__carry_i_4__1_n_0}),
         .O(\NLW_geqOp_inferred__2/i__carry_O_UNCONNECTED [3:0]),
-        .S({i__carry_i_5__4_n_0,i__carry_i_6__4_n_0,i__carry_i_7__3_n_0,i__carry_i_8__5_n_0}));
+        .S({i__carry_i_5__4_n_0,i__carry_i_6__4_n_0,i__carry_i_7__3_n_0,i__carry_i_8__1_n_0}));
   (* METHODOLOGY_DRC_VIOS = "{SYNTH-8 {cell *THIS*}}" *) 
   CARRY4 \geqOp_inferred__3/i__carry 
        (.CI(1'b0),
         .CO({\geqOp_inferred__3/i__carry_n_0 ,\geqOp_inferred__3/i__carry_n_1 ,\geqOp_inferred__3/i__carry_n_2 ,\geqOp_inferred__3/i__carry_n_3 }),
         .CYINIT(1'b1),
-        .DI({i__carry_i_1__7_n_0,i__carry_i_2__7_n_0,i__carry_i_3__7_n_0,i__carry_i_4__4_n_0}),
+        .DI({i__carry_i_1__7_n_0,i__carry_i_2__7_n_0,i__carry_i_3__7_n_0,i__carry_i_4__5_n_0}),
         .O(\NLW_geqOp_inferred__3/i__carry_O_UNCONNECTED [3:0]),
-        .S({i__carry_i_5__6_n_0,i__carry_i_6__6_n_0,i__carry_i_7__5_n_0,i__carry_i_8__4_n_0}));
+        .S({i__carry_i_5__6_n_0,i__carry_i_6__6_n_0,i__carry_i_7__5_n_0,i__carry_i_8__5_n_0}));
   (* METHODOLOGY_DRC_VIOS = "{SYNTH-8 {cell *THIS*}}" *) 
   CARRY4 \geqOp_inferred__3/i__carry__0 
        (.CI(\geqOp_inferred__3/i__carry_n_0 ),
@@ -1217,7 +1230,7 @@ module Final_Optional_control_ball_0_1_control_ball
         .I2(new_sw_x[9]),
         .I3(\minusOp_inferred__1/i__carry__1_n_7 ),
         .O(i__carry__0_i_2__7_n_0));
-  (* SOFT_HLUTNM = "soft_lutpair2" *) 
+  (* SOFT_HLUTNM = "soft_lutpair1" *) 
   LUT5 #(
     .INIT(32'hFFFFFFFE)) 
     i__carry__0_i_3
@@ -1717,10 +1730,10 @@ module Final_Optional_control_ball_0_1_control_ball
   LUT4 #(
     .INIT(16'h2F02)) 
     i__carry_i_4__1
-       (.I0(plusOp27[1]),
-        .I1(new_sw_x[1]),
-        .I2(new_sw_x[2]),
-        .I3(plusOp27[2]),
+       (.I0(new_sw_y_reg__0[1]),
+        .I1(bar_pos_y[1]),
+        .I2(bar_pos_y[2]),
+        .I3(new_sw_y_reg__0[2]),
         .O(i__carry_i_4__1_n_0));
   LUT2 #(
     .INIT(4'h9)) 
@@ -1737,34 +1750,34 @@ module Final_Optional_control_ball_0_1_control_ball
   LUT4 #(
     .INIT(16'h2F02)) 
     i__carry_i_4__2
-       (.I0(bar_pos_y[1]),
-        .I1(new_sw_y_reg__0[1]),
-        .I2(new_sw_y_reg__0[2]),
-        .I3(bar_pos_y[2]),
+       (.I0(plusOp27[1]),
+        .I1(new_sw_x[1]),
+        .I2(new_sw_x[2]),
+        .I3(plusOp27[2]),
         .O(i__carry_i_4__2_n_0));
   LUT4 #(
     .INIT(16'h2F02)) 
     i__carry_i_4__3
-       (.I0(bar_pos_x[1]),
-        .I1(new_sw_x[1]),
-        .I2(new_sw_x[2]),
-        .I3(bar_pos_x[2]),
+       (.I0(bar_pos_y[1]),
+        .I1(new_sw_y_reg__0[1]),
+        .I2(new_sw_y_reg__0[2]),
+        .I3(bar_pos_y[2]),
         .O(i__carry_i_4__3_n_0));
   LUT4 #(
     .INIT(16'h2F02)) 
     i__carry_i_4__4
-       (.I0(new_sw_x[1]),
-        .I1(bar_pos_x[1]),
-        .I2(bar_pos_x[2]),
-        .I3(new_sw_x[2]),
+       (.I0(bar_pos_x[1]),
+        .I1(new_sw_x[1]),
+        .I2(new_sw_x[2]),
+        .I3(bar_pos_x[2]),
         .O(i__carry_i_4__4_n_0));
   LUT4 #(
     .INIT(16'h2F02)) 
     i__carry_i_4__5
-       (.I0(new_sw_y_reg__0[1]),
-        .I1(bar_pos_y[1]),
-        .I2(bar_pos_y[2]),
-        .I3(new_sw_y_reg__0[2]),
+       (.I0(new_sw_x[1]),
+        .I1(bar_pos_x[1]),
+        .I2(bar_pos_x[2]),
+        .I3(new_sw_x[2]),
         .O(i__carry_i_4__5_n_0));
   LUT4 #(
     .INIT(16'h2F02)) 
@@ -2051,42 +2064,42 @@ module Final_Optional_control_ball_0_1_control_ball
   LUT4 #(
     .INIT(16'h9009)) 
     i__carry_i_8__1
-       (.I0(plusOp27[1]),
-        .I1(new_sw_x[1]),
-        .I2(plusOp27[2]),
-        .I3(new_sw_x[2]),
-        .O(i__carry_i_8__1_n_0));
-  LUT4 #(
-    .INIT(16'h9009)) 
-    i__carry_i_8__2
-       (.I0(bar_pos_y[1]),
-        .I1(new_sw_y_reg__0[1]),
-        .I2(bar_pos_y[2]),
-        .I3(new_sw_y_reg__0[2]),
-        .O(i__carry_i_8__2_n_0));
-  LUT4 #(
-    .INIT(16'h9009)) 
-    i__carry_i_8__3
-       (.I0(bar_pos_x[1]),
-        .I1(new_sw_x[1]),
-        .I2(bar_pos_x[2]),
-        .I3(new_sw_x[2]),
-        .O(i__carry_i_8__3_n_0));
-  LUT4 #(
-    .INIT(16'h9009)) 
-    i__carry_i_8__4
-       (.I0(new_sw_x[1]),
-        .I1(bar_pos_x[1]),
-        .I2(new_sw_x[2]),
-        .I3(bar_pos_x[2]),
-        .O(i__carry_i_8__4_n_0));
-  LUT4 #(
-    .INIT(16'h9009)) 
-    i__carry_i_8__5
        (.I0(new_sw_y_reg__0[1]),
         .I1(bar_pos_y[1]),
         .I2(new_sw_y_reg__0[2]),
         .I3(bar_pos_y[2]),
+        .O(i__carry_i_8__1_n_0));
+  LUT4 #(
+    .INIT(16'h9009)) 
+    i__carry_i_8__2
+       (.I0(plusOp27[1]),
+        .I1(new_sw_x[1]),
+        .I2(plusOp27[2]),
+        .I3(new_sw_x[2]),
+        .O(i__carry_i_8__2_n_0));
+  LUT4 #(
+    .INIT(16'h9009)) 
+    i__carry_i_8__3
+       (.I0(bar_pos_y[1]),
+        .I1(new_sw_y_reg__0[1]),
+        .I2(bar_pos_y[2]),
+        .I3(new_sw_y_reg__0[2]),
+        .O(i__carry_i_8__3_n_0));
+  LUT4 #(
+    .INIT(16'h9009)) 
+    i__carry_i_8__4
+       (.I0(bar_pos_x[1]),
+        .I1(new_sw_x[1]),
+        .I2(bar_pos_x[2]),
+        .I3(new_sw_x[2]),
+        .O(i__carry_i_8__4_n_0));
+  LUT4 #(
+    .INIT(16'h9009)) 
+    i__carry_i_8__5
+       (.I0(new_sw_x[1]),
+        .I1(bar_pos_x[1]),
+        .I2(new_sw_x[2]),
+        .I3(bar_pos_x[2]),
         .O(i__carry_i_8__5_n_0));
   LUT4 #(
     .INIT(16'h9009)) 
@@ -2113,7 +2126,6 @@ module Final_Optional_control_ball_0_1_control_ball
         .I2(bar_pos_x[4]),
         .I3(bar_pos_x[6]),
         .O(i__carry_i_9_n_0));
-  (* SOFT_HLUTNM = "soft_lutpair7" *) 
   LUT4 #(
     .INIT(16'h8000)) 
     i__carry_i_9__0
@@ -2235,9 +2247,9 @@ module Final_Optional_control_ball_0_1_control_ball
        (.CI(1'b0),
         .CO({\leqOp_inferred__0/i__carry_n_0 ,\leqOp_inferred__0/i__carry_n_1 ,\leqOp_inferred__0/i__carry_n_2 ,\leqOp_inferred__0/i__carry_n_3 }),
         .CYINIT(1'b1),
-        .DI({i__carry_i_1__3_n_0,i__carry_i_2__3_n_0,i__carry_i_3__3_n_0,i__carry_i_4__3_n_0}),
+        .DI({i__carry_i_1__3_n_0,i__carry_i_2__3_n_0,i__carry_i_3__3_n_0,i__carry_i_4__4_n_0}),
         .O(\NLW_leqOp_inferred__0/i__carry_O_UNCONNECTED [3:0]),
-        .S({i__carry_i_5__2_n_0,i__carry_i_6__2_n_0,i__carry_i_7__7_n_0,i__carry_i_8__3_n_0}));
+        .S({i__carry_i_5__2_n_0,i__carry_i_6__2_n_0,i__carry_i_7__7_n_0,i__carry_i_8__4_n_0}));
   (* METHODOLOGY_DRC_VIOS = "{SYNTH-8 {cell *THIS*}}" *) 
   CARRY4 \leqOp_inferred__0/i__carry__0 
        (.CI(\leqOp_inferred__0/i__carry_n_0 ),
@@ -2251,17 +2263,17 @@ module Final_Optional_control_ball_0_1_control_ball
        (.CI(1'b0),
         .CO({leqOp27_in,\leqOp_inferred__1/i__carry_n_1 ,\leqOp_inferred__1/i__carry_n_2 ,\leqOp_inferred__1/i__carry_n_3 }),
         .CYINIT(1'b1),
-        .DI({i__carry_i_1__4_n_0,i__carry_i_2__4_n_0,i__carry_i_3__4_n_0,i__carry_i_4__2_n_0}),
+        .DI({i__carry_i_1__4_n_0,i__carry_i_2__4_n_0,i__carry_i_3__4_n_0,i__carry_i_4__3_n_0}),
         .O(\NLW_leqOp_inferred__1/i__carry_O_UNCONNECTED [3:0]),
-        .S({i__carry_i_5__3_n_0,i__carry_i_6__3_n_0,i__carry_i_7__2_n_0,i__carry_i_8__2_n_0}));
+        .S({i__carry_i_5__3_n_0,i__carry_i_6__3_n_0,i__carry_i_7__2_n_0,i__carry_i_8__3_n_0}));
   (* METHODOLOGY_DRC_VIOS = "{SYNTH-8 {cell *THIS*}}" *) 
   CARRY4 \leqOp_inferred__2/i__carry 
        (.CI(1'b0),
         .CO({\leqOp_inferred__2/i__carry_n_0 ,\leqOp_inferred__2/i__carry_n_1 ,\leqOp_inferred__2/i__carry_n_2 ,\leqOp_inferred__2/i__carry_n_3 }),
         .CYINIT(1'b1),
-        .DI({i__carry_i_1__6_n_0,i__carry_i_2__6_n_0,i__carry_i_3__6_n_0,i__carry_i_4__1_n_0}),
+        .DI({i__carry_i_1__6_n_0,i__carry_i_2__6_n_0,i__carry_i_3__6_n_0,i__carry_i_4__2_n_0}),
         .O(\NLW_leqOp_inferred__2/i__carry_O_UNCONNECTED [3:0]),
-        .S({i__carry_i_5__5_n_0,i__carry_i_6__5_n_0,i__carry_i_7__4_n_0,i__carry_i_8__1_n_0}));
+        .S({i__carry_i_5__5_n_0,i__carry_i_6__5_n_0,i__carry_i_7__4_n_0,i__carry_i_8__2_n_0}));
   (* METHODOLOGY_DRC_VIOS = "{SYNTH-8 {cell *THIS*}}" *) 
   CARRY4 \leqOp_inferred__2/i__carry__0 
        (.CI(\leqOp_inferred__2/i__carry_n_0 ),
@@ -2306,7 +2318,7 @@ module Final_Optional_control_ball_0_1_control_ball
         .I4(bar_pos_x[8]),
         .I5(ltOp_carry__0_i_4_n_0),
         .O(ltOp_carry__0_i_2_n_0));
-  (* SOFT_HLUTNM = "soft_lutpair0" *) 
+  (* SOFT_HLUTNM = "soft_lutpair2" *) 
   LUT5 #(
     .INIT(32'h80000000)) 
     ltOp_carry__0_i_3
@@ -2316,7 +2328,7 @@ module Final_Optional_control_ball_0_1_control_ball
         .I3(new_sw_x[4]),
         .I4(new_sw_x[6]),
         .O(ltOp_carry__0_i_3_n_0));
-  (* SOFT_HLUTNM = "soft_lutpair2" *) 
+  (* SOFT_HLUTNM = "soft_lutpair1" *) 
   LUT5 #(
     .INIT(32'h88800000)) 
     ltOp_carry__0_i_4
@@ -2354,7 +2366,7 @@ module Final_Optional_control_ball_0_1_control_ball
         .I2(bar_pos_x[4]),
         .I3(bar_pos_x[5]),
         .O(ltOp_carry_i_11_n_0));
-  (* SOFT_HLUTNM = "soft_lutpair6" *) 
+  (* SOFT_HLUTNM = "soft_lutpair7" *) 
   LUT3 #(
     .INIT(8'h78)) 
     ltOp_carry_i_12
@@ -2362,7 +2374,7 @@ module Final_Optional_control_ball_0_1_control_ball
         .I1(new_sw_x[4]),
         .I2(new_sw_x[5]),
         .O(plusOp8[5]));
-  (* SOFT_HLUTNM = "soft_lutpair6" *) 
+  (* SOFT_HLUTNM = "soft_lutpair7" *) 
   LUT4 #(
     .INIT(16'h7F80)) 
     ltOp_carry_i_13
@@ -2432,7 +2444,7 @@ module Final_Optional_control_ball_0_1_control_ball
         .I2(bar_pos_x[2]),
         .I3(new_sw_x[2]),
         .O(ltOp_carry_i_8_n_0));
-  (* SOFT_HLUTNM = "soft_lutpair0" *) 
+  (* SOFT_HLUTNM = "soft_lutpair2" *) 
   LUT5 #(
     .INIT(32'h7FFF8000)) 
     ltOp_carry_i_9
@@ -2555,11 +2567,6 @@ module Final_Optional_control_ball_0_1_control_ball
         .D(new_sw_x0_in[9]),
         .Q(new_sw_x[9]),
         .R(1'b0));
-  LUT1 #(
-    .INIT(2'h1)) 
-    \new_sw_y[1]_i_1 
-       (.I0(new_sw_y_reg__0[1]),
-        .O(\new_sw_y[1]_i_1_n_0 ));
   LUT5 #(
     .INIT(32'h44400040)) 
     \new_sw_y[8]_i_1 
@@ -2569,22 +2576,31 @@ module Final_Optional_control_ball_0_1_control_ball
         .I3(dir_y),
         .I4(gtOp14_in),
         .O(new_sw_y));
-  LUT6 #(
-    .INIT(64'hFFFFFFFFFFFFFFFE)) 
+  (* SOFT_HLUTNM = "soft_lutpair6" *) 
+  LUT4 #(
+    .INIT(16'hFFFD)) 
     \new_sw_y[8]_i_2 
-       (.I0(new_sw_y_reg__0[5]),
-        .I1(new_sw_y_reg__0[3]),
-        .I2(new_sw_y_reg__0[4]),
-        .I3(new_sw_y_reg__0[7]),
-        .I4(new_sw_y_reg__0[6]),
-        .I5(new_sw_y_reg__0[8]),
+       (.I0(\new_sw_y[8]_i_3_n_0 ),
+        .I1(new_sw_y_reg__0[7]),
+        .I2(new_sw_y_reg__0[6]),
+        .I3(new_sw_y_reg__0[8]),
         .O(gtOp14_in));
+  (* SOFT_HLUTNM = "soft_lutpair4" *) 
+  LUT5 #(
+    .INIT(32'h00000111)) 
+    \new_sw_y[8]_i_3 
+       (.I0(new_sw_y_reg__0[5]),
+        .I1(new_sw_y_reg__0[4]),
+        .I2(new_sw_y_reg__0[2]),
+        .I3(new_sw_y_reg__0[1]),
+        .I4(new_sw_y_reg__0[3]),
+        .O(\new_sw_y[8]_i_3_n_0 ));
   FDRE #(
     .INIT(1'b0)) 
     \new_sw_y_reg[1] 
        (.C(clk_25),
         .CE(new_sw_y),
-        .D(\new_sw_y[1]_i_1_n_0 ),
+        .D(plusOp__3_carry_n_7),
         .Q(new_sw_y_reg__0[1]),
         .R(1'b0));
   FDRE #(
@@ -2592,7 +2608,7 @@ module Final_Optional_control_ball_0_1_control_ball
     \new_sw_y_reg[2] 
        (.C(clk_25),
         .CE(new_sw_y),
-        .D(plusOp__3_carry_n_7),
+        .D(plusOp__3_carry_n_6),
         .Q(new_sw_y_reg__0[2]),
         .R(1'b0));
   FDRE #(
@@ -2600,7 +2616,7 @@ module Final_Optional_control_ball_0_1_control_ball
     \new_sw_y_reg[3] 
        (.C(clk_25),
         .CE(new_sw_y),
-        .D(plusOp__3_carry_n_6),
+        .D(plusOp__3_carry_n_5),
         .Q(new_sw_y_reg__0[3]),
         .R(1'b0));
   FDRE #(
@@ -2608,7 +2624,7 @@ module Final_Optional_control_ball_0_1_control_ball
     \new_sw_y_reg[4] 
        (.C(clk_25),
         .CE(new_sw_y),
-        .D(plusOp__3_carry_n_5),
+        .D(plusOp__3_carry_n_4),
         .Q(new_sw_y_reg__0[4]),
         .R(1'b0));
   FDRE #(
@@ -2616,7 +2632,7 @@ module Final_Optional_control_ball_0_1_control_ball
     \new_sw_y_reg[5] 
        (.C(clk_25),
         .CE(new_sw_y),
-        .D(plusOp__3_carry_n_4),
+        .D(plusOp__3_carry__0_n_7),
         .Q(new_sw_y_reg__0[5]),
         .R(1'b0));
   FDRE #(
@@ -2624,7 +2640,7 @@ module Final_Optional_control_ball_0_1_control_ball
     \new_sw_y_reg[6] 
        (.C(clk_25),
         .CE(new_sw_y),
-        .D(plusOp__3_carry__0_n_7),
+        .D(plusOp__3_carry__0_n_6),
         .Q(new_sw_y_reg__0[6]),
         .R(1'b0));
   FDRE #(
@@ -2632,7 +2648,7 @@ module Final_Optional_control_ball_0_1_control_ball
     \new_sw_y_reg[7] 
        (.C(clk_25),
         .CE(new_sw_y),
-        .D(plusOp__3_carry__0_n_6),
+        .D(plusOp__3_carry__0_n_5),
         .Q(new_sw_y_reg__0[7]),
         .R(1'b0));
   FDRE #(
@@ -2640,7 +2656,7 @@ module Final_Optional_control_ball_0_1_control_ball
     \new_sw_y_reg[8] 
        (.C(clk_25),
         .CE(new_sw_y),
-        .D(plusOp__3_carry__0_n_5),
+        .D(plusOp__3_carry__0_n_4),
         .Q(new_sw_y_reg__0[8]),
         .R(1'b0));
   FDRE #(
@@ -2783,18 +2799,18 @@ module Final_Optional_control_ball_0_1_control_ball
   CARRY4 plusOp__3_carry
        (.CI(1'b0),
         .CO({plusOp__3_carry_n_0,plusOp__3_carry_n_1,plusOp__3_carry_n_2,plusOp__3_carry_n_3}),
-        .CYINIT(new_sw_y_reg__0[1]),
-        .DI({new_sw_y_reg__0[4],p_8_in,dir_y,new_sw_y_reg__0[2]}),
+        .CYINIT(1'b0),
+        .DI({p_8_in,dir_y,new_sw_y_reg__0[2],1'b0}),
         .O({plusOp__3_carry_n_4,plusOp__3_carry_n_5,plusOp__3_carry_n_6,plusOp__3_carry_n_7}),
         .S({plusOp__3_carry_i_2_n_0,plusOp__3_carry_i_3_n_0,plusOp__3_carry_i_4_n_0,plusOp__3_carry_i_5_n_0}));
   (* METHODOLOGY_DRC_VIOS = "{SYNTH-8 {cell *THIS*}}" *) 
   CARRY4 plusOp__3_carry__0
        (.CI(plusOp__3_carry_n_0),
-        .CO({NLW_plusOp__3_carry__0_CO_UNCONNECTED[3:2],plusOp__3_carry__0_n_2,plusOp__3_carry__0_n_3}),
+        .CO({NLW_plusOp__3_carry__0_CO_UNCONNECTED[3],plusOp__3_carry__0_n_1,plusOp__3_carry__0_n_2,plusOp__3_carry__0_n_3}),
         .CYINIT(1'b0),
-        .DI({1'b0,1'b0,new_sw_y_reg__0[6:5]}),
-        .O({NLW_plusOp__3_carry__0_O_UNCONNECTED[3],plusOp__3_carry__0_n_5,plusOp__3_carry__0_n_6,plusOp__3_carry__0_n_7}),
-        .S({1'b0,plusOp__3_carry__0_i_1_n_0,plusOp__3_carry__0_i_2_n_0,plusOp__3_carry__0_i_3_n_0}));
+        .DI({1'b0,new_sw_y_reg__0[6:4]}),
+        .O({plusOp__3_carry__0_n_4,plusOp__3_carry__0_n_5,plusOp__3_carry__0_n_6,plusOp__3_carry__0_n_7}),
+        .S({plusOp__3_carry__0_i_1_n_0,plusOp__3_carry__0_i_2_n_0,plusOp__3_carry__0_i_3_n_0,plusOp__3_carry__0_i_4_n_0}));
   LUT2 #(
     .INIT(4'h9)) 
     plusOp__3_carry__0_i_1
@@ -2813,34 +2829,38 @@ module Final_Optional_control_ball_0_1_control_ball
        (.I0(new_sw_y_reg__0[5]),
         .I1(new_sw_y_reg__0[6]),
         .O(plusOp__3_carry__0_i_3_n_0));
+  LUT2 #(
+    .INIT(4'h9)) 
+    plusOp__3_carry__0_i_4
+       (.I0(new_sw_y_reg__0[4]),
+        .I1(new_sw_y_reg__0[5]),
+        .O(plusOp__3_carry__0_i_4_n_0));
   LUT1 #(
     .INIT(2'h1)) 
     plusOp__3_carry_i_1
        (.I0(dir_y),
         .O(p_8_in));
   LUT2 #(
-    .INIT(4'h9)) 
+    .INIT(4'h6)) 
     plusOp__3_carry_i_2
-       (.I0(new_sw_y_reg__0[4]),
-        .I1(new_sw_y_reg__0[5]),
+       (.I0(dir_y),
+        .I1(new_sw_y_reg__0[4]),
         .O(plusOp__3_carry_i_2_n_0));
   LUT2 #(
     .INIT(4'h6)) 
     plusOp__3_carry_i_3
        (.I0(dir_y),
-        .I1(new_sw_y_reg__0[4]),
-        .O(plusOp__3_carry_i_3_n_0));
-  LUT2 #(
-    .INIT(4'h6)) 
-    plusOp__3_carry_i_4
-       (.I0(dir_y),
         .I1(new_sw_y_reg__0[3]),
-        .O(plusOp__3_carry_i_4_n_0));
-  LUT2 #(
-    .INIT(4'h9)) 
-    plusOp__3_carry_i_5
+        .O(plusOp__3_carry_i_3_n_0));
+  LUT1 #(
+    .INIT(2'h1)) 
+    plusOp__3_carry_i_4
        (.I0(new_sw_y_reg__0[2]),
-        .I1(dir_y),
+        .O(plusOp__3_carry_i_4_n_0));
+  LUT1 #(
+    .INIT(2'h2)) 
+    plusOp__3_carry_i_5
+       (.I0(new_sw_y_reg__0[1]),
         .O(plusOp__3_carry_i_5_n_0));
   LUT2 #(
     .INIT(4'hE)) 
@@ -2854,14 +2874,14 @@ module Final_Optional_control_ball_0_1_control_ball
        (.I0(ld_old),
         .I1(ld_new),
         .O(start));
-  (* SOFT_HLUTNM = "soft_lutpair1" *) 
+  (* SOFT_HLUTNM = "soft_lutpair0" *) 
   LUT2 #(
     .INIT(4'h6)) 
     \vel_x[0]_i_1 
        (.I0(vel_x),
         .I1(\vel_x_reg_n_0_[0] ),
         .O(\vel_x[0]_i_1_n_0 ));
-  (* SOFT_HLUTNM = "soft_lutpair1" *) 
+  (* SOFT_HLUTNM = "soft_lutpair0" *) 
   LUT5 #(
     .INIT(32'h69FF9600)) 
     \vel_x[1]_i_1 
@@ -2901,7 +2921,7 @@ module Final_Optional_control_ball_0_1_control_ball
         .I5(\_inferred__2/i__carry__1_n_3 ),
         .O(\vel_x[2]_i_3_n_0 ));
   FDRE #(
-    .INIT(1'b1)) 
+    .INIT(1'b0)) 
     \vel_x_reg[0] 
        (.C(clk_25),
         .CE(1'b1),

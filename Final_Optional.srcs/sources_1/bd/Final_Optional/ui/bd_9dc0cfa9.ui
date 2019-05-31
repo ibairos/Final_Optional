@@ -3,80 +3,85 @@
 #  -string -flagsOSRD
 preplace port DDR -pg 1 -y 230 -defaultsOSRD
 preplace port vga_hs -pg 1 -y 1040 -defaultsOSRD
+preplace port leds_4bits -pg 1 -y 180 -defaultsOSRD
 preplace port FIXED_IO -pg 1 -y 250 -defaultsOSRD
 preplace port vga_vs -pg 1 -y 1060 -defaultsOSRD
 preplace portBus vga_b -pg 1 -y 1000 -defaultsOSRD
 preplace portBus vga_r -pg 1 -y 980 -defaultsOSRD
 preplace portBus vga_g -pg 1 -y 1020 -defaultsOSRD
-preplace inst switches -pg 1 -lvl 3 -y 390 -defaultsOSRD
-preplace inst buttons -pg 1 -lvl 3 -y 690 -defaultsOSRD
+preplace inst switches -pg 1 -lvl 3 -y 570 -defaultsOSRD
+preplace inst buttons -pg 1 -lvl 3 -y 720 -defaultsOSRD
 preplace inst control_bar_0 -pg 1 -lvl 4 -y 620 -defaultsOSRD
 preplace inst blk_mem_gen_0 -pg 1 -lvl 7 -y 560 -defaultsOSRD
 preplace inst mem_control_unit_0 -pg 1 -lvl 4 -y 850 -defaultsOSRD
 preplace inst add_generator_0 -pg 1 -lvl 7 -y 830 -defaultsOSRD
 preplace inst VGA_SYNC_0 -pg 1 -lvl 7 -y 1040 -defaultsOSRD
+preplace inst leds -pg 1 -lvl 3 -y 250 -defaultsOSRD
 preplace inst memory_ball_0 -pg 1 -lvl 5 -y 430 -defaultsOSRD
-preplace inst ps7_0_axi_periph -pg 1 -lvl 2 -y 610 -defaultsOSRD
+preplace inst ps7_0_axi_periph -pg 1 -lvl 3 -y 950 -defaultsOSRD
 preplace inst control_ball_0 -pg 1 -lvl 4 -y 410 -defaultsOSRD
-preplace inst rst_ps7_0_100M -pg 1 -lvl 2 -y 330 -defaultsOSRD
-preplace inst game_over -pg 1 -lvl 3 -y 530 -defaultsOSRD
+preplace inst game_over -pg 1 -lvl 3 -y 400 -defaultsOSRD
+preplace inst rst_ps7_0_100M -pg 1 -lvl 2 -y 780 -defaultsOSRD
 preplace inst memory_bar_0 -pg 1 -lvl 5 -y 640 -defaultsOSRD
 preplace inst processing_system7_0 -pg 1 -lvl 1 -y 630 -defaultsOSRD
 preplace inst mux_control_0 -pg 1 -lvl 6 -y 550 -defaultsOSRD
-preplace netloc ps7_0_axi_periph_M02_AXI 1 2 1 910
-preplace netloc processing_system7_0_DDR 1 1 7 430J 230 NJ 230 NJ 230 NJ 230 NJ 230 NJ 230 NJ
-preplace netloc control_ball_0_y_t 1 4 1 1700
-preplace netloc control_bar_0_y_t 1 3 2 1310 740 1650
-preplace netloc control_ball_0_game_over 1 3 2 1220 290 1620
+preplace netloc ps7_0_axi_periph_M02_AXI 1 2 2 860J 490 1200
+preplace netloc processing_system7_0_DDR 1 1 7 440J 180 NJ 180 1180J 190 NJ 190 NJ 190 NJ 190 2540J
+preplace netloc control_ball_0_y_t 1 4 1 1660
+preplace netloc control_bar_0_y_t 1 3 2 1310 740 1610
+preplace netloc control_ball_0_game_over 1 3 2 1220J 290 1580
+preplace netloc rst_ps7_0_100M_peripheral_aresetn1 1 2 1 850
 preplace netloc switches_gpio_io_o 1 3 1 1230
-preplace netloc mux_control_0_out_data 1 6 1 2270
-preplace netloc memory_bar_0_data 1 5 1 2000
-preplace netloc memory_ball_0_we 1 5 1 2000
-preplace netloc VGA_SYNC_0_vga_vs 1 3 5 1300 730 N 730 N 730 N 730 2610
-preplace netloc memory_ball_0_data 1 5 1 1990
-preplace netloc control_bar_0_req 1 3 2 1330 760 1610
+preplace netloc mux_control_0_out_data 1 6 1 2200
+preplace netloc memory_bar_0_data 1 5 1 1940
+preplace netloc memory_ball_0_we 1 5 1 1940
+preplace netloc VGA_SYNC_0_vga_vs 1 3 5 1300 730 NJ 730 NJ 730 NJ 730 2540
+preplace netloc leds_GPIO 1 3 5 1190J 180 NJ 180 NJ 180 NJ 180 NJ
+preplace netloc memory_ball_0_data 1 5 1 1930
+preplace netloc control_bar_0_req 1 3 2 1330 760 1570
 preplace netloc VGA_SYNC_0_vga_b 1 7 1 NJ
-preplace netloc processing_system7_0_M_AXI_GP0 1 1 1 470
-preplace netloc rst_ps7_0_100M_peripheral_aresetn 1 1 2 480 770 900
+preplace netloc processing_system7_0_M_AXI_GP0 1 1 2 NJ 590 830
 preplace netloc buttons_gpio_io_o 1 3 1 1250
-preplace netloc control_bar_0_done_bar 1 3 2 1330 940 1620
-preplace netloc control_bar_0_color_t 1 4 1 1670
-preplace netloc processing_system7_0_FCLK_RESET0_N 1 1 1 460
-preplace netloc control_ball_0_done_ball 1 3 2 1260 280 1630
-preplace netloc control_ball_0_x_t 1 4 1 1710
-preplace netloc mem_control_unit_0_wr_bar 1 3 2 1290J 950 1610J
-preplace netloc control_ball_0_color_t 1 4 1 1680
+preplace netloc control_bar_0_done_bar 1 3 2 1330 940 1580
+preplace netloc control_bar_0_color_t 1 4 1 1630
+preplace netloc processing_system7_0_FCLK_RESET0_N 1 1 1 450
+preplace netloc control_ball_0_done_ball 1 3 2 1260 280 1590
+preplace netloc control_ball_0_x_t 1 4 1 1670
+preplace netloc mem_control_unit_0_wr_bar 1 3 2 1290J 950 1570J
+preplace netloc ps7_0_axi_periph_M03_AXI 1 2 2 860J 330 1210
+preplace netloc control_ball_0_color_t 1 4 1 1640
 preplace netloc VGA_SYNC_0_vga_r 1 7 1 NJ
-preplace netloc control_bar_0_x_t 1 3 2 1330 720 1660
-preplace netloc ps7_0_axi_periph_M01_AXI 1 2 1 920
-preplace netloc memory_ball_0_done 1 3 3 1280 250 N 250 1970
-preplace netloc memory_ball_0_adr_memo 1 5 1 1980
+preplace netloc control_bar_0_x_t 1 3 2 1330 720 1620
+preplace netloc ps7_0_axi_periph_M01_AXI 1 2 2 860 500 1190
+preplace netloc memory_ball_0_done 1 3 3 1280 230 NJ 230 1910
+preplace netloc memory_ball_0_adr_memo 1 5 1 1920
 preplace netloc memory_bar_0_we 1 5 1 N
 preplace netloc VGA_SYNC_0_vga_g 1 7 1 NJ
-preplace netloc add_generator_0_adr_memo 1 6 2 2310 690 2590
-preplace netloc processing_system7_0_FIXED_IO 1 1 7 440J 240 NJ 240 NJ 240 NJ 240 NJ 240 NJ 240 2610J
-preplace netloc mem_control_unit_0_wr_ball 1 3 2 1290J 260 1640J
-preplace netloc control_bar_0_start 1 4 1 1680
-preplace netloc memory_bar_0_done 1 3 3 1320 750 N 750 1970
-preplace netloc mux_control_0_out_we 1 6 1 2290
-preplace netloc mux_control_0_out_addr 1 6 1 2270
-preplace netloc memory_bar_0_adr_memo 1 5 1 1990
+preplace netloc add_generator_0_adr_memo 1 6 2 2240 690 2520
+preplace netloc processing_system7_0_FIXED_IO 1 1 7 450J 320 NJ 320 1210J 250 NJ 250 NJ 250 NJ 250 NJ
+preplace netloc mem_control_unit_0_wr_ball 1 3 2 1290J 260 1600J
+preplace netloc control_bar_0_start 1 4 1 1640
+preplace netloc memory_bar_0_done 1 3 3 1320 750 NJ 750 1910
+preplace netloc mux_control_0_out_we 1 6 1 2220
+preplace netloc mux_control_0_out_addr 1 6 1 2200
+preplace netloc memory_bar_0_adr_memo 1 5 1 1930
 preplace netloc VGA_SYNC_0_vga_hs 1 7 1 NJ
-preplace netloc VGA_SYNC_0_pixel_row 1 6 2 2300 900 2590
-preplace netloc processing_system7_0_FCLK_CLK0 1 0 3 -570 790 450 450 930
+preplace netloc VGA_SYNC_0_pixel_row 1 6 2 2230 900 2520
+preplace netloc processing_system7_0_FCLK_CLK0 1 0 3 20 760 440 670 840
 preplace netloc control_ball_0_start 1 4 1 N
-preplace netloc mem_control_unit_0_sel 1 4 2 1710 520 1970
-preplace netloc VGA_SYNC_0_pixel_column 1 6 2 2310 890 2600
-preplace netloc blk_mem_gen_0_doutb 1 6 1 2290
-preplace netloc ps7_0_axi_periph_M00_AXI 1 2 1 920
-preplace netloc processing_system7_0_FCLK_CLK1 1 1 6 430 780 N 780 1240 520 1690 740 N 740 2280
-preplace netloc rst_ps7_0_100M_interconnect_aresetn 1 1 2 480 420 890
-preplace netloc control_ball_0_req 1 3 2 1270 300 1610
-levelinfo -pg 1 -590 210 720 1080 1490 1850 2140 2450 2760 -top -340 -bot 1480
+preplace netloc mem_control_unit_0_sel 1 4 2 1670 520 1910J
+preplace netloc VGA_SYNC_0_pixel_column 1 6 2 2240 890 2530
+preplace netloc blk_mem_gen_0_doutb 1 6 1 2220
+preplace netloc ps7_0_axi_periph_M00_AXI 1 2 2 860 650 1180
+preplace netloc processing_system7_0_FCLK_CLK1 1 1 6 450J 640 NJ 640 1240 520 1650 740 NJ 740 2210
+preplace netloc rst_ps7_0_100M_interconnect_aresetn 1 2 1 820
+preplace netloc control_ball_0_req 1 3 2 1270 300 1570
+levelinfo -pg 1 0 230 650 1030 1450 1790 2070 2380 2560 -top -340 -bot 1480
 ",
 }
 {
-   da_axi4_cnt: "3",
+   da_axi4_cnt: "10",
+   da_board_cnt: "3",
    da_clkrst_cnt: "6",
    da_ps7_cnt: "1",
 }

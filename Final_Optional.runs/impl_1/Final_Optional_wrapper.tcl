@@ -51,28 +51,28 @@ set rc [catch {
   set_property board_part digilentinc.com:zybo:part0:1.0 [current_project]
   set_property design_mode GateLvl [current_fileset]
   set_param project.singleFileAddWarning.threshold 0
-  set_property webtalk.parent_dir C:/Users/ibai/ESDC/Final_Optional/Final_Optional.cache/wt [current_project]
-  set_property parent.project_path C:/Users/ibai/ESDC/Final_Optional/Final_Optional.xpr [current_project]
+  set_property webtalk.parent_dir C:/Users/ibai.ros/Final_Optional/Final_Optional.cache/wt [current_project]
+  set_property parent.project_path C:/Users/ibai.ros/Final_Optional/Final_Optional.xpr [current_project]
   set_property ip_repo_paths {
-  C:/Users/ibai/ESDC/Final_Optional/IPs/control_ball
-  C:/Users/ibai/ESDC/Final_Optional/IPs/memory_bar
-  C:/Users/ibai/ESDC/Final_Optional/IPs/mem_control_unit
-  C:/Users/ibai/ESDC/Final_Optional/IPs/mux_control
-  C:/Users/ibai/ESDC/Final_Optional/IPs/memory_ball
-  C:/Users/ibai/ESDC/Final_Optional/IPs/control_bar
-  C:/Users/ibai/ESDC/Final_Optional/IPs/add_generator
-  C:/Users/ibai/ESDC/Final_Optional/IPs/VGA_SYNC
+  C:/Users/ibai.ros/Final_Optional/IPs/control_ball
+  C:/Users/ibai.ros/Final_Optional/IPs/memory_bar
+  C:/Users/ibai.ros/Final_Optional/IPs/mem_control_unit
+  C:/Users/ibai.ros/Final_Optional/IPs/mux_control
+  C:/Users/ibai.ros/Final_Optional/IPs/memory_ball
+  C:/Users/ibai.ros/Final_Optional/IPs/control_bar
+  C:/Users/ibai.ros/Final_Optional/IPs/add_generator
+  C:/Users/ibai.ros/Final_Optional/IPs/VGA_SYNC
 } [current_project]
-  set_property ip_output_repo C:/Users/ibai/ESDC/Final_Optional/Final_Optional.cache/ip [current_project]
+  set_property ip_output_repo C:/Users/ibai.ros/Final_Optional/Final_Optional.cache/ip [current_project]
   set_property ip_cache_permissions {read write} [current_project]
   set_property XPM_LIBRARIES {XPM_CDC XPM_MEMORY} [current_project]
-  add_files -quiet C:/Users/ibai/ESDC/Final_Optional/Final_Optional.runs/synth_1/Final_Optional_wrapper.dcp
+  add_files -quiet C:/Users/ibai.ros/Final_Optional/Final_Optional.runs/synth_1/Final_Optional_wrapper.dcp
   set_msg_config -source 4 -id {BD 41-1661} -suppress
   set_param project.isImplRun true
-  add_files C:/Users/ibai/ESDC/Final_Optional/Final_Optional.srcs/sources_1/bd/Final_Optional/Final_Optional.bd
-  set_property is_locked true [get_files C:/Users/ibai/ESDC/Final_Optional/Final_Optional.srcs/sources_1/bd/Final_Optional/Final_Optional.bd]
+  add_files C:/Users/ibai.ros/Final_Optional/Final_Optional.srcs/sources_1/bd/Final_Optional/Final_Optional.bd
+  set_property is_locked true [get_files C:/Users/ibai.ros/Final_Optional/Final_Optional.srcs/sources_1/bd/Final_Optional/Final_Optional.bd]
   set_param project.isImplRun false
-  read_xdc C:/Users/ibai/ESDC/Final_Optional/zyboVGA_HW.xdc
+  read_xdc C:/Users/ibai.ros/Final_Optional/zyboVGA_HW.xdc
   set_param project.isImplRun true
   link_design -top Final_Optional_wrapper -part xc7z010clg400-1
   set_param project.isImplRun false

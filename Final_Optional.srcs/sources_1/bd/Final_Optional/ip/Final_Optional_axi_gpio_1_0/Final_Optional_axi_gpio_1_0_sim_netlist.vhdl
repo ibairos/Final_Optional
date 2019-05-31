@@ -1,11 +1,11 @@
 -- Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
 -- --------------------------------------------------------------------------------
 -- Tool Version: Vivado v.2017.2 (win64) Build 1909853 Thu Jun 15 18:39:09 MDT 2017
--- Date        : Fri May 31 12:58:01 2019
+-- Date        : Fri May 31 12:58:00 2019
 -- Host        : ibaipc running 64-bit major release  (build 9200)
--- Command     : write_vhdl -force -mode funcsim
---               c:/Users/ibai/ESDC/Final_Optional/Final_Optional.srcs/sources_1/bd/Final_Optional/ip/Final_Optional_axi_gpio_1_0/Final_Optional_axi_gpio_1_0_sim_netlist.vhdl
--- Design      : Final_Optional_axi_gpio_1_0
+-- Command     : write_vhdl -force -mode funcsim -rename_top Final_Optional_axi_gpio_1_0 -prefix
+--               Final_Optional_axi_gpio_1_0_ Final_Optional_axi_gpio_2_0_sim_netlist.vhdl
+-- Design      : Final_Optional_axi_gpio_2_0
 -- Purpose     : This VHDL netlist is a functional simulation representation of the design and should not be modified or
 --               synthesized. This netlist cannot be used for SDF annotated simulation.
 -- Device      : xc7z010clg400-1
@@ -32,8 +32,6 @@ entity Final_Optional_axi_gpio_1_0_GPIO_Core is
     \MEM_DECODE_GEN[0].cs_out_i_reg[0]\ : in STD_LOGIC_VECTOR ( 3 downto 0 );
     rst_reg : in STD_LOGIC_VECTOR ( 0 to 0 )
   );
-  attribute ORIG_REF_NAME : string;
-  attribute ORIG_REF_NAME of Final_Optional_axi_gpio_1_0_GPIO_Core : entity is "GPIO_Core";
 end Final_Optional_axi_gpio_1_0_GPIO_Core;
 
 architecture STRUCTURE of Final_Optional_axi_gpio_1_0_GPIO_Core is
@@ -241,8 +239,6 @@ entity Final_Optional_axi_gpio_1_0_address_decoder is
     gpio_xferAck_Reg : in STD_LOGIC;
     GPIO_xferAck_i : in STD_LOGIC
   );
-  attribute ORIG_REF_NAME : string;
-  attribute ORIG_REF_NAME of Final_Optional_axi_gpio_1_0_address_decoder : entity is "address_decoder";
 end Final_Optional_axi_gpio_1_0_address_decoder;
 
 architecture STRUCTURE of Final_Optional_axi_gpio_1_0_address_decoder is
@@ -416,8 +412,6 @@ entity Final_Optional_axi_gpio_1_0_slave_attachment is
     GPIO_xferAck_i : in STD_LOGIC;
     Q : in STD_LOGIC_VECTOR ( 3 downto 0 )
   );
-  attribute ORIG_REF_NAME : string;
-  attribute ORIG_REF_NAME of Final_Optional_axi_gpio_1_0_slave_attachment : entity is "slave_attachment";
 end Final_Optional_axi_gpio_1_0_slave_attachment;
 
 architecture STRUCTURE of Final_Optional_axi_gpio_1_0_slave_attachment is
@@ -947,8 +941,6 @@ entity Final_Optional_axi_gpio_1_0_axi_lite_ipif is
     GPIO_xferAck_i : in STD_LOGIC;
     Q : in STD_LOGIC_VECTOR ( 3 downto 0 )
   );
-  attribute ORIG_REF_NAME : string;
-  attribute ORIG_REF_NAME of Final_Optional_axi_gpio_1_0_axi_lite_ipif : entity is "axi_lite_ipif";
 end Final_Optional_axi_gpio_1_0_axi_lite_ipif;
 
 architecture STRUCTURE of Final_Optional_axi_gpio_1_0_axi_lite_ipif is
@@ -1047,8 +1039,6 @@ entity Final_Optional_axi_gpio_1_0_axi_gpio is
   attribute C_TRI_DEFAULT of Final_Optional_axi_gpio_1_0_axi_gpio : entity is -1;
   attribute C_TRI_DEFAULT_2 : integer;
   attribute C_TRI_DEFAULT_2 of Final_Optional_axi_gpio_1_0_axi_gpio : entity is -1;
-  attribute ORIG_REF_NAME : string;
-  attribute ORIG_REF_NAME of Final_Optional_axi_gpio_1_0_axi_gpio : entity is "axi_gpio";
   attribute downgradeipidentifiedwarnings : string;
   attribute downgradeipidentifiedwarnings of Final_Optional_axi_gpio_1_0_axi_gpio : entity is "yes";
   attribute ip_group : string;
@@ -1326,7 +1316,7 @@ entity Final_Optional_axi_gpio_1_0 is
   attribute NotValidForBitStream : boolean;
   attribute NotValidForBitStream of Final_Optional_axi_gpio_1_0 : entity is true;
   attribute CHECK_LICENSE_TYPE : string;
-  attribute CHECK_LICENSE_TYPE of Final_Optional_axi_gpio_1_0 : entity is "Final_Optional_axi_gpio_1_0,axi_gpio,{}";
+  attribute CHECK_LICENSE_TYPE of Final_Optional_axi_gpio_1_0 : entity is "Final_Optional_axi_gpio_2_0,axi_gpio,{}";
   attribute downgradeipidentifiedwarnings : string;
   attribute downgradeipidentifiedwarnings of Final_Optional_axi_gpio_1_0 : entity is "yes";
   attribute x_core_info : string;

@@ -3,8 +3,8 @@
 -- Tool Version: Vivado v.2017.2 (win64) Build 1909853 Thu Jun 15 18:39:09 MDT 2017
 -- Date        : Wed May 29 19:03:56 2019
 -- Host        : c4d1 running 64-bit major release  (build 9200)
--- Command     : write_vhdl -force -mode funcsim
---               c:/Users/ibai.ros/Final_Optional/Final_Optional.srcs/sources_1/bd/Final_Optional/ip/Final_Optional_blk_mem_gen_0_0/Final_Optional_blk_mem_gen_0_0_sim_netlist.vhdl
+-- Command     : write_vhdl -force -mode funcsim -rename_top Final_Optional_blk_mem_gen_0_0 -prefix
+--               Final_Optional_blk_mem_gen_0_0_ Final_Optional_blk_mem_gen_0_0_sim_netlist.vhdl
 -- Design      : Final_Optional_blk_mem_gen_0_0
 -- Purpose     : This VHDL netlist is a functional simulation representation of the design and should not be modified or
 --               synthesized. This netlist cannot be used for SDF annotated simulation.
@@ -92,8 +92,6 @@ entity Final_Optional_blk_mem_gen_0_0_blk_mem_gen_prim_wrapper is
     addrb : in STD_LOGIC_VECTOR ( 15 downto 0 );
     dina : in STD_LOGIC_VECTOR ( 0 to 0 )
   );
-  attribute ORIG_REF_NAME : string;
-  attribute ORIG_REF_NAME of Final_Optional_blk_mem_gen_0_0_blk_mem_gen_prim_wrapper : entity is "blk_mem_gen_prim_wrapper";
 end Final_Optional_blk_mem_gen_0_0_blk_mem_gen_prim_wrapper;
 
 architecture STRUCTURE of Final_Optional_blk_mem_gen_0_0_blk_mem_gen_prim_wrapper is
@@ -2915,8 +2913,6 @@ entity Final_Optional_blk_mem_gen_0_0_blk_mem_gen_prim_width is
     addrb : in STD_LOGIC_VECTOR ( 15 downto 0 );
     dina : in STD_LOGIC_VECTOR ( 0 to 0 )
   );
-  attribute ORIG_REF_NAME : string;
-  attribute ORIG_REF_NAME of Final_Optional_blk_mem_gen_0_0_blk_mem_gen_prim_width : entity is "blk_mem_gen_prim_width";
 end Final_Optional_blk_mem_gen_0_0_blk_mem_gen_prim_width;
 
 architecture STRUCTURE of Final_Optional_blk_mem_gen_0_0_blk_mem_gen_prim_width is
@@ -3094,8 +3090,6 @@ entity Final_Optional_blk_mem_gen_0_0_blk_mem_gen_generic_cstr is
     dina : in STD_LOGIC_VECTOR ( 2 downto 0 );
     wea : in STD_LOGIC_VECTOR ( 0 to 0 )
   );
-  attribute ORIG_REF_NAME : string;
-  attribute ORIG_REF_NAME of Final_Optional_blk_mem_gen_0_0_blk_mem_gen_generic_cstr : entity is "blk_mem_gen_generic_cstr";
 end Final_Optional_blk_mem_gen_0_0_blk_mem_gen_generic_cstr;
 
 architecture STRUCTURE of Final_Optional_blk_mem_gen_0_0_blk_mem_gen_generic_cstr is
@@ -3218,8 +3212,6 @@ entity Final_Optional_blk_mem_gen_0_0_blk_mem_gen_top is
     dina : in STD_LOGIC_VECTOR ( 2 downto 0 );
     wea : in STD_LOGIC_VECTOR ( 0 to 0 )
   );
-  attribute ORIG_REF_NAME : string;
-  attribute ORIG_REF_NAME of Final_Optional_blk_mem_gen_0_0_blk_mem_gen_top : entity is "blk_mem_gen_top";
 end Final_Optional_blk_mem_gen_0_0_blk_mem_gen_top;
 
 architecture STRUCTURE of Final_Optional_blk_mem_gen_0_0_blk_mem_gen_top is
@@ -3247,8 +3239,6 @@ entity Final_Optional_blk_mem_gen_0_0_blk_mem_gen_v8_3_6_synth is
     dina : in STD_LOGIC_VECTOR ( 2 downto 0 );
     wea : in STD_LOGIC_VECTOR ( 0 to 0 )
   );
-  attribute ORIG_REF_NAME : string;
-  attribute ORIG_REF_NAME of Final_Optional_blk_mem_gen_0_0_blk_mem_gen_v8_3_6_synth : entity is "blk_mem_gen_v8_3_6_synth";
 end Final_Optional_blk_mem_gen_0_0_blk_mem_gen_v8_3_6_synth;
 
 architecture STRUCTURE of Final_Optional_blk_mem_gen_0_0_blk_mem_gen_v8_3_6_synth is
@@ -3479,8 +3469,6 @@ entity Final_Optional_blk_mem_gen_0_0_blk_mem_gen_v8_3_6 is
   attribute C_WRITE_WIDTH_B of Final_Optional_blk_mem_gen_0_0_blk_mem_gen_v8_3_6 : entity is 3;
   attribute C_XDEVICEFAMILY : string;
   attribute C_XDEVICEFAMILY of Final_Optional_blk_mem_gen_0_0_blk_mem_gen_v8_3_6 : entity is "zynq";
-  attribute ORIG_REF_NAME : string;
-  attribute ORIG_REF_NAME of Final_Optional_blk_mem_gen_0_0_blk_mem_gen_v8_3_6 : entity is "blk_mem_gen_v8_3_6";
   attribute downgradeipidentifiedwarnings : string;
   attribute downgradeipidentifiedwarnings of Final_Optional_blk_mem_gen_0_0_blk_mem_gen_v8_3_6 : entity is "yes";
 end Final_Optional_blk_mem_gen_0_0_blk_mem_gen_v8_3_6;

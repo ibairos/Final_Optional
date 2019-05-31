@@ -22,10 +22,11 @@
 #include "platform_config.h"
 #include "xil_printf.h"
 #include "lwip/init.h"
+#include "xgpio.h"
 
 int main_thread();
 void print_headers();
-void print_echo_app_header();
+void check_gameover();
 
 #define THREAD_STACKSIZE 2048 // Empirically chosen
 
@@ -114,14 +115,15 @@ int main_thread()
     network_init(); // Call network initialization function
 
     print_headers();
-    
-    sys_thread_new("tx_data", tx_data, 0,
-        THREAD_STACKSIZE,
-        DEFAULT_THREAD_PRIO);
+
 
     sys_thread_new("rx_data", rx_data, 0,
                 THREAD_STACKSIZE,
                 DEFAULT_THREAD_PRIO);
+
+    sys_thread_new("game_over", check_gameover, 0,
+                    THREAD_STACKSIZE,
+                    DEFAULT_THREAD_PRIO);
 
     vTaskDelete(NULL);
 
@@ -133,8 +135,6 @@ void print_headers()
     xil_printf("\r\n");
     xil_printf("%20s %6s %s\r\n", "Server", "Port", "Connect With..");
     xil_printf("%20s %6s %s\r\n", "--------------------", "------", "--------------------");
-
-    print_echo_app_header();
 
 
     xil_printf("\r\n");
@@ -178,5 +178,26 @@ void vApplicationSetupHardware( void )
 
 }
 
+void check_gameover() {
+
+	XGpio leds, gameover;
+
+	XGpio_Initialize(&leds,  XPAR_LEDS_DEVICE_ID);
+	XGpio_Initialize(&gameover,  XPAR_GAME_OVER_DEVICE_ID);
+
+	XGpio_SetDataDirection(&leds, 1, 0x00000000);
+	XGpio_SetDataDirection(&gameover, 1, 0xffffffff);
+
+	int gameover_val = 0;
+
+	while (1) {
+		gameover_val = XGpio_DiscreteRead(&gameover, 1);
+		if (gameover_val == 1) {
+			XGpio_DiscreteWrite(&leds, 1, 15);
+			break;
+		}
+	}
+
+}
 
 

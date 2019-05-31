@@ -3,8 +3,8 @@
 // Tool Version: Vivado v.2017.2 (win64) Build 1909853 Thu Jun 15 18:39:09 MDT 2017
 // Date        : Fri May 31 12:58:00 2019
 // Host        : ibaipc running 64-bit major release  (build 9200)
-// Command     : write_verilog -force -mode funcsim
-//               c:/Users/ibai/ESDC/Final_Optional/Final_Optional.srcs/sources_1/bd/Final_Optional/ip/Final_Optional_axi_gpio_2_0/Final_Optional_axi_gpio_2_0_sim_netlist.v
+// Command     : write_verilog -force -mode funcsim -rename_top Final_Optional_axi_gpio_2_0 -prefix
+//               Final_Optional_axi_gpio_2_0_ Final_Optional_axi_gpio_2_0_sim_netlist.v
 // Design      : Final_Optional_axi_gpio_2_0
 // Purpose     : This verilog netlist is a functional simulation representation of the design and should not be modified
 //               or synthesized. This netlist cannot be used for SDF annotated simulation.
@@ -127,7 +127,6 @@ module Final_Optional_axi_gpio_2_0
         .s_axi_wvalid(s_axi_wvalid));
 endmodule
 
-(* ORIG_REF_NAME = "GPIO_Core" *) 
 module Final_Optional_axi_gpio_2_0_GPIO_Core
    (D,
     gpio_io_o,
@@ -300,7 +299,6 @@ module Final_Optional_axi_gpio_2_0_GPIO_Core
         .O(ip2bus_wrack_i_D1_reg));
 endmodule
 
-(* ORIG_REF_NAME = "address_decoder" *) 
 module Final_Optional_axi_gpio_2_0_address_decoder
    (\MEM_DECODE_GEN[0].cs_out_i_reg[0]_0 ,
     E,
@@ -470,7 +468,7 @@ endmodule
 (* C_FAMILY = "zynq" *) (* C_GPIO2_WIDTH = "32" *) (* C_GPIO_WIDTH = "4" *) 
 (* C_INTERRUPT_PRESENT = "0" *) (* C_IS_DUAL = "0" *) (* C_S_AXI_ADDR_WIDTH = "9" *) 
 (* C_S_AXI_DATA_WIDTH = "32" *) (* C_TRI_DEFAULT = "-1" *) (* C_TRI_DEFAULT_2 = "-1" *) 
-(* ORIG_REF_NAME = "axi_gpio" *) (* downgradeipidentifiedwarnings = "yes" *) (* ip_group = "LOGICORE" *) 
+(* downgradeipidentifiedwarnings = "yes" *) (* ip_group = "LOGICORE" *) 
 module Final_Optional_axi_gpio_2_0_axi_gpio
    (s_axi_aclk,
     s_axi_aresetn,
@@ -745,7 +743,6 @@ module Final_Optional_axi_gpio_2_0_axi_gpio
         .R(bus2ip_reset));
 endmodule
 
-(* ORIG_REF_NAME = "axi_lite_ipif" *) 
 module Final_Optional_axi_gpio_2_0_axi_lite_ipif
    (bus2ip_reset,
     bus2ip_rnw,
@@ -860,7 +857,6 @@ module Final_Optional_axi_gpio_2_0_axi_lite_ipif
         .s_axi_wvalid(s_axi_wvalid));
 endmodule
 
-(* ORIG_REF_NAME = "slave_attachment" *) 
 module Final_Optional_axi_gpio_2_0_slave_attachment
    (SR,
     \Not_Dual.gpio_Data_Out_reg[0] ,

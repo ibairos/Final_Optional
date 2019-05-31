@@ -10,74 +10,95 @@
 
 source Final_Optional_wrapper.tcl -notrace
 INFO: [IP_Flow 19-234] Refreshing IP repositories
-INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/ibai/ESDC/Final_Optional/IPs/control_ball'.
-INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/ibai/ESDC/Final_Optional/IPs/memory_bar'.
-INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/ibai/ESDC/Final_Optional/IPs/mem_control_unit'.
-INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/ibai/ESDC/Final_Optional/IPs/mux_control'.
-INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/ibai/ESDC/Final_Optional/IPs/memory_ball'.
-INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/ibai/ESDC/Final_Optional/IPs/control_bar'.
-INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/ibai/ESDC/Final_Optional/IPs/add_generator'.
-INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/ibai/ESDC/Final_Optional/IPs/VGA_SYNC'.
-INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/ProgramFiles/Xilinx/Vivado/2017.2/data/ip'.
-add_files: Time (s): cpu = 00:00:04 ; elapsed = 00:00:06 . Memory (MB): peak = 342.480 ; gain = 52.230
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/ibai.ros/Final_Optional/IPs/control_ball'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/ibai.ros/Final_Optional/IPs/memory_bar'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/ibai.ros/Final_Optional/IPs/mem_control_unit'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/ibai.ros/Final_Optional/IPs/mux_control'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/ibai.ros/Final_Optional/IPs/memory_ball'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/ibai.ros/Final_Optional/IPs/control_bar'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/ibai.ros/Final_Optional/IPs/add_generator'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/ibai.ros/Final_Optional/IPs/VGA_SYNC'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2017.2/data/ip'.
+WARNING: [IP_Flow 19-3664] IP 'Final_Optional_axi_gpio_2_0' generated file not found 'c:/Users/ibai.ros/Final_Optional/Final_Optional.srcs/sources_1/bd/Final_Optional/ip/Final_Optional_axi_gpio_2_0/stats.txt'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'Final_Optional_rst_ps7_0_100M_1' generated file not found 'c:/Users/ibai.ros/Final_Optional/Final_Optional.srcs/sources_1/bd/Final_Optional/ip/Final_Optional_rst_ps7_0_100M_1/stats.txt'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'Final_Optional_axi_gpio_0_2' generated file not found 'c:/Users/ibai.ros/Final_Optional/Final_Optional.srcs/sources_1/bd/Final_Optional/ip/Final_Optional_axi_gpio_0_2/stats.txt'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'Final_Optional_auto_pc_1' generated file not found 'c:/Users/ibai.ros/Final_Optional/Final_Optional.srcs/sources_1/bd/Final_Optional/ip/Final_Optional_auto_pc_1/stats.txt'. Please regenerate to continue.
 Command: synth_design -top Final_Optional_wrapper -part xc7z010clg400-1
 Starting synth_design
 Attempting to get a license for feature 'Synthesis' and/or device 'xc7z010-clg400'
 INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7z010-clg400'
 INFO: Launching helper process for spawning children vivado processes
-INFO: Helper process launched with PID 14572 
+INFO: Helper process launched with PID 8532 
 ---------------------------------------------------------------------------------
-Starting RTL Elaboration : Time (s): cpu = 00:00:03 ; elapsed = 00:00:04 . Memory (MB): peak = 422.691 ; gain = 68.645
+Starting RTL Elaboration : Time (s): cpu = 00:00:02 ; elapsed = 00:00:03 . Memory (MB): peak = 408.629 ; gain = 80.008
 ---------------------------------------------------------------------------------
-INFO: [Synth 8-638] synthesizing module 'Final_Optional_wrapper' [C:/Users/ibai/ESDC/Final_Optional/Final_Optional.srcs/sources_1/bd/Final_Optional/hdl/Final_Optional_wrapper.vhd:45]
-INFO: [Synth 8-3491] module 'Final_Optional' declared at 'C:/Users/ibai/ESDC/Final_Optional/Final_Optional.srcs/sources_1/bd/Final_Optional/hdl/Final_Optional.vhd:1322' bound to instance 'Final_Optional_i' of component 'Final_Optional' [C:/Users/ibai/ESDC/Final_Optional/Final_Optional.srcs/sources_1/bd/Final_Optional/hdl/Final_Optional_wrapper.vhd:77]
-INFO: [Synth 8-638] synthesizing module 'Final_Optional' [C:/Users/ibai/ESDC/Final_Optional/Final_Optional.srcs/sources_1/bd/Final_Optional/hdl/Final_Optional.vhd:1357]
-INFO: [Synth 8-3491] module 'Final_Optional_VGA_SYNC_0_0' declared at 'C:/Users/ibai/ESDC/Final_Optional/Final_Optional.runs/synth_1/.Xil/Vivado-13680-ibaipc/realtime/Final_Optional_VGA_SYNC_0_0_stub.vhdl:5' bound to instance 'VGA_SYNC_0' of component 'Final_Optional_VGA_SYNC_0_0' [C:/Users/ibai/ESDC/Final_Optional/Final_Optional.srcs/sources_1/bd/Final_Optional/hdl/Final_Optional.vhd:1808]
-INFO: [Synth 8-638] synthesizing module 'Final_Optional_VGA_SYNC_0_0' [C:/Users/ibai/ESDC/Final_Optional/Final_Optional.runs/synth_1/.Xil/Vivado-13680-ibaipc/realtime/Final_Optional_VGA_SYNC_0_0_stub.vhdl:20]
-INFO: [Synth 8-3491] module 'Final_Optional_add_generator_0_0' declared at 'C:/Users/ibai/ESDC/Final_Optional/Final_Optional.runs/synth_1/.Xil/Vivado-13680-ibaipc/realtime/Final_Optional_add_generator_0_0_stub.vhdl:5' bound to instance 'add_generator_0' of component 'Final_Optional_add_generator_0_0' [C:/Users/ibai/ESDC/Final_Optional/Final_Optional.srcs/sources_1/bd/Final_Optional/hdl/Final_Optional.vhd:1820]
-INFO: [Synth 8-638] synthesizing module 'Final_Optional_add_generator_0_0' [C:/Users/ibai/ESDC/Final_Optional/Final_Optional.runs/synth_1/.Xil/Vivado-13680-ibaipc/realtime/Final_Optional_add_generator_0_0_stub.vhdl:14]
-INFO: [Synth 8-3491] module 'Final_Optional_blk_mem_gen_0_0' declared at 'C:/Users/ibai/ESDC/Final_Optional/Final_Optional.runs/synth_1/.Xil/Vivado-13680-ibaipc/realtime/Final_Optional_blk_mem_gen_0_0_stub.vhdl:5' bound to instance 'blk_mem_gen_0' of component 'Final_Optional_blk_mem_gen_0_0' [C:/Users/ibai/ESDC/Final_Optional/Final_Optional.srcs/sources_1/bd/Final_Optional/hdl/Final_Optional.vhd:1826]
-INFO: [Synth 8-638] synthesizing module 'Final_Optional_blk_mem_gen_0_0' [C:/Users/ibai/ESDC/Final_Optional/Final_Optional.runs/synth_1/.Xil/Vivado-13680-ibaipc/realtime/Final_Optional_blk_mem_gen_0_0_stub.vhdl:18]
-INFO: [Synth 8-3491] module 'Final_Optional_axi_gpio_1_0' declared at 'C:/Users/ibai/ESDC/Final_Optional/Final_Optional.runs/synth_1/.Xil/Vivado-13680-ibaipc/realtime/Final_Optional_axi_gpio_1_0_stub.vhdl:5' bound to instance 'buttons' of component 'Final_Optional_axi_gpio_1_0' [C:/Users/ibai/ESDC/Final_Optional/Final_Optional.srcs/sources_1/bd/Final_Optional/hdl/Final_Optional.vhd:1836]
-INFO: [Synth 8-638] synthesizing module 'Final_Optional_axi_gpio_1_0' [C:/Users/ibai/ESDC/Final_Optional/Final_Optional.runs/synth_1/.Xil/Vivado-13680-ibaipc/realtime/Final_Optional_axi_gpio_1_0_stub.vhdl:31]
-INFO: [Synth 8-3491] module 'Final_Optional_control_ball_0_1' declared at 'C:/Users/ibai/ESDC/Final_Optional/Final_Optional.runs/synth_1/.Xil/Vivado-13680-ibaipc/realtime/Final_Optional_control_ball_0_1_stub.vhdl:5' bound to instance 'control_ball_0' of component 'Final_Optional_control_ball_0_1' [C:/Users/ibai/ESDC/Final_Optional/Final_Optional.srcs/sources_1/bd/Final_Optional/hdl/Final_Optional.vhd:1859]
-INFO: [Synth 8-638] synthesizing module 'Final_Optional_control_ball_0_1' [C:/Users/ibai/ESDC/Final_Optional/Final_Optional.runs/synth_1/.Xil/Vivado-13680-ibaipc/realtime/Final_Optional_control_ball_0_1_stub.vhdl:25]
-INFO: [Synth 8-3491] module 'Final_Optional_control_bar_0_0' declared at 'C:/Users/ibai/ESDC/Final_Optional/Final_Optional.runs/synth_1/.Xil/Vivado-13680-ibaipc/realtime/Final_Optional_control_bar_0_0_stub.vhdl:5' bound to instance 'control_bar_0' of component 'Final_Optional_control_bar_0_0' [C:/Users/ibai/ESDC/Final_Optional/Final_Optional.srcs/sources_1/bd/Final_Optional/hdl/Final_Optional.vhd:1876]
-INFO: [Synth 8-638] synthesizing module 'Final_Optional_control_bar_0_0' [C:/Users/ibai/ESDC/Final_Optional/Final_Optional.runs/synth_1/.Xil/Vivado-13680-ibaipc/realtime/Final_Optional_control_bar_0_0_stub.vhdl:22]
-INFO: [Synth 8-3491] module 'Final_Optional_axi_gpio_0_0' declared at 'C:/Users/ibai/ESDC/Final_Optional/Final_Optional.runs/synth_1/.Xil/Vivado-13680-ibaipc/realtime/Final_Optional_axi_gpio_0_0_stub.vhdl:5' bound to instance 'game_over' of component 'Final_Optional_axi_gpio_0_0' [C:/Users/ibai/ESDC/Final_Optional/Final_Optional.srcs/sources_1/bd/Final_Optional/hdl/Final_Optional.vhd:1890]
-INFO: [Synth 8-638] synthesizing module 'Final_Optional_axi_gpio_0_0' [C:/Users/ibai/ESDC/Final_Optional/Final_Optional.runs/synth_1/.Xil/Vivado-13680-ibaipc/realtime/Final_Optional_axi_gpio_0_0_stub.vhdl:31]
-INFO: [Synth 8-3491] module 'Final_Optional_mem_control_unit_0_2' declared at 'C:/Users/ibai/ESDC/Final_Optional/Final_Optional.runs/synth_1/.Xil/Vivado-13680-ibaipc/realtime/Final_Optional_mem_control_unit_0_2_stub.vhdl:5' bound to instance 'mem_control_unit_0' of component 'Final_Optional_mem_control_unit_0_2' [C:/Users/ibai/ESDC/Final_Optional/Final_Optional.srcs/sources_1/bd/Final_Optional/hdl/Final_Optional.vhd:1913]
-INFO: [Synth 8-638] synthesizing module 'Final_Optional_mem_control_unit_0_2' [C:/Users/ibai/ESDC/Final_Optional/Final_Optional.runs/synth_1/.Xil/Vivado-13680-ibaipc/realtime/Final_Optional_mem_control_unit_0_2_stub.vhdl:19]
-INFO: [Synth 8-3491] module 'Final_Optional_memory_ball_0_0' declared at 'C:/Users/ibai/ESDC/Final_Optional/Final_Optional.runs/synth_1/.Xil/Vivado-13680-ibaipc/realtime/Final_Optional_memory_ball_0_0_stub.vhdl:5' bound to instance 'memory_ball_0' of component 'Final_Optional_memory_ball_0_0' [C:/Users/ibai/ESDC/Final_Optional/Final_Optional.srcs/sources_1/bd/Final_Optional/hdl/Final_Optional.vhd:1924]
-INFO: [Synth 8-638] synthesizing module 'Final_Optional_memory_ball_0_0' [C:/Users/ibai/ESDC/Final_Optional/Final_Optional.runs/synth_1/.Xil/Vivado-13680-ibaipc/realtime/Final_Optional_memory_ball_0_0_stub.vhdl:20]
-INFO: [Synth 8-3491] module 'Final_Optional_memory_bar_0_0' declared at 'C:/Users/ibai/ESDC/Final_Optional/Final_Optional.runs/synth_1/.Xil/Vivado-13680-ibaipc/realtime/Final_Optional_memory_bar_0_0_stub.vhdl:5' bound to instance 'memory_bar_0' of component 'Final_Optional_memory_bar_0_0' [C:/Users/ibai/ESDC/Final_Optional/Final_Optional.srcs/sources_1/bd/Final_Optional/hdl/Final_Optional.vhd:1936]
-INFO: [Synth 8-638] synthesizing module 'Final_Optional_memory_bar_0_0' [C:/Users/ibai/ESDC/Final_Optional/Final_Optional.runs/synth_1/.Xil/Vivado-13680-ibaipc/realtime/Final_Optional_memory_bar_0_0_stub.vhdl:20]
-INFO: [Synth 8-3491] module 'Final_Optional_mux_control_0_2' declared at 'C:/Users/ibai/ESDC/Final_Optional/Final_Optional.runs/synth_1/.Xil/Vivado-13680-ibaipc/realtime/Final_Optional_mux_control_0_2_stub.vhdl:5' bound to instance 'mux_control_0' of component 'Final_Optional_mux_control_0_2' [C:/Users/ibai/ESDC/Final_Optional/Final_Optional.srcs/sources_1/bd/Final_Optional/hdl/Final_Optional.vhd:1948]
-INFO: [Synth 8-638] synthesizing module 'Final_Optional_mux_control_0_2' [C:/Users/ibai/ESDC/Final_Optional/Final_Optional.runs/synth_1/.Xil/Vivado-13680-ibaipc/realtime/Final_Optional_mux_control_0_2_stub.vhdl:21]
-INFO: [Synth 8-3491] module 'Final_Optional_processing_system7_0_0' declared at 'C:/Users/ibai/ESDC/Final_Optional/Final_Optional.runs/synth_1/.Xil/Vivado-13680-ibaipc/realtime/Final_Optional_processing_system7_0_0_stub.vhdl:5' bound to instance 'processing_system7_0' of component 'Final_Optional_processing_system7_0_0' [C:/Users/ibai/ESDC/Final_Optional/Final_Optional.srcs/sources_1/bd/Final_Optional/hdl/Final_Optional.vhd:1961]
-INFO: [Synth 8-638] synthesizing module 'Final_Optional_processing_system7_0_0' [C:/Users/ibai/ESDC/Final_Optional/Final_Optional.runs/synth_1/.Xil/Vivado-13680-ibaipc/realtime/Final_Optional_processing_system7_0_0_stub.vhdl:85]
-INFO: [Synth 8-638] synthesizing module 'Final_Optional_ps7_0_axi_periph_0' [C:/Users/ibai/ESDC/Final_Optional/Final_Optional.srcs/sources_1/bd/Final_Optional/hdl/Final_Optional.vhd:737]
-INFO: [Synth 8-638] synthesizing module 'm00_couplers_imp_1TG19OJ' [C:/Users/ibai/ESDC/Final_Optional/Final_Optional.srcs/sources_1/bd/Final_Optional/hdl/Final_Optional.vhd:57]
-INFO: [Synth 8-256] done synthesizing module 'm00_couplers_imp_1TG19OJ' (1#1) [C:/Users/ibai/ESDC/Final_Optional/Final_Optional.srcs/sources_1/bd/Final_Optional/hdl/Final_Optional.vhd:57]
-INFO: [Synth 8-638] synthesizing module 'm01_couplers_imp_TOMXD0' [C:/Users/ibai/ESDC/Final_Optional/Final_Optional.srcs/sources_1/bd/Final_Optional/hdl/Final_Optional.vhd:158]
-INFO: [Synth 8-256] done synthesizing module 'm01_couplers_imp_TOMXD0' (2#1) [C:/Users/ibai/ESDC/Final_Optional/Final_Optional.srcs/sources_1/bd/Final_Optional/hdl/Final_Optional.vhd:158]
-INFO: [Synth 8-638] synthesizing module 'm02_couplers_imp_E4DUFG' [C:/Users/ibai/ESDC/Final_Optional/Final_Optional.srcs/sources_1/bd/Final_Optional/hdl/Final_Optional.vhd:259]
-INFO: [Synth 8-256] done synthesizing module 'm02_couplers_imp_E4DUFG' (3#1) [C:/Users/ibai/ESDC/Final_Optional/Final_Optional.srcs/sources_1/bd/Final_Optional/hdl/Final_Optional.vhd:259]
-INFO: [Synth 8-638] synthesizing module 's00_couplers_imp_C2BKTY' [C:/Users/ibai/ESDC/Final_Optional/Final_Optional.srcs/sources_1/bd/Final_Optional/hdl/Final_Optional.vhd:383]
-INFO: [Synth 8-3491] module 'Final_Optional_auto_pc_0' declared at 'C:/Users/ibai/ESDC/Final_Optional/Final_Optional.runs/synth_1/.Xil/Vivado-13680-ibaipc/realtime/Final_Optional_auto_pc_0_stub.vhdl:5' bound to instance 'auto_pc' of component 'Final_Optional_auto_pc_0' [C:/Users/ibai/ESDC/Final_Optional/Final_Optional.srcs/sources_1/bd/Final_Optional/hdl/Final_Optional.vhd:566]
-INFO: [Synth 8-638] synthesizing module 'Final_Optional_auto_pc_0' [C:/Users/ibai/ESDC/Final_Optional/Final_Optional.runs/synth_1/.Xil/Vivado-13680-ibaipc/realtime/Final_Optional_auto_pc_0_stub.vhdl:70]
-INFO: [Synth 8-256] done synthesizing module 's00_couplers_imp_C2BKTY' (4#1) [C:/Users/ibai/ESDC/Final_Optional/Final_Optional.srcs/sources_1/bd/Final_Optional/hdl/Final_Optional.vhd:383]
-INFO: [Synth 8-3491] module 'Final_Optional_xbar_0' declared at 'C:/Users/ibai/ESDC/Final_Optional/Final_Optional.runs/synth_1/.Xil/Vivado-13680-ibaipc/realtime/Final_Optional_xbar_0_stub.vhdl:5' bound to instance 'xbar' of component 'Final_Optional_xbar_0' [C:/Users/ibai/ESDC/Final_Optional/Final_Optional.srcs/sources_1/bd/Final_Optional/hdl/Final_Optional.vhd:1240]
-INFO: [Synth 8-638] synthesizing module 'Final_Optional_xbar_0' [C:/Users/ibai/ESDC/Final_Optional/Final_Optional.runs/synth_1/.Xil/Vivado-13680-ibaipc/realtime/Final_Optional_xbar_0_stub.vhdl:51]
-INFO: [Synth 8-256] done synthesizing module 'Final_Optional_ps7_0_axi_periph_0' (5#1) [C:/Users/ibai/ESDC/Final_Optional/Final_Optional.srcs/sources_1/bd/Final_Optional/hdl/Final_Optional.vhd:737]
-INFO: [Synth 8-3491] module 'Final_Optional_rst_ps7_0_100M_0' declared at 'C:/Users/ibai/ESDC/Final_Optional/Final_Optional.runs/synth_1/.Xil/Vivado-13680-ibaipc/realtime/Final_Optional_rst_ps7_0_100M_0_stub.vhdl:5' bound to instance 'rst_ps7_0_100M' of component 'Final_Optional_rst_ps7_0_100M_0' [C:/Users/ibai/ESDC/Final_Optional/Final_Optional.srcs/sources_1/bd/Final_Optional/hdl/Final_Optional.vhd:2140]
-INFO: [Synth 8-638] synthesizing module 'Final_Optional_rst_ps7_0_100M_0' [C:/Users/ibai/ESDC/Final_Optional/Final_Optional.runs/synth_1/.Xil/Vivado-13680-ibaipc/realtime/Final_Optional_rst_ps7_0_100M_0_stub.vhdl:21]
-INFO: [Synth 8-3491] module 'Final_Optional_axi_gpio_2_0' declared at 'C:/Users/ibai/ESDC/Final_Optional/Final_Optional.runs/synth_1/.Xil/Vivado-13680-ibaipc/realtime/Final_Optional_axi_gpio_2_0_stub.vhdl:5' bound to instance 'switches' of component 'Final_Optional_axi_gpio_2_0' [C:/Users/ibai/ESDC/Final_Optional/Final_Optional.srcs/sources_1/bd/Final_Optional/hdl/Final_Optional.vhd:2153]
-INFO: [Synth 8-638] synthesizing module 'Final_Optional_axi_gpio_2_0' [C:/Users/ibai/ESDC/Final_Optional/Final_Optional.runs/synth_1/.Xil/Vivado-13680-ibaipc/realtime/Final_Optional_axi_gpio_2_0_stub.vhdl:31]
-INFO: [Synth 8-256] done synthesizing module 'Final_Optional' (6#1) [C:/Users/ibai/ESDC/Final_Optional/Final_Optional.srcs/sources_1/bd/Final_Optional/hdl/Final_Optional.vhd:1357]
-INFO: [Synth 8-256] done synthesizing module 'Final_Optional_wrapper' (7#1) [C:/Users/ibai/ESDC/Final_Optional/Final_Optional.srcs/sources_1/bd/Final_Optional/hdl/Final_Optional_wrapper.vhd:45]
+INFO: [Synth 8-638] synthesizing module 'Final_Optional_wrapper' [C:/Users/ibai.ros/Final_Optional/Final_Optional.srcs/sources_1/bd/Final_Optional/hdl/Final_Optional_wrapper.vhd:46]
+INFO: [Synth 8-3491] module 'Final_Optional' declared at 'C:/Users/ibai.ros/Final_Optional/Final_Optional.srcs/sources_1/bd/Final_Optional/hdl/Final_Optional.vhd:1555' bound to instance 'Final_Optional_i' of component 'Final_Optional' [C:/Users/ibai.ros/Final_Optional/Final_Optional.srcs/sources_1/bd/Final_Optional/hdl/Final_Optional_wrapper.vhd:105]
+INFO: [Synth 8-638] synthesizing module 'Final_Optional' [C:/Users/ibai.ros/Final_Optional/Final_Optional.srcs/sources_1/bd/Final_Optional/hdl/Final_Optional.vhd:1593]
+INFO: [Synth 8-3491] module 'Final_Optional_VGA_SYNC_0_0' declared at 'C:/Users/ibai.ros/Final_Optional/Final_Optional.runs/synth_1/.Xil/Vivado-1324-c4d8/realtime/Final_Optional_VGA_SYNC_0_0_stub.vhdl:5' bound to instance 'VGA_SYNC_0' of component 'Final_Optional_VGA_SYNC_0_0' [C:/Users/ibai.ros/Final_Optional/Final_Optional.srcs/sources_1/bd/Final_Optional/hdl/Final_Optional.vhd:2080]
+INFO: [Synth 8-638] synthesizing module 'Final_Optional_VGA_SYNC_0_0' [C:/Users/ibai.ros/Final_Optional/Final_Optional.runs/synth_1/.Xil/Vivado-1324-c4d8/realtime/Final_Optional_VGA_SYNC_0_0_stub.vhdl:20]
+INFO: [Synth 8-3491] module 'Final_Optional_add_generator_0_0' declared at 'C:/Users/ibai.ros/Final_Optional/Final_Optional.runs/synth_1/.Xil/Vivado-1324-c4d8/realtime/Final_Optional_add_generator_0_0_stub.vhdl:5' bound to instance 'add_generator_0' of component 'Final_Optional_add_generator_0_0' [C:/Users/ibai.ros/Final_Optional/Final_Optional.srcs/sources_1/bd/Final_Optional/hdl/Final_Optional.vhd:2092]
+INFO: [Synth 8-638] synthesizing module 'Final_Optional_add_generator_0_0' [C:/Users/ibai.ros/Final_Optional/Final_Optional.runs/synth_1/.Xil/Vivado-1324-c4d8/realtime/Final_Optional_add_generator_0_0_stub.vhdl:14]
+INFO: [Synth 8-3491] module 'Final_Optional_blk_mem_gen_0_0' declared at 'C:/Users/ibai.ros/Final_Optional/Final_Optional.runs/synth_1/.Xil/Vivado-1324-c4d8/realtime/Final_Optional_blk_mem_gen_0_0_stub.vhdl:5' bound to instance 'blk_mem_gen_0' of component 'Final_Optional_blk_mem_gen_0_0' [C:/Users/ibai.ros/Final_Optional/Final_Optional.srcs/sources_1/bd/Final_Optional/hdl/Final_Optional.vhd:2098]
+INFO: [Synth 8-638] synthesizing module 'Final_Optional_blk_mem_gen_0_0' [C:/Users/ibai.ros/Final_Optional/Final_Optional.runs/synth_1/.Xil/Vivado-1324-c4d8/realtime/Final_Optional_blk_mem_gen_0_0_stub.vhdl:18]
+INFO: [Synth 8-3491] module 'Final_Optional_axi_gpio_1_0' declared at 'C:/Users/ibai.ros/Final_Optional/Final_Optional.runs/synth_1/.Xil/Vivado-1324-c4d8/realtime/Final_Optional_axi_gpio_1_0_stub.vhdl:5' bound to instance 'buttons' of component 'Final_Optional_axi_gpio_1_0' [C:/Users/ibai.ros/Final_Optional/Final_Optional.srcs/sources_1/bd/Final_Optional/hdl/Final_Optional.vhd:2108]
+INFO: [Synth 8-638] synthesizing module 'Final_Optional_axi_gpio_1_0' [C:/Users/ibai.ros/Final_Optional/Final_Optional.runs/synth_1/.Xil/Vivado-1324-c4d8/realtime/Final_Optional_axi_gpio_1_0_stub.vhdl:31]
+INFO: [Synth 8-3491] module 'Final_Optional_control_ball_0_1' declared at 'C:/Users/ibai.ros/Final_Optional/Final_Optional.runs/synth_1/.Xil/Vivado-1324-c4d8/realtime/Final_Optional_control_ball_0_1_stub.vhdl:5' bound to instance 'control_ball_0' of component 'Final_Optional_control_ball_0_1' [C:/Users/ibai.ros/Final_Optional/Final_Optional.srcs/sources_1/bd/Final_Optional/hdl/Final_Optional.vhd:2131]
+INFO: [Synth 8-638] synthesizing module 'Final_Optional_control_ball_0_1' [C:/Users/ibai.ros/Final_Optional/Final_Optional.runs/synth_1/.Xil/Vivado-1324-c4d8/realtime/Final_Optional_control_ball_0_1_stub.vhdl:25]
+INFO: [Synth 8-3491] module 'Final_Optional_control_bar_0_0' declared at 'C:/Users/ibai.ros/Final_Optional/Final_Optional.runs/synth_1/.Xil/Vivado-1324-c4d8/realtime/Final_Optional_control_bar_0_0_stub.vhdl:5' bound to instance 'control_bar_0' of component 'Final_Optional_control_bar_0_0' [C:/Users/ibai.ros/Final_Optional/Final_Optional.srcs/sources_1/bd/Final_Optional/hdl/Final_Optional.vhd:2148]
+INFO: [Synth 8-638] synthesizing module 'Final_Optional_control_bar_0_0' [C:/Users/ibai.ros/Final_Optional/Final_Optional.runs/synth_1/.Xil/Vivado-1324-c4d8/realtime/Final_Optional_control_bar_0_0_stub.vhdl:22]
+INFO: [Synth 8-3491] module 'Final_Optional_axi_gpio_0_2' declared at 'C:/Users/ibai.ros/Final_Optional/Final_Optional.runs/synth_1/.Xil/Vivado-1324-c4d8/realtime/Final_Optional_axi_gpio_0_2_stub.vhdl:5' bound to instance 'game_over' of component 'Final_Optional_axi_gpio_0_2' [C:/Users/ibai.ros/Final_Optional/Final_Optional.srcs/sources_1/bd/Final_Optional/hdl/Final_Optional.vhd:2162]
+INFO: [Synth 8-638] synthesizing module 'Final_Optional_axi_gpio_0_2' [C:/Users/ibai.ros/Final_Optional/Final_Optional.runs/synth_1/.Xil/Vivado-1324-c4d8/realtime/Final_Optional_axi_gpio_0_2_stub.vhdl:31]
+INFO: [Synth 8-3491] module 'Final_Optional_axi_gpio_0_3' declared at 'C:/Users/ibai.ros/Final_Optional/Final_Optional.runs/synth_1/.Xil/Vivado-1324-c4d8/realtime/Final_Optional_axi_gpio_0_3_stub.vhdl:5' bound to instance 'leds' of component 'Final_Optional_axi_gpio_0_3' [C:/Users/ibai.ros/Final_Optional/Final_Optional.srcs/sources_1/bd/Final_Optional/hdl/Final_Optional.vhd:2185]
+INFO: [Synth 8-638] synthesizing module 'Final_Optional_axi_gpio_0_3' [C:/Users/ibai.ros/Final_Optional/Final_Optional.runs/synth_1/.Xil/Vivado-1324-c4d8/realtime/Final_Optional_axi_gpio_0_3_stub.vhdl:33]
+INFO: [Synth 8-3491] module 'Final_Optional_mem_control_unit_0_2' declared at 'C:/Users/ibai.ros/Final_Optional/Final_Optional.runs/synth_1/.Xil/Vivado-1324-c4d8/realtime/Final_Optional_mem_control_unit_0_2_stub.vhdl:5' bound to instance 'mem_control_unit_0' of component 'Final_Optional_mem_control_unit_0_2' [C:/Users/ibai.ros/Final_Optional/Final_Optional.srcs/sources_1/bd/Final_Optional/hdl/Final_Optional.vhd:2210]
+INFO: [Synth 8-638] synthesizing module 'Final_Optional_mem_control_unit_0_2' [C:/Users/ibai.ros/Final_Optional/Final_Optional.runs/synth_1/.Xil/Vivado-1324-c4d8/realtime/Final_Optional_mem_control_unit_0_2_stub.vhdl:19]
+INFO: [Synth 8-3491] module 'Final_Optional_memory_ball_0_0' declared at 'C:/Users/ibai.ros/Final_Optional/Final_Optional.runs/synth_1/.Xil/Vivado-1324-c4d8/realtime/Final_Optional_memory_ball_0_0_stub.vhdl:5' bound to instance 'memory_ball_0' of component 'Final_Optional_memory_ball_0_0' [C:/Users/ibai.ros/Final_Optional/Final_Optional.srcs/sources_1/bd/Final_Optional/hdl/Final_Optional.vhd:2221]
+INFO: [Synth 8-638] synthesizing module 'Final_Optional_memory_ball_0_0' [C:/Users/ibai.ros/Final_Optional/Final_Optional.runs/synth_1/.Xil/Vivado-1324-c4d8/realtime/Final_Optional_memory_ball_0_0_stub.vhdl:20]
+INFO: [Synth 8-3491] module 'Final_Optional_memory_bar_0_0' declared at 'C:/Users/ibai.ros/Final_Optional/Final_Optional.runs/synth_1/.Xil/Vivado-1324-c4d8/realtime/Final_Optional_memory_bar_0_0_stub.vhdl:5' bound to instance 'memory_bar_0' of component 'Final_Optional_memory_bar_0_0' [C:/Users/ibai.ros/Final_Optional/Final_Optional.srcs/sources_1/bd/Final_Optional/hdl/Final_Optional.vhd:2233]
+INFO: [Synth 8-638] synthesizing module 'Final_Optional_memory_bar_0_0' [C:/Users/ibai.ros/Final_Optional/Final_Optional.runs/synth_1/.Xil/Vivado-1324-c4d8/realtime/Final_Optional_memory_bar_0_0_stub.vhdl:20]
+INFO: [Synth 8-3491] module 'Final_Optional_mux_control_0_2' declared at 'C:/Users/ibai.ros/Final_Optional/Final_Optional.runs/synth_1/.Xil/Vivado-1324-c4d8/realtime/Final_Optional_mux_control_0_2_stub.vhdl:5' bound to instance 'mux_control_0' of component 'Final_Optional_mux_control_0_2' [C:/Users/ibai.ros/Final_Optional/Final_Optional.srcs/sources_1/bd/Final_Optional/hdl/Final_Optional.vhd:2245]
+INFO: [Synth 8-638] synthesizing module 'Final_Optional_mux_control_0_2' [C:/Users/ibai.ros/Final_Optional/Final_Optional.runs/synth_1/.Xil/Vivado-1324-c4d8/realtime/Final_Optional_mux_control_0_2_stub.vhdl:21]
+INFO: [Synth 8-3491] module 'Final_Optional_processing_system7_0_0' declared at 'C:/Users/ibai.ros/Final_Optional/Final_Optional.runs/synth_1/.Xil/Vivado-1324-c4d8/realtime/Final_Optional_processing_system7_0_0_stub.vhdl:5' bound to instance 'processing_system7_0' of component 'Final_Optional_processing_system7_0_0' [C:/Users/ibai.ros/Final_Optional/Final_Optional.srcs/sources_1/bd/Final_Optional/hdl/Final_Optional.vhd:2258]
+INFO: [Synth 8-638] synthesizing module 'Final_Optional_processing_system7_0_0' [C:/Users/ibai.ros/Final_Optional/Final_Optional.runs/synth_1/.Xil/Vivado-1324-c4d8/realtime/Final_Optional_processing_system7_0_0_stub.vhdl:77]
+INFO: [Synth 8-638] synthesizing module 'Final_Optional_ps7_0_axi_periph_1' [C:/Users/ibai.ros/Final_Optional/Final_Optional.srcs/sources_1/bd/Final_Optional/hdl/Final_Optional.vhd:857]
+INFO: [Synth 8-638] synthesizing module 'm00_couplers_imp_1TG19OJ' [C:/Users/ibai.ros/Final_Optional/Final_Optional.srcs/sources_1/bd/Final_Optional/hdl/Final_Optional.vhd:57]
+INFO: [Synth 8-256] done synthesizing module 'm00_couplers_imp_1TG19OJ' (1#1) [C:/Users/ibai.ros/Final_Optional/Final_Optional.srcs/sources_1/bd/Final_Optional/hdl/Final_Optional.vhd:57]
+INFO: [Synth 8-638] synthesizing module 'm01_couplers_imp_TOMXD0' [C:/Users/ibai.ros/Final_Optional/Final_Optional.srcs/sources_1/bd/Final_Optional/hdl/Final_Optional.vhd:158]
+INFO: [Synth 8-256] done synthesizing module 'm01_couplers_imp_TOMXD0' (2#1) [C:/Users/ibai.ros/Final_Optional/Final_Optional.srcs/sources_1/bd/Final_Optional/hdl/Final_Optional.vhd:158]
+INFO: [Synth 8-638] synthesizing module 'm02_couplers_imp_E4DUFG' [C:/Users/ibai.ros/Final_Optional/Final_Optional.srcs/sources_1/bd/Final_Optional/hdl/Final_Optional.vhd:259]
+INFO: [Synth 8-256] done synthesizing module 'm02_couplers_imp_E4DUFG' (3#1) [C:/Users/ibai.ros/Final_Optional/Final_Optional.srcs/sources_1/bd/Final_Optional/hdl/Final_Optional.vhd:259]
+INFO: [Synth 8-638] synthesizing module 'm03_couplers_imp_1DVHAI3' [C:/Users/ibai.ros/Final_Optional/Final_Optional.srcs/sources_1/bd/Final_Optional/hdl/Final_Optional.vhd:360]
+INFO: [Synth 8-256] done synthesizing module 'm03_couplers_imp_1DVHAI3' (4#1) [C:/Users/ibai.ros/Final_Optional/Final_Optional.srcs/sources_1/bd/Final_Optional/hdl/Final_Optional.vhd:360]
+INFO: [Synth 8-638] synthesizing module 's00_couplers_imp_C2BKTY' [C:/Users/ibai.ros/Final_Optional/Final_Optional.srcs/sources_1/bd/Final_Optional/hdl/Final_Optional.vhd:484]
+INFO: [Synth 8-3491] module 'Final_Optional_auto_pc_1' declared at 'C:/Users/ibai.ros/Final_Optional/Final_Optional.runs/synth_1/.Xil/Vivado-1324-c4d8/realtime/Final_Optional_auto_pc_1_stub.vhdl:5' bound to instance 'auto_pc' of component 'Final_Optional_auto_pc_1' [C:/Users/ibai.ros/Final_Optional/Final_Optional.srcs/sources_1/bd/Final_Optional/hdl/Final_Optional.vhd:667]
+INFO: [Synth 8-638] synthesizing module 'Final_Optional_auto_pc_1' [C:/Users/ibai.ros/Final_Optional/Final_Optional.runs/synth_1/.Xil/Vivado-1324-c4d8/realtime/Final_Optional_auto_pc_1_stub.vhdl:70]
+INFO: [Synth 8-256] done synthesizing module 's00_couplers_imp_C2BKTY' (5#1) [C:/Users/ibai.ros/Final_Optional/Final_Optional.srcs/sources_1/bd/Final_Optional/hdl/Final_Optional.vhd:484]
+INFO: [Synth 8-3491] module 'Final_Optional_xbar_1' declared at 'C:/Users/ibai.ros/Final_Optional/Final_Optional.runs/synth_1/.Xil/Vivado-1324-c4d8/realtime/Final_Optional_xbar_1_stub.vhdl:5' bound to instance 'xbar' of component 'Final_Optional_xbar_1' [C:/Users/ibai.ros/Final_Optional/Final_Optional.srcs/sources_1/bd/Final_Optional/hdl/Final_Optional.vhd:1456]
+INFO: [Synth 8-638] synthesizing module 'Final_Optional_xbar_1' [C:/Users/ibai.ros/Final_Optional/Final_Optional.runs/synth_1/.Xil/Vivado-1324-c4d8/realtime/Final_Optional_xbar_1_stub.vhdl:51]
+INFO: [Synth 8-256] done synthesizing module 'Final_Optional_ps7_0_axi_periph_1' (6#1) [C:/Users/ibai.ros/Final_Optional/Final_Optional.srcs/sources_1/bd/Final_Optional/hdl/Final_Optional.vhd:857]
+INFO: [Synth 8-3491] module 'Final_Optional_rst_ps7_0_100M_1' declared at 'C:/Users/ibai.ros/Final_Optional/Final_Optional.runs/synth_1/.Xil/Vivado-1324-c4d8/realtime/Final_Optional_rst_ps7_0_100M_1_stub.vhdl:5' bound to instance 'rst_ps7_0_100M' of component 'Final_Optional_rst_ps7_0_100M_1' [C:/Users/ibai.ros/Final_Optional/Final_Optional.srcs/sources_1/bd/Final_Optional/hdl/Final_Optional.vhd:2448]
+INFO: [Synth 8-638] synthesizing module 'Final_Optional_rst_ps7_0_100M_1' [C:/Users/ibai.ros/Final_Optional/Final_Optional.runs/synth_1/.Xil/Vivado-1324-c4d8/realtime/Final_Optional_rst_ps7_0_100M_1_stub.vhdl:21]
+INFO: [Synth 8-3491] module 'Final_Optional_axi_gpio_2_0' declared at 'C:/Users/ibai.ros/Final_Optional/Final_Optional.runs/synth_1/.Xil/Vivado-1324-c4d8/realtime/Final_Optional_axi_gpio_2_0_stub.vhdl:5' bound to instance 'switches' of component 'Final_Optional_axi_gpio_2_0' [C:/Users/ibai.ros/Final_Optional/Final_Optional.srcs/sources_1/bd/Final_Optional/hdl/Final_Optional.vhd:2461]
+INFO: [Synth 8-638] synthesizing module 'Final_Optional_axi_gpio_2_0' [C:/Users/ibai.ros/Final_Optional/Final_Optional.runs/synth_1/.Xil/Vivado-1324-c4d8/realtime/Final_Optional_axi_gpio_2_0_stub.vhdl:31]
+INFO: [Synth 8-256] done synthesizing module 'Final_Optional' (7#1) [C:/Users/ibai.ros/Final_Optional/Final_Optional.srcs/sources_1/bd/Final_Optional/hdl/Final_Optional.vhd:1593]
+INFO: [Synth 8-3491] module 'IOBUF' declared at 'C:/Xilinx/Vivado/2017.2/scripts/rt/data/unisim_comp.v:17657' bound to instance 'leds_4bits_tri_iobuf_0' of component 'IOBUF' [C:/Users/ibai.ros/Final_Optional/Final_Optional.srcs/sources_1/bd/Final_Optional/hdl/Final_Optional_wrapper.vhd:146]
+INFO: [Synth 8-638] synthesizing module 'IOBUF' [C:/Xilinx/Vivado/2017.2/scripts/rt/data/unisim_comp.v:17657]
+	Parameter DRIVE bound to: 12 - type: integer 
+	Parameter IBUF_LOW_PWR bound to: TRUE - type: string 
+	Parameter IOSTANDARD bound to: DEFAULT - type: string 
+	Parameter SLEW bound to: SLOW - type: string 
+INFO: [Synth 8-256] done synthesizing module 'IOBUF' (8#1) [C:/Xilinx/Vivado/2017.2/scripts/rt/data/unisim_comp.v:17657]
+INFO: [Synth 8-3491] module 'IOBUF' declared at 'C:/Xilinx/Vivado/2017.2/scripts/rt/data/unisim_comp.v:17657' bound to instance 'leds_4bits_tri_iobuf_1' of component 'IOBUF' [C:/Users/ibai.ros/Final_Optional/Final_Optional.srcs/sources_1/bd/Final_Optional/hdl/Final_Optional_wrapper.vhd:153]
+INFO: [Synth 8-3491] module 'IOBUF' declared at 'C:/Xilinx/Vivado/2017.2/scripts/rt/data/unisim_comp.v:17657' bound to instance 'leds_4bits_tri_iobuf_2' of component 'IOBUF' [C:/Users/ibai.ros/Final_Optional/Final_Optional.srcs/sources_1/bd/Final_Optional/hdl/Final_Optional_wrapper.vhd:160]
+INFO: [Synth 8-3491] module 'IOBUF' declared at 'C:/Xilinx/Vivado/2017.2/scripts/rt/data/unisim_comp.v:17657' bound to instance 'leds_4bits_tri_iobuf_3' of component 'IOBUF' [C:/Users/ibai.ros/Final_Optional/Final_Optional.srcs/sources_1/bd/Final_Optional/hdl/Final_Optional_wrapper.vhd:167]
+INFO: [Synth 8-256] done synthesizing module 'Final_Optional_wrapper' (9#1) [C:/Users/ibai.ros/Final_Optional/Final_Optional.srcs/sources_1/bd/Final_Optional/hdl/Final_Optional_wrapper.vhd:46]
 WARNING: [Synth 8-3331] design s00_couplers_imp_C2BKTY has unconnected port M_ACLK
 WARNING: [Synth 8-3331] design s00_couplers_imp_C2BKTY has unconnected port M_ARESETN
+WARNING: [Synth 8-3331] design m03_couplers_imp_1DVHAI3 has unconnected port M_ACLK
+WARNING: [Synth 8-3331] design m03_couplers_imp_1DVHAI3 has unconnected port M_ARESETN
+WARNING: [Synth 8-3331] design m03_couplers_imp_1DVHAI3 has unconnected port S_ACLK
+WARNING: [Synth 8-3331] design m03_couplers_imp_1DVHAI3 has unconnected port S_ARESETN
 WARNING: [Synth 8-3331] design m02_couplers_imp_E4DUFG has unconnected port M_ACLK
 WARNING: [Synth 8-3331] design m02_couplers_imp_E4DUFG has unconnected port M_ARESETN
 WARNING: [Synth 8-3331] design m02_couplers_imp_E4DUFG has unconnected port S_ACLK
@@ -91,7 +112,7 @@ WARNING: [Synth 8-3331] design m00_couplers_imp_1TG19OJ has unconnected port M_A
 WARNING: [Synth 8-3331] design m00_couplers_imp_1TG19OJ has unconnected port S_ACLK
 WARNING: [Synth 8-3331] design m00_couplers_imp_1TG19OJ has unconnected port S_ARESETN
 ---------------------------------------------------------------------------------
-Finished RTL Elaboration : Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 463.020 ; gain = 108.973
+Finished RTL Elaboration : Time (s): cpu = 00:00:03 ; elapsed = 00:00:03 . Memory (MB): peak = 459.801 ; gain = 131.180
 ---------------------------------------------------------------------------------
 
 Report Check Netlist: 
@@ -101,341 +122,346 @@ Report Check Netlist:
 |1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
 +------+------------------+-------+---------+-------+------------------+
 ---------------------------------------------------------------------------------
-Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 463.020 ; gain = 108.973
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:03 ; elapsed = 00:00:04 . Memory (MB): peak = 459.801 ; gain = 131.180
 ---------------------------------------------------------------------------------
+INFO: [Netlist 29-17] Analyzing 4 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
 INFO: [Device 21-403] Loading part xc7z010clg400-1
 INFO: [Project 1-570] Preparing netlist for logic optimization
 
 Processing XDC Constraints
 Initializing timing engine
-Parsing XDC File [C:/Users/ibai/ESDC/Final_Optional/Final_Optional.runs/synth_1/.Xil/Vivado-13680-ibaipc/dcp33/Final_Optional_VGA_SYNC_0_0_in_context.xdc] for cell 'Final_Optional_i/VGA_SYNC_0'
-Finished Parsing XDC File [C:/Users/ibai/ESDC/Final_Optional/Final_Optional.runs/synth_1/.Xil/Vivado-13680-ibaipc/dcp33/Final_Optional_VGA_SYNC_0_0_in_context.xdc] for cell 'Final_Optional_i/VGA_SYNC_0'
-Parsing XDC File [C:/Users/ibai/ESDC/Final_Optional/Final_Optional.runs/synth_1/.Xil/Vivado-13680-ibaipc/dcp35/Final_Optional_add_generator_0_0_in_context.xdc] for cell 'Final_Optional_i/add_generator_0'
-Finished Parsing XDC File [C:/Users/ibai/ESDC/Final_Optional/Final_Optional.runs/synth_1/.Xil/Vivado-13680-ibaipc/dcp35/Final_Optional_add_generator_0_0_in_context.xdc] for cell 'Final_Optional_i/add_generator_0'
-Parsing XDC File [C:/Users/ibai/ESDC/Final_Optional/Final_Optional.runs/synth_1/.Xil/Vivado-13680-ibaipc/dcp37/Final_Optional_control_bar_0_0_in_context.xdc] for cell 'Final_Optional_i/control_bar_0'
-Finished Parsing XDC File [C:/Users/ibai/ESDC/Final_Optional/Final_Optional.runs/synth_1/.Xil/Vivado-13680-ibaipc/dcp37/Final_Optional_control_bar_0_0_in_context.xdc] for cell 'Final_Optional_i/control_bar_0'
-Parsing XDC File [C:/Users/ibai/ESDC/Final_Optional/Final_Optional.runs/synth_1/.Xil/Vivado-13680-ibaipc/dcp39/Final_Optional_memory_ball_0_0_in_context.xdc] for cell 'Final_Optional_i/memory_ball_0'
-Finished Parsing XDC File [C:/Users/ibai/ESDC/Final_Optional/Final_Optional.runs/synth_1/.Xil/Vivado-13680-ibaipc/dcp39/Final_Optional_memory_ball_0_0_in_context.xdc] for cell 'Final_Optional_i/memory_ball_0'
-Parsing XDC File [C:/Users/ibai/ESDC/Final_Optional/Final_Optional.runs/synth_1/.Xil/Vivado-13680-ibaipc/dcp41/Final_Optional_memory_bar_0_0_in_context.xdc] for cell 'Final_Optional_i/memory_bar_0'
-Finished Parsing XDC File [C:/Users/ibai/ESDC/Final_Optional/Final_Optional.runs/synth_1/.Xil/Vivado-13680-ibaipc/dcp41/Final_Optional_memory_bar_0_0_in_context.xdc] for cell 'Final_Optional_i/memory_bar_0'
-Parsing XDC File [C:/Users/ibai/ESDC/Final_Optional/Final_Optional.runs/synth_1/.Xil/Vivado-13680-ibaipc/dcp43/Final_Optional_blk_mem_gen_0_0_in_context.xdc] for cell 'Final_Optional_i/blk_mem_gen_0'
-Finished Parsing XDC File [C:/Users/ibai/ESDC/Final_Optional/Final_Optional.runs/synth_1/.Xil/Vivado-13680-ibaipc/dcp43/Final_Optional_blk_mem_gen_0_0_in_context.xdc] for cell 'Final_Optional_i/blk_mem_gen_0'
-Parsing XDC File [C:/Users/ibai/ESDC/Final_Optional/Final_Optional.runs/synth_1/.Xil/Vivado-13680-ibaipc/dcp45/Final_Optional_mem_control_unit_0_2_in_context.xdc] for cell 'Final_Optional_i/mem_control_unit_0'
-Finished Parsing XDC File [C:/Users/ibai/ESDC/Final_Optional/Final_Optional.runs/synth_1/.Xil/Vivado-13680-ibaipc/dcp45/Final_Optional_mem_control_unit_0_2_in_context.xdc] for cell 'Final_Optional_i/mem_control_unit_0'
-Parsing XDC File [C:/Users/ibai/ESDC/Final_Optional/Final_Optional.runs/synth_1/.Xil/Vivado-13680-ibaipc/dcp47/Final_Optional_mux_control_0_2_in_context.xdc] for cell 'Final_Optional_i/mux_control_0'
-Finished Parsing XDC File [C:/Users/ibai/ESDC/Final_Optional/Final_Optional.runs/synth_1/.Xil/Vivado-13680-ibaipc/dcp47/Final_Optional_mux_control_0_2_in_context.xdc] for cell 'Final_Optional_i/mux_control_0'
-Parsing XDC File [C:/Users/ibai/ESDC/Final_Optional/Final_Optional.runs/synth_1/.Xil/Vivado-13680-ibaipc/dcp49/Final_Optional_control_ball_0_1_in_context.xdc] for cell 'Final_Optional_i/control_ball_0'
-Finished Parsing XDC File [C:/Users/ibai/ESDC/Final_Optional/Final_Optional.runs/synth_1/.Xil/Vivado-13680-ibaipc/dcp49/Final_Optional_control_ball_0_1_in_context.xdc] for cell 'Final_Optional_i/control_ball_0'
-Parsing XDC File [C:/Users/ibai/ESDC/Final_Optional/Final_Optional.runs/synth_1/.Xil/Vivado-13680-ibaipc/dcp51/Final_Optional_processing_system7_0_0_in_context.xdc] for cell 'Final_Optional_i/processing_system7_0'
-Finished Parsing XDC File [C:/Users/ibai/ESDC/Final_Optional/Final_Optional.runs/synth_1/.Xil/Vivado-13680-ibaipc/dcp51/Final_Optional_processing_system7_0_0_in_context.xdc] for cell 'Final_Optional_i/processing_system7_0'
-Parsing XDC File [C:/Users/ibai/ESDC/Final_Optional/Final_Optional.runs/synth_1/.Xil/Vivado-13680-ibaipc/dcp53/Final_Optional_axi_gpio_0_0_in_context.xdc] for cell 'Final_Optional_i/game_over'
-Finished Parsing XDC File [C:/Users/ibai/ESDC/Final_Optional/Final_Optional.runs/synth_1/.Xil/Vivado-13680-ibaipc/dcp53/Final_Optional_axi_gpio_0_0_in_context.xdc] for cell 'Final_Optional_i/game_over'
-Parsing XDC File [C:/Users/ibai/ESDC/Final_Optional/Final_Optional.runs/synth_1/.Xil/Vivado-13680-ibaipc/dcp55/Final_Optional_axi_gpio_1_0_in_context.xdc] for cell 'Final_Optional_i/buttons'
-Finished Parsing XDC File [C:/Users/ibai/ESDC/Final_Optional/Final_Optional.runs/synth_1/.Xil/Vivado-13680-ibaipc/dcp55/Final_Optional_axi_gpio_1_0_in_context.xdc] for cell 'Final_Optional_i/buttons'
-Parsing XDC File [C:/Users/ibai/ESDC/Final_Optional/Final_Optional.runs/synth_1/.Xil/Vivado-13680-ibaipc/dcp57/Final_Optional_axi_gpio_2_0_in_context.xdc] for cell 'Final_Optional_i/switches'
-Finished Parsing XDC File [C:/Users/ibai/ESDC/Final_Optional/Final_Optional.runs/synth_1/.Xil/Vivado-13680-ibaipc/dcp57/Final_Optional_axi_gpio_2_0_in_context.xdc] for cell 'Final_Optional_i/switches'
-Parsing XDC File [C:/Users/ibai/ESDC/Final_Optional/Final_Optional.runs/synth_1/.Xil/Vivado-13680-ibaipc/dcp59/Final_Optional_rst_ps7_0_100M_0_in_context.xdc] for cell 'Final_Optional_i/rst_ps7_0_100M'
-Finished Parsing XDC File [C:/Users/ibai/ESDC/Final_Optional/Final_Optional.runs/synth_1/.Xil/Vivado-13680-ibaipc/dcp59/Final_Optional_rst_ps7_0_100M_0_in_context.xdc] for cell 'Final_Optional_i/rst_ps7_0_100M'
-Parsing XDC File [C:/Users/ibai/ESDC/Final_Optional/Final_Optional.runs/synth_1/.Xil/Vivado-13680-ibaipc/dcp61/Final_Optional_xbar_0_in_context.xdc] for cell 'Final_Optional_i/ps7_0_axi_periph/xbar'
-Finished Parsing XDC File [C:/Users/ibai/ESDC/Final_Optional/Final_Optional.runs/synth_1/.Xil/Vivado-13680-ibaipc/dcp61/Final_Optional_xbar_0_in_context.xdc] for cell 'Final_Optional_i/ps7_0_axi_periph/xbar'
-Parsing XDC File [C:/Users/ibai/ESDC/Final_Optional/Final_Optional.runs/synth_1/.Xil/Vivado-13680-ibaipc/dcp63/Final_Optional_auto_pc_0_in_context.xdc] for cell 'Final_Optional_i/ps7_0_axi_periph/s00_couplers/auto_pc'
-Finished Parsing XDC File [C:/Users/ibai/ESDC/Final_Optional/Final_Optional.runs/synth_1/.Xil/Vivado-13680-ibaipc/dcp63/Final_Optional_auto_pc_0_in_context.xdc] for cell 'Final_Optional_i/ps7_0_axi_periph/s00_couplers/auto_pc'
-Parsing XDC File [C:/Users/ibai/ESDC/Final_Optional/zyboVGA_HW.xdc]
-WARNING: [Vivado 12-584] No ports matched 'clk'. [C:/Users/ibai/ESDC/Final_Optional/zyboVGA_HW.xdc:9]
-WARNING: [Vivado 12-584] No ports matched 'clk'. [C:/Users/ibai/ESDC/Final_Optional/zyboVGA_HW.xdc:10]
-WARNING: [Vivado 12-584] No ports matched 'sw[0]'. [C:/Users/ibai/ESDC/Final_Optional/zyboVGA_HW.xdc:34]
-WARNING: [Vivado 12-584] No ports matched 'sw[1]'. [C:/Users/ibai/ESDC/Final_Optional/zyboVGA_HW.xdc:35]
-WARNING: [Vivado 12-584] No ports matched 'sw[2]'. [C:/Users/ibai/ESDC/Final_Optional/zyboVGA_HW.xdc:36]
-WARNING: [Vivado 12-584] No ports matched 'sw[3]'. [C:/Users/ibai/ESDC/Final_Optional/zyboVGA_HW.xdc:37]
-WARNING: [Vivado 12-584] No ports matched 'btn[0]'. [C:/Users/ibai/ESDC/Final_Optional/zyboVGA_HW.xdc:41]
-WARNING: [Vivado 12-584] No ports matched 'btn[1]'. [C:/Users/ibai/ESDC/Final_Optional/zyboVGA_HW.xdc:42]
-WARNING: [Vivado 12-584] No ports matched 'btn[2]'. [C:/Users/ibai/ESDC/Final_Optional/zyboVGA_HW.xdc:43]
-WARNING: [Vivado 12-584] No ports matched 'btn[3]'. [C:/Users/ibai/ESDC/Final_Optional/zyboVGA_HW.xdc:44]
-Finished Parsing XDC File [C:/Users/ibai/ESDC/Final_Optional/zyboVGA_HW.xdc]
-WARNING: [Project 1-498] One or more constraints failed evaluation while reading constraint file [C:/Users/ibai/ESDC/Final_Optional/zyboVGA_HW.xdc] and the design contains unresolved black boxes. These constraints will be read post-synthesis (as long as their source constraint file is marked as used_in_implementation) and should be applied correctly then. You should review the constraints listed in the file [.Xil/Final_Optional_wrapper_propImpl.xdc] and check the run log file to verify that these constraints were correctly applied.
-INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [C:/Users/ibai/ESDC/Final_Optional/zyboVGA_HW.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/Final_Optional_wrapper_propImpl.xdc].
+Parsing XDC File [C:/Users/ibai.ros/Final_Optional/Final_Optional.runs/synth_1/.Xil/Vivado-1324-c4d8/dcp35/Final_Optional_VGA_SYNC_0_0_in_context.xdc] for cell 'Final_Optional_i/VGA_SYNC_0'
+Finished Parsing XDC File [C:/Users/ibai.ros/Final_Optional/Final_Optional.runs/synth_1/.Xil/Vivado-1324-c4d8/dcp35/Final_Optional_VGA_SYNC_0_0_in_context.xdc] for cell 'Final_Optional_i/VGA_SYNC_0'
+Parsing XDC File [C:/Users/ibai.ros/Final_Optional/Final_Optional.runs/synth_1/.Xil/Vivado-1324-c4d8/dcp37/Final_Optional_add_generator_0_0_in_context.xdc] for cell 'Final_Optional_i/add_generator_0'
+Finished Parsing XDC File [C:/Users/ibai.ros/Final_Optional/Final_Optional.runs/synth_1/.Xil/Vivado-1324-c4d8/dcp37/Final_Optional_add_generator_0_0_in_context.xdc] for cell 'Final_Optional_i/add_generator_0'
+Parsing XDC File [C:/Users/ibai.ros/Final_Optional/Final_Optional.runs/synth_1/.Xil/Vivado-1324-c4d8/dcp39/Final_Optional_control_bar_0_0_in_context.xdc] for cell 'Final_Optional_i/control_bar_0'
+Finished Parsing XDC File [C:/Users/ibai.ros/Final_Optional/Final_Optional.runs/synth_1/.Xil/Vivado-1324-c4d8/dcp39/Final_Optional_control_bar_0_0_in_context.xdc] for cell 'Final_Optional_i/control_bar_0'
+Parsing XDC File [C:/Users/ibai.ros/Final_Optional/Final_Optional.runs/synth_1/.Xil/Vivado-1324-c4d8/dcp41/Final_Optional_memory_ball_0_0_in_context.xdc] for cell 'Final_Optional_i/memory_ball_0'
+Finished Parsing XDC File [C:/Users/ibai.ros/Final_Optional/Final_Optional.runs/synth_1/.Xil/Vivado-1324-c4d8/dcp41/Final_Optional_memory_ball_0_0_in_context.xdc] for cell 'Final_Optional_i/memory_ball_0'
+Parsing XDC File [C:/Users/ibai.ros/Final_Optional/Final_Optional.runs/synth_1/.Xil/Vivado-1324-c4d8/dcp43/Final_Optional_memory_bar_0_0_in_context.xdc] for cell 'Final_Optional_i/memory_bar_0'
+Finished Parsing XDC File [C:/Users/ibai.ros/Final_Optional/Final_Optional.runs/synth_1/.Xil/Vivado-1324-c4d8/dcp43/Final_Optional_memory_bar_0_0_in_context.xdc] for cell 'Final_Optional_i/memory_bar_0'
+Parsing XDC File [C:/Users/ibai.ros/Final_Optional/Final_Optional.runs/synth_1/.Xil/Vivado-1324-c4d8/dcp45/Final_Optional_blk_mem_gen_0_0_in_context.xdc] for cell 'Final_Optional_i/blk_mem_gen_0'
+Finished Parsing XDC File [C:/Users/ibai.ros/Final_Optional/Final_Optional.runs/synth_1/.Xil/Vivado-1324-c4d8/dcp45/Final_Optional_blk_mem_gen_0_0_in_context.xdc] for cell 'Final_Optional_i/blk_mem_gen_0'
+Parsing XDC File [C:/Users/ibai.ros/Final_Optional/Final_Optional.runs/synth_1/.Xil/Vivado-1324-c4d8/dcp47/Final_Optional_mem_control_unit_0_2_in_context.xdc] for cell 'Final_Optional_i/mem_control_unit_0'
+Finished Parsing XDC File [C:/Users/ibai.ros/Final_Optional/Final_Optional.runs/synth_1/.Xil/Vivado-1324-c4d8/dcp47/Final_Optional_mem_control_unit_0_2_in_context.xdc] for cell 'Final_Optional_i/mem_control_unit_0'
+Parsing XDC File [C:/Users/ibai.ros/Final_Optional/Final_Optional.runs/synth_1/.Xil/Vivado-1324-c4d8/dcp49/Final_Optional_mux_control_0_2_in_context.xdc] for cell 'Final_Optional_i/mux_control_0'
+Finished Parsing XDC File [C:/Users/ibai.ros/Final_Optional/Final_Optional.runs/synth_1/.Xil/Vivado-1324-c4d8/dcp49/Final_Optional_mux_control_0_2_in_context.xdc] for cell 'Final_Optional_i/mux_control_0'
+Parsing XDC File [C:/Users/ibai.ros/Final_Optional/Final_Optional.runs/synth_1/.Xil/Vivado-1324-c4d8/dcp51/Final_Optional_control_ball_0_1_in_context.xdc] for cell 'Final_Optional_i/control_ball_0'
+Finished Parsing XDC File [C:/Users/ibai.ros/Final_Optional/Final_Optional.runs/synth_1/.Xil/Vivado-1324-c4d8/dcp51/Final_Optional_control_ball_0_1_in_context.xdc] for cell 'Final_Optional_i/control_ball_0'
+Parsing XDC File [C:/Users/ibai.ros/Final_Optional/Final_Optional.runs/synth_1/.Xil/Vivado-1324-c4d8/dcp53/Final_Optional_processing_system7_0_0_in_context.xdc] for cell 'Final_Optional_i/processing_system7_0'
+Finished Parsing XDC File [C:/Users/ibai.ros/Final_Optional/Final_Optional.runs/synth_1/.Xil/Vivado-1324-c4d8/dcp53/Final_Optional_processing_system7_0_0_in_context.xdc] for cell 'Final_Optional_i/processing_system7_0'
+Parsing XDC File [C:/Users/ibai.ros/Final_Optional/Final_Optional.runs/synth_1/.Xil/Vivado-1324-c4d8/dcp55/Final_Optional_axi_gpio_2_0_in_context.xdc] for cell 'Final_Optional_i/buttons'
+Finished Parsing XDC File [C:/Users/ibai.ros/Final_Optional/Final_Optional.runs/synth_1/.Xil/Vivado-1324-c4d8/dcp55/Final_Optional_axi_gpio_2_0_in_context.xdc] for cell 'Final_Optional_i/buttons'
+Parsing XDC File [C:/Users/ibai.ros/Final_Optional/Final_Optional.runs/synth_1/.Xil/Vivado-1324-c4d8/dcp57/Final_Optional_axi_gpio_2_0_in_context.xdc] for cell 'Final_Optional_i/switches'
+Finished Parsing XDC File [C:/Users/ibai.ros/Final_Optional/Final_Optional.runs/synth_1/.Xil/Vivado-1324-c4d8/dcp57/Final_Optional_axi_gpio_2_0_in_context.xdc] for cell 'Final_Optional_i/switches'
+Parsing XDC File [C:/Users/ibai.ros/Final_Optional/Final_Optional.runs/synth_1/.Xil/Vivado-1324-c4d8/dcp59/Final_Optional_rst_ps7_0_100M_0_in_context.xdc] for cell 'Final_Optional_i/rst_ps7_0_100M'
+Finished Parsing XDC File [C:/Users/ibai.ros/Final_Optional/Final_Optional.runs/synth_1/.Xil/Vivado-1324-c4d8/dcp59/Final_Optional_rst_ps7_0_100M_0_in_context.xdc] for cell 'Final_Optional_i/rst_ps7_0_100M'
+Parsing XDC File [C:/Users/ibai.ros/Final_Optional/Final_Optional.runs/synth_1/.Xil/Vivado-1324-c4d8/dcp61/Final_Optional_xbar_1_in_context.xdc] for cell 'Final_Optional_i/ps7_0_axi_periph/xbar'
+Finished Parsing XDC File [C:/Users/ibai.ros/Final_Optional/Final_Optional.runs/synth_1/.Xil/Vivado-1324-c4d8/dcp61/Final_Optional_xbar_1_in_context.xdc] for cell 'Final_Optional_i/ps7_0_axi_periph/xbar'
+Parsing XDC File [C:/Users/ibai.ros/Final_Optional/Final_Optional.runs/synth_1/.Xil/Vivado-1324-c4d8/dcp63/Final_Optional_axi_gpio_0_0_in_context.xdc] for cell 'Final_Optional_i/game_over'
+Finished Parsing XDC File [C:/Users/ibai.ros/Final_Optional/Final_Optional.runs/synth_1/.Xil/Vivado-1324-c4d8/dcp63/Final_Optional_axi_gpio_0_0_in_context.xdc] for cell 'Final_Optional_i/game_over'
+Parsing XDC File [C:/Users/ibai.ros/Final_Optional/Final_Optional.runs/synth_1/.Xil/Vivado-1324-c4d8/dcp65/Final_Optional_axi_gpio_0_1_in_context.xdc] for cell 'Final_Optional_i/leds'
+Finished Parsing XDC File [C:/Users/ibai.ros/Final_Optional/Final_Optional.runs/synth_1/.Xil/Vivado-1324-c4d8/dcp65/Final_Optional_axi_gpio_0_1_in_context.xdc] for cell 'Final_Optional_i/leds'
+Parsing XDC File [C:/Users/ibai.ros/Final_Optional/Final_Optional.runs/synth_1/.Xil/Vivado-1324-c4d8/dcp67/Final_Optional_auto_pc_0_in_context.xdc] for cell 'Final_Optional_i/ps7_0_axi_periph/s00_couplers/auto_pc'
+Finished Parsing XDC File [C:/Users/ibai.ros/Final_Optional/Final_Optional.runs/synth_1/.Xil/Vivado-1324-c4d8/dcp67/Final_Optional_auto_pc_0_in_context.xdc] for cell 'Final_Optional_i/ps7_0_axi_periph/s00_couplers/auto_pc'
+Parsing XDC File [C:/Users/ibai.ros/Final_Optional/zyboVGA_HW.xdc]
+WARNING: [Vivado 12-584] No ports matched 'clk'. [C:/Users/ibai.ros/Final_Optional/zyboVGA_HW.xdc:9]
+WARNING: [Vivado 12-584] No ports matched 'clk'. [C:/Users/ibai.ros/Final_Optional/zyboVGA_HW.xdc:10]
+WARNING: [Vivado 12-584] No ports matched 'sw[0]'. [C:/Users/ibai.ros/Final_Optional/zyboVGA_HW.xdc:34]
+WARNING: [Vivado 12-584] No ports matched 'sw[1]'. [C:/Users/ibai.ros/Final_Optional/zyboVGA_HW.xdc:35]
+WARNING: [Vivado 12-584] No ports matched 'sw[2]'. [C:/Users/ibai.ros/Final_Optional/zyboVGA_HW.xdc:36]
+WARNING: [Vivado 12-584] No ports matched 'sw[3]'. [C:/Users/ibai.ros/Final_Optional/zyboVGA_HW.xdc:37]
+WARNING: [Vivado 12-584] No ports matched 'btn[0]'. [C:/Users/ibai.ros/Final_Optional/zyboVGA_HW.xdc:41]
+WARNING: [Vivado 12-584] No ports matched 'btn[1]'. [C:/Users/ibai.ros/Final_Optional/zyboVGA_HW.xdc:42]
+WARNING: [Vivado 12-584] No ports matched 'btn[2]'. [C:/Users/ibai.ros/Final_Optional/zyboVGA_HW.xdc:43]
+WARNING: [Vivado 12-584] No ports matched 'btn[3]'. [C:/Users/ibai.ros/Final_Optional/zyboVGA_HW.xdc:44]
+Finished Parsing XDC File [C:/Users/ibai.ros/Final_Optional/zyboVGA_HW.xdc]
+WARNING: [Project 1-498] One or more constraints failed evaluation while reading constraint file [C:/Users/ibai.ros/Final_Optional/zyboVGA_HW.xdc] and the design contains unresolved black boxes. These constraints will be read post-synthesis (as long as their source constraint file is marked as used_in_implementation) and should be applied correctly then. You should review the constraints listed in the file [.Xil/Final_Optional_wrapper_propImpl.xdc] and check the run log file to verify that these constraints were correctly applied.
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [C:/Users/ibai.ros/Final_Optional/zyboVGA_HW.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/Final_Optional_wrapper_propImpl.xdc].
 Resolution: To avoid this warning, move constraints listed in [.Xil/Final_Optional_wrapper_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
-Parsing XDC File [C:/Users/ibai/ESDC/Final_Optional/Final_Optional.runs/synth_1/dont_touch.xdc]
-Finished Parsing XDC File [C:/Users/ibai/ESDC/Final_Optional/Final_Optional.runs/synth_1/dont_touch.xdc]
+Parsing XDC File [C:/Users/ibai.ros/Final_Optional/Final_Optional.runs/synth_1/dont_touch.xdc]
+Finished Parsing XDC File [C:/Users/ibai.ros/Final_Optional/Final_Optional.runs/synth_1/dont_touch.xdc]
 Completed Processing XDC Constraints
 
 INFO: [Project 1-111] Unisim Transformation Summary:
-No Unisim elements were transformed.
+  A total of 4 instances were transformed.
+  IOBUF => IOBUF (IBUF, OBUFT): 4 instances
 
-Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.010 . Memory (MB): peak = 727.402 ; gain = 0.000
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.010 . Memory (MB): peak = 754.910 ; gain = 0.000
 ---------------------------------------------------------------------------------
-Finished Constraint Validation : Time (s): cpu = 00:00:14 ; elapsed = 00:00:19 . Memory (MB): peak = 727.402 ; gain = 373.355
+Finished Constraint Validation : Time (s): cpu = 00:00:11 ; elapsed = 00:00:13 . Memory (MB): peak = 754.910 ; gain = 426.289
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Loading Part and Timing Information
 ---------------------------------------------------------------------------------
 Loading part: xc7z010clg400-1
 ---------------------------------------------------------------------------------
-Finished Loading Part and Timing Information : Time (s): cpu = 00:00:14 ; elapsed = 00:00:19 . Memory (MB): peak = 727.402 ; gain = 373.355
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:11 ; elapsed = 00:00:13 . Memory (MB): peak = 754.910 ; gain = 426.289
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Applying 'set_property' XDC Constraints
 ---------------------------------------------------------------------------------
-Applied set_property IO_BUFFER_TYPE = NONE for DDR_addr[0]. (constraint file  C:/Users/ibai/ESDC/Final_Optional/Final_Optional.runs/synth_1/.Xil/Vivado-13680-ibaipc/dcp51/Final_Optional_processing_system7_0_0_in_context.xdc, line 3).
-Applied set_property CLOCK_BUFFER_TYPE = NONE for DDR_addr[0]. (constraint file  C:/Users/ibai/ESDC/Final_Optional/Final_Optional.runs/synth_1/.Xil/Vivado-13680-ibaipc/dcp51/Final_Optional_processing_system7_0_0_in_context.xdc, line 4).
-Applied set_property IO_BUFFER_TYPE = NONE for DDR_addr[10]. (constraint file  C:/Users/ibai/ESDC/Final_Optional/Final_Optional.runs/synth_1/.Xil/Vivado-13680-ibaipc/dcp51/Final_Optional_processing_system7_0_0_in_context.xdc, line 5).
-Applied set_property CLOCK_BUFFER_TYPE = NONE for DDR_addr[10]. (constraint file  C:/Users/ibai/ESDC/Final_Optional/Final_Optional.runs/synth_1/.Xil/Vivado-13680-ibaipc/dcp51/Final_Optional_processing_system7_0_0_in_context.xdc, line 6).
-Applied set_property IO_BUFFER_TYPE = NONE for DDR_addr[11]. (constraint file  C:/Users/ibai/ESDC/Final_Optional/Final_Optional.runs/synth_1/.Xil/Vivado-13680-ibaipc/dcp51/Final_Optional_processing_system7_0_0_in_context.xdc, line 7).
-Applied set_property CLOCK_BUFFER_TYPE = NONE for DDR_addr[11]. (constraint file  C:/Users/ibai/ESDC/Final_Optional/Final_Optional.runs/synth_1/.Xil/Vivado-13680-ibaipc/dcp51/Final_Optional_processing_system7_0_0_in_context.xdc, line 8).
-Applied set_property IO_BUFFER_TYPE = NONE for DDR_addr[12]. (constraint file  C:/Users/ibai/ESDC/Final_Optional/Final_Optional.runs/synth_1/.Xil/Vivado-13680-ibaipc/dcp51/Final_Optional_processing_system7_0_0_in_context.xdc, line 9).
-Applied set_property CLOCK_BUFFER_TYPE = NONE for DDR_addr[12]. (constraint file  C:/Users/ibai/ESDC/Final_Optional/Final_Optional.runs/synth_1/.Xil/Vivado-13680-ibaipc/dcp51/Final_Optional_processing_system7_0_0_in_context.xdc, line 10).
-Applied set_property IO_BUFFER_TYPE = NONE for DDR_addr[13]. (constraint file  C:/Users/ibai/ESDC/Final_Optional/Final_Optional.runs/synth_1/.Xil/Vivado-13680-ibaipc/dcp51/Final_Optional_processing_system7_0_0_in_context.xdc, line 11).
-Applied set_property CLOCK_BUFFER_TYPE = NONE for DDR_addr[13]. (constraint file  C:/Users/ibai/ESDC/Final_Optional/Final_Optional.runs/synth_1/.Xil/Vivado-13680-ibaipc/dcp51/Final_Optional_processing_system7_0_0_in_context.xdc, line 12).
-Applied set_property IO_BUFFER_TYPE = NONE for DDR_addr[14]. (constraint file  C:/Users/ibai/ESDC/Final_Optional/Final_Optional.runs/synth_1/.Xil/Vivado-13680-ibaipc/dcp51/Final_Optional_processing_system7_0_0_in_context.xdc, line 13).
-Applied set_property CLOCK_BUFFER_TYPE = NONE for DDR_addr[14]. (constraint file  C:/Users/ibai/ESDC/Final_Optional/Final_Optional.runs/synth_1/.Xil/Vivado-13680-ibaipc/dcp51/Final_Optional_processing_system7_0_0_in_context.xdc, line 14).
-Applied set_property IO_BUFFER_TYPE = NONE for DDR_addr[1]. (constraint file  C:/Users/ibai/ESDC/Final_Optional/Final_Optional.runs/synth_1/.Xil/Vivado-13680-ibaipc/dcp51/Final_Optional_processing_system7_0_0_in_context.xdc, line 15).
-Applied set_property CLOCK_BUFFER_TYPE = NONE for DDR_addr[1]. (constraint file  C:/Users/ibai/ESDC/Final_Optional/Final_Optional.runs/synth_1/.Xil/Vivado-13680-ibaipc/dcp51/Final_Optional_processing_system7_0_0_in_context.xdc, line 16).
-Applied set_property IO_BUFFER_TYPE = NONE for DDR_addr[2]. (constraint file  C:/Users/ibai/ESDC/Final_Optional/Final_Optional.runs/synth_1/.Xil/Vivado-13680-ibaipc/dcp51/Final_Optional_processing_system7_0_0_in_context.xdc, line 17).
-Applied set_property CLOCK_BUFFER_TYPE = NONE for DDR_addr[2]. (constraint file  C:/Users/ibai/ESDC/Final_Optional/Final_Optional.runs/synth_1/.Xil/Vivado-13680-ibaipc/dcp51/Final_Optional_processing_system7_0_0_in_context.xdc, line 18).
-Applied set_property IO_BUFFER_TYPE = NONE for DDR_addr[3]. (constraint file  C:/Users/ibai/ESDC/Final_Optional/Final_Optional.runs/synth_1/.Xil/Vivado-13680-ibaipc/dcp51/Final_Optional_processing_system7_0_0_in_context.xdc, line 19).
-Applied set_property CLOCK_BUFFER_TYPE = NONE for DDR_addr[3]. (constraint file  C:/Users/ibai/ESDC/Final_Optional/Final_Optional.runs/synth_1/.Xil/Vivado-13680-ibaipc/dcp51/Final_Optional_processing_system7_0_0_in_context.xdc, line 20).
-Applied set_property IO_BUFFER_TYPE = NONE for DDR_addr[4]. (constraint file  C:/Users/ibai/ESDC/Final_Optional/Final_Optional.runs/synth_1/.Xil/Vivado-13680-ibaipc/dcp51/Final_Optional_processing_system7_0_0_in_context.xdc, line 21).
-Applied set_property CLOCK_BUFFER_TYPE = NONE for DDR_addr[4]. (constraint file  C:/Users/ibai/ESDC/Final_Optional/Final_Optional.runs/synth_1/.Xil/Vivado-13680-ibaipc/dcp51/Final_Optional_processing_system7_0_0_in_context.xdc, line 22).
-Applied set_property IO_BUFFER_TYPE = NONE for DDR_addr[5]. (constraint file  C:/Users/ibai/ESDC/Final_Optional/Final_Optional.runs/synth_1/.Xil/Vivado-13680-ibaipc/dcp51/Final_Optional_processing_system7_0_0_in_context.xdc, line 23).
-Applied set_property CLOCK_BUFFER_TYPE = NONE for DDR_addr[5]. (constraint file  C:/Users/ibai/ESDC/Final_Optional/Final_Optional.runs/synth_1/.Xil/Vivado-13680-ibaipc/dcp51/Final_Optional_processing_system7_0_0_in_context.xdc, line 24).
-Applied set_property IO_BUFFER_TYPE = NONE for DDR_addr[6]. (constraint file  C:/Users/ibai/ESDC/Final_Optional/Final_Optional.runs/synth_1/.Xil/Vivado-13680-ibaipc/dcp51/Final_Optional_processing_system7_0_0_in_context.xdc, line 25).
-Applied set_property CLOCK_BUFFER_TYPE = NONE for DDR_addr[6]. (constraint file  C:/Users/ibai/ESDC/Final_Optional/Final_Optional.runs/synth_1/.Xil/Vivado-13680-ibaipc/dcp51/Final_Optional_processing_system7_0_0_in_context.xdc, line 26).
-Applied set_property IO_BUFFER_TYPE = NONE for DDR_addr[7]. (constraint file  C:/Users/ibai/ESDC/Final_Optional/Final_Optional.runs/synth_1/.Xil/Vivado-13680-ibaipc/dcp51/Final_Optional_processing_system7_0_0_in_context.xdc, line 27).
-Applied set_property CLOCK_BUFFER_TYPE = NONE for DDR_addr[7]. (constraint file  C:/Users/ibai/ESDC/Final_Optional/Final_Optional.runs/synth_1/.Xil/Vivado-13680-ibaipc/dcp51/Final_Optional_processing_system7_0_0_in_context.xdc, line 28).
-Applied set_property IO_BUFFER_TYPE = NONE for DDR_addr[8]. (constraint file  C:/Users/ibai/ESDC/Final_Optional/Final_Optional.runs/synth_1/.Xil/Vivado-13680-ibaipc/dcp51/Final_Optional_processing_system7_0_0_in_context.xdc, line 29).
-Applied set_property CLOCK_BUFFER_TYPE = NONE for DDR_addr[8]. (constraint file  C:/Users/ibai/ESDC/Final_Optional/Final_Optional.runs/synth_1/.Xil/Vivado-13680-ibaipc/dcp51/Final_Optional_processing_system7_0_0_in_context.xdc, line 30).
-Applied set_property IO_BUFFER_TYPE = NONE for DDR_addr[9]. (constraint file  C:/Users/ibai/ESDC/Final_Optional/Final_Optional.runs/synth_1/.Xil/Vivado-13680-ibaipc/dcp51/Final_Optional_processing_system7_0_0_in_context.xdc, line 31).
-Applied set_property CLOCK_BUFFER_TYPE = NONE for DDR_addr[9]. (constraint file  C:/Users/ibai/ESDC/Final_Optional/Final_Optional.runs/synth_1/.Xil/Vivado-13680-ibaipc/dcp51/Final_Optional_processing_system7_0_0_in_context.xdc, line 32).
-Applied set_property IO_BUFFER_TYPE = NONE for DDR_ba[0]. (constraint file  C:/Users/ibai/ESDC/Final_Optional/Final_Optional.runs/synth_1/.Xil/Vivado-13680-ibaipc/dcp51/Final_Optional_processing_system7_0_0_in_context.xdc, line 33).
-Applied set_property CLOCK_BUFFER_TYPE = NONE for DDR_ba[0]. (constraint file  C:/Users/ibai/ESDC/Final_Optional/Final_Optional.runs/synth_1/.Xil/Vivado-13680-ibaipc/dcp51/Final_Optional_processing_system7_0_0_in_context.xdc, line 34).
-Applied set_property IO_BUFFER_TYPE = NONE for DDR_ba[1]. (constraint file  C:/Users/ibai/ESDC/Final_Optional/Final_Optional.runs/synth_1/.Xil/Vivado-13680-ibaipc/dcp51/Final_Optional_processing_system7_0_0_in_context.xdc, line 35).
-Applied set_property CLOCK_BUFFER_TYPE = NONE for DDR_ba[1]. (constraint file  C:/Users/ibai/ESDC/Final_Optional/Final_Optional.runs/synth_1/.Xil/Vivado-13680-ibaipc/dcp51/Final_Optional_processing_system7_0_0_in_context.xdc, line 36).
-Applied set_property IO_BUFFER_TYPE = NONE for DDR_ba[2]. (constraint file  C:/Users/ibai/ESDC/Final_Optional/Final_Optional.runs/synth_1/.Xil/Vivado-13680-ibaipc/dcp51/Final_Optional_processing_system7_0_0_in_context.xdc, line 37).
-Applied set_property CLOCK_BUFFER_TYPE = NONE for DDR_ba[2]. (constraint file  C:/Users/ibai/ESDC/Final_Optional/Final_Optional.runs/synth_1/.Xil/Vivado-13680-ibaipc/dcp51/Final_Optional_processing_system7_0_0_in_context.xdc, line 38).
-Applied set_property IO_BUFFER_TYPE = NONE for DDR_cas_n. (constraint file  C:/Users/ibai/ESDC/Final_Optional/Final_Optional.runs/synth_1/.Xil/Vivado-13680-ibaipc/dcp51/Final_Optional_processing_system7_0_0_in_context.xdc, line 39).
-Applied set_property CLOCK_BUFFER_TYPE = NONE for DDR_cas_n. (constraint file  C:/Users/ibai/ESDC/Final_Optional/Final_Optional.runs/synth_1/.Xil/Vivado-13680-ibaipc/dcp51/Final_Optional_processing_system7_0_0_in_context.xdc, line 40).
-Applied set_property IO_BUFFER_TYPE = NONE for DDR_cke. (constraint file  C:/Users/ibai/ESDC/Final_Optional/Final_Optional.runs/synth_1/.Xil/Vivado-13680-ibaipc/dcp51/Final_Optional_processing_system7_0_0_in_context.xdc, line 41).
-Applied set_property CLOCK_BUFFER_TYPE = NONE for DDR_cke. (constraint file  C:/Users/ibai/ESDC/Final_Optional/Final_Optional.runs/synth_1/.Xil/Vivado-13680-ibaipc/dcp51/Final_Optional_processing_system7_0_0_in_context.xdc, line 42).
-Applied set_property IO_BUFFER_TYPE = NONE for DDR_cs_n. (constraint file  C:/Users/ibai/ESDC/Final_Optional/Final_Optional.runs/synth_1/.Xil/Vivado-13680-ibaipc/dcp51/Final_Optional_processing_system7_0_0_in_context.xdc, line 43).
-Applied set_property CLOCK_BUFFER_TYPE = NONE for DDR_cs_n. (constraint file  C:/Users/ibai/ESDC/Final_Optional/Final_Optional.runs/synth_1/.Xil/Vivado-13680-ibaipc/dcp51/Final_Optional_processing_system7_0_0_in_context.xdc, line 44).
-Applied set_property IO_BUFFER_TYPE = NONE for DDR_ck_p. (constraint file  C:/Users/ibai/ESDC/Final_Optional/Final_Optional.runs/synth_1/.Xil/Vivado-13680-ibaipc/dcp51/Final_Optional_processing_system7_0_0_in_context.xdc, line 45).
-Applied set_property CLOCK_BUFFER_TYPE = NONE for DDR_ck_p. (constraint file  C:/Users/ibai/ESDC/Final_Optional/Final_Optional.runs/synth_1/.Xil/Vivado-13680-ibaipc/dcp51/Final_Optional_processing_system7_0_0_in_context.xdc, line 46).
-Applied set_property IO_BUFFER_TYPE = NONE for DDR_ck_n. (constraint file  C:/Users/ibai/ESDC/Final_Optional/Final_Optional.runs/synth_1/.Xil/Vivado-13680-ibaipc/dcp51/Final_Optional_processing_system7_0_0_in_context.xdc, line 47).
-Applied set_property CLOCK_BUFFER_TYPE = NONE for DDR_ck_n. (constraint file  C:/Users/ibai/ESDC/Final_Optional/Final_Optional.runs/synth_1/.Xil/Vivado-13680-ibaipc/dcp51/Final_Optional_processing_system7_0_0_in_context.xdc, line 48).
-Applied set_property IO_BUFFER_TYPE = NONE for DDR_dm[0]. (constraint file  C:/Users/ibai/ESDC/Final_Optional/Final_Optional.runs/synth_1/.Xil/Vivado-13680-ibaipc/dcp51/Final_Optional_processing_system7_0_0_in_context.xdc, line 49).
-Applied set_property CLOCK_BUFFER_TYPE = NONE for DDR_dm[0]. (constraint file  C:/Users/ibai/ESDC/Final_Optional/Final_Optional.runs/synth_1/.Xil/Vivado-13680-ibaipc/dcp51/Final_Optional_processing_system7_0_0_in_context.xdc, line 50).
-Applied set_property IO_BUFFER_TYPE = NONE for DDR_dm[1]. (constraint file  C:/Users/ibai/ESDC/Final_Optional/Final_Optional.runs/synth_1/.Xil/Vivado-13680-ibaipc/dcp51/Final_Optional_processing_system7_0_0_in_context.xdc, line 51).
-Applied set_property CLOCK_BUFFER_TYPE = NONE for DDR_dm[1]. (constraint file  C:/Users/ibai/ESDC/Final_Optional/Final_Optional.runs/synth_1/.Xil/Vivado-13680-ibaipc/dcp51/Final_Optional_processing_system7_0_0_in_context.xdc, line 52).
-Applied set_property IO_BUFFER_TYPE = NONE for DDR_dm[2]. (constraint file  C:/Users/ibai/ESDC/Final_Optional/Final_Optional.runs/synth_1/.Xil/Vivado-13680-ibaipc/dcp51/Final_Optional_processing_system7_0_0_in_context.xdc, line 53).
-Applied set_property CLOCK_BUFFER_TYPE = NONE for DDR_dm[2]. (constraint file  C:/Users/ibai/ESDC/Final_Optional/Final_Optional.runs/synth_1/.Xil/Vivado-13680-ibaipc/dcp51/Final_Optional_processing_system7_0_0_in_context.xdc, line 54).
-Applied set_property IO_BUFFER_TYPE = NONE for DDR_dm[3]. (constraint file  C:/Users/ibai/ESDC/Final_Optional/Final_Optional.runs/synth_1/.Xil/Vivado-13680-ibaipc/dcp51/Final_Optional_processing_system7_0_0_in_context.xdc, line 55).
-Applied set_property CLOCK_BUFFER_TYPE = NONE for DDR_dm[3]. (constraint file  C:/Users/ibai/ESDC/Final_Optional/Final_Optional.runs/synth_1/.Xil/Vivado-13680-ibaipc/dcp51/Final_Optional_processing_system7_0_0_in_context.xdc, line 56).
-Applied set_property IO_BUFFER_TYPE = NONE for DDR_dqs_p[0]. (constraint file  C:/Users/ibai/ESDC/Final_Optional/Final_Optional.runs/synth_1/.Xil/Vivado-13680-ibaipc/dcp51/Final_Optional_processing_system7_0_0_in_context.xdc, line 57).
-Applied set_property CLOCK_BUFFER_TYPE = NONE for DDR_dqs_p[0]. (constraint file  C:/Users/ibai/ESDC/Final_Optional/Final_Optional.runs/synth_1/.Xil/Vivado-13680-ibaipc/dcp51/Final_Optional_processing_system7_0_0_in_context.xdc, line 58).
-Applied set_property IO_BUFFER_TYPE = NONE for DDR_dqs_p[1]. (constraint file  C:/Users/ibai/ESDC/Final_Optional/Final_Optional.runs/synth_1/.Xil/Vivado-13680-ibaipc/dcp51/Final_Optional_processing_system7_0_0_in_context.xdc, line 59).
-Applied set_property CLOCK_BUFFER_TYPE = NONE for DDR_dqs_p[1]. (constraint file  C:/Users/ibai/ESDC/Final_Optional/Final_Optional.runs/synth_1/.Xil/Vivado-13680-ibaipc/dcp51/Final_Optional_processing_system7_0_0_in_context.xdc, line 60).
-Applied set_property IO_BUFFER_TYPE = NONE for DDR_dqs_p[2]. (constraint file  C:/Users/ibai/ESDC/Final_Optional/Final_Optional.runs/synth_1/.Xil/Vivado-13680-ibaipc/dcp51/Final_Optional_processing_system7_0_0_in_context.xdc, line 61).
-Applied set_property CLOCK_BUFFER_TYPE = NONE for DDR_dqs_p[2]. (constraint file  C:/Users/ibai/ESDC/Final_Optional/Final_Optional.runs/synth_1/.Xil/Vivado-13680-ibaipc/dcp51/Final_Optional_processing_system7_0_0_in_context.xdc, line 62).
-Applied set_property IO_BUFFER_TYPE = NONE for DDR_dqs_p[3]. (constraint file  C:/Users/ibai/ESDC/Final_Optional/Final_Optional.runs/synth_1/.Xil/Vivado-13680-ibaipc/dcp51/Final_Optional_processing_system7_0_0_in_context.xdc, line 63).
-Applied set_property CLOCK_BUFFER_TYPE = NONE for DDR_dqs_p[3]. (constraint file  C:/Users/ibai/ESDC/Final_Optional/Final_Optional.runs/synth_1/.Xil/Vivado-13680-ibaipc/dcp51/Final_Optional_processing_system7_0_0_in_context.xdc, line 64).
-Applied set_property IO_BUFFER_TYPE = NONE for DDR_dqs_n[0]. (constraint file  C:/Users/ibai/ESDC/Final_Optional/Final_Optional.runs/synth_1/.Xil/Vivado-13680-ibaipc/dcp51/Final_Optional_processing_system7_0_0_in_context.xdc, line 65).
-Applied set_property CLOCK_BUFFER_TYPE = NONE for DDR_dqs_n[0]. (constraint file  C:/Users/ibai/ESDC/Final_Optional/Final_Optional.runs/synth_1/.Xil/Vivado-13680-ibaipc/dcp51/Final_Optional_processing_system7_0_0_in_context.xdc, line 66).
-Applied set_property IO_BUFFER_TYPE = NONE for DDR_dqs_n[1]. (constraint file  C:/Users/ibai/ESDC/Final_Optional/Final_Optional.runs/synth_1/.Xil/Vivado-13680-ibaipc/dcp51/Final_Optional_processing_system7_0_0_in_context.xdc, line 67).
-Applied set_property CLOCK_BUFFER_TYPE = NONE for DDR_dqs_n[1]. (constraint file  C:/Users/ibai/ESDC/Final_Optional/Final_Optional.runs/synth_1/.Xil/Vivado-13680-ibaipc/dcp51/Final_Optional_processing_system7_0_0_in_context.xdc, line 68).
-Applied set_property IO_BUFFER_TYPE = NONE for DDR_dqs_n[2]. (constraint file  C:/Users/ibai/ESDC/Final_Optional/Final_Optional.runs/synth_1/.Xil/Vivado-13680-ibaipc/dcp51/Final_Optional_processing_system7_0_0_in_context.xdc, line 69).
-Applied set_property CLOCK_BUFFER_TYPE = NONE for DDR_dqs_n[2]. (constraint file  C:/Users/ibai/ESDC/Final_Optional/Final_Optional.runs/synth_1/.Xil/Vivado-13680-ibaipc/dcp51/Final_Optional_processing_system7_0_0_in_context.xdc, line 70).
-Applied set_property IO_BUFFER_TYPE = NONE for DDR_dqs_n[3]. (constraint file  C:/Users/ibai/ESDC/Final_Optional/Final_Optional.runs/synth_1/.Xil/Vivado-13680-ibaipc/dcp51/Final_Optional_processing_system7_0_0_in_context.xdc, line 71).
-Applied set_property CLOCK_BUFFER_TYPE = NONE for DDR_dqs_n[3]. (constraint file  C:/Users/ibai/ESDC/Final_Optional/Final_Optional.runs/synth_1/.Xil/Vivado-13680-ibaipc/dcp51/Final_Optional_processing_system7_0_0_in_context.xdc, line 72).
-Applied set_property IO_BUFFER_TYPE = NONE for DDR_dq[0]. (constraint file  C:/Users/ibai/ESDC/Final_Optional/Final_Optional.runs/synth_1/.Xil/Vivado-13680-ibaipc/dcp51/Final_Optional_processing_system7_0_0_in_context.xdc, line 73).
-Applied set_property CLOCK_BUFFER_TYPE = NONE for DDR_dq[0]. (constraint file  C:/Users/ibai/ESDC/Final_Optional/Final_Optional.runs/synth_1/.Xil/Vivado-13680-ibaipc/dcp51/Final_Optional_processing_system7_0_0_in_context.xdc, line 74).
-Applied set_property IO_BUFFER_TYPE = NONE for DDR_dq[10]. (constraint file  C:/Users/ibai/ESDC/Final_Optional/Final_Optional.runs/synth_1/.Xil/Vivado-13680-ibaipc/dcp51/Final_Optional_processing_system7_0_0_in_context.xdc, line 75).
-Applied set_property CLOCK_BUFFER_TYPE = NONE for DDR_dq[10]. (constraint file  C:/Users/ibai/ESDC/Final_Optional/Final_Optional.runs/synth_1/.Xil/Vivado-13680-ibaipc/dcp51/Final_Optional_processing_system7_0_0_in_context.xdc, line 76).
-Applied set_property IO_BUFFER_TYPE = NONE for DDR_dq[11]. (constraint file  C:/Users/ibai/ESDC/Final_Optional/Final_Optional.runs/synth_1/.Xil/Vivado-13680-ibaipc/dcp51/Final_Optional_processing_system7_0_0_in_context.xdc, line 77).
-Applied set_property CLOCK_BUFFER_TYPE = NONE for DDR_dq[11]. (constraint file  C:/Users/ibai/ESDC/Final_Optional/Final_Optional.runs/synth_1/.Xil/Vivado-13680-ibaipc/dcp51/Final_Optional_processing_system7_0_0_in_context.xdc, line 78).
-Applied set_property IO_BUFFER_TYPE = NONE for DDR_dq[12]. (constraint file  C:/Users/ibai/ESDC/Final_Optional/Final_Optional.runs/synth_1/.Xil/Vivado-13680-ibaipc/dcp51/Final_Optional_processing_system7_0_0_in_context.xdc, line 79).
-Applied set_property CLOCK_BUFFER_TYPE = NONE for DDR_dq[12]. (constraint file  C:/Users/ibai/ESDC/Final_Optional/Final_Optional.runs/synth_1/.Xil/Vivado-13680-ibaipc/dcp51/Final_Optional_processing_system7_0_0_in_context.xdc, line 80).
-Applied set_property IO_BUFFER_TYPE = NONE for DDR_dq[13]. (constraint file  C:/Users/ibai/ESDC/Final_Optional/Final_Optional.runs/synth_1/.Xil/Vivado-13680-ibaipc/dcp51/Final_Optional_processing_system7_0_0_in_context.xdc, line 81).
-Applied set_property CLOCK_BUFFER_TYPE = NONE for DDR_dq[13]. (constraint file  C:/Users/ibai/ESDC/Final_Optional/Final_Optional.runs/synth_1/.Xil/Vivado-13680-ibaipc/dcp51/Final_Optional_processing_system7_0_0_in_context.xdc, line 82).
-Applied set_property IO_BUFFER_TYPE = NONE for DDR_dq[14]. (constraint file  C:/Users/ibai/ESDC/Final_Optional/Final_Optional.runs/synth_1/.Xil/Vivado-13680-ibaipc/dcp51/Final_Optional_processing_system7_0_0_in_context.xdc, line 83).
-Applied set_property CLOCK_BUFFER_TYPE = NONE for DDR_dq[14]. (constraint file  C:/Users/ibai/ESDC/Final_Optional/Final_Optional.runs/synth_1/.Xil/Vivado-13680-ibaipc/dcp51/Final_Optional_processing_system7_0_0_in_context.xdc, line 84).
-Applied set_property IO_BUFFER_TYPE = NONE for DDR_dq[15]. (constraint file  C:/Users/ibai/ESDC/Final_Optional/Final_Optional.runs/synth_1/.Xil/Vivado-13680-ibaipc/dcp51/Final_Optional_processing_system7_0_0_in_context.xdc, line 85).
-Applied set_property CLOCK_BUFFER_TYPE = NONE for DDR_dq[15]. (constraint file  C:/Users/ibai/ESDC/Final_Optional/Final_Optional.runs/synth_1/.Xil/Vivado-13680-ibaipc/dcp51/Final_Optional_processing_system7_0_0_in_context.xdc, line 86).
-Applied set_property IO_BUFFER_TYPE = NONE for DDR_dq[16]. (constraint file  C:/Users/ibai/ESDC/Final_Optional/Final_Optional.runs/synth_1/.Xil/Vivado-13680-ibaipc/dcp51/Final_Optional_processing_system7_0_0_in_context.xdc, line 87).
-Applied set_property CLOCK_BUFFER_TYPE = NONE for DDR_dq[16]. (constraint file  C:/Users/ibai/ESDC/Final_Optional/Final_Optional.runs/synth_1/.Xil/Vivado-13680-ibaipc/dcp51/Final_Optional_processing_system7_0_0_in_context.xdc, line 88).
-Applied set_property IO_BUFFER_TYPE = NONE for DDR_dq[17]. (constraint file  C:/Users/ibai/ESDC/Final_Optional/Final_Optional.runs/synth_1/.Xil/Vivado-13680-ibaipc/dcp51/Final_Optional_processing_system7_0_0_in_context.xdc, line 89).
-Applied set_property CLOCK_BUFFER_TYPE = NONE for DDR_dq[17]. (constraint file  C:/Users/ibai/ESDC/Final_Optional/Final_Optional.runs/synth_1/.Xil/Vivado-13680-ibaipc/dcp51/Final_Optional_processing_system7_0_0_in_context.xdc, line 90).
-Applied set_property IO_BUFFER_TYPE = NONE for DDR_dq[18]. (constraint file  C:/Users/ibai/ESDC/Final_Optional/Final_Optional.runs/synth_1/.Xil/Vivado-13680-ibaipc/dcp51/Final_Optional_processing_system7_0_0_in_context.xdc, line 91).
-Applied set_property CLOCK_BUFFER_TYPE = NONE for DDR_dq[18]. (constraint file  C:/Users/ibai/ESDC/Final_Optional/Final_Optional.runs/synth_1/.Xil/Vivado-13680-ibaipc/dcp51/Final_Optional_processing_system7_0_0_in_context.xdc, line 92).
-Applied set_property IO_BUFFER_TYPE = NONE for DDR_dq[19]. (constraint file  C:/Users/ibai/ESDC/Final_Optional/Final_Optional.runs/synth_1/.Xil/Vivado-13680-ibaipc/dcp51/Final_Optional_processing_system7_0_0_in_context.xdc, line 93).
-Applied set_property CLOCK_BUFFER_TYPE = NONE for DDR_dq[19]. (constraint file  C:/Users/ibai/ESDC/Final_Optional/Final_Optional.runs/synth_1/.Xil/Vivado-13680-ibaipc/dcp51/Final_Optional_processing_system7_0_0_in_context.xdc, line 94).
-Applied set_property IO_BUFFER_TYPE = NONE for DDR_dq[1]. (constraint file  C:/Users/ibai/ESDC/Final_Optional/Final_Optional.runs/synth_1/.Xil/Vivado-13680-ibaipc/dcp51/Final_Optional_processing_system7_0_0_in_context.xdc, line 95).
-Applied set_property CLOCK_BUFFER_TYPE = NONE for DDR_dq[1]. (constraint file  C:/Users/ibai/ESDC/Final_Optional/Final_Optional.runs/synth_1/.Xil/Vivado-13680-ibaipc/dcp51/Final_Optional_processing_system7_0_0_in_context.xdc, line 96).
-Applied set_property IO_BUFFER_TYPE = NONE for DDR_dq[20]. (constraint file  C:/Users/ibai/ESDC/Final_Optional/Final_Optional.runs/synth_1/.Xil/Vivado-13680-ibaipc/dcp51/Final_Optional_processing_system7_0_0_in_context.xdc, line 97).
-Applied set_property CLOCK_BUFFER_TYPE = NONE for DDR_dq[20]. (constraint file  C:/Users/ibai/ESDC/Final_Optional/Final_Optional.runs/synth_1/.Xil/Vivado-13680-ibaipc/dcp51/Final_Optional_processing_system7_0_0_in_context.xdc, line 98).
-Applied set_property IO_BUFFER_TYPE = NONE for DDR_dq[21]. (constraint file  C:/Users/ibai/ESDC/Final_Optional/Final_Optional.runs/synth_1/.Xil/Vivado-13680-ibaipc/dcp51/Final_Optional_processing_system7_0_0_in_context.xdc, line 99).
-Applied set_property CLOCK_BUFFER_TYPE = NONE for DDR_dq[21]. (constraint file  C:/Users/ibai/ESDC/Final_Optional/Final_Optional.runs/synth_1/.Xil/Vivado-13680-ibaipc/dcp51/Final_Optional_processing_system7_0_0_in_context.xdc, line 100).
-Applied set_property IO_BUFFER_TYPE = NONE for DDR_dq[22]. (constraint file  C:/Users/ibai/ESDC/Final_Optional/Final_Optional.runs/synth_1/.Xil/Vivado-13680-ibaipc/dcp51/Final_Optional_processing_system7_0_0_in_context.xdc, line 101).
-Applied set_property CLOCK_BUFFER_TYPE = NONE for DDR_dq[22]. (constraint file  C:/Users/ibai/ESDC/Final_Optional/Final_Optional.runs/synth_1/.Xil/Vivado-13680-ibaipc/dcp51/Final_Optional_processing_system7_0_0_in_context.xdc, line 102).
-Applied set_property IO_BUFFER_TYPE = NONE for DDR_dq[23]. (constraint file  C:/Users/ibai/ESDC/Final_Optional/Final_Optional.runs/synth_1/.Xil/Vivado-13680-ibaipc/dcp51/Final_Optional_processing_system7_0_0_in_context.xdc, line 103).
-Applied set_property CLOCK_BUFFER_TYPE = NONE for DDR_dq[23]. (constraint file  C:/Users/ibai/ESDC/Final_Optional/Final_Optional.runs/synth_1/.Xil/Vivado-13680-ibaipc/dcp51/Final_Optional_processing_system7_0_0_in_context.xdc, line 104).
-Applied set_property IO_BUFFER_TYPE = NONE for DDR_dq[24]. (constraint file  C:/Users/ibai/ESDC/Final_Optional/Final_Optional.runs/synth_1/.Xil/Vivado-13680-ibaipc/dcp51/Final_Optional_processing_system7_0_0_in_context.xdc, line 105).
-Applied set_property CLOCK_BUFFER_TYPE = NONE for DDR_dq[24]. (constraint file  C:/Users/ibai/ESDC/Final_Optional/Final_Optional.runs/synth_1/.Xil/Vivado-13680-ibaipc/dcp51/Final_Optional_processing_system7_0_0_in_context.xdc, line 106).
-Applied set_property IO_BUFFER_TYPE = NONE for DDR_dq[25]. (constraint file  C:/Users/ibai/ESDC/Final_Optional/Final_Optional.runs/synth_1/.Xil/Vivado-13680-ibaipc/dcp51/Final_Optional_processing_system7_0_0_in_context.xdc, line 107).
-Applied set_property CLOCK_BUFFER_TYPE = NONE for DDR_dq[25]. (constraint file  C:/Users/ibai/ESDC/Final_Optional/Final_Optional.runs/synth_1/.Xil/Vivado-13680-ibaipc/dcp51/Final_Optional_processing_system7_0_0_in_context.xdc, line 108).
-Applied set_property IO_BUFFER_TYPE = NONE for DDR_dq[26]. (constraint file  C:/Users/ibai/ESDC/Final_Optional/Final_Optional.runs/synth_1/.Xil/Vivado-13680-ibaipc/dcp51/Final_Optional_processing_system7_0_0_in_context.xdc, line 109).
-Applied set_property CLOCK_BUFFER_TYPE = NONE for DDR_dq[26]. (constraint file  C:/Users/ibai/ESDC/Final_Optional/Final_Optional.runs/synth_1/.Xil/Vivado-13680-ibaipc/dcp51/Final_Optional_processing_system7_0_0_in_context.xdc, line 110).
-Applied set_property IO_BUFFER_TYPE = NONE for DDR_dq[27]. (constraint file  C:/Users/ibai/ESDC/Final_Optional/Final_Optional.runs/synth_1/.Xil/Vivado-13680-ibaipc/dcp51/Final_Optional_processing_system7_0_0_in_context.xdc, line 111).
-Applied set_property CLOCK_BUFFER_TYPE = NONE for DDR_dq[27]. (constraint file  C:/Users/ibai/ESDC/Final_Optional/Final_Optional.runs/synth_1/.Xil/Vivado-13680-ibaipc/dcp51/Final_Optional_processing_system7_0_0_in_context.xdc, line 112).
-Applied set_property IO_BUFFER_TYPE = NONE for DDR_dq[28]. (constraint file  C:/Users/ibai/ESDC/Final_Optional/Final_Optional.runs/synth_1/.Xil/Vivado-13680-ibaipc/dcp51/Final_Optional_processing_system7_0_0_in_context.xdc, line 113).
-Applied set_property CLOCK_BUFFER_TYPE = NONE for DDR_dq[28]. (constraint file  C:/Users/ibai/ESDC/Final_Optional/Final_Optional.runs/synth_1/.Xil/Vivado-13680-ibaipc/dcp51/Final_Optional_processing_system7_0_0_in_context.xdc, line 114).
-Applied set_property IO_BUFFER_TYPE = NONE for DDR_dq[29]. (constraint file  C:/Users/ibai/ESDC/Final_Optional/Final_Optional.runs/synth_1/.Xil/Vivado-13680-ibaipc/dcp51/Final_Optional_processing_system7_0_0_in_context.xdc, line 115).
-Applied set_property CLOCK_BUFFER_TYPE = NONE for DDR_dq[29]. (constraint file  C:/Users/ibai/ESDC/Final_Optional/Final_Optional.runs/synth_1/.Xil/Vivado-13680-ibaipc/dcp51/Final_Optional_processing_system7_0_0_in_context.xdc, line 116).
-Applied set_property IO_BUFFER_TYPE = NONE for DDR_dq[2]. (constraint file  C:/Users/ibai/ESDC/Final_Optional/Final_Optional.runs/synth_1/.Xil/Vivado-13680-ibaipc/dcp51/Final_Optional_processing_system7_0_0_in_context.xdc, line 117).
-Applied set_property CLOCK_BUFFER_TYPE = NONE for DDR_dq[2]. (constraint file  C:/Users/ibai/ESDC/Final_Optional/Final_Optional.runs/synth_1/.Xil/Vivado-13680-ibaipc/dcp51/Final_Optional_processing_system7_0_0_in_context.xdc, line 118).
-Applied set_property IO_BUFFER_TYPE = NONE for DDR_dq[30]. (constraint file  C:/Users/ibai/ESDC/Final_Optional/Final_Optional.runs/synth_1/.Xil/Vivado-13680-ibaipc/dcp51/Final_Optional_processing_system7_0_0_in_context.xdc, line 119).
-Applied set_property CLOCK_BUFFER_TYPE = NONE for DDR_dq[30]. (constraint file  C:/Users/ibai/ESDC/Final_Optional/Final_Optional.runs/synth_1/.Xil/Vivado-13680-ibaipc/dcp51/Final_Optional_processing_system7_0_0_in_context.xdc, line 120).
-Applied set_property IO_BUFFER_TYPE = NONE for DDR_dq[31]. (constraint file  C:/Users/ibai/ESDC/Final_Optional/Final_Optional.runs/synth_1/.Xil/Vivado-13680-ibaipc/dcp51/Final_Optional_processing_system7_0_0_in_context.xdc, line 121).
-Applied set_property CLOCK_BUFFER_TYPE = NONE for DDR_dq[31]. (constraint file  C:/Users/ibai/ESDC/Final_Optional/Final_Optional.runs/synth_1/.Xil/Vivado-13680-ibaipc/dcp51/Final_Optional_processing_system7_0_0_in_context.xdc, line 122).
-Applied set_property IO_BUFFER_TYPE = NONE for DDR_dq[3]. (constraint file  C:/Users/ibai/ESDC/Final_Optional/Final_Optional.runs/synth_1/.Xil/Vivado-13680-ibaipc/dcp51/Final_Optional_processing_system7_0_0_in_context.xdc, line 123).
-Applied set_property CLOCK_BUFFER_TYPE = NONE for DDR_dq[3]. (constraint file  C:/Users/ibai/ESDC/Final_Optional/Final_Optional.runs/synth_1/.Xil/Vivado-13680-ibaipc/dcp51/Final_Optional_processing_system7_0_0_in_context.xdc, line 124).
-Applied set_property IO_BUFFER_TYPE = NONE for DDR_dq[4]. (constraint file  C:/Users/ibai/ESDC/Final_Optional/Final_Optional.runs/synth_1/.Xil/Vivado-13680-ibaipc/dcp51/Final_Optional_processing_system7_0_0_in_context.xdc, line 125).
-Applied set_property CLOCK_BUFFER_TYPE = NONE for DDR_dq[4]. (constraint file  C:/Users/ibai/ESDC/Final_Optional/Final_Optional.runs/synth_1/.Xil/Vivado-13680-ibaipc/dcp51/Final_Optional_processing_system7_0_0_in_context.xdc, line 126).
-Applied set_property IO_BUFFER_TYPE = NONE for DDR_dq[5]. (constraint file  C:/Users/ibai/ESDC/Final_Optional/Final_Optional.runs/synth_1/.Xil/Vivado-13680-ibaipc/dcp51/Final_Optional_processing_system7_0_0_in_context.xdc, line 127).
-Applied set_property CLOCK_BUFFER_TYPE = NONE for DDR_dq[5]. (constraint file  C:/Users/ibai/ESDC/Final_Optional/Final_Optional.runs/synth_1/.Xil/Vivado-13680-ibaipc/dcp51/Final_Optional_processing_system7_0_0_in_context.xdc, line 128).
-Applied set_property IO_BUFFER_TYPE = NONE for DDR_dq[6]. (constraint file  C:/Users/ibai/ESDC/Final_Optional/Final_Optional.runs/synth_1/.Xil/Vivado-13680-ibaipc/dcp51/Final_Optional_processing_system7_0_0_in_context.xdc, line 129).
-Applied set_property CLOCK_BUFFER_TYPE = NONE for DDR_dq[6]. (constraint file  C:/Users/ibai/ESDC/Final_Optional/Final_Optional.runs/synth_1/.Xil/Vivado-13680-ibaipc/dcp51/Final_Optional_processing_system7_0_0_in_context.xdc, line 130).
-Applied set_property IO_BUFFER_TYPE = NONE for DDR_dq[7]. (constraint file  C:/Users/ibai/ESDC/Final_Optional/Final_Optional.runs/synth_1/.Xil/Vivado-13680-ibaipc/dcp51/Final_Optional_processing_system7_0_0_in_context.xdc, line 131).
-Applied set_property CLOCK_BUFFER_TYPE = NONE for DDR_dq[7]. (constraint file  C:/Users/ibai/ESDC/Final_Optional/Final_Optional.runs/synth_1/.Xil/Vivado-13680-ibaipc/dcp51/Final_Optional_processing_system7_0_0_in_context.xdc, line 132).
-Applied set_property IO_BUFFER_TYPE = NONE for DDR_dq[8]. (constraint file  C:/Users/ibai/ESDC/Final_Optional/Final_Optional.runs/synth_1/.Xil/Vivado-13680-ibaipc/dcp51/Final_Optional_processing_system7_0_0_in_context.xdc, line 133).
-Applied set_property CLOCK_BUFFER_TYPE = NONE for DDR_dq[8]. (constraint file  C:/Users/ibai/ESDC/Final_Optional/Final_Optional.runs/synth_1/.Xil/Vivado-13680-ibaipc/dcp51/Final_Optional_processing_system7_0_0_in_context.xdc, line 134).
-Applied set_property IO_BUFFER_TYPE = NONE for DDR_dq[9]. (constraint file  C:/Users/ibai/ESDC/Final_Optional/Final_Optional.runs/synth_1/.Xil/Vivado-13680-ibaipc/dcp51/Final_Optional_processing_system7_0_0_in_context.xdc, line 135).
-Applied set_property CLOCK_BUFFER_TYPE = NONE for DDR_dq[9]. (constraint file  C:/Users/ibai/ESDC/Final_Optional/Final_Optional.runs/synth_1/.Xil/Vivado-13680-ibaipc/dcp51/Final_Optional_processing_system7_0_0_in_context.xdc, line 136).
-Applied set_property IO_BUFFER_TYPE = NONE for DDR_reset_n. (constraint file  C:/Users/ibai/ESDC/Final_Optional/Final_Optional.runs/synth_1/.Xil/Vivado-13680-ibaipc/dcp51/Final_Optional_processing_system7_0_0_in_context.xdc, line 137).
-Applied set_property CLOCK_BUFFER_TYPE = NONE for DDR_reset_n. (constraint file  C:/Users/ibai/ESDC/Final_Optional/Final_Optional.runs/synth_1/.Xil/Vivado-13680-ibaipc/dcp51/Final_Optional_processing_system7_0_0_in_context.xdc, line 138).
-Applied set_property IO_BUFFER_TYPE = NONE for DDR_odt. (constraint file  C:/Users/ibai/ESDC/Final_Optional/Final_Optional.runs/synth_1/.Xil/Vivado-13680-ibaipc/dcp51/Final_Optional_processing_system7_0_0_in_context.xdc, line 139).
-Applied set_property CLOCK_BUFFER_TYPE = NONE for DDR_odt. (constraint file  C:/Users/ibai/ESDC/Final_Optional/Final_Optional.runs/synth_1/.Xil/Vivado-13680-ibaipc/dcp51/Final_Optional_processing_system7_0_0_in_context.xdc, line 140).
-Applied set_property IO_BUFFER_TYPE = NONE for DDR_ras_n. (constraint file  C:/Users/ibai/ESDC/Final_Optional/Final_Optional.runs/synth_1/.Xil/Vivado-13680-ibaipc/dcp51/Final_Optional_processing_system7_0_0_in_context.xdc, line 141).
-Applied set_property CLOCK_BUFFER_TYPE = NONE for DDR_ras_n. (constraint file  C:/Users/ibai/ESDC/Final_Optional/Final_Optional.runs/synth_1/.Xil/Vivado-13680-ibaipc/dcp51/Final_Optional_processing_system7_0_0_in_context.xdc, line 142).
-Applied set_property IO_BUFFER_TYPE = NONE for FIXED_IO_ddr_vrn. (constraint file  C:/Users/ibai/ESDC/Final_Optional/Final_Optional.runs/synth_1/.Xil/Vivado-13680-ibaipc/dcp51/Final_Optional_processing_system7_0_0_in_context.xdc, line 143).
-Applied set_property CLOCK_BUFFER_TYPE = NONE for FIXED_IO_ddr_vrn. (constraint file  C:/Users/ibai/ESDC/Final_Optional/Final_Optional.runs/synth_1/.Xil/Vivado-13680-ibaipc/dcp51/Final_Optional_processing_system7_0_0_in_context.xdc, line 144).
-Applied set_property IO_BUFFER_TYPE = NONE for FIXED_IO_ddr_vrp. (constraint file  C:/Users/ibai/ESDC/Final_Optional/Final_Optional.runs/synth_1/.Xil/Vivado-13680-ibaipc/dcp51/Final_Optional_processing_system7_0_0_in_context.xdc, line 145).
-Applied set_property CLOCK_BUFFER_TYPE = NONE for FIXED_IO_ddr_vrp. (constraint file  C:/Users/ibai/ESDC/Final_Optional/Final_Optional.runs/synth_1/.Xil/Vivado-13680-ibaipc/dcp51/Final_Optional_processing_system7_0_0_in_context.xdc, line 146).
-Applied set_property IO_BUFFER_TYPE = NONE for DDR_we_n. (constraint file  C:/Users/ibai/ESDC/Final_Optional/Final_Optional.runs/synth_1/.Xil/Vivado-13680-ibaipc/dcp51/Final_Optional_processing_system7_0_0_in_context.xdc, line 147).
-Applied set_property CLOCK_BUFFER_TYPE = NONE for DDR_we_n. (constraint file  C:/Users/ibai/ESDC/Final_Optional/Final_Optional.runs/synth_1/.Xil/Vivado-13680-ibaipc/dcp51/Final_Optional_processing_system7_0_0_in_context.xdc, line 148).
-Applied set_property IO_BUFFER_TYPE = NONE for FIXED_IO_mio[0]. (constraint file  C:/Users/ibai/ESDC/Final_Optional/Final_Optional.runs/synth_1/.Xil/Vivado-13680-ibaipc/dcp51/Final_Optional_processing_system7_0_0_in_context.xdc, line 149).
-Applied set_property CLOCK_BUFFER_TYPE = NONE for FIXED_IO_mio[0]. (constraint file  C:/Users/ibai/ESDC/Final_Optional/Final_Optional.runs/synth_1/.Xil/Vivado-13680-ibaipc/dcp51/Final_Optional_processing_system7_0_0_in_context.xdc, line 150).
-Applied set_property IO_BUFFER_TYPE = NONE for FIXED_IO_mio[10]. (constraint file  C:/Users/ibai/ESDC/Final_Optional/Final_Optional.runs/synth_1/.Xil/Vivado-13680-ibaipc/dcp51/Final_Optional_processing_system7_0_0_in_context.xdc, line 151).
-Applied set_property CLOCK_BUFFER_TYPE = NONE for FIXED_IO_mio[10]. (constraint file  C:/Users/ibai/ESDC/Final_Optional/Final_Optional.runs/synth_1/.Xil/Vivado-13680-ibaipc/dcp51/Final_Optional_processing_system7_0_0_in_context.xdc, line 152).
-Applied set_property IO_BUFFER_TYPE = NONE for FIXED_IO_mio[11]. (constraint file  C:/Users/ibai/ESDC/Final_Optional/Final_Optional.runs/synth_1/.Xil/Vivado-13680-ibaipc/dcp51/Final_Optional_processing_system7_0_0_in_context.xdc, line 153).
-Applied set_property CLOCK_BUFFER_TYPE = NONE for FIXED_IO_mio[11]. (constraint file  C:/Users/ibai/ESDC/Final_Optional/Final_Optional.runs/synth_1/.Xil/Vivado-13680-ibaipc/dcp51/Final_Optional_processing_system7_0_0_in_context.xdc, line 154).
-Applied set_property IO_BUFFER_TYPE = NONE for FIXED_IO_mio[12]. (constraint file  C:/Users/ibai/ESDC/Final_Optional/Final_Optional.runs/synth_1/.Xil/Vivado-13680-ibaipc/dcp51/Final_Optional_processing_system7_0_0_in_context.xdc, line 155).
-Applied set_property CLOCK_BUFFER_TYPE = NONE for FIXED_IO_mio[12]. (constraint file  C:/Users/ibai/ESDC/Final_Optional/Final_Optional.runs/synth_1/.Xil/Vivado-13680-ibaipc/dcp51/Final_Optional_processing_system7_0_0_in_context.xdc, line 156).
-Applied set_property IO_BUFFER_TYPE = NONE for FIXED_IO_mio[13]. (constraint file  C:/Users/ibai/ESDC/Final_Optional/Final_Optional.runs/synth_1/.Xil/Vivado-13680-ibaipc/dcp51/Final_Optional_processing_system7_0_0_in_context.xdc, line 157).
-Applied set_property CLOCK_BUFFER_TYPE = NONE for FIXED_IO_mio[13]. (constraint file  C:/Users/ibai/ESDC/Final_Optional/Final_Optional.runs/synth_1/.Xil/Vivado-13680-ibaipc/dcp51/Final_Optional_processing_system7_0_0_in_context.xdc, line 158).
-Applied set_property IO_BUFFER_TYPE = NONE for FIXED_IO_mio[14]. (constraint file  C:/Users/ibai/ESDC/Final_Optional/Final_Optional.runs/synth_1/.Xil/Vivado-13680-ibaipc/dcp51/Final_Optional_processing_system7_0_0_in_context.xdc, line 159).
-Applied set_property CLOCK_BUFFER_TYPE = NONE for FIXED_IO_mio[14]. (constraint file  C:/Users/ibai/ESDC/Final_Optional/Final_Optional.runs/synth_1/.Xil/Vivado-13680-ibaipc/dcp51/Final_Optional_processing_system7_0_0_in_context.xdc, line 160).
-Applied set_property IO_BUFFER_TYPE = NONE for FIXED_IO_mio[15]. (constraint file  C:/Users/ibai/ESDC/Final_Optional/Final_Optional.runs/synth_1/.Xil/Vivado-13680-ibaipc/dcp51/Final_Optional_processing_system7_0_0_in_context.xdc, line 161).
-Applied set_property CLOCK_BUFFER_TYPE = NONE for FIXED_IO_mio[15]. (constraint file  C:/Users/ibai/ESDC/Final_Optional/Final_Optional.runs/synth_1/.Xil/Vivado-13680-ibaipc/dcp51/Final_Optional_processing_system7_0_0_in_context.xdc, line 162).
-Applied set_property IO_BUFFER_TYPE = NONE for FIXED_IO_mio[16]. (constraint file  C:/Users/ibai/ESDC/Final_Optional/Final_Optional.runs/synth_1/.Xil/Vivado-13680-ibaipc/dcp51/Final_Optional_processing_system7_0_0_in_context.xdc, line 163).
-Applied set_property CLOCK_BUFFER_TYPE = NONE for FIXED_IO_mio[16]. (constraint file  C:/Users/ibai/ESDC/Final_Optional/Final_Optional.runs/synth_1/.Xil/Vivado-13680-ibaipc/dcp51/Final_Optional_processing_system7_0_0_in_context.xdc, line 164).
-Applied set_property IO_BUFFER_TYPE = NONE for FIXED_IO_mio[17]. (constraint file  C:/Users/ibai/ESDC/Final_Optional/Final_Optional.runs/synth_1/.Xil/Vivado-13680-ibaipc/dcp51/Final_Optional_processing_system7_0_0_in_context.xdc, line 165).
-Applied set_property CLOCK_BUFFER_TYPE = NONE for FIXED_IO_mio[17]. (constraint file  C:/Users/ibai/ESDC/Final_Optional/Final_Optional.runs/synth_1/.Xil/Vivado-13680-ibaipc/dcp51/Final_Optional_processing_system7_0_0_in_context.xdc, line 166).
-Applied set_property IO_BUFFER_TYPE = NONE for FIXED_IO_mio[18]. (constraint file  C:/Users/ibai/ESDC/Final_Optional/Final_Optional.runs/synth_1/.Xil/Vivado-13680-ibaipc/dcp51/Final_Optional_processing_system7_0_0_in_context.xdc, line 167).
-Applied set_property CLOCK_BUFFER_TYPE = NONE for FIXED_IO_mio[18]. (constraint file  C:/Users/ibai/ESDC/Final_Optional/Final_Optional.runs/synth_1/.Xil/Vivado-13680-ibaipc/dcp51/Final_Optional_processing_system7_0_0_in_context.xdc, line 168).
-Applied set_property IO_BUFFER_TYPE = NONE for FIXED_IO_mio[19]. (constraint file  C:/Users/ibai/ESDC/Final_Optional/Final_Optional.runs/synth_1/.Xil/Vivado-13680-ibaipc/dcp51/Final_Optional_processing_system7_0_0_in_context.xdc, line 169).
-Applied set_property CLOCK_BUFFER_TYPE = NONE for FIXED_IO_mio[19]. (constraint file  C:/Users/ibai/ESDC/Final_Optional/Final_Optional.runs/synth_1/.Xil/Vivado-13680-ibaipc/dcp51/Final_Optional_processing_system7_0_0_in_context.xdc, line 170).
-Applied set_property IO_BUFFER_TYPE = NONE for FIXED_IO_mio[1]. (constraint file  C:/Users/ibai/ESDC/Final_Optional/Final_Optional.runs/synth_1/.Xil/Vivado-13680-ibaipc/dcp51/Final_Optional_processing_system7_0_0_in_context.xdc, line 171).
-Applied set_property CLOCK_BUFFER_TYPE = NONE for FIXED_IO_mio[1]. (constraint file  C:/Users/ibai/ESDC/Final_Optional/Final_Optional.runs/synth_1/.Xil/Vivado-13680-ibaipc/dcp51/Final_Optional_processing_system7_0_0_in_context.xdc, line 172).
-Applied set_property IO_BUFFER_TYPE = NONE for FIXED_IO_mio[20]. (constraint file  C:/Users/ibai/ESDC/Final_Optional/Final_Optional.runs/synth_1/.Xil/Vivado-13680-ibaipc/dcp51/Final_Optional_processing_system7_0_0_in_context.xdc, line 173).
-Applied set_property CLOCK_BUFFER_TYPE = NONE for FIXED_IO_mio[20]. (constraint file  C:/Users/ibai/ESDC/Final_Optional/Final_Optional.runs/synth_1/.Xil/Vivado-13680-ibaipc/dcp51/Final_Optional_processing_system7_0_0_in_context.xdc, line 174).
-Applied set_property IO_BUFFER_TYPE = NONE for FIXED_IO_mio[21]. (constraint file  C:/Users/ibai/ESDC/Final_Optional/Final_Optional.runs/synth_1/.Xil/Vivado-13680-ibaipc/dcp51/Final_Optional_processing_system7_0_0_in_context.xdc, line 175).
-Applied set_property CLOCK_BUFFER_TYPE = NONE for FIXED_IO_mio[21]. (constraint file  C:/Users/ibai/ESDC/Final_Optional/Final_Optional.runs/synth_1/.Xil/Vivado-13680-ibaipc/dcp51/Final_Optional_processing_system7_0_0_in_context.xdc, line 176).
-Applied set_property IO_BUFFER_TYPE = NONE for FIXED_IO_mio[22]. (constraint file  C:/Users/ibai/ESDC/Final_Optional/Final_Optional.runs/synth_1/.Xil/Vivado-13680-ibaipc/dcp51/Final_Optional_processing_system7_0_0_in_context.xdc, line 177).
-Applied set_property CLOCK_BUFFER_TYPE = NONE for FIXED_IO_mio[22]. (constraint file  C:/Users/ibai/ESDC/Final_Optional/Final_Optional.runs/synth_1/.Xil/Vivado-13680-ibaipc/dcp51/Final_Optional_processing_system7_0_0_in_context.xdc, line 178).
-Applied set_property IO_BUFFER_TYPE = NONE for FIXED_IO_mio[23]. (constraint file  C:/Users/ibai/ESDC/Final_Optional/Final_Optional.runs/synth_1/.Xil/Vivado-13680-ibaipc/dcp51/Final_Optional_processing_system7_0_0_in_context.xdc, line 179).
-Applied set_property CLOCK_BUFFER_TYPE = NONE for FIXED_IO_mio[23]. (constraint file  C:/Users/ibai/ESDC/Final_Optional/Final_Optional.runs/synth_1/.Xil/Vivado-13680-ibaipc/dcp51/Final_Optional_processing_system7_0_0_in_context.xdc, line 180).
-Applied set_property IO_BUFFER_TYPE = NONE for FIXED_IO_mio[24]. (constraint file  C:/Users/ibai/ESDC/Final_Optional/Final_Optional.runs/synth_1/.Xil/Vivado-13680-ibaipc/dcp51/Final_Optional_processing_system7_0_0_in_context.xdc, line 181).
-Applied set_property CLOCK_BUFFER_TYPE = NONE for FIXED_IO_mio[24]. (constraint file  C:/Users/ibai/ESDC/Final_Optional/Final_Optional.runs/synth_1/.Xil/Vivado-13680-ibaipc/dcp51/Final_Optional_processing_system7_0_0_in_context.xdc, line 182).
-Applied set_property IO_BUFFER_TYPE = NONE for FIXED_IO_mio[25]. (constraint file  C:/Users/ibai/ESDC/Final_Optional/Final_Optional.runs/synth_1/.Xil/Vivado-13680-ibaipc/dcp51/Final_Optional_processing_system7_0_0_in_context.xdc, line 183).
-Applied set_property CLOCK_BUFFER_TYPE = NONE for FIXED_IO_mio[25]. (constraint file  C:/Users/ibai/ESDC/Final_Optional/Final_Optional.runs/synth_1/.Xil/Vivado-13680-ibaipc/dcp51/Final_Optional_processing_system7_0_0_in_context.xdc, line 184).
-Applied set_property IO_BUFFER_TYPE = NONE for FIXED_IO_mio[26]. (constraint file  C:/Users/ibai/ESDC/Final_Optional/Final_Optional.runs/synth_1/.Xil/Vivado-13680-ibaipc/dcp51/Final_Optional_processing_system7_0_0_in_context.xdc, line 185).
-Applied set_property CLOCK_BUFFER_TYPE = NONE for FIXED_IO_mio[26]. (constraint file  C:/Users/ibai/ESDC/Final_Optional/Final_Optional.runs/synth_1/.Xil/Vivado-13680-ibaipc/dcp51/Final_Optional_processing_system7_0_0_in_context.xdc, line 186).
-Applied set_property IO_BUFFER_TYPE = NONE for FIXED_IO_mio[27]. (constraint file  C:/Users/ibai/ESDC/Final_Optional/Final_Optional.runs/synth_1/.Xil/Vivado-13680-ibaipc/dcp51/Final_Optional_processing_system7_0_0_in_context.xdc, line 187).
-Applied set_property CLOCK_BUFFER_TYPE = NONE for FIXED_IO_mio[27]. (constraint file  C:/Users/ibai/ESDC/Final_Optional/Final_Optional.runs/synth_1/.Xil/Vivado-13680-ibaipc/dcp51/Final_Optional_processing_system7_0_0_in_context.xdc, line 188).
-Applied set_property IO_BUFFER_TYPE = NONE for FIXED_IO_mio[28]. (constraint file  C:/Users/ibai/ESDC/Final_Optional/Final_Optional.runs/synth_1/.Xil/Vivado-13680-ibaipc/dcp51/Final_Optional_processing_system7_0_0_in_context.xdc, line 189).
-Applied set_property CLOCK_BUFFER_TYPE = NONE for FIXED_IO_mio[28]. (constraint file  C:/Users/ibai/ESDC/Final_Optional/Final_Optional.runs/synth_1/.Xil/Vivado-13680-ibaipc/dcp51/Final_Optional_processing_system7_0_0_in_context.xdc, line 190).
-Applied set_property IO_BUFFER_TYPE = NONE for FIXED_IO_mio[29]. (constraint file  C:/Users/ibai/ESDC/Final_Optional/Final_Optional.runs/synth_1/.Xil/Vivado-13680-ibaipc/dcp51/Final_Optional_processing_system7_0_0_in_context.xdc, line 191).
-Applied set_property CLOCK_BUFFER_TYPE = NONE for FIXED_IO_mio[29]. (constraint file  C:/Users/ibai/ESDC/Final_Optional/Final_Optional.runs/synth_1/.Xil/Vivado-13680-ibaipc/dcp51/Final_Optional_processing_system7_0_0_in_context.xdc, line 192).
-Applied set_property IO_BUFFER_TYPE = NONE for FIXED_IO_mio[2]. (constraint file  C:/Users/ibai/ESDC/Final_Optional/Final_Optional.runs/synth_1/.Xil/Vivado-13680-ibaipc/dcp51/Final_Optional_processing_system7_0_0_in_context.xdc, line 193).
-Applied set_property CLOCK_BUFFER_TYPE = NONE for FIXED_IO_mio[2]. (constraint file  C:/Users/ibai/ESDC/Final_Optional/Final_Optional.runs/synth_1/.Xil/Vivado-13680-ibaipc/dcp51/Final_Optional_processing_system7_0_0_in_context.xdc, line 194).
-Applied set_property IO_BUFFER_TYPE = NONE for FIXED_IO_mio[30]. (constraint file  C:/Users/ibai/ESDC/Final_Optional/Final_Optional.runs/synth_1/.Xil/Vivado-13680-ibaipc/dcp51/Final_Optional_processing_system7_0_0_in_context.xdc, line 195).
-Applied set_property CLOCK_BUFFER_TYPE = NONE for FIXED_IO_mio[30]. (constraint file  C:/Users/ibai/ESDC/Final_Optional/Final_Optional.runs/synth_1/.Xil/Vivado-13680-ibaipc/dcp51/Final_Optional_processing_system7_0_0_in_context.xdc, line 196).
-Applied set_property IO_BUFFER_TYPE = NONE for FIXED_IO_mio[31]. (constraint file  C:/Users/ibai/ESDC/Final_Optional/Final_Optional.runs/synth_1/.Xil/Vivado-13680-ibaipc/dcp51/Final_Optional_processing_system7_0_0_in_context.xdc, line 197).
-Applied set_property CLOCK_BUFFER_TYPE = NONE for FIXED_IO_mio[31]. (constraint file  C:/Users/ibai/ESDC/Final_Optional/Final_Optional.runs/synth_1/.Xil/Vivado-13680-ibaipc/dcp51/Final_Optional_processing_system7_0_0_in_context.xdc, line 198).
-Applied set_property IO_BUFFER_TYPE = NONE for FIXED_IO_mio[32]. (constraint file  C:/Users/ibai/ESDC/Final_Optional/Final_Optional.runs/synth_1/.Xil/Vivado-13680-ibaipc/dcp51/Final_Optional_processing_system7_0_0_in_context.xdc, line 199).
-Applied set_property CLOCK_BUFFER_TYPE = NONE for FIXED_IO_mio[32]. (constraint file  C:/Users/ibai/ESDC/Final_Optional/Final_Optional.runs/synth_1/.Xil/Vivado-13680-ibaipc/dcp51/Final_Optional_processing_system7_0_0_in_context.xdc, line 200).
-Applied set_property IO_BUFFER_TYPE = NONE for FIXED_IO_mio[33]. (constraint file  C:/Users/ibai/ESDC/Final_Optional/Final_Optional.runs/synth_1/.Xil/Vivado-13680-ibaipc/dcp51/Final_Optional_processing_system7_0_0_in_context.xdc, line 201).
-Applied set_property CLOCK_BUFFER_TYPE = NONE for FIXED_IO_mio[33]. (constraint file  C:/Users/ibai/ESDC/Final_Optional/Final_Optional.runs/synth_1/.Xil/Vivado-13680-ibaipc/dcp51/Final_Optional_processing_system7_0_0_in_context.xdc, line 202).
-Applied set_property IO_BUFFER_TYPE = NONE for FIXED_IO_mio[34]. (constraint file  C:/Users/ibai/ESDC/Final_Optional/Final_Optional.runs/synth_1/.Xil/Vivado-13680-ibaipc/dcp51/Final_Optional_processing_system7_0_0_in_context.xdc, line 203).
-Applied set_property CLOCK_BUFFER_TYPE = NONE for FIXED_IO_mio[34]. (constraint file  C:/Users/ibai/ESDC/Final_Optional/Final_Optional.runs/synth_1/.Xil/Vivado-13680-ibaipc/dcp51/Final_Optional_processing_system7_0_0_in_context.xdc, line 204).
-Applied set_property IO_BUFFER_TYPE = NONE for FIXED_IO_mio[35]. (constraint file  C:/Users/ibai/ESDC/Final_Optional/Final_Optional.runs/synth_1/.Xil/Vivado-13680-ibaipc/dcp51/Final_Optional_processing_system7_0_0_in_context.xdc, line 205).
-Applied set_property CLOCK_BUFFER_TYPE = NONE for FIXED_IO_mio[35]. (constraint file  C:/Users/ibai/ESDC/Final_Optional/Final_Optional.runs/synth_1/.Xil/Vivado-13680-ibaipc/dcp51/Final_Optional_processing_system7_0_0_in_context.xdc, line 206).
-Applied set_property IO_BUFFER_TYPE = NONE for FIXED_IO_mio[36]. (constraint file  C:/Users/ibai/ESDC/Final_Optional/Final_Optional.runs/synth_1/.Xil/Vivado-13680-ibaipc/dcp51/Final_Optional_processing_system7_0_0_in_context.xdc, line 207).
-Applied set_property CLOCK_BUFFER_TYPE = NONE for FIXED_IO_mio[36]. (constraint file  C:/Users/ibai/ESDC/Final_Optional/Final_Optional.runs/synth_1/.Xil/Vivado-13680-ibaipc/dcp51/Final_Optional_processing_system7_0_0_in_context.xdc, line 208).
-Applied set_property IO_BUFFER_TYPE = NONE for FIXED_IO_mio[37]. (constraint file  C:/Users/ibai/ESDC/Final_Optional/Final_Optional.runs/synth_1/.Xil/Vivado-13680-ibaipc/dcp51/Final_Optional_processing_system7_0_0_in_context.xdc, line 209).
-Applied set_property CLOCK_BUFFER_TYPE = NONE for FIXED_IO_mio[37]. (constraint file  C:/Users/ibai/ESDC/Final_Optional/Final_Optional.runs/synth_1/.Xil/Vivado-13680-ibaipc/dcp51/Final_Optional_processing_system7_0_0_in_context.xdc, line 210).
-Applied set_property IO_BUFFER_TYPE = NONE for FIXED_IO_mio[38]. (constraint file  C:/Users/ibai/ESDC/Final_Optional/Final_Optional.runs/synth_1/.Xil/Vivado-13680-ibaipc/dcp51/Final_Optional_processing_system7_0_0_in_context.xdc, line 211).
-Applied set_property CLOCK_BUFFER_TYPE = NONE for FIXED_IO_mio[38]. (constraint file  C:/Users/ibai/ESDC/Final_Optional/Final_Optional.runs/synth_1/.Xil/Vivado-13680-ibaipc/dcp51/Final_Optional_processing_system7_0_0_in_context.xdc, line 212).
-Applied set_property IO_BUFFER_TYPE = NONE for FIXED_IO_mio[39]. (constraint file  C:/Users/ibai/ESDC/Final_Optional/Final_Optional.runs/synth_1/.Xil/Vivado-13680-ibaipc/dcp51/Final_Optional_processing_system7_0_0_in_context.xdc, line 213).
-Applied set_property CLOCK_BUFFER_TYPE = NONE for FIXED_IO_mio[39]. (constraint file  C:/Users/ibai/ESDC/Final_Optional/Final_Optional.runs/synth_1/.Xil/Vivado-13680-ibaipc/dcp51/Final_Optional_processing_system7_0_0_in_context.xdc, line 214).
-Applied set_property IO_BUFFER_TYPE = NONE for FIXED_IO_mio[3]. (constraint file  C:/Users/ibai/ESDC/Final_Optional/Final_Optional.runs/synth_1/.Xil/Vivado-13680-ibaipc/dcp51/Final_Optional_processing_system7_0_0_in_context.xdc, line 215).
-Applied set_property CLOCK_BUFFER_TYPE = NONE for FIXED_IO_mio[3]. (constraint file  C:/Users/ibai/ESDC/Final_Optional/Final_Optional.runs/synth_1/.Xil/Vivado-13680-ibaipc/dcp51/Final_Optional_processing_system7_0_0_in_context.xdc, line 216).
-Applied set_property IO_BUFFER_TYPE = NONE for FIXED_IO_mio[40]. (constraint file  C:/Users/ibai/ESDC/Final_Optional/Final_Optional.runs/synth_1/.Xil/Vivado-13680-ibaipc/dcp51/Final_Optional_processing_system7_0_0_in_context.xdc, line 217).
-Applied set_property CLOCK_BUFFER_TYPE = NONE for FIXED_IO_mio[40]. (constraint file  C:/Users/ibai/ESDC/Final_Optional/Final_Optional.runs/synth_1/.Xil/Vivado-13680-ibaipc/dcp51/Final_Optional_processing_system7_0_0_in_context.xdc, line 218).
-Applied set_property IO_BUFFER_TYPE = NONE for FIXED_IO_mio[41]. (constraint file  C:/Users/ibai/ESDC/Final_Optional/Final_Optional.runs/synth_1/.Xil/Vivado-13680-ibaipc/dcp51/Final_Optional_processing_system7_0_0_in_context.xdc, line 219).
-Applied set_property CLOCK_BUFFER_TYPE = NONE for FIXED_IO_mio[41]. (constraint file  C:/Users/ibai/ESDC/Final_Optional/Final_Optional.runs/synth_1/.Xil/Vivado-13680-ibaipc/dcp51/Final_Optional_processing_system7_0_0_in_context.xdc, line 220).
-Applied set_property IO_BUFFER_TYPE = NONE for FIXED_IO_mio[42]. (constraint file  C:/Users/ibai/ESDC/Final_Optional/Final_Optional.runs/synth_1/.Xil/Vivado-13680-ibaipc/dcp51/Final_Optional_processing_system7_0_0_in_context.xdc, line 221).
-Applied set_property CLOCK_BUFFER_TYPE = NONE for FIXED_IO_mio[42]. (constraint file  C:/Users/ibai/ESDC/Final_Optional/Final_Optional.runs/synth_1/.Xil/Vivado-13680-ibaipc/dcp51/Final_Optional_processing_system7_0_0_in_context.xdc, line 222).
-Applied set_property IO_BUFFER_TYPE = NONE for FIXED_IO_mio[43]. (constraint file  C:/Users/ibai/ESDC/Final_Optional/Final_Optional.runs/synth_1/.Xil/Vivado-13680-ibaipc/dcp51/Final_Optional_processing_system7_0_0_in_context.xdc, line 223).
-Applied set_property CLOCK_BUFFER_TYPE = NONE for FIXED_IO_mio[43]. (constraint file  C:/Users/ibai/ESDC/Final_Optional/Final_Optional.runs/synth_1/.Xil/Vivado-13680-ibaipc/dcp51/Final_Optional_processing_system7_0_0_in_context.xdc, line 224).
-Applied set_property IO_BUFFER_TYPE = NONE for FIXED_IO_mio[44]. (constraint file  C:/Users/ibai/ESDC/Final_Optional/Final_Optional.runs/synth_1/.Xil/Vivado-13680-ibaipc/dcp51/Final_Optional_processing_system7_0_0_in_context.xdc, line 225).
-Applied set_property CLOCK_BUFFER_TYPE = NONE for FIXED_IO_mio[44]. (constraint file  C:/Users/ibai/ESDC/Final_Optional/Final_Optional.runs/synth_1/.Xil/Vivado-13680-ibaipc/dcp51/Final_Optional_processing_system7_0_0_in_context.xdc, line 226).
-Applied set_property IO_BUFFER_TYPE = NONE for FIXED_IO_mio[45]. (constraint file  C:/Users/ibai/ESDC/Final_Optional/Final_Optional.runs/synth_1/.Xil/Vivado-13680-ibaipc/dcp51/Final_Optional_processing_system7_0_0_in_context.xdc, line 227).
-Applied set_property CLOCK_BUFFER_TYPE = NONE for FIXED_IO_mio[45]. (constraint file  C:/Users/ibai/ESDC/Final_Optional/Final_Optional.runs/synth_1/.Xil/Vivado-13680-ibaipc/dcp51/Final_Optional_processing_system7_0_0_in_context.xdc, line 228).
-Applied set_property IO_BUFFER_TYPE = NONE for FIXED_IO_mio[46]. (constraint file  C:/Users/ibai/ESDC/Final_Optional/Final_Optional.runs/synth_1/.Xil/Vivado-13680-ibaipc/dcp51/Final_Optional_processing_system7_0_0_in_context.xdc, line 229).
-Applied set_property CLOCK_BUFFER_TYPE = NONE for FIXED_IO_mio[46]. (constraint file  C:/Users/ibai/ESDC/Final_Optional/Final_Optional.runs/synth_1/.Xil/Vivado-13680-ibaipc/dcp51/Final_Optional_processing_system7_0_0_in_context.xdc, line 230).
-Applied set_property IO_BUFFER_TYPE = NONE for FIXED_IO_mio[47]. (constraint file  C:/Users/ibai/ESDC/Final_Optional/Final_Optional.runs/synth_1/.Xil/Vivado-13680-ibaipc/dcp51/Final_Optional_processing_system7_0_0_in_context.xdc, line 231).
-Applied set_property CLOCK_BUFFER_TYPE = NONE for FIXED_IO_mio[47]. (constraint file  C:/Users/ibai/ESDC/Final_Optional/Final_Optional.runs/synth_1/.Xil/Vivado-13680-ibaipc/dcp51/Final_Optional_processing_system7_0_0_in_context.xdc, line 232).
-Applied set_property IO_BUFFER_TYPE = NONE for FIXED_IO_mio[48]. (constraint file  C:/Users/ibai/ESDC/Final_Optional/Final_Optional.runs/synth_1/.Xil/Vivado-13680-ibaipc/dcp51/Final_Optional_processing_system7_0_0_in_context.xdc, line 233).
-Applied set_property CLOCK_BUFFER_TYPE = NONE for FIXED_IO_mio[48]. (constraint file  C:/Users/ibai/ESDC/Final_Optional/Final_Optional.runs/synth_1/.Xil/Vivado-13680-ibaipc/dcp51/Final_Optional_processing_system7_0_0_in_context.xdc, line 234).
-Applied set_property IO_BUFFER_TYPE = NONE for FIXED_IO_mio[49]. (constraint file  C:/Users/ibai/ESDC/Final_Optional/Final_Optional.runs/synth_1/.Xil/Vivado-13680-ibaipc/dcp51/Final_Optional_processing_system7_0_0_in_context.xdc, line 235).
-Applied set_property CLOCK_BUFFER_TYPE = NONE for FIXED_IO_mio[49]. (constraint file  C:/Users/ibai/ESDC/Final_Optional/Final_Optional.runs/synth_1/.Xil/Vivado-13680-ibaipc/dcp51/Final_Optional_processing_system7_0_0_in_context.xdc, line 236).
-Applied set_property IO_BUFFER_TYPE = NONE for FIXED_IO_mio[4]. (constraint file  C:/Users/ibai/ESDC/Final_Optional/Final_Optional.runs/synth_1/.Xil/Vivado-13680-ibaipc/dcp51/Final_Optional_processing_system7_0_0_in_context.xdc, line 237).
-Applied set_property CLOCK_BUFFER_TYPE = NONE for FIXED_IO_mio[4]. (constraint file  C:/Users/ibai/ESDC/Final_Optional/Final_Optional.runs/synth_1/.Xil/Vivado-13680-ibaipc/dcp51/Final_Optional_processing_system7_0_0_in_context.xdc, line 238).
-Applied set_property IO_BUFFER_TYPE = NONE for FIXED_IO_mio[50]. (constraint file  C:/Users/ibai/ESDC/Final_Optional/Final_Optional.runs/synth_1/.Xil/Vivado-13680-ibaipc/dcp51/Final_Optional_processing_system7_0_0_in_context.xdc, line 239).
-Applied set_property CLOCK_BUFFER_TYPE = NONE for FIXED_IO_mio[50]. (constraint file  C:/Users/ibai/ESDC/Final_Optional/Final_Optional.runs/synth_1/.Xil/Vivado-13680-ibaipc/dcp51/Final_Optional_processing_system7_0_0_in_context.xdc, line 240).
-Applied set_property IO_BUFFER_TYPE = NONE for FIXED_IO_mio[51]. (constraint file  C:/Users/ibai/ESDC/Final_Optional/Final_Optional.runs/synth_1/.Xil/Vivado-13680-ibaipc/dcp51/Final_Optional_processing_system7_0_0_in_context.xdc, line 241).
-Applied set_property CLOCK_BUFFER_TYPE = NONE for FIXED_IO_mio[51]. (constraint file  C:/Users/ibai/ESDC/Final_Optional/Final_Optional.runs/synth_1/.Xil/Vivado-13680-ibaipc/dcp51/Final_Optional_processing_system7_0_0_in_context.xdc, line 242).
-Applied set_property IO_BUFFER_TYPE = NONE for FIXED_IO_mio[52]. (constraint file  C:/Users/ibai/ESDC/Final_Optional/Final_Optional.runs/synth_1/.Xil/Vivado-13680-ibaipc/dcp51/Final_Optional_processing_system7_0_0_in_context.xdc, line 243).
-Applied set_property CLOCK_BUFFER_TYPE = NONE for FIXED_IO_mio[52]. (constraint file  C:/Users/ibai/ESDC/Final_Optional/Final_Optional.runs/synth_1/.Xil/Vivado-13680-ibaipc/dcp51/Final_Optional_processing_system7_0_0_in_context.xdc, line 244).
-Applied set_property IO_BUFFER_TYPE = NONE for FIXED_IO_mio[53]. (constraint file  C:/Users/ibai/ESDC/Final_Optional/Final_Optional.runs/synth_1/.Xil/Vivado-13680-ibaipc/dcp51/Final_Optional_processing_system7_0_0_in_context.xdc, line 245).
-Applied set_property CLOCK_BUFFER_TYPE = NONE for FIXED_IO_mio[53]. (constraint file  C:/Users/ibai/ESDC/Final_Optional/Final_Optional.runs/synth_1/.Xil/Vivado-13680-ibaipc/dcp51/Final_Optional_processing_system7_0_0_in_context.xdc, line 246).
-Applied set_property IO_BUFFER_TYPE = NONE for FIXED_IO_mio[5]. (constraint file  C:/Users/ibai/ESDC/Final_Optional/Final_Optional.runs/synth_1/.Xil/Vivado-13680-ibaipc/dcp51/Final_Optional_processing_system7_0_0_in_context.xdc, line 247).
-Applied set_property CLOCK_BUFFER_TYPE = NONE for FIXED_IO_mio[5]. (constraint file  C:/Users/ibai/ESDC/Final_Optional/Final_Optional.runs/synth_1/.Xil/Vivado-13680-ibaipc/dcp51/Final_Optional_processing_system7_0_0_in_context.xdc, line 248).
-Applied set_property IO_BUFFER_TYPE = NONE for FIXED_IO_mio[6]. (constraint file  C:/Users/ibai/ESDC/Final_Optional/Final_Optional.runs/synth_1/.Xil/Vivado-13680-ibaipc/dcp51/Final_Optional_processing_system7_0_0_in_context.xdc, line 249).
-Applied set_property CLOCK_BUFFER_TYPE = NONE for FIXED_IO_mio[6]. (constraint file  C:/Users/ibai/ESDC/Final_Optional/Final_Optional.runs/synth_1/.Xil/Vivado-13680-ibaipc/dcp51/Final_Optional_processing_system7_0_0_in_context.xdc, line 250).
-Applied set_property IO_BUFFER_TYPE = NONE for FIXED_IO_mio[7]. (constraint file  C:/Users/ibai/ESDC/Final_Optional/Final_Optional.runs/synth_1/.Xil/Vivado-13680-ibaipc/dcp51/Final_Optional_processing_system7_0_0_in_context.xdc, line 251).
-Applied set_property CLOCK_BUFFER_TYPE = NONE for FIXED_IO_mio[7]. (constraint file  C:/Users/ibai/ESDC/Final_Optional/Final_Optional.runs/synth_1/.Xil/Vivado-13680-ibaipc/dcp51/Final_Optional_processing_system7_0_0_in_context.xdc, line 252).
-Applied set_property IO_BUFFER_TYPE = NONE for FIXED_IO_mio[8]. (constraint file  C:/Users/ibai/ESDC/Final_Optional/Final_Optional.runs/synth_1/.Xil/Vivado-13680-ibaipc/dcp51/Final_Optional_processing_system7_0_0_in_context.xdc, line 253).
-Applied set_property CLOCK_BUFFER_TYPE = NONE for FIXED_IO_mio[8]. (constraint file  C:/Users/ibai/ESDC/Final_Optional/Final_Optional.runs/synth_1/.Xil/Vivado-13680-ibaipc/dcp51/Final_Optional_processing_system7_0_0_in_context.xdc, line 254).
-Applied set_property IO_BUFFER_TYPE = NONE for FIXED_IO_mio[9]. (constraint file  C:/Users/ibai/ESDC/Final_Optional/Final_Optional.runs/synth_1/.Xil/Vivado-13680-ibaipc/dcp51/Final_Optional_processing_system7_0_0_in_context.xdc, line 255).
-Applied set_property CLOCK_BUFFER_TYPE = NONE for FIXED_IO_mio[9]. (constraint file  C:/Users/ibai/ESDC/Final_Optional/Final_Optional.runs/synth_1/.Xil/Vivado-13680-ibaipc/dcp51/Final_Optional_processing_system7_0_0_in_context.xdc, line 256).
-Applied set_property IO_BUFFER_TYPE = NONE for FIXED_IO_ps_clk. (constraint file  C:/Users/ibai/ESDC/Final_Optional/Final_Optional.runs/synth_1/.Xil/Vivado-13680-ibaipc/dcp51/Final_Optional_processing_system7_0_0_in_context.xdc, line 257).
-Applied set_property CLOCK_BUFFER_TYPE = NONE for FIXED_IO_ps_clk. (constraint file  C:/Users/ibai/ESDC/Final_Optional/Final_Optional.runs/synth_1/.Xil/Vivado-13680-ibaipc/dcp51/Final_Optional_processing_system7_0_0_in_context.xdc, line 258).
-Applied set_property IO_BUFFER_TYPE = NONE for FIXED_IO_ps_porb. (constraint file  C:/Users/ibai/ESDC/Final_Optional/Final_Optional.runs/synth_1/.Xil/Vivado-13680-ibaipc/dcp51/Final_Optional_processing_system7_0_0_in_context.xdc, line 259).
-Applied set_property CLOCK_BUFFER_TYPE = NONE for FIXED_IO_ps_porb. (constraint file  C:/Users/ibai/ESDC/Final_Optional/Final_Optional.runs/synth_1/.Xil/Vivado-13680-ibaipc/dcp51/Final_Optional_processing_system7_0_0_in_context.xdc, line 260).
-Applied set_property IO_BUFFER_TYPE = NONE for FIXED_IO_ps_srstb. (constraint file  C:/Users/ibai/ESDC/Final_Optional/Final_Optional.runs/synth_1/.Xil/Vivado-13680-ibaipc/dcp51/Final_Optional_processing_system7_0_0_in_context.xdc, line 261).
-Applied set_property CLOCK_BUFFER_TYPE = NONE for FIXED_IO_ps_srstb. (constraint file  C:/Users/ibai/ESDC/Final_Optional/Final_Optional.runs/synth_1/.Xil/Vivado-13680-ibaipc/dcp51/Final_Optional_processing_system7_0_0_in_context.xdc, line 262).
+Applied set_property IO_BUFFER_TYPE = NONE for DDR_addr[0]. (constraint file  C:/Users/ibai.ros/Final_Optional/Final_Optional.runs/synth_1/.Xil/Vivado-1324-c4d8/dcp53/Final_Optional_processing_system7_0_0_in_context.xdc, line 3).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for DDR_addr[0]. (constraint file  C:/Users/ibai.ros/Final_Optional/Final_Optional.runs/synth_1/.Xil/Vivado-1324-c4d8/dcp53/Final_Optional_processing_system7_0_0_in_context.xdc, line 4).
+Applied set_property IO_BUFFER_TYPE = NONE for DDR_addr[10]. (constraint file  C:/Users/ibai.ros/Final_Optional/Final_Optional.runs/synth_1/.Xil/Vivado-1324-c4d8/dcp53/Final_Optional_processing_system7_0_0_in_context.xdc, line 5).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for DDR_addr[10]. (constraint file  C:/Users/ibai.ros/Final_Optional/Final_Optional.runs/synth_1/.Xil/Vivado-1324-c4d8/dcp53/Final_Optional_processing_system7_0_0_in_context.xdc, line 6).
+Applied set_property IO_BUFFER_TYPE = NONE for DDR_addr[11]. (constraint file  C:/Users/ibai.ros/Final_Optional/Final_Optional.runs/synth_1/.Xil/Vivado-1324-c4d8/dcp53/Final_Optional_processing_system7_0_0_in_context.xdc, line 7).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for DDR_addr[11]. (constraint file  C:/Users/ibai.ros/Final_Optional/Final_Optional.runs/synth_1/.Xil/Vivado-1324-c4d8/dcp53/Final_Optional_processing_system7_0_0_in_context.xdc, line 8).
+Applied set_property IO_BUFFER_TYPE = NONE for DDR_addr[12]. (constraint file  C:/Users/ibai.ros/Final_Optional/Final_Optional.runs/synth_1/.Xil/Vivado-1324-c4d8/dcp53/Final_Optional_processing_system7_0_0_in_context.xdc, line 9).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for DDR_addr[12]. (constraint file  C:/Users/ibai.ros/Final_Optional/Final_Optional.runs/synth_1/.Xil/Vivado-1324-c4d8/dcp53/Final_Optional_processing_system7_0_0_in_context.xdc, line 10).
+Applied set_property IO_BUFFER_TYPE = NONE for DDR_addr[13]. (constraint file  C:/Users/ibai.ros/Final_Optional/Final_Optional.runs/synth_1/.Xil/Vivado-1324-c4d8/dcp53/Final_Optional_processing_system7_0_0_in_context.xdc, line 11).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for DDR_addr[13]. (constraint file  C:/Users/ibai.ros/Final_Optional/Final_Optional.runs/synth_1/.Xil/Vivado-1324-c4d8/dcp53/Final_Optional_processing_system7_0_0_in_context.xdc, line 12).
+Applied set_property IO_BUFFER_TYPE = NONE for DDR_addr[14]. (constraint file  C:/Users/ibai.ros/Final_Optional/Final_Optional.runs/synth_1/.Xil/Vivado-1324-c4d8/dcp53/Final_Optional_processing_system7_0_0_in_context.xdc, line 13).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for DDR_addr[14]. (constraint file  C:/Users/ibai.ros/Final_Optional/Final_Optional.runs/synth_1/.Xil/Vivado-1324-c4d8/dcp53/Final_Optional_processing_system7_0_0_in_context.xdc, line 14).
+Applied set_property IO_BUFFER_TYPE = NONE for DDR_addr[1]. (constraint file  C:/Users/ibai.ros/Final_Optional/Final_Optional.runs/synth_1/.Xil/Vivado-1324-c4d8/dcp53/Final_Optional_processing_system7_0_0_in_context.xdc, line 15).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for DDR_addr[1]. (constraint file  C:/Users/ibai.ros/Final_Optional/Final_Optional.runs/synth_1/.Xil/Vivado-1324-c4d8/dcp53/Final_Optional_processing_system7_0_0_in_context.xdc, line 16).
+Applied set_property IO_BUFFER_TYPE = NONE for DDR_addr[2]. (constraint file  C:/Users/ibai.ros/Final_Optional/Final_Optional.runs/synth_1/.Xil/Vivado-1324-c4d8/dcp53/Final_Optional_processing_system7_0_0_in_context.xdc, line 17).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for DDR_addr[2]. (constraint file  C:/Users/ibai.ros/Final_Optional/Final_Optional.runs/synth_1/.Xil/Vivado-1324-c4d8/dcp53/Final_Optional_processing_system7_0_0_in_context.xdc, line 18).
+Applied set_property IO_BUFFER_TYPE = NONE for DDR_addr[3]. (constraint file  C:/Users/ibai.ros/Final_Optional/Final_Optional.runs/synth_1/.Xil/Vivado-1324-c4d8/dcp53/Final_Optional_processing_system7_0_0_in_context.xdc, line 19).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for DDR_addr[3]. (constraint file  C:/Users/ibai.ros/Final_Optional/Final_Optional.runs/synth_1/.Xil/Vivado-1324-c4d8/dcp53/Final_Optional_processing_system7_0_0_in_context.xdc, line 20).
+Applied set_property IO_BUFFER_TYPE = NONE for DDR_addr[4]. (constraint file  C:/Users/ibai.ros/Final_Optional/Final_Optional.runs/synth_1/.Xil/Vivado-1324-c4d8/dcp53/Final_Optional_processing_system7_0_0_in_context.xdc, line 21).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for DDR_addr[4]. (constraint file  C:/Users/ibai.ros/Final_Optional/Final_Optional.runs/synth_1/.Xil/Vivado-1324-c4d8/dcp53/Final_Optional_processing_system7_0_0_in_context.xdc, line 22).
+Applied set_property IO_BUFFER_TYPE = NONE for DDR_addr[5]. (constraint file  C:/Users/ibai.ros/Final_Optional/Final_Optional.runs/synth_1/.Xil/Vivado-1324-c4d8/dcp53/Final_Optional_processing_system7_0_0_in_context.xdc, line 23).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for DDR_addr[5]. (constraint file  C:/Users/ibai.ros/Final_Optional/Final_Optional.runs/synth_1/.Xil/Vivado-1324-c4d8/dcp53/Final_Optional_processing_system7_0_0_in_context.xdc, line 24).
+Applied set_property IO_BUFFER_TYPE = NONE for DDR_addr[6]. (constraint file  C:/Users/ibai.ros/Final_Optional/Final_Optional.runs/synth_1/.Xil/Vivado-1324-c4d8/dcp53/Final_Optional_processing_system7_0_0_in_context.xdc, line 25).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for DDR_addr[6]. (constraint file  C:/Users/ibai.ros/Final_Optional/Final_Optional.runs/synth_1/.Xil/Vivado-1324-c4d8/dcp53/Final_Optional_processing_system7_0_0_in_context.xdc, line 26).
+Applied set_property IO_BUFFER_TYPE = NONE for DDR_addr[7]. (constraint file  C:/Users/ibai.ros/Final_Optional/Final_Optional.runs/synth_1/.Xil/Vivado-1324-c4d8/dcp53/Final_Optional_processing_system7_0_0_in_context.xdc, line 27).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for DDR_addr[7]. (constraint file  C:/Users/ibai.ros/Final_Optional/Final_Optional.runs/synth_1/.Xil/Vivado-1324-c4d8/dcp53/Final_Optional_processing_system7_0_0_in_context.xdc, line 28).
+Applied set_property IO_BUFFER_TYPE = NONE for DDR_addr[8]. (constraint file  C:/Users/ibai.ros/Final_Optional/Final_Optional.runs/synth_1/.Xil/Vivado-1324-c4d8/dcp53/Final_Optional_processing_system7_0_0_in_context.xdc, line 29).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for DDR_addr[8]. (constraint file  C:/Users/ibai.ros/Final_Optional/Final_Optional.runs/synth_1/.Xil/Vivado-1324-c4d8/dcp53/Final_Optional_processing_system7_0_0_in_context.xdc, line 30).
+Applied set_property IO_BUFFER_TYPE = NONE for DDR_addr[9]. (constraint file  C:/Users/ibai.ros/Final_Optional/Final_Optional.runs/synth_1/.Xil/Vivado-1324-c4d8/dcp53/Final_Optional_processing_system7_0_0_in_context.xdc, line 31).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for DDR_addr[9]. (constraint file  C:/Users/ibai.ros/Final_Optional/Final_Optional.runs/synth_1/.Xil/Vivado-1324-c4d8/dcp53/Final_Optional_processing_system7_0_0_in_context.xdc, line 32).
+Applied set_property IO_BUFFER_TYPE = NONE for DDR_ba[0]. (constraint file  C:/Users/ibai.ros/Final_Optional/Final_Optional.runs/synth_1/.Xil/Vivado-1324-c4d8/dcp53/Final_Optional_processing_system7_0_0_in_context.xdc, line 33).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for DDR_ba[0]. (constraint file  C:/Users/ibai.ros/Final_Optional/Final_Optional.runs/synth_1/.Xil/Vivado-1324-c4d8/dcp53/Final_Optional_processing_system7_0_0_in_context.xdc, line 34).
+Applied set_property IO_BUFFER_TYPE = NONE for DDR_ba[1]. (constraint file  C:/Users/ibai.ros/Final_Optional/Final_Optional.runs/synth_1/.Xil/Vivado-1324-c4d8/dcp53/Final_Optional_processing_system7_0_0_in_context.xdc, line 35).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for DDR_ba[1]. (constraint file  C:/Users/ibai.ros/Final_Optional/Final_Optional.runs/synth_1/.Xil/Vivado-1324-c4d8/dcp53/Final_Optional_processing_system7_0_0_in_context.xdc, line 36).
+Applied set_property IO_BUFFER_TYPE = NONE for DDR_ba[2]. (constraint file  C:/Users/ibai.ros/Final_Optional/Final_Optional.runs/synth_1/.Xil/Vivado-1324-c4d8/dcp53/Final_Optional_processing_system7_0_0_in_context.xdc, line 37).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for DDR_ba[2]. (constraint file  C:/Users/ibai.ros/Final_Optional/Final_Optional.runs/synth_1/.Xil/Vivado-1324-c4d8/dcp53/Final_Optional_processing_system7_0_0_in_context.xdc, line 38).
+Applied set_property IO_BUFFER_TYPE = NONE for DDR_cas_n. (constraint file  C:/Users/ibai.ros/Final_Optional/Final_Optional.runs/synth_1/.Xil/Vivado-1324-c4d8/dcp53/Final_Optional_processing_system7_0_0_in_context.xdc, line 39).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for DDR_cas_n. (constraint file  C:/Users/ibai.ros/Final_Optional/Final_Optional.runs/synth_1/.Xil/Vivado-1324-c4d8/dcp53/Final_Optional_processing_system7_0_0_in_context.xdc, line 40).
+Applied set_property IO_BUFFER_TYPE = NONE for DDR_cke. (constraint file  C:/Users/ibai.ros/Final_Optional/Final_Optional.runs/synth_1/.Xil/Vivado-1324-c4d8/dcp53/Final_Optional_processing_system7_0_0_in_context.xdc, line 41).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for DDR_cke. (constraint file  C:/Users/ibai.ros/Final_Optional/Final_Optional.runs/synth_1/.Xil/Vivado-1324-c4d8/dcp53/Final_Optional_processing_system7_0_0_in_context.xdc, line 42).
+Applied set_property IO_BUFFER_TYPE = NONE for DDR_cs_n. (constraint file  C:/Users/ibai.ros/Final_Optional/Final_Optional.runs/synth_1/.Xil/Vivado-1324-c4d8/dcp53/Final_Optional_processing_system7_0_0_in_context.xdc, line 43).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for DDR_cs_n. (constraint file  C:/Users/ibai.ros/Final_Optional/Final_Optional.runs/synth_1/.Xil/Vivado-1324-c4d8/dcp53/Final_Optional_processing_system7_0_0_in_context.xdc, line 44).
+Applied set_property IO_BUFFER_TYPE = NONE for DDR_ck_p. (constraint file  C:/Users/ibai.ros/Final_Optional/Final_Optional.runs/synth_1/.Xil/Vivado-1324-c4d8/dcp53/Final_Optional_processing_system7_0_0_in_context.xdc, line 45).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for DDR_ck_p. (constraint file  C:/Users/ibai.ros/Final_Optional/Final_Optional.runs/synth_1/.Xil/Vivado-1324-c4d8/dcp53/Final_Optional_processing_system7_0_0_in_context.xdc, line 46).
+Applied set_property IO_BUFFER_TYPE = NONE for DDR_ck_n. (constraint file  C:/Users/ibai.ros/Final_Optional/Final_Optional.runs/synth_1/.Xil/Vivado-1324-c4d8/dcp53/Final_Optional_processing_system7_0_0_in_context.xdc, line 47).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for DDR_ck_n. (constraint file  C:/Users/ibai.ros/Final_Optional/Final_Optional.runs/synth_1/.Xil/Vivado-1324-c4d8/dcp53/Final_Optional_processing_system7_0_0_in_context.xdc, line 48).
+Applied set_property IO_BUFFER_TYPE = NONE for DDR_dm[0]. (constraint file  C:/Users/ibai.ros/Final_Optional/Final_Optional.runs/synth_1/.Xil/Vivado-1324-c4d8/dcp53/Final_Optional_processing_system7_0_0_in_context.xdc, line 49).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for DDR_dm[0]. (constraint file  C:/Users/ibai.ros/Final_Optional/Final_Optional.runs/synth_1/.Xil/Vivado-1324-c4d8/dcp53/Final_Optional_processing_system7_0_0_in_context.xdc, line 50).
+Applied set_property IO_BUFFER_TYPE = NONE for DDR_dm[1]. (constraint file  C:/Users/ibai.ros/Final_Optional/Final_Optional.runs/synth_1/.Xil/Vivado-1324-c4d8/dcp53/Final_Optional_processing_system7_0_0_in_context.xdc, line 51).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for DDR_dm[1]. (constraint file  C:/Users/ibai.ros/Final_Optional/Final_Optional.runs/synth_1/.Xil/Vivado-1324-c4d8/dcp53/Final_Optional_processing_system7_0_0_in_context.xdc, line 52).
+Applied set_property IO_BUFFER_TYPE = NONE for DDR_dm[2]. (constraint file  C:/Users/ibai.ros/Final_Optional/Final_Optional.runs/synth_1/.Xil/Vivado-1324-c4d8/dcp53/Final_Optional_processing_system7_0_0_in_context.xdc, line 53).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for DDR_dm[2]. (constraint file  C:/Users/ibai.ros/Final_Optional/Final_Optional.runs/synth_1/.Xil/Vivado-1324-c4d8/dcp53/Final_Optional_processing_system7_0_0_in_context.xdc, line 54).
+Applied set_property IO_BUFFER_TYPE = NONE for DDR_dm[3]. (constraint file  C:/Users/ibai.ros/Final_Optional/Final_Optional.runs/synth_1/.Xil/Vivado-1324-c4d8/dcp53/Final_Optional_processing_system7_0_0_in_context.xdc, line 55).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for DDR_dm[3]. (constraint file  C:/Users/ibai.ros/Final_Optional/Final_Optional.runs/synth_1/.Xil/Vivado-1324-c4d8/dcp53/Final_Optional_processing_system7_0_0_in_context.xdc, line 56).
+Applied set_property IO_BUFFER_TYPE = NONE for DDR_dqs_p[0]. (constraint file  C:/Users/ibai.ros/Final_Optional/Final_Optional.runs/synth_1/.Xil/Vivado-1324-c4d8/dcp53/Final_Optional_processing_system7_0_0_in_context.xdc, line 57).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for DDR_dqs_p[0]. (constraint file  C:/Users/ibai.ros/Final_Optional/Final_Optional.runs/synth_1/.Xil/Vivado-1324-c4d8/dcp53/Final_Optional_processing_system7_0_0_in_context.xdc, line 58).
+Applied set_property IO_BUFFER_TYPE = NONE for DDR_dqs_p[1]. (constraint file  C:/Users/ibai.ros/Final_Optional/Final_Optional.runs/synth_1/.Xil/Vivado-1324-c4d8/dcp53/Final_Optional_processing_system7_0_0_in_context.xdc, line 59).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for DDR_dqs_p[1]. (constraint file  C:/Users/ibai.ros/Final_Optional/Final_Optional.runs/synth_1/.Xil/Vivado-1324-c4d8/dcp53/Final_Optional_processing_system7_0_0_in_context.xdc, line 60).
+Applied set_property IO_BUFFER_TYPE = NONE for DDR_dqs_p[2]. (constraint file  C:/Users/ibai.ros/Final_Optional/Final_Optional.runs/synth_1/.Xil/Vivado-1324-c4d8/dcp53/Final_Optional_processing_system7_0_0_in_context.xdc, line 61).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for DDR_dqs_p[2]. (constraint file  C:/Users/ibai.ros/Final_Optional/Final_Optional.runs/synth_1/.Xil/Vivado-1324-c4d8/dcp53/Final_Optional_processing_system7_0_0_in_context.xdc, line 62).
+Applied set_property IO_BUFFER_TYPE = NONE for DDR_dqs_p[3]. (constraint file  C:/Users/ibai.ros/Final_Optional/Final_Optional.runs/synth_1/.Xil/Vivado-1324-c4d8/dcp53/Final_Optional_processing_system7_0_0_in_context.xdc, line 63).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for DDR_dqs_p[3]. (constraint file  C:/Users/ibai.ros/Final_Optional/Final_Optional.runs/synth_1/.Xil/Vivado-1324-c4d8/dcp53/Final_Optional_processing_system7_0_0_in_context.xdc, line 64).
+Applied set_property IO_BUFFER_TYPE = NONE for DDR_dqs_n[0]. (constraint file  C:/Users/ibai.ros/Final_Optional/Final_Optional.runs/synth_1/.Xil/Vivado-1324-c4d8/dcp53/Final_Optional_processing_system7_0_0_in_context.xdc, line 65).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for DDR_dqs_n[0]. (constraint file  C:/Users/ibai.ros/Final_Optional/Final_Optional.runs/synth_1/.Xil/Vivado-1324-c4d8/dcp53/Final_Optional_processing_system7_0_0_in_context.xdc, line 66).
+Applied set_property IO_BUFFER_TYPE = NONE for DDR_dqs_n[1]. (constraint file  C:/Users/ibai.ros/Final_Optional/Final_Optional.runs/synth_1/.Xil/Vivado-1324-c4d8/dcp53/Final_Optional_processing_system7_0_0_in_context.xdc, line 67).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for DDR_dqs_n[1]. (constraint file  C:/Users/ibai.ros/Final_Optional/Final_Optional.runs/synth_1/.Xil/Vivado-1324-c4d8/dcp53/Final_Optional_processing_system7_0_0_in_context.xdc, line 68).
+Applied set_property IO_BUFFER_TYPE = NONE for DDR_dqs_n[2]. (constraint file  C:/Users/ibai.ros/Final_Optional/Final_Optional.runs/synth_1/.Xil/Vivado-1324-c4d8/dcp53/Final_Optional_processing_system7_0_0_in_context.xdc, line 69).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for DDR_dqs_n[2]. (constraint file  C:/Users/ibai.ros/Final_Optional/Final_Optional.runs/synth_1/.Xil/Vivado-1324-c4d8/dcp53/Final_Optional_processing_system7_0_0_in_context.xdc, line 70).
+Applied set_property IO_BUFFER_TYPE = NONE for DDR_dqs_n[3]. (constraint file  C:/Users/ibai.ros/Final_Optional/Final_Optional.runs/synth_1/.Xil/Vivado-1324-c4d8/dcp53/Final_Optional_processing_system7_0_0_in_context.xdc, line 71).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for DDR_dqs_n[3]. (constraint file  C:/Users/ibai.ros/Final_Optional/Final_Optional.runs/synth_1/.Xil/Vivado-1324-c4d8/dcp53/Final_Optional_processing_system7_0_0_in_context.xdc, line 72).
+Applied set_property IO_BUFFER_TYPE = NONE for DDR_dq[0]. (constraint file  C:/Users/ibai.ros/Final_Optional/Final_Optional.runs/synth_1/.Xil/Vivado-1324-c4d8/dcp53/Final_Optional_processing_system7_0_0_in_context.xdc, line 73).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for DDR_dq[0]. (constraint file  C:/Users/ibai.ros/Final_Optional/Final_Optional.runs/synth_1/.Xil/Vivado-1324-c4d8/dcp53/Final_Optional_processing_system7_0_0_in_context.xdc, line 74).
+Applied set_property IO_BUFFER_TYPE = NONE for DDR_dq[10]. (constraint file  C:/Users/ibai.ros/Final_Optional/Final_Optional.runs/synth_1/.Xil/Vivado-1324-c4d8/dcp53/Final_Optional_processing_system7_0_0_in_context.xdc, line 75).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for DDR_dq[10]. (constraint file  C:/Users/ibai.ros/Final_Optional/Final_Optional.runs/synth_1/.Xil/Vivado-1324-c4d8/dcp53/Final_Optional_processing_system7_0_0_in_context.xdc, line 76).
+Applied set_property IO_BUFFER_TYPE = NONE for DDR_dq[11]. (constraint file  C:/Users/ibai.ros/Final_Optional/Final_Optional.runs/synth_1/.Xil/Vivado-1324-c4d8/dcp53/Final_Optional_processing_system7_0_0_in_context.xdc, line 77).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for DDR_dq[11]. (constraint file  C:/Users/ibai.ros/Final_Optional/Final_Optional.runs/synth_1/.Xil/Vivado-1324-c4d8/dcp53/Final_Optional_processing_system7_0_0_in_context.xdc, line 78).
+Applied set_property IO_BUFFER_TYPE = NONE for DDR_dq[12]. (constraint file  C:/Users/ibai.ros/Final_Optional/Final_Optional.runs/synth_1/.Xil/Vivado-1324-c4d8/dcp53/Final_Optional_processing_system7_0_0_in_context.xdc, line 79).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for DDR_dq[12]. (constraint file  C:/Users/ibai.ros/Final_Optional/Final_Optional.runs/synth_1/.Xil/Vivado-1324-c4d8/dcp53/Final_Optional_processing_system7_0_0_in_context.xdc, line 80).
+Applied set_property IO_BUFFER_TYPE = NONE for DDR_dq[13]. (constraint file  C:/Users/ibai.ros/Final_Optional/Final_Optional.runs/synth_1/.Xil/Vivado-1324-c4d8/dcp53/Final_Optional_processing_system7_0_0_in_context.xdc, line 81).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for DDR_dq[13]. (constraint file  C:/Users/ibai.ros/Final_Optional/Final_Optional.runs/synth_1/.Xil/Vivado-1324-c4d8/dcp53/Final_Optional_processing_system7_0_0_in_context.xdc, line 82).
+Applied set_property IO_BUFFER_TYPE = NONE for DDR_dq[14]. (constraint file  C:/Users/ibai.ros/Final_Optional/Final_Optional.runs/synth_1/.Xil/Vivado-1324-c4d8/dcp53/Final_Optional_processing_system7_0_0_in_context.xdc, line 83).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for DDR_dq[14]. (constraint file  C:/Users/ibai.ros/Final_Optional/Final_Optional.runs/synth_1/.Xil/Vivado-1324-c4d8/dcp53/Final_Optional_processing_system7_0_0_in_context.xdc, line 84).
+Applied set_property IO_BUFFER_TYPE = NONE for DDR_dq[15]. (constraint file  C:/Users/ibai.ros/Final_Optional/Final_Optional.runs/synth_1/.Xil/Vivado-1324-c4d8/dcp53/Final_Optional_processing_system7_0_0_in_context.xdc, line 85).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for DDR_dq[15]. (constraint file  C:/Users/ibai.ros/Final_Optional/Final_Optional.runs/synth_1/.Xil/Vivado-1324-c4d8/dcp53/Final_Optional_processing_system7_0_0_in_context.xdc, line 86).
+Applied set_property IO_BUFFER_TYPE = NONE for DDR_dq[16]. (constraint file  C:/Users/ibai.ros/Final_Optional/Final_Optional.runs/synth_1/.Xil/Vivado-1324-c4d8/dcp53/Final_Optional_processing_system7_0_0_in_context.xdc, line 87).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for DDR_dq[16]. (constraint file  C:/Users/ibai.ros/Final_Optional/Final_Optional.runs/synth_1/.Xil/Vivado-1324-c4d8/dcp53/Final_Optional_processing_system7_0_0_in_context.xdc, line 88).
+Applied set_property IO_BUFFER_TYPE = NONE for DDR_dq[17]. (constraint file  C:/Users/ibai.ros/Final_Optional/Final_Optional.runs/synth_1/.Xil/Vivado-1324-c4d8/dcp53/Final_Optional_processing_system7_0_0_in_context.xdc, line 89).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for DDR_dq[17]. (constraint file  C:/Users/ibai.ros/Final_Optional/Final_Optional.runs/synth_1/.Xil/Vivado-1324-c4d8/dcp53/Final_Optional_processing_system7_0_0_in_context.xdc, line 90).
+Applied set_property IO_BUFFER_TYPE = NONE for DDR_dq[18]. (constraint file  C:/Users/ibai.ros/Final_Optional/Final_Optional.runs/synth_1/.Xil/Vivado-1324-c4d8/dcp53/Final_Optional_processing_system7_0_0_in_context.xdc, line 91).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for DDR_dq[18]. (constraint file  C:/Users/ibai.ros/Final_Optional/Final_Optional.runs/synth_1/.Xil/Vivado-1324-c4d8/dcp53/Final_Optional_processing_system7_0_0_in_context.xdc, line 92).
+Applied set_property IO_BUFFER_TYPE = NONE for DDR_dq[19]. (constraint file  C:/Users/ibai.ros/Final_Optional/Final_Optional.runs/synth_1/.Xil/Vivado-1324-c4d8/dcp53/Final_Optional_processing_system7_0_0_in_context.xdc, line 93).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for DDR_dq[19]. (constraint file  C:/Users/ibai.ros/Final_Optional/Final_Optional.runs/synth_1/.Xil/Vivado-1324-c4d8/dcp53/Final_Optional_processing_system7_0_0_in_context.xdc, line 94).
+Applied set_property IO_BUFFER_TYPE = NONE for DDR_dq[1]. (constraint file  C:/Users/ibai.ros/Final_Optional/Final_Optional.runs/synth_1/.Xil/Vivado-1324-c4d8/dcp53/Final_Optional_processing_system7_0_0_in_context.xdc, line 95).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for DDR_dq[1]. (constraint file  C:/Users/ibai.ros/Final_Optional/Final_Optional.runs/synth_1/.Xil/Vivado-1324-c4d8/dcp53/Final_Optional_processing_system7_0_0_in_context.xdc, line 96).
+Applied set_property IO_BUFFER_TYPE = NONE for DDR_dq[20]. (constraint file  C:/Users/ibai.ros/Final_Optional/Final_Optional.runs/synth_1/.Xil/Vivado-1324-c4d8/dcp53/Final_Optional_processing_system7_0_0_in_context.xdc, line 97).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for DDR_dq[20]. (constraint file  C:/Users/ibai.ros/Final_Optional/Final_Optional.runs/synth_1/.Xil/Vivado-1324-c4d8/dcp53/Final_Optional_processing_system7_0_0_in_context.xdc, line 98).
+Applied set_property IO_BUFFER_TYPE = NONE for DDR_dq[21]. (constraint file  C:/Users/ibai.ros/Final_Optional/Final_Optional.runs/synth_1/.Xil/Vivado-1324-c4d8/dcp53/Final_Optional_processing_system7_0_0_in_context.xdc, line 99).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for DDR_dq[21]. (constraint file  C:/Users/ibai.ros/Final_Optional/Final_Optional.runs/synth_1/.Xil/Vivado-1324-c4d8/dcp53/Final_Optional_processing_system7_0_0_in_context.xdc, line 100).
+Applied set_property IO_BUFFER_TYPE = NONE for DDR_dq[22]. (constraint file  C:/Users/ibai.ros/Final_Optional/Final_Optional.runs/synth_1/.Xil/Vivado-1324-c4d8/dcp53/Final_Optional_processing_system7_0_0_in_context.xdc, line 101).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for DDR_dq[22]. (constraint file  C:/Users/ibai.ros/Final_Optional/Final_Optional.runs/synth_1/.Xil/Vivado-1324-c4d8/dcp53/Final_Optional_processing_system7_0_0_in_context.xdc, line 102).
+Applied set_property IO_BUFFER_TYPE = NONE for DDR_dq[23]. (constraint file  C:/Users/ibai.ros/Final_Optional/Final_Optional.runs/synth_1/.Xil/Vivado-1324-c4d8/dcp53/Final_Optional_processing_system7_0_0_in_context.xdc, line 103).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for DDR_dq[23]. (constraint file  C:/Users/ibai.ros/Final_Optional/Final_Optional.runs/synth_1/.Xil/Vivado-1324-c4d8/dcp53/Final_Optional_processing_system7_0_0_in_context.xdc, line 104).
+Applied set_property IO_BUFFER_TYPE = NONE for DDR_dq[24]. (constraint file  C:/Users/ibai.ros/Final_Optional/Final_Optional.runs/synth_1/.Xil/Vivado-1324-c4d8/dcp53/Final_Optional_processing_system7_0_0_in_context.xdc, line 105).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for DDR_dq[24]. (constraint file  C:/Users/ibai.ros/Final_Optional/Final_Optional.runs/synth_1/.Xil/Vivado-1324-c4d8/dcp53/Final_Optional_processing_system7_0_0_in_context.xdc, line 106).
+Applied set_property IO_BUFFER_TYPE = NONE for DDR_dq[25]. (constraint file  C:/Users/ibai.ros/Final_Optional/Final_Optional.runs/synth_1/.Xil/Vivado-1324-c4d8/dcp53/Final_Optional_processing_system7_0_0_in_context.xdc, line 107).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for DDR_dq[25]. (constraint file  C:/Users/ibai.ros/Final_Optional/Final_Optional.runs/synth_1/.Xil/Vivado-1324-c4d8/dcp53/Final_Optional_processing_system7_0_0_in_context.xdc, line 108).
+Applied set_property IO_BUFFER_TYPE = NONE for DDR_dq[26]. (constraint file  C:/Users/ibai.ros/Final_Optional/Final_Optional.runs/synth_1/.Xil/Vivado-1324-c4d8/dcp53/Final_Optional_processing_system7_0_0_in_context.xdc, line 109).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for DDR_dq[26]. (constraint file  C:/Users/ibai.ros/Final_Optional/Final_Optional.runs/synth_1/.Xil/Vivado-1324-c4d8/dcp53/Final_Optional_processing_system7_0_0_in_context.xdc, line 110).
+Applied set_property IO_BUFFER_TYPE = NONE for DDR_dq[27]. (constraint file  C:/Users/ibai.ros/Final_Optional/Final_Optional.runs/synth_1/.Xil/Vivado-1324-c4d8/dcp53/Final_Optional_processing_system7_0_0_in_context.xdc, line 111).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for DDR_dq[27]. (constraint file  C:/Users/ibai.ros/Final_Optional/Final_Optional.runs/synth_1/.Xil/Vivado-1324-c4d8/dcp53/Final_Optional_processing_system7_0_0_in_context.xdc, line 112).
+Applied set_property IO_BUFFER_TYPE = NONE for DDR_dq[28]. (constraint file  C:/Users/ibai.ros/Final_Optional/Final_Optional.runs/synth_1/.Xil/Vivado-1324-c4d8/dcp53/Final_Optional_processing_system7_0_0_in_context.xdc, line 113).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for DDR_dq[28]. (constraint file  C:/Users/ibai.ros/Final_Optional/Final_Optional.runs/synth_1/.Xil/Vivado-1324-c4d8/dcp53/Final_Optional_processing_system7_0_0_in_context.xdc, line 114).
+Applied set_property IO_BUFFER_TYPE = NONE for DDR_dq[29]. (constraint file  C:/Users/ibai.ros/Final_Optional/Final_Optional.runs/synth_1/.Xil/Vivado-1324-c4d8/dcp53/Final_Optional_processing_system7_0_0_in_context.xdc, line 115).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for DDR_dq[29]. (constraint file  C:/Users/ibai.ros/Final_Optional/Final_Optional.runs/synth_1/.Xil/Vivado-1324-c4d8/dcp53/Final_Optional_processing_system7_0_0_in_context.xdc, line 116).
+Applied set_property IO_BUFFER_TYPE = NONE for DDR_dq[2]. (constraint file  C:/Users/ibai.ros/Final_Optional/Final_Optional.runs/synth_1/.Xil/Vivado-1324-c4d8/dcp53/Final_Optional_processing_system7_0_0_in_context.xdc, line 117).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for DDR_dq[2]. (constraint file  C:/Users/ibai.ros/Final_Optional/Final_Optional.runs/synth_1/.Xil/Vivado-1324-c4d8/dcp53/Final_Optional_processing_system7_0_0_in_context.xdc, line 118).
+Applied set_property IO_BUFFER_TYPE = NONE for DDR_dq[30]. (constraint file  C:/Users/ibai.ros/Final_Optional/Final_Optional.runs/synth_1/.Xil/Vivado-1324-c4d8/dcp53/Final_Optional_processing_system7_0_0_in_context.xdc, line 119).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for DDR_dq[30]. (constraint file  C:/Users/ibai.ros/Final_Optional/Final_Optional.runs/synth_1/.Xil/Vivado-1324-c4d8/dcp53/Final_Optional_processing_system7_0_0_in_context.xdc, line 120).
+Applied set_property IO_BUFFER_TYPE = NONE for DDR_dq[31]. (constraint file  C:/Users/ibai.ros/Final_Optional/Final_Optional.runs/synth_1/.Xil/Vivado-1324-c4d8/dcp53/Final_Optional_processing_system7_0_0_in_context.xdc, line 121).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for DDR_dq[31]. (constraint file  C:/Users/ibai.ros/Final_Optional/Final_Optional.runs/synth_1/.Xil/Vivado-1324-c4d8/dcp53/Final_Optional_processing_system7_0_0_in_context.xdc, line 122).
+Applied set_property IO_BUFFER_TYPE = NONE for DDR_dq[3]. (constraint file  C:/Users/ibai.ros/Final_Optional/Final_Optional.runs/synth_1/.Xil/Vivado-1324-c4d8/dcp53/Final_Optional_processing_system7_0_0_in_context.xdc, line 123).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for DDR_dq[3]. (constraint file  C:/Users/ibai.ros/Final_Optional/Final_Optional.runs/synth_1/.Xil/Vivado-1324-c4d8/dcp53/Final_Optional_processing_system7_0_0_in_context.xdc, line 124).
+Applied set_property IO_BUFFER_TYPE = NONE for DDR_dq[4]. (constraint file  C:/Users/ibai.ros/Final_Optional/Final_Optional.runs/synth_1/.Xil/Vivado-1324-c4d8/dcp53/Final_Optional_processing_system7_0_0_in_context.xdc, line 125).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for DDR_dq[4]. (constraint file  C:/Users/ibai.ros/Final_Optional/Final_Optional.runs/synth_1/.Xil/Vivado-1324-c4d8/dcp53/Final_Optional_processing_system7_0_0_in_context.xdc, line 126).
+Applied set_property IO_BUFFER_TYPE = NONE for DDR_dq[5]. (constraint file  C:/Users/ibai.ros/Final_Optional/Final_Optional.runs/synth_1/.Xil/Vivado-1324-c4d8/dcp53/Final_Optional_processing_system7_0_0_in_context.xdc, line 127).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for DDR_dq[5]. (constraint file  C:/Users/ibai.ros/Final_Optional/Final_Optional.runs/synth_1/.Xil/Vivado-1324-c4d8/dcp53/Final_Optional_processing_system7_0_0_in_context.xdc, line 128).
+Applied set_property IO_BUFFER_TYPE = NONE for DDR_dq[6]. (constraint file  C:/Users/ibai.ros/Final_Optional/Final_Optional.runs/synth_1/.Xil/Vivado-1324-c4d8/dcp53/Final_Optional_processing_system7_0_0_in_context.xdc, line 129).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for DDR_dq[6]. (constraint file  C:/Users/ibai.ros/Final_Optional/Final_Optional.runs/synth_1/.Xil/Vivado-1324-c4d8/dcp53/Final_Optional_processing_system7_0_0_in_context.xdc, line 130).
+Applied set_property IO_BUFFER_TYPE = NONE for DDR_dq[7]. (constraint file  C:/Users/ibai.ros/Final_Optional/Final_Optional.runs/synth_1/.Xil/Vivado-1324-c4d8/dcp53/Final_Optional_processing_system7_0_0_in_context.xdc, line 131).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for DDR_dq[7]. (constraint file  C:/Users/ibai.ros/Final_Optional/Final_Optional.runs/synth_1/.Xil/Vivado-1324-c4d8/dcp53/Final_Optional_processing_system7_0_0_in_context.xdc, line 132).
+Applied set_property IO_BUFFER_TYPE = NONE for DDR_dq[8]. (constraint file  C:/Users/ibai.ros/Final_Optional/Final_Optional.runs/synth_1/.Xil/Vivado-1324-c4d8/dcp53/Final_Optional_processing_system7_0_0_in_context.xdc, line 133).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for DDR_dq[8]. (constraint file  C:/Users/ibai.ros/Final_Optional/Final_Optional.runs/synth_1/.Xil/Vivado-1324-c4d8/dcp53/Final_Optional_processing_system7_0_0_in_context.xdc, line 134).
+Applied set_property IO_BUFFER_TYPE = NONE for DDR_dq[9]. (constraint file  C:/Users/ibai.ros/Final_Optional/Final_Optional.runs/synth_1/.Xil/Vivado-1324-c4d8/dcp53/Final_Optional_processing_system7_0_0_in_context.xdc, line 135).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for DDR_dq[9]. (constraint file  C:/Users/ibai.ros/Final_Optional/Final_Optional.runs/synth_1/.Xil/Vivado-1324-c4d8/dcp53/Final_Optional_processing_system7_0_0_in_context.xdc, line 136).
+Applied set_property IO_BUFFER_TYPE = NONE for DDR_reset_n. (constraint file  C:/Users/ibai.ros/Final_Optional/Final_Optional.runs/synth_1/.Xil/Vivado-1324-c4d8/dcp53/Final_Optional_processing_system7_0_0_in_context.xdc, line 137).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for DDR_reset_n. (constraint file  C:/Users/ibai.ros/Final_Optional/Final_Optional.runs/synth_1/.Xil/Vivado-1324-c4d8/dcp53/Final_Optional_processing_system7_0_0_in_context.xdc, line 138).
+Applied set_property IO_BUFFER_TYPE = NONE for DDR_odt. (constraint file  C:/Users/ibai.ros/Final_Optional/Final_Optional.runs/synth_1/.Xil/Vivado-1324-c4d8/dcp53/Final_Optional_processing_system7_0_0_in_context.xdc, line 139).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for DDR_odt. (constraint file  C:/Users/ibai.ros/Final_Optional/Final_Optional.runs/synth_1/.Xil/Vivado-1324-c4d8/dcp53/Final_Optional_processing_system7_0_0_in_context.xdc, line 140).
+Applied set_property IO_BUFFER_TYPE = NONE for DDR_ras_n. (constraint file  C:/Users/ibai.ros/Final_Optional/Final_Optional.runs/synth_1/.Xil/Vivado-1324-c4d8/dcp53/Final_Optional_processing_system7_0_0_in_context.xdc, line 141).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for DDR_ras_n. (constraint file  C:/Users/ibai.ros/Final_Optional/Final_Optional.runs/synth_1/.Xil/Vivado-1324-c4d8/dcp53/Final_Optional_processing_system7_0_0_in_context.xdc, line 142).
+Applied set_property IO_BUFFER_TYPE = NONE for FIXED_IO_ddr_vrn. (constraint file  C:/Users/ibai.ros/Final_Optional/Final_Optional.runs/synth_1/.Xil/Vivado-1324-c4d8/dcp53/Final_Optional_processing_system7_0_0_in_context.xdc, line 143).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for FIXED_IO_ddr_vrn. (constraint file  C:/Users/ibai.ros/Final_Optional/Final_Optional.runs/synth_1/.Xil/Vivado-1324-c4d8/dcp53/Final_Optional_processing_system7_0_0_in_context.xdc, line 144).
+Applied set_property IO_BUFFER_TYPE = NONE for FIXED_IO_ddr_vrp. (constraint file  C:/Users/ibai.ros/Final_Optional/Final_Optional.runs/synth_1/.Xil/Vivado-1324-c4d8/dcp53/Final_Optional_processing_system7_0_0_in_context.xdc, line 145).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for FIXED_IO_ddr_vrp. (constraint file  C:/Users/ibai.ros/Final_Optional/Final_Optional.runs/synth_1/.Xil/Vivado-1324-c4d8/dcp53/Final_Optional_processing_system7_0_0_in_context.xdc, line 146).
+Applied set_property IO_BUFFER_TYPE = NONE for DDR_we_n. (constraint file  C:/Users/ibai.ros/Final_Optional/Final_Optional.runs/synth_1/.Xil/Vivado-1324-c4d8/dcp53/Final_Optional_processing_system7_0_0_in_context.xdc, line 147).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for DDR_we_n. (constraint file  C:/Users/ibai.ros/Final_Optional/Final_Optional.runs/synth_1/.Xil/Vivado-1324-c4d8/dcp53/Final_Optional_processing_system7_0_0_in_context.xdc, line 148).
+Applied set_property IO_BUFFER_TYPE = NONE for FIXED_IO_mio[0]. (constraint file  C:/Users/ibai.ros/Final_Optional/Final_Optional.runs/synth_1/.Xil/Vivado-1324-c4d8/dcp53/Final_Optional_processing_system7_0_0_in_context.xdc, line 149).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for FIXED_IO_mio[0]. (constraint file  C:/Users/ibai.ros/Final_Optional/Final_Optional.runs/synth_1/.Xil/Vivado-1324-c4d8/dcp53/Final_Optional_processing_system7_0_0_in_context.xdc, line 150).
+Applied set_property IO_BUFFER_TYPE = NONE for FIXED_IO_mio[10]. (constraint file  C:/Users/ibai.ros/Final_Optional/Final_Optional.runs/synth_1/.Xil/Vivado-1324-c4d8/dcp53/Final_Optional_processing_system7_0_0_in_context.xdc, line 151).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for FIXED_IO_mio[10]. (constraint file  C:/Users/ibai.ros/Final_Optional/Final_Optional.runs/synth_1/.Xil/Vivado-1324-c4d8/dcp53/Final_Optional_processing_system7_0_0_in_context.xdc, line 152).
+Applied set_property IO_BUFFER_TYPE = NONE for FIXED_IO_mio[11]. (constraint file  C:/Users/ibai.ros/Final_Optional/Final_Optional.runs/synth_1/.Xil/Vivado-1324-c4d8/dcp53/Final_Optional_processing_system7_0_0_in_context.xdc, line 153).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for FIXED_IO_mio[11]. (constraint file  C:/Users/ibai.ros/Final_Optional/Final_Optional.runs/synth_1/.Xil/Vivado-1324-c4d8/dcp53/Final_Optional_processing_system7_0_0_in_context.xdc, line 154).
+Applied set_property IO_BUFFER_TYPE = NONE for FIXED_IO_mio[12]. (constraint file  C:/Users/ibai.ros/Final_Optional/Final_Optional.runs/synth_1/.Xil/Vivado-1324-c4d8/dcp53/Final_Optional_processing_system7_0_0_in_context.xdc, line 155).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for FIXED_IO_mio[12]. (constraint file  C:/Users/ibai.ros/Final_Optional/Final_Optional.runs/synth_1/.Xil/Vivado-1324-c4d8/dcp53/Final_Optional_processing_system7_0_0_in_context.xdc, line 156).
+Applied set_property IO_BUFFER_TYPE = NONE for FIXED_IO_mio[13]. (constraint file  C:/Users/ibai.ros/Final_Optional/Final_Optional.runs/synth_1/.Xil/Vivado-1324-c4d8/dcp53/Final_Optional_processing_system7_0_0_in_context.xdc, line 157).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for FIXED_IO_mio[13]. (constraint file  C:/Users/ibai.ros/Final_Optional/Final_Optional.runs/synth_1/.Xil/Vivado-1324-c4d8/dcp53/Final_Optional_processing_system7_0_0_in_context.xdc, line 158).
+Applied set_property IO_BUFFER_TYPE = NONE for FIXED_IO_mio[14]. (constraint file  C:/Users/ibai.ros/Final_Optional/Final_Optional.runs/synth_1/.Xil/Vivado-1324-c4d8/dcp53/Final_Optional_processing_system7_0_0_in_context.xdc, line 159).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for FIXED_IO_mio[14]. (constraint file  C:/Users/ibai.ros/Final_Optional/Final_Optional.runs/synth_1/.Xil/Vivado-1324-c4d8/dcp53/Final_Optional_processing_system7_0_0_in_context.xdc, line 160).
+Applied set_property IO_BUFFER_TYPE = NONE for FIXED_IO_mio[15]. (constraint file  C:/Users/ibai.ros/Final_Optional/Final_Optional.runs/synth_1/.Xil/Vivado-1324-c4d8/dcp53/Final_Optional_processing_system7_0_0_in_context.xdc, line 161).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for FIXED_IO_mio[15]. (constraint file  C:/Users/ibai.ros/Final_Optional/Final_Optional.runs/synth_1/.Xil/Vivado-1324-c4d8/dcp53/Final_Optional_processing_system7_0_0_in_context.xdc, line 162).
+Applied set_property IO_BUFFER_TYPE = NONE for FIXED_IO_mio[16]. (constraint file  C:/Users/ibai.ros/Final_Optional/Final_Optional.runs/synth_1/.Xil/Vivado-1324-c4d8/dcp53/Final_Optional_processing_system7_0_0_in_context.xdc, line 163).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for FIXED_IO_mio[16]. (constraint file  C:/Users/ibai.ros/Final_Optional/Final_Optional.runs/synth_1/.Xil/Vivado-1324-c4d8/dcp53/Final_Optional_processing_system7_0_0_in_context.xdc, line 164).
+Applied set_property IO_BUFFER_TYPE = NONE for FIXED_IO_mio[17]. (constraint file  C:/Users/ibai.ros/Final_Optional/Final_Optional.runs/synth_1/.Xil/Vivado-1324-c4d8/dcp53/Final_Optional_processing_system7_0_0_in_context.xdc, line 165).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for FIXED_IO_mio[17]. (constraint file  C:/Users/ibai.ros/Final_Optional/Final_Optional.runs/synth_1/.Xil/Vivado-1324-c4d8/dcp53/Final_Optional_processing_system7_0_0_in_context.xdc, line 166).
+Applied set_property IO_BUFFER_TYPE = NONE for FIXED_IO_mio[18]. (constraint file  C:/Users/ibai.ros/Final_Optional/Final_Optional.runs/synth_1/.Xil/Vivado-1324-c4d8/dcp53/Final_Optional_processing_system7_0_0_in_context.xdc, line 167).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for FIXED_IO_mio[18]. (constraint file  C:/Users/ibai.ros/Final_Optional/Final_Optional.runs/synth_1/.Xil/Vivado-1324-c4d8/dcp53/Final_Optional_processing_system7_0_0_in_context.xdc, line 168).
+Applied set_property IO_BUFFER_TYPE = NONE for FIXED_IO_mio[19]. (constraint file  C:/Users/ibai.ros/Final_Optional/Final_Optional.runs/synth_1/.Xil/Vivado-1324-c4d8/dcp53/Final_Optional_processing_system7_0_0_in_context.xdc, line 169).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for FIXED_IO_mio[19]. (constraint file  C:/Users/ibai.ros/Final_Optional/Final_Optional.runs/synth_1/.Xil/Vivado-1324-c4d8/dcp53/Final_Optional_processing_system7_0_0_in_context.xdc, line 170).
+Applied set_property IO_BUFFER_TYPE = NONE for FIXED_IO_mio[1]. (constraint file  C:/Users/ibai.ros/Final_Optional/Final_Optional.runs/synth_1/.Xil/Vivado-1324-c4d8/dcp53/Final_Optional_processing_system7_0_0_in_context.xdc, line 171).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for FIXED_IO_mio[1]. (constraint file  C:/Users/ibai.ros/Final_Optional/Final_Optional.runs/synth_1/.Xil/Vivado-1324-c4d8/dcp53/Final_Optional_processing_system7_0_0_in_context.xdc, line 172).
+Applied set_property IO_BUFFER_TYPE = NONE for FIXED_IO_mio[20]. (constraint file  C:/Users/ibai.ros/Final_Optional/Final_Optional.runs/synth_1/.Xil/Vivado-1324-c4d8/dcp53/Final_Optional_processing_system7_0_0_in_context.xdc, line 173).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for FIXED_IO_mio[20]. (constraint file  C:/Users/ibai.ros/Final_Optional/Final_Optional.runs/synth_1/.Xil/Vivado-1324-c4d8/dcp53/Final_Optional_processing_system7_0_0_in_context.xdc, line 174).
+Applied set_property IO_BUFFER_TYPE = NONE for FIXED_IO_mio[21]. (constraint file  C:/Users/ibai.ros/Final_Optional/Final_Optional.runs/synth_1/.Xil/Vivado-1324-c4d8/dcp53/Final_Optional_processing_system7_0_0_in_context.xdc, line 175).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for FIXED_IO_mio[21]. (constraint file  C:/Users/ibai.ros/Final_Optional/Final_Optional.runs/synth_1/.Xil/Vivado-1324-c4d8/dcp53/Final_Optional_processing_system7_0_0_in_context.xdc, line 176).
+Applied set_property IO_BUFFER_TYPE = NONE for FIXED_IO_mio[22]. (constraint file  C:/Users/ibai.ros/Final_Optional/Final_Optional.runs/synth_1/.Xil/Vivado-1324-c4d8/dcp53/Final_Optional_processing_system7_0_0_in_context.xdc, line 177).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for FIXED_IO_mio[22]. (constraint file  C:/Users/ibai.ros/Final_Optional/Final_Optional.runs/synth_1/.Xil/Vivado-1324-c4d8/dcp53/Final_Optional_processing_system7_0_0_in_context.xdc, line 178).
+Applied set_property IO_BUFFER_TYPE = NONE for FIXED_IO_mio[23]. (constraint file  C:/Users/ibai.ros/Final_Optional/Final_Optional.runs/synth_1/.Xil/Vivado-1324-c4d8/dcp53/Final_Optional_processing_system7_0_0_in_context.xdc, line 179).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for FIXED_IO_mio[23]. (constraint file  C:/Users/ibai.ros/Final_Optional/Final_Optional.runs/synth_1/.Xil/Vivado-1324-c4d8/dcp53/Final_Optional_processing_system7_0_0_in_context.xdc, line 180).
+Applied set_property IO_BUFFER_TYPE = NONE for FIXED_IO_mio[24]. (constraint file  C:/Users/ibai.ros/Final_Optional/Final_Optional.runs/synth_1/.Xil/Vivado-1324-c4d8/dcp53/Final_Optional_processing_system7_0_0_in_context.xdc, line 181).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for FIXED_IO_mio[24]. (constraint file  C:/Users/ibai.ros/Final_Optional/Final_Optional.runs/synth_1/.Xil/Vivado-1324-c4d8/dcp53/Final_Optional_processing_system7_0_0_in_context.xdc, line 182).
+Applied set_property IO_BUFFER_TYPE = NONE for FIXED_IO_mio[25]. (constraint file  C:/Users/ibai.ros/Final_Optional/Final_Optional.runs/synth_1/.Xil/Vivado-1324-c4d8/dcp53/Final_Optional_processing_system7_0_0_in_context.xdc, line 183).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for FIXED_IO_mio[25]. (constraint file  C:/Users/ibai.ros/Final_Optional/Final_Optional.runs/synth_1/.Xil/Vivado-1324-c4d8/dcp53/Final_Optional_processing_system7_0_0_in_context.xdc, line 184).
+Applied set_property IO_BUFFER_TYPE = NONE for FIXED_IO_mio[26]. (constraint file  C:/Users/ibai.ros/Final_Optional/Final_Optional.runs/synth_1/.Xil/Vivado-1324-c4d8/dcp53/Final_Optional_processing_system7_0_0_in_context.xdc, line 185).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for FIXED_IO_mio[26]. (constraint file  C:/Users/ibai.ros/Final_Optional/Final_Optional.runs/synth_1/.Xil/Vivado-1324-c4d8/dcp53/Final_Optional_processing_system7_0_0_in_context.xdc, line 186).
+Applied set_property IO_BUFFER_TYPE = NONE for FIXED_IO_mio[27]. (constraint file  C:/Users/ibai.ros/Final_Optional/Final_Optional.runs/synth_1/.Xil/Vivado-1324-c4d8/dcp53/Final_Optional_processing_system7_0_0_in_context.xdc, line 187).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for FIXED_IO_mio[27]. (constraint file  C:/Users/ibai.ros/Final_Optional/Final_Optional.runs/synth_1/.Xil/Vivado-1324-c4d8/dcp53/Final_Optional_processing_system7_0_0_in_context.xdc, line 188).
+Applied set_property IO_BUFFER_TYPE = NONE for FIXED_IO_mio[28]. (constraint file  C:/Users/ibai.ros/Final_Optional/Final_Optional.runs/synth_1/.Xil/Vivado-1324-c4d8/dcp53/Final_Optional_processing_system7_0_0_in_context.xdc, line 189).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for FIXED_IO_mio[28]. (constraint file  C:/Users/ibai.ros/Final_Optional/Final_Optional.runs/synth_1/.Xil/Vivado-1324-c4d8/dcp53/Final_Optional_processing_system7_0_0_in_context.xdc, line 190).
+Applied set_property IO_BUFFER_TYPE = NONE for FIXED_IO_mio[29]. (constraint file  C:/Users/ibai.ros/Final_Optional/Final_Optional.runs/synth_1/.Xil/Vivado-1324-c4d8/dcp53/Final_Optional_processing_system7_0_0_in_context.xdc, line 191).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for FIXED_IO_mio[29]. (constraint file  C:/Users/ibai.ros/Final_Optional/Final_Optional.runs/synth_1/.Xil/Vivado-1324-c4d8/dcp53/Final_Optional_processing_system7_0_0_in_context.xdc, line 192).
+Applied set_property IO_BUFFER_TYPE = NONE for FIXED_IO_mio[2]. (constraint file  C:/Users/ibai.ros/Final_Optional/Final_Optional.runs/synth_1/.Xil/Vivado-1324-c4d8/dcp53/Final_Optional_processing_system7_0_0_in_context.xdc, line 193).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for FIXED_IO_mio[2]. (constraint file  C:/Users/ibai.ros/Final_Optional/Final_Optional.runs/synth_1/.Xil/Vivado-1324-c4d8/dcp53/Final_Optional_processing_system7_0_0_in_context.xdc, line 194).
+Applied set_property IO_BUFFER_TYPE = NONE for FIXED_IO_mio[30]. (constraint file  C:/Users/ibai.ros/Final_Optional/Final_Optional.runs/synth_1/.Xil/Vivado-1324-c4d8/dcp53/Final_Optional_processing_system7_0_0_in_context.xdc, line 195).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for FIXED_IO_mio[30]. (constraint file  C:/Users/ibai.ros/Final_Optional/Final_Optional.runs/synth_1/.Xil/Vivado-1324-c4d8/dcp53/Final_Optional_processing_system7_0_0_in_context.xdc, line 196).
+Applied set_property IO_BUFFER_TYPE = NONE for FIXED_IO_mio[31]. (constraint file  C:/Users/ibai.ros/Final_Optional/Final_Optional.runs/synth_1/.Xil/Vivado-1324-c4d8/dcp53/Final_Optional_processing_system7_0_0_in_context.xdc, line 197).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for FIXED_IO_mio[31]. (constraint file  C:/Users/ibai.ros/Final_Optional/Final_Optional.runs/synth_1/.Xil/Vivado-1324-c4d8/dcp53/Final_Optional_processing_system7_0_0_in_context.xdc, line 198).
+Applied set_property IO_BUFFER_TYPE = NONE for FIXED_IO_mio[32]. (constraint file  C:/Users/ibai.ros/Final_Optional/Final_Optional.runs/synth_1/.Xil/Vivado-1324-c4d8/dcp53/Final_Optional_processing_system7_0_0_in_context.xdc, line 199).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for FIXED_IO_mio[32]. (constraint file  C:/Users/ibai.ros/Final_Optional/Final_Optional.runs/synth_1/.Xil/Vivado-1324-c4d8/dcp53/Final_Optional_processing_system7_0_0_in_context.xdc, line 200).
+Applied set_property IO_BUFFER_TYPE = NONE for FIXED_IO_mio[33]. (constraint file  C:/Users/ibai.ros/Final_Optional/Final_Optional.runs/synth_1/.Xil/Vivado-1324-c4d8/dcp53/Final_Optional_processing_system7_0_0_in_context.xdc, line 201).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for FIXED_IO_mio[33]. (constraint file  C:/Users/ibai.ros/Final_Optional/Final_Optional.runs/synth_1/.Xil/Vivado-1324-c4d8/dcp53/Final_Optional_processing_system7_0_0_in_context.xdc, line 202).
+Applied set_property IO_BUFFER_TYPE = NONE for FIXED_IO_mio[34]. (constraint file  C:/Users/ibai.ros/Final_Optional/Final_Optional.runs/synth_1/.Xil/Vivado-1324-c4d8/dcp53/Final_Optional_processing_system7_0_0_in_context.xdc, line 203).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for FIXED_IO_mio[34]. (constraint file  C:/Users/ibai.ros/Final_Optional/Final_Optional.runs/synth_1/.Xil/Vivado-1324-c4d8/dcp53/Final_Optional_processing_system7_0_0_in_context.xdc, line 204).
+Applied set_property IO_BUFFER_TYPE = NONE for FIXED_IO_mio[35]. (constraint file  C:/Users/ibai.ros/Final_Optional/Final_Optional.runs/synth_1/.Xil/Vivado-1324-c4d8/dcp53/Final_Optional_processing_system7_0_0_in_context.xdc, line 205).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for FIXED_IO_mio[35]. (constraint file  C:/Users/ibai.ros/Final_Optional/Final_Optional.runs/synth_1/.Xil/Vivado-1324-c4d8/dcp53/Final_Optional_processing_system7_0_0_in_context.xdc, line 206).
+Applied set_property IO_BUFFER_TYPE = NONE for FIXED_IO_mio[36]. (constraint file  C:/Users/ibai.ros/Final_Optional/Final_Optional.runs/synth_1/.Xil/Vivado-1324-c4d8/dcp53/Final_Optional_processing_system7_0_0_in_context.xdc, line 207).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for FIXED_IO_mio[36]. (constraint file  C:/Users/ibai.ros/Final_Optional/Final_Optional.runs/synth_1/.Xil/Vivado-1324-c4d8/dcp53/Final_Optional_processing_system7_0_0_in_context.xdc, line 208).
+Applied set_property IO_BUFFER_TYPE = NONE for FIXED_IO_mio[37]. (constraint file  C:/Users/ibai.ros/Final_Optional/Final_Optional.runs/synth_1/.Xil/Vivado-1324-c4d8/dcp53/Final_Optional_processing_system7_0_0_in_context.xdc, line 209).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for FIXED_IO_mio[37]. (constraint file  C:/Users/ibai.ros/Final_Optional/Final_Optional.runs/synth_1/.Xil/Vivado-1324-c4d8/dcp53/Final_Optional_processing_system7_0_0_in_context.xdc, line 210).
+Applied set_property IO_BUFFER_TYPE = NONE for FIXED_IO_mio[38]. (constraint file  C:/Users/ibai.ros/Final_Optional/Final_Optional.runs/synth_1/.Xil/Vivado-1324-c4d8/dcp53/Final_Optional_processing_system7_0_0_in_context.xdc, line 211).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for FIXED_IO_mio[38]. (constraint file  C:/Users/ibai.ros/Final_Optional/Final_Optional.runs/synth_1/.Xil/Vivado-1324-c4d8/dcp53/Final_Optional_processing_system7_0_0_in_context.xdc, line 212).
+Applied set_property IO_BUFFER_TYPE = NONE for FIXED_IO_mio[39]. (constraint file  C:/Users/ibai.ros/Final_Optional/Final_Optional.runs/synth_1/.Xil/Vivado-1324-c4d8/dcp53/Final_Optional_processing_system7_0_0_in_context.xdc, line 213).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for FIXED_IO_mio[39]. (constraint file  C:/Users/ibai.ros/Final_Optional/Final_Optional.runs/synth_1/.Xil/Vivado-1324-c4d8/dcp53/Final_Optional_processing_system7_0_0_in_context.xdc, line 214).
+Applied set_property IO_BUFFER_TYPE = NONE for FIXED_IO_mio[3]. (constraint file  C:/Users/ibai.ros/Final_Optional/Final_Optional.runs/synth_1/.Xil/Vivado-1324-c4d8/dcp53/Final_Optional_processing_system7_0_0_in_context.xdc, line 215).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for FIXED_IO_mio[3]. (constraint file  C:/Users/ibai.ros/Final_Optional/Final_Optional.runs/synth_1/.Xil/Vivado-1324-c4d8/dcp53/Final_Optional_processing_system7_0_0_in_context.xdc, line 216).
+Applied set_property IO_BUFFER_TYPE = NONE for FIXED_IO_mio[40]. (constraint file  C:/Users/ibai.ros/Final_Optional/Final_Optional.runs/synth_1/.Xil/Vivado-1324-c4d8/dcp53/Final_Optional_processing_system7_0_0_in_context.xdc, line 217).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for FIXED_IO_mio[40]. (constraint file  C:/Users/ibai.ros/Final_Optional/Final_Optional.runs/synth_1/.Xil/Vivado-1324-c4d8/dcp53/Final_Optional_processing_system7_0_0_in_context.xdc, line 218).
+Applied set_property IO_BUFFER_TYPE = NONE for FIXED_IO_mio[41]. (constraint file  C:/Users/ibai.ros/Final_Optional/Final_Optional.runs/synth_1/.Xil/Vivado-1324-c4d8/dcp53/Final_Optional_processing_system7_0_0_in_context.xdc, line 219).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for FIXED_IO_mio[41]. (constraint file  C:/Users/ibai.ros/Final_Optional/Final_Optional.runs/synth_1/.Xil/Vivado-1324-c4d8/dcp53/Final_Optional_processing_system7_0_0_in_context.xdc, line 220).
+Applied set_property IO_BUFFER_TYPE = NONE for FIXED_IO_mio[42]. (constraint file  C:/Users/ibai.ros/Final_Optional/Final_Optional.runs/synth_1/.Xil/Vivado-1324-c4d8/dcp53/Final_Optional_processing_system7_0_0_in_context.xdc, line 221).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for FIXED_IO_mio[42]. (constraint file  C:/Users/ibai.ros/Final_Optional/Final_Optional.runs/synth_1/.Xil/Vivado-1324-c4d8/dcp53/Final_Optional_processing_system7_0_0_in_context.xdc, line 222).
+Applied set_property IO_BUFFER_TYPE = NONE for FIXED_IO_mio[43]. (constraint file  C:/Users/ibai.ros/Final_Optional/Final_Optional.runs/synth_1/.Xil/Vivado-1324-c4d8/dcp53/Final_Optional_processing_system7_0_0_in_context.xdc, line 223).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for FIXED_IO_mio[43]. (constraint file  C:/Users/ibai.ros/Final_Optional/Final_Optional.runs/synth_1/.Xil/Vivado-1324-c4d8/dcp53/Final_Optional_processing_system7_0_0_in_context.xdc, line 224).
+Applied set_property IO_BUFFER_TYPE = NONE for FIXED_IO_mio[44]. (constraint file  C:/Users/ibai.ros/Final_Optional/Final_Optional.runs/synth_1/.Xil/Vivado-1324-c4d8/dcp53/Final_Optional_processing_system7_0_0_in_context.xdc, line 225).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for FIXED_IO_mio[44]. (constraint file  C:/Users/ibai.ros/Final_Optional/Final_Optional.runs/synth_1/.Xil/Vivado-1324-c4d8/dcp53/Final_Optional_processing_system7_0_0_in_context.xdc, line 226).
+Applied set_property IO_BUFFER_TYPE = NONE for FIXED_IO_mio[45]. (constraint file  C:/Users/ibai.ros/Final_Optional/Final_Optional.runs/synth_1/.Xil/Vivado-1324-c4d8/dcp53/Final_Optional_processing_system7_0_0_in_context.xdc, line 227).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for FIXED_IO_mio[45]. (constraint file  C:/Users/ibai.ros/Final_Optional/Final_Optional.runs/synth_1/.Xil/Vivado-1324-c4d8/dcp53/Final_Optional_processing_system7_0_0_in_context.xdc, line 228).
+Applied set_property IO_BUFFER_TYPE = NONE for FIXED_IO_mio[46]. (constraint file  C:/Users/ibai.ros/Final_Optional/Final_Optional.runs/synth_1/.Xil/Vivado-1324-c4d8/dcp53/Final_Optional_processing_system7_0_0_in_context.xdc, line 229).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for FIXED_IO_mio[46]. (constraint file  C:/Users/ibai.ros/Final_Optional/Final_Optional.runs/synth_1/.Xil/Vivado-1324-c4d8/dcp53/Final_Optional_processing_system7_0_0_in_context.xdc, line 230).
+Applied set_property IO_BUFFER_TYPE = NONE for FIXED_IO_mio[47]. (constraint file  C:/Users/ibai.ros/Final_Optional/Final_Optional.runs/synth_1/.Xil/Vivado-1324-c4d8/dcp53/Final_Optional_processing_system7_0_0_in_context.xdc, line 231).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for FIXED_IO_mio[47]. (constraint file  C:/Users/ibai.ros/Final_Optional/Final_Optional.runs/synth_1/.Xil/Vivado-1324-c4d8/dcp53/Final_Optional_processing_system7_0_0_in_context.xdc, line 232).
+Applied set_property IO_BUFFER_TYPE = NONE for FIXED_IO_mio[48]. (constraint file  C:/Users/ibai.ros/Final_Optional/Final_Optional.runs/synth_1/.Xil/Vivado-1324-c4d8/dcp53/Final_Optional_processing_system7_0_0_in_context.xdc, line 233).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for FIXED_IO_mio[48]. (constraint file  C:/Users/ibai.ros/Final_Optional/Final_Optional.runs/synth_1/.Xil/Vivado-1324-c4d8/dcp53/Final_Optional_processing_system7_0_0_in_context.xdc, line 234).
+Applied set_property IO_BUFFER_TYPE = NONE for FIXED_IO_mio[49]. (constraint file  C:/Users/ibai.ros/Final_Optional/Final_Optional.runs/synth_1/.Xil/Vivado-1324-c4d8/dcp53/Final_Optional_processing_system7_0_0_in_context.xdc, line 235).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for FIXED_IO_mio[49]. (constraint file  C:/Users/ibai.ros/Final_Optional/Final_Optional.runs/synth_1/.Xil/Vivado-1324-c4d8/dcp53/Final_Optional_processing_system7_0_0_in_context.xdc, line 236).
+Applied set_property IO_BUFFER_TYPE = NONE for FIXED_IO_mio[4]. (constraint file  C:/Users/ibai.ros/Final_Optional/Final_Optional.runs/synth_1/.Xil/Vivado-1324-c4d8/dcp53/Final_Optional_processing_system7_0_0_in_context.xdc, line 237).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for FIXED_IO_mio[4]. (constraint file  C:/Users/ibai.ros/Final_Optional/Final_Optional.runs/synth_1/.Xil/Vivado-1324-c4d8/dcp53/Final_Optional_processing_system7_0_0_in_context.xdc, line 238).
+Applied set_property IO_BUFFER_TYPE = NONE for FIXED_IO_mio[50]. (constraint file  C:/Users/ibai.ros/Final_Optional/Final_Optional.runs/synth_1/.Xil/Vivado-1324-c4d8/dcp53/Final_Optional_processing_system7_0_0_in_context.xdc, line 239).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for FIXED_IO_mio[50]. (constraint file  C:/Users/ibai.ros/Final_Optional/Final_Optional.runs/synth_1/.Xil/Vivado-1324-c4d8/dcp53/Final_Optional_processing_system7_0_0_in_context.xdc, line 240).
+Applied set_property IO_BUFFER_TYPE = NONE for FIXED_IO_mio[51]. (constraint file  C:/Users/ibai.ros/Final_Optional/Final_Optional.runs/synth_1/.Xil/Vivado-1324-c4d8/dcp53/Final_Optional_processing_system7_0_0_in_context.xdc, line 241).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for FIXED_IO_mio[51]. (constraint file  C:/Users/ibai.ros/Final_Optional/Final_Optional.runs/synth_1/.Xil/Vivado-1324-c4d8/dcp53/Final_Optional_processing_system7_0_0_in_context.xdc, line 242).
+Applied set_property IO_BUFFER_TYPE = NONE for FIXED_IO_mio[52]. (constraint file  C:/Users/ibai.ros/Final_Optional/Final_Optional.runs/synth_1/.Xil/Vivado-1324-c4d8/dcp53/Final_Optional_processing_system7_0_0_in_context.xdc, line 243).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for FIXED_IO_mio[52]. (constraint file  C:/Users/ibai.ros/Final_Optional/Final_Optional.runs/synth_1/.Xil/Vivado-1324-c4d8/dcp53/Final_Optional_processing_system7_0_0_in_context.xdc, line 244).
+Applied set_property IO_BUFFER_TYPE = NONE for FIXED_IO_mio[53]. (constraint file  C:/Users/ibai.ros/Final_Optional/Final_Optional.runs/synth_1/.Xil/Vivado-1324-c4d8/dcp53/Final_Optional_processing_system7_0_0_in_context.xdc, line 245).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for FIXED_IO_mio[53]. (constraint file  C:/Users/ibai.ros/Final_Optional/Final_Optional.runs/synth_1/.Xil/Vivado-1324-c4d8/dcp53/Final_Optional_processing_system7_0_0_in_context.xdc, line 246).
+Applied set_property IO_BUFFER_TYPE = NONE for FIXED_IO_mio[5]. (constraint file  C:/Users/ibai.ros/Final_Optional/Final_Optional.runs/synth_1/.Xil/Vivado-1324-c4d8/dcp53/Final_Optional_processing_system7_0_0_in_context.xdc, line 247).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for FIXED_IO_mio[5]. (constraint file  C:/Users/ibai.ros/Final_Optional/Final_Optional.runs/synth_1/.Xil/Vivado-1324-c4d8/dcp53/Final_Optional_processing_system7_0_0_in_context.xdc, line 248).
+Applied set_property IO_BUFFER_TYPE = NONE for FIXED_IO_mio[6]. (constraint file  C:/Users/ibai.ros/Final_Optional/Final_Optional.runs/synth_1/.Xil/Vivado-1324-c4d8/dcp53/Final_Optional_processing_system7_0_0_in_context.xdc, line 249).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for FIXED_IO_mio[6]. (constraint file  C:/Users/ibai.ros/Final_Optional/Final_Optional.runs/synth_1/.Xil/Vivado-1324-c4d8/dcp53/Final_Optional_processing_system7_0_0_in_context.xdc, line 250).
+Applied set_property IO_BUFFER_TYPE = NONE for FIXED_IO_mio[7]. (constraint file  C:/Users/ibai.ros/Final_Optional/Final_Optional.runs/synth_1/.Xil/Vivado-1324-c4d8/dcp53/Final_Optional_processing_system7_0_0_in_context.xdc, line 251).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for FIXED_IO_mio[7]. (constraint file  C:/Users/ibai.ros/Final_Optional/Final_Optional.runs/synth_1/.Xil/Vivado-1324-c4d8/dcp53/Final_Optional_processing_system7_0_0_in_context.xdc, line 252).
+Applied set_property IO_BUFFER_TYPE = NONE for FIXED_IO_mio[8]. (constraint file  C:/Users/ibai.ros/Final_Optional/Final_Optional.runs/synth_1/.Xil/Vivado-1324-c4d8/dcp53/Final_Optional_processing_system7_0_0_in_context.xdc, line 253).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for FIXED_IO_mio[8]. (constraint file  C:/Users/ibai.ros/Final_Optional/Final_Optional.runs/synth_1/.Xil/Vivado-1324-c4d8/dcp53/Final_Optional_processing_system7_0_0_in_context.xdc, line 254).
+Applied set_property IO_BUFFER_TYPE = NONE for FIXED_IO_mio[9]. (constraint file  C:/Users/ibai.ros/Final_Optional/Final_Optional.runs/synth_1/.Xil/Vivado-1324-c4d8/dcp53/Final_Optional_processing_system7_0_0_in_context.xdc, line 255).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for FIXED_IO_mio[9]. (constraint file  C:/Users/ibai.ros/Final_Optional/Final_Optional.runs/synth_1/.Xil/Vivado-1324-c4d8/dcp53/Final_Optional_processing_system7_0_0_in_context.xdc, line 256).
+Applied set_property IO_BUFFER_TYPE = NONE for FIXED_IO_ps_clk. (constraint file  C:/Users/ibai.ros/Final_Optional/Final_Optional.runs/synth_1/.Xil/Vivado-1324-c4d8/dcp53/Final_Optional_processing_system7_0_0_in_context.xdc, line 257).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for FIXED_IO_ps_clk. (constraint file  C:/Users/ibai.ros/Final_Optional/Final_Optional.runs/synth_1/.Xil/Vivado-1324-c4d8/dcp53/Final_Optional_processing_system7_0_0_in_context.xdc, line 258).
+Applied set_property IO_BUFFER_TYPE = NONE for FIXED_IO_ps_porb. (constraint file  C:/Users/ibai.ros/Final_Optional/Final_Optional.runs/synth_1/.Xil/Vivado-1324-c4d8/dcp53/Final_Optional_processing_system7_0_0_in_context.xdc, line 259).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for FIXED_IO_ps_porb. (constraint file  C:/Users/ibai.ros/Final_Optional/Final_Optional.runs/synth_1/.Xil/Vivado-1324-c4d8/dcp53/Final_Optional_processing_system7_0_0_in_context.xdc, line 260).
+Applied set_property IO_BUFFER_TYPE = NONE for FIXED_IO_ps_srstb. (constraint file  C:/Users/ibai.ros/Final_Optional/Final_Optional.runs/synth_1/.Xil/Vivado-1324-c4d8/dcp53/Final_Optional_processing_system7_0_0_in_context.xdc, line 261).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for FIXED_IO_ps_srstb. (constraint file  C:/Users/ibai.ros/Final_Optional/Final_Optional.runs/synth_1/.Xil/Vivado-1324-c4d8/dcp53/Final_Optional_processing_system7_0_0_in_context.xdc, line 262).
 Applied set_property DONT_TOUCH = true for Final_Optional_i. (constraint file  auto generated constraint, line ).
 Applied set_property DONT_TOUCH = true for Final_Optional_i/VGA_SYNC_0. (constraint file  auto generated constraint, line ).
 Applied set_property DONT_TOUCH = true for Final_Optional_i/add_generator_0. (constraint file  auto generated constraint, line ).
@@ -444,6 +470,7 @@ Applied set_property DONT_TOUCH = true for Final_Optional_i/buttons. (constraint
 Applied set_property DONT_TOUCH = true for Final_Optional_i/control_ball_0. (constraint file  auto generated constraint, line ).
 Applied set_property DONT_TOUCH = true for Final_Optional_i/control_bar_0. (constraint file  auto generated constraint, line ).
 Applied set_property DONT_TOUCH = true for Final_Optional_i/game_over. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for Final_Optional_i/leds. (constraint file  auto generated constraint, line ).
 Applied set_property DONT_TOUCH = true for Final_Optional_i/mem_control_unit_0. (constraint file  auto generated constraint, line ).
 Applied set_property DONT_TOUCH = true for Final_Optional_i/memory_ball_0. (constraint file  auto generated constraint, line ).
 Applied set_property DONT_TOUCH = true for Final_Optional_i/memory_bar_0. (constraint file  auto generated constraint, line ).
@@ -455,10 +482,10 @@ Applied set_property DONT_TOUCH = true for Final_Optional_i/ps7_0_axi_periph/xba
 Applied set_property DONT_TOUCH = true for Final_Optional_i/rst_ps7_0_100M. (constraint file  auto generated constraint, line ).
 Applied set_property DONT_TOUCH = true for Final_Optional_i/switches. (constraint file  auto generated constraint, line ).
 ---------------------------------------------------------------------------------
-Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:15 ; elapsed = 00:00:19 . Memory (MB): peak = 727.402 ; gain = 373.355
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:12 ; elapsed = 00:00:14 . Memory (MB): peak = 754.910 ; gain = 426.289
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:15 ; elapsed = 00:00:19 . Memory (MB): peak = 727.402 ; gain = 373.355
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:12 ; elapsed = 00:00:14 . Memory (MB): peak = 754.910 ; gain = 426.289
 ---------------------------------------------------------------------------------
 
 Report RTL Partitions: 
@@ -492,14 +519,16 @@ Finished Part Resource Summary
 ---------------------------------------------------------------------------------
 Start Cross Boundary and Area Optimization
 ---------------------------------------------------------------------------------
-WARNING: [Synth 8-3331] design Final_Optional_ps7_0_axi_periph_0 has unconnected port M00_ACLK
-WARNING: [Synth 8-3331] design Final_Optional_ps7_0_axi_periph_0 has unconnected port M00_ARESETN
-WARNING: [Synth 8-3331] design Final_Optional_ps7_0_axi_periph_0 has unconnected port M01_ACLK
-WARNING: [Synth 8-3331] design Final_Optional_ps7_0_axi_periph_0 has unconnected port M01_ARESETN
-WARNING: [Synth 8-3331] design Final_Optional_ps7_0_axi_periph_0 has unconnected port M02_ACLK
-WARNING: [Synth 8-3331] design Final_Optional_ps7_0_axi_periph_0 has unconnected port M02_ARESETN
+WARNING: [Synth 8-3331] design Final_Optional_ps7_0_axi_periph_1 has unconnected port M00_ACLK
+WARNING: [Synth 8-3331] design Final_Optional_ps7_0_axi_periph_1 has unconnected port M00_ARESETN
+WARNING: [Synth 8-3331] design Final_Optional_ps7_0_axi_periph_1 has unconnected port M01_ACLK
+WARNING: [Synth 8-3331] design Final_Optional_ps7_0_axi_periph_1 has unconnected port M01_ARESETN
+WARNING: [Synth 8-3331] design Final_Optional_ps7_0_axi_periph_1 has unconnected port M02_ACLK
+WARNING: [Synth 8-3331] design Final_Optional_ps7_0_axi_periph_1 has unconnected port M02_ARESETN
+WARNING: [Synth 8-3331] design Final_Optional_ps7_0_axi_periph_1 has unconnected port M03_ACLK
+WARNING: [Synth 8-3331] design Final_Optional_ps7_0_axi_periph_1 has unconnected port M03_ARESETN
 ---------------------------------------------------------------------------------
-Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:15 ; elapsed = 00:00:20 . Memory (MB): peak = 727.402 ; gain = 373.355
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:12 ; elapsed = 00:00:14 . Memory (MB): peak = 754.910 ; gain = 426.289
 ---------------------------------------------------------------------------------
 
 Report RTL Partitions: 
@@ -514,13 +543,13 @@ INFO: [Synth 8-5578] Moved timing constraint from pin 'Final_Optional_i/processi
 INFO: [Synth 8-5578] Moved timing constraint from pin 'Final_Optional_i/processing_system7_0/FCLK_CLK1' to pin 'Final_Optional_i/processing_system7_0/bbstub_FCLK_CLK1/O'
 INFO: [Synth 8-5819] Moved 2 constraints on hierarchical pins to their respective driving/loading pins
 ---------------------------------------------------------------------------------
-Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:26 ; elapsed = 00:00:30 . Memory (MB): peak = 727.402 ; gain = 373.355
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:20 ; elapsed = 00:00:22 . Memory (MB): peak = 759.406 ; gain = 430.785
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Timing Optimization
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Timing Optimization : Time (s): cpu = 00:00:26 ; elapsed = 00:00:30 . Memory (MB): peak = 727.402 ; gain = 373.355
+Finished Timing Optimization : Time (s): cpu = 00:00:20 ; elapsed = 00:00:22 . Memory (MB): peak = 759.480 ; gain = 430.859
 ---------------------------------------------------------------------------------
 
 Report RTL Partitions: 
@@ -532,7 +561,7 @@ Report RTL Partitions:
 Start Technology Mapping
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Technology Mapping : Time (s): cpu = 00:00:26 ; elapsed = 00:00:31 . Memory (MB): peak = 727.402 ; gain = 373.355
+Finished Technology Mapping : Time (s): cpu = 00:00:20 ; elapsed = 00:00:22 . Memory (MB): peak = 770.207 ; gain = 441.586
 ---------------------------------------------------------------------------------
 
 Report RTL Partitions: 
@@ -556,7 +585,7 @@ Start Final Netlist Cleanup
 Finished Final Netlist Cleanup
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished IO Insertion : Time (s): cpu = 00:00:27 ; elapsed = 00:00:31 . Memory (MB): peak = 727.402 ; gain = 373.355
+Finished IO Insertion : Time (s): cpu = 00:00:21 ; elapsed = 00:00:23 . Memory (MB): peak = 770.207 ; gain = 441.586
 ---------------------------------------------------------------------------------
 
 Report Check Netlist: 
@@ -569,7 +598,7 @@ Report Check Netlist:
 Start Renaming Generated Instances
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Instances : Time (s): cpu = 00:00:27 ; elapsed = 00:00:31 . Memory (MB): peak = 727.402 ; gain = 373.355
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:21 ; elapsed = 00:00:23 . Memory (MB): peak = 770.207 ; gain = 441.586
 ---------------------------------------------------------------------------------
 
 Report RTL Partitions: 
@@ -581,25 +610,25 @@ Report RTL Partitions:
 Start Rebuilding User Hierarchy
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:27 ; elapsed = 00:00:31 . Memory (MB): peak = 727.402 ; gain = 373.355
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:21 ; elapsed = 00:00:23 . Memory (MB): peak = 770.207 ; gain = 441.586
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Renaming Generated Ports
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Ports : Time (s): cpu = 00:00:27 ; elapsed = 00:00:31 . Memory (MB): peak = 727.402 ; gain = 373.355
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:21 ; elapsed = 00:00:23 . Memory (MB): peak = 770.207 ; gain = 441.586
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Handling Custom Attributes
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Handling Custom Attributes : Time (s): cpu = 00:00:27 ; elapsed = 00:00:31 . Memory (MB): peak = 727.402 ; gain = 373.355
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:21 ; elapsed = 00:00:23 . Memory (MB): peak = 770.207 ; gain = 441.586
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Renaming Generated Nets
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Nets : Time (s): cpu = 00:00:27 ; elapsed = 00:00:31 . Memory (MB): peak = 727.402 ; gain = 373.355
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:21 ; elapsed = 00:00:23 . Memory (MB): peak = 770.207 ; gain = 441.586
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Writing Synthesis Report
@@ -609,22 +638,23 @@ Report BlackBoxes:
 +------+--------------------------------------+----------+
 |      |BlackBox name                         |Instances |
 +------+--------------------------------------+----------+
-|1     |Final_Optional_xbar_0                 |         1|
-|2     |Final_Optional_auto_pc_0              |         1|
+|1     |Final_Optional_xbar_1                 |         1|
+|2     |Final_Optional_auto_pc_1              |         1|
 |3     |Final_Optional_VGA_SYNC_0_0           |         1|
 |4     |Final_Optional_add_generator_0_0      |         1|
 |5     |Final_Optional_blk_mem_gen_0_0        |         1|
 |6     |Final_Optional_axi_gpio_1_0           |         1|
 |7     |Final_Optional_control_ball_0_1       |         1|
 |8     |Final_Optional_control_bar_0_0        |         1|
-|9     |Final_Optional_axi_gpio_0_0           |         1|
-|10    |Final_Optional_mem_control_unit_0_2   |         1|
-|11    |Final_Optional_memory_ball_0_0        |         1|
-|12    |Final_Optional_memory_bar_0_0         |         1|
-|13    |Final_Optional_mux_control_0_2        |         1|
-|14    |Final_Optional_processing_system7_0_0 |         1|
-|15    |Final_Optional_rst_ps7_0_100M_0       |         1|
-|16    |Final_Optional_axi_gpio_2_0           |         1|
+|9     |Final_Optional_axi_gpio_0_2           |         1|
+|10    |Final_Optional_axi_gpio_0_3           |         1|
+|11    |Final_Optional_mem_control_unit_0_2   |         1|
+|12    |Final_Optional_memory_ball_0_0        |         1|
+|13    |Final_Optional_memory_bar_0_0         |         1|
+|14    |Final_Optional_mux_control_0_2        |         1|
+|15    |Final_Optional_processing_system7_0_0 |         1|
+|16    |Final_Optional_rst_ps7_0_100M_1       |         1|
+|17    |Final_Optional_axi_gpio_2_0           |         1|
 +------+--------------------------------------+----------+
 
 Report Cell Usage: 
@@ -633,47 +663,52 @@ Report Cell Usage:
 +------+-------------------------------------------+------+
 |1     |Final_Optional_VGA_SYNC_0_0_bbox           |     1|
 |2     |Final_Optional_add_generator_0_0_bbox      |     1|
-|3     |Final_Optional_auto_pc_0_bbox              |     1|
-|4     |Final_Optional_axi_gpio_0_0_bbox           |     1|
-|5     |Final_Optional_axi_gpio_1_0_bbox           |     1|
-|6     |Final_Optional_axi_gpio_2_0_bbox           |     1|
-|7     |Final_Optional_blk_mem_gen_0_0_bbox        |     1|
-|8     |Final_Optional_control_ball_0_1_bbox       |     1|
-|9     |Final_Optional_control_bar_0_0_bbox        |     1|
-|10    |Final_Optional_mem_control_unit_0_2_bbox   |     1|
-|11    |Final_Optional_memory_ball_0_0_bbox        |     1|
-|12    |Final_Optional_memory_bar_0_0_bbox         |     1|
-|13    |Final_Optional_mux_control_0_2_bbox        |     1|
-|14    |Final_Optional_processing_system7_0_0_bbox |     1|
-|15    |Final_Optional_rst_ps7_0_100M_0_bbox       |     1|
-|16    |Final_Optional_xbar_0_bbox                 |     1|
-|17    |OBUF                                       |    18|
+|3     |Final_Optional_auto_pc_1_bbox              |     1|
+|4     |Final_Optional_axi_gpio_0_2_bbox           |     1|
+|5     |Final_Optional_axi_gpio_0_3_bbox           |     1|
+|6     |Final_Optional_axi_gpio_1_0_bbox           |     1|
+|7     |Final_Optional_axi_gpio_2_0_bbox           |     1|
+|8     |Final_Optional_blk_mem_gen_0_0_bbox        |     1|
+|9     |Final_Optional_control_ball_0_1_bbox       |     1|
+|10    |Final_Optional_control_bar_0_0_bbox        |     1|
+|11    |Final_Optional_mem_control_unit_0_2_bbox   |     1|
+|12    |Final_Optional_memory_ball_0_0_bbox        |     1|
+|13    |Final_Optional_memory_bar_0_0_bbox         |     1|
+|14    |Final_Optional_mux_control_0_2_bbox        |     1|
+|15    |Final_Optional_processing_system7_0_0_bbox |     1|
+|16    |Final_Optional_rst_ps7_0_100M_1_bbox       |     1|
+|17    |Final_Optional_xbar_1_bbox                 |     1|
+|18    |IOBUF                                      |     4|
+|19    |OBUF                                       |    18|
 +------+-------------------------------------------+------+
 
 Report Instance Areas: 
 +------+---------------------+----------------------------------+------+
 |      |Instance             |Module                            |Cells |
 +------+---------------------+----------------------------------+------+
-|1     |top                  |                                  |  1077|
-|2     |  Final_Optional_i   |Final_Optional                    |  1059|
-|3     |    ps7_0_axi_periph |Final_Optional_ps7_0_axi_periph_0 |   551|
+|1     |top                  |                                  |  1235|
+|2     |  Final_Optional_i   |Final_Optional                    |  1213|
+|3     |    ps7_0_axi_periph |Final_Optional_ps7_0_axi_periph_1 |   662|
 |4     |      s00_couplers   |s00_couplers_imp_C2BKTY           |   177|
 +------+---------------------+----------------------------------+------+
 ---------------------------------------------------------------------------------
-Finished Writing Synthesis Report : Time (s): cpu = 00:00:27 ; elapsed = 00:00:31 . Memory (MB): peak = 727.402 ; gain = 373.355
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:21 ; elapsed = 00:00:23 . Memory (MB): peak = 770.207 ; gain = 441.586
 ---------------------------------------------------------------------------------
-Synthesis finished with 0 errors, 0 critical warnings and 6 warnings.
-Synthesis Optimization Runtime : Time (s): cpu = 00:00:16 ; elapsed = 00:00:21 . Memory (MB): peak = 727.402 ; gain = 108.973
-Synthesis Optimization Complete : Time (s): cpu = 00:00:27 ; elapsed = 00:00:31 . Memory (MB): peak = 727.402 ; gain = 373.355
+Synthesis finished with 0 errors, 0 critical warnings and 8 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:12 ; elapsed = 00:00:16 . Memory (MB): peak = 770.207 ; gain = 146.477
+Synthesis Optimization Complete : Time (s): cpu = 00:00:21 ; elapsed = 00:00:23 . Memory (MB): peak = 770.207 ; gain = 441.586
 INFO: [Project 1-571] Translating synthesized netlist
+INFO: [Netlist 29-17] Analyzing 4 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
 INFO: [Project 1-570] Preparing netlist for logic optimization
 INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
 INFO: [Project 1-111] Unisim Transformation Summary:
-No Unisim elements were transformed.
+  A total of 4 instances were transformed.
+  IOBUF => IOBUF (IBUF, OBUFT): 4 instances
 
-69 Infos, 31 Warnings, 0 Critical Warnings and 0 Errors encountered.
+83 Infos, 41 Warnings, 0 Critical Warnings and 0 Errors encountered.
 synth_design completed successfully
-synth_design: Time (s): cpu = 00:00:29 ; elapsed = 00:00:37 . Memory (MB): peak = 731.855 ; gain = 389.375
-INFO: [Common 17-1381] The checkpoint 'C:/Users/ibai/ESDC/Final_Optional/Final_Optional.runs/synth_1/Final_Optional_wrapper.dcp' has been generated.
-report_utilization: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.016 . Memory (MB): peak = 731.855 ; gain = 0.000
-INFO: [Common 17-206] Exiting Vivado at Fri May 31 13:00:20 2019...
+synth_design: Time (s): cpu = 00:00:23 ; elapsed = 00:00:28 . Memory (MB): peak = 780.551 ; gain = 456.969
+INFO: [Common 17-1381] The checkpoint 'C:/Users/ibai.ros/Final_Optional/Final_Optional.runs/synth_1/Final_Optional_wrapper.dcp' has been generated.
+report_utilization: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.015 . Memory (MB): peak = 780.813 ; gain = 0.000
+INFO: [Common 17-206] Exiting Vivado at Fri May 31 16:25:10 2019...

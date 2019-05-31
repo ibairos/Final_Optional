@@ -53,7 +53,7 @@ void rx_data()
 	char rx_buf[BUFF_SIZE]; //buffer to transmit
 
 	 XGpio buttons, switches;
-	 int switches_value;
+	 int hw_value;
 
 	 /* Configuration of LEDs and SWITCHES */
 	 XGpio_Initialize(&buttons,  XPAR_BUTTONS_DEVICE_ID);
@@ -94,19 +94,22 @@ void rx_data()
 				else
 					state = 3;
 				break;
-						
+
 			case 2:
 				if ((readflag=read(sock, rx_buf, BUFF_SIZE)) > 0){
-					switches_value = (int)rx_buf[0];
-					XGpio_DiscreteWrite(&switches, 1, switches_value);
-					xil_printf("Switches Value Received %x\r\n", switches_value);
+					hw_value = (int)rx_buf[0];
+					int sw_value = hw_value >> 4;
+					int btn_value = hw_value & 15;
+					XGpio_DiscreteWrite(&switches, 1, sw_value);
+					XGpio_DiscreteWrite(&buttons, 1, btn_value);
+					//xil_printf("HW Value Received %x\r\n", hw_value);
 				}
 				else {
 					xil_printf("Error reading data (%d)\r\n",readflag);
 					state = 4;
 				}
 				break;
-				
+
 			case 3:
 				xil_printf("Connection not established. Press enter to retry...\r\n");
 				char line[100];

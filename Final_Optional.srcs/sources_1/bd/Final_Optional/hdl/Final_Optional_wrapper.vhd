@@ -1,8 +1,8 @@
 --Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
 ----------------------------------------------------------------------------------
 --Tool Version: Vivado v.2017.2 (win64) Build 1909853 Thu Jun 15 18:39:09 MDT 2017
---Date        : Fri May 31 12:56:34 2019
---Host        : ibaipc running 64-bit major release  (build 9200)
+--Date        : Fri May 31 16:23:48 2019
+--Host        : c4d8 running 64-bit major release  (build 9200)
 --Command     : generate_target Final_Optional_wrapper.bd
 --Design      : Final_Optional_wrapper
 --Purpose     : IP block netlist
@@ -34,6 +34,7 @@ entity Final_Optional_wrapper is
     FIXED_IO_ps_clk : inout STD_LOGIC;
     FIXED_IO_ps_porb : inout STD_LOGIC;
     FIXED_IO_ps_srstb : inout STD_LOGIC;
+    leds_4bits_tri_io : inout STD_LOGIC_VECTOR ( 3 downto 0 );
     vga_b : out STD_LOGIC_VECTOR ( 4 downto 0 );
     vga_g : out STD_LOGIC_VECTOR ( 5 downto 0 );
     vga_hs : out STD_LOGIC;
@@ -45,11 +46,6 @@ end Final_Optional_wrapper;
 architecture STRUCTURE of Final_Optional_wrapper is
   component Final_Optional is
   port (
-    vga_g : out STD_LOGIC_VECTOR ( 5 downto 0 );
-    vga_vs : out STD_LOGIC;
-    vga_hs : out STD_LOGIC;
-    vga_b : out STD_LOGIC_VECTOR ( 4 downto 0 );
-    vga_r : out STD_LOGIC_VECTOR ( 4 downto 0 );
     DDR_cas_n : inout STD_LOGIC;
     DDR_cke : inout STD_LOGIC;
     DDR_ck_n : inout STD_LOGIC;
@@ -70,9 +66,41 @@ architecture STRUCTURE of Final_Optional_wrapper is
     FIXED_IO_ddr_vrp : inout STD_LOGIC;
     FIXED_IO_ps_srstb : inout STD_LOGIC;
     FIXED_IO_ps_clk : inout STD_LOGIC;
-    FIXED_IO_ps_porb : inout STD_LOGIC
+    FIXED_IO_ps_porb : inout STD_LOGIC;
+    vga_g : out STD_LOGIC_VECTOR ( 5 downto 0 );
+    vga_vs : out STD_LOGIC;
+    vga_hs : out STD_LOGIC;
+    vga_b : out STD_LOGIC_VECTOR ( 4 downto 0 );
+    vga_r : out STD_LOGIC_VECTOR ( 4 downto 0 );
+    leds_4bits_tri_i : in STD_LOGIC_VECTOR ( 3 downto 0 );
+    leds_4bits_tri_o : out STD_LOGIC_VECTOR ( 3 downto 0 );
+    leds_4bits_tri_t : out STD_LOGIC_VECTOR ( 3 downto 0 )
   );
   end component Final_Optional;
+  component IOBUF is
+  port (
+    I : in STD_LOGIC;
+    O : out STD_LOGIC;
+    T : in STD_LOGIC;
+    IO : inout STD_LOGIC
+  );
+  end component IOBUF;
+  signal leds_4bits_tri_i_0 : STD_LOGIC_VECTOR ( 0 to 0 );
+  signal leds_4bits_tri_i_1 : STD_LOGIC_VECTOR ( 1 to 1 );
+  signal leds_4bits_tri_i_2 : STD_LOGIC_VECTOR ( 2 to 2 );
+  signal leds_4bits_tri_i_3 : STD_LOGIC_VECTOR ( 3 to 3 );
+  signal leds_4bits_tri_io_0 : STD_LOGIC_VECTOR ( 0 to 0 );
+  signal leds_4bits_tri_io_1 : STD_LOGIC_VECTOR ( 1 to 1 );
+  signal leds_4bits_tri_io_2 : STD_LOGIC_VECTOR ( 2 to 2 );
+  signal leds_4bits_tri_io_3 : STD_LOGIC_VECTOR ( 3 to 3 );
+  signal leds_4bits_tri_o_0 : STD_LOGIC_VECTOR ( 0 to 0 );
+  signal leds_4bits_tri_o_1 : STD_LOGIC_VECTOR ( 1 to 1 );
+  signal leds_4bits_tri_o_2 : STD_LOGIC_VECTOR ( 2 to 2 );
+  signal leds_4bits_tri_o_3 : STD_LOGIC_VECTOR ( 3 to 3 );
+  signal leds_4bits_tri_t_0 : STD_LOGIC_VECTOR ( 0 to 0 );
+  signal leds_4bits_tri_t_1 : STD_LOGIC_VECTOR ( 1 to 1 );
+  signal leds_4bits_tri_t_2 : STD_LOGIC_VECTOR ( 2 to 2 );
+  signal leds_4bits_tri_t_3 : STD_LOGIC_VECTOR ( 3 to 3 );
 begin
 Final_Optional_i: component Final_Optional
      port map (
@@ -97,10 +125,50 @@ Final_Optional_i: component Final_Optional
       FIXED_IO_ps_clk => FIXED_IO_ps_clk,
       FIXED_IO_ps_porb => FIXED_IO_ps_porb,
       FIXED_IO_ps_srstb => FIXED_IO_ps_srstb,
+      leds_4bits_tri_i(3) => leds_4bits_tri_i_3(3),
+      leds_4bits_tri_i(2) => leds_4bits_tri_i_2(2),
+      leds_4bits_tri_i(1) => leds_4bits_tri_i_1(1),
+      leds_4bits_tri_i(0) => leds_4bits_tri_i_0(0),
+      leds_4bits_tri_o(3) => leds_4bits_tri_o_3(3),
+      leds_4bits_tri_o(2) => leds_4bits_tri_o_2(2),
+      leds_4bits_tri_o(1) => leds_4bits_tri_o_1(1),
+      leds_4bits_tri_o(0) => leds_4bits_tri_o_0(0),
+      leds_4bits_tri_t(3) => leds_4bits_tri_t_3(3),
+      leds_4bits_tri_t(2) => leds_4bits_tri_t_2(2),
+      leds_4bits_tri_t(1) => leds_4bits_tri_t_1(1),
+      leds_4bits_tri_t(0) => leds_4bits_tri_t_0(0),
       vga_b(4 downto 0) => vga_b(4 downto 0),
       vga_g(5 downto 0) => vga_g(5 downto 0),
       vga_hs => vga_hs,
       vga_r(4 downto 0) => vga_r(4 downto 0),
       vga_vs => vga_vs
+    );
+leds_4bits_tri_iobuf_0: component IOBUF
+     port map (
+      I => leds_4bits_tri_o_0(0),
+      IO => leds_4bits_tri_io(0),
+      O => leds_4bits_tri_i_0(0),
+      T => leds_4bits_tri_t_0(0)
+    );
+leds_4bits_tri_iobuf_1: component IOBUF
+     port map (
+      I => leds_4bits_tri_o_1(1),
+      IO => leds_4bits_tri_io(1),
+      O => leds_4bits_tri_i_1(1),
+      T => leds_4bits_tri_t_1(1)
+    );
+leds_4bits_tri_iobuf_2: component IOBUF
+     port map (
+      I => leds_4bits_tri_o_2(2),
+      IO => leds_4bits_tri_io(2),
+      O => leds_4bits_tri_i_2(2),
+      T => leds_4bits_tri_t_2(2)
+    );
+leds_4bits_tri_iobuf_3: component IOBUF
+     port map (
+      I => leds_4bits_tri_o_3(3),
+      IO => leds_4bits_tri_io(3),
+      O => leds_4bits_tri_i_3(3),
+      T => leds_4bits_tri_t_3(3)
     );
 end STRUCTURE;
