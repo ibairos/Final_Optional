@@ -1,0 +1,322 @@
+
+*** Running vivado
+    with args -log Final_Optional_control_ball_0_1.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source Final_Optional_control_ball_0_1.tcl
+
+
+****** Vivado v2017.2 (64-bit)
+  **** SW Build 1909853 on Thu Jun 15 18:39:09 MDT 2017
+  **** IP Build 1909766 on Thu Jun 15 19:58:00 MDT 2017
+    ** Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
+
+source Final_Optional_control_ball_0_1.tcl -notrace
+Command: synth_design -top Final_Optional_control_ball_0_1 -part xc7z010clg400-1 -mode out_of_context
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7z010-clg400'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7z010-clg400'
+INFO: Launching helper process for spawning children vivado processes
+INFO: Helper process launched with PID 3812 
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:04 ; elapsed = 00:00:04 . Memory (MB): peak = 389.305 ; gain = 72.195
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'Final_Optional_control_ball_0_1' [c:/Users/ibai/ESDC/Final_Optional/Final_Optional.srcs/sources_1/bd/Final_Optional/ip/Final_Optional_control_ball_0_1/synth/Final_Optional_control_ball_0_1.vhd:75]
+INFO: [Synth 8-3491] module 'control_ball' declared at 'c:/Users/ibai/ESDC/Final_Optional/Final_Optional.srcs/sources_1/bd/Final_Optional/ipshared/eb35/control_ball.vhd:13' bound to instance 'U0' of component 'control_ball' [c:/Users/ibai/ESDC/Final_Optional/Final_Optional.srcs/sources_1/bd/Final_Optional/ip/Final_Optional_control_ball_0_1/synth/Final_Optional_control_ball_0_1.vhd:101]
+INFO: [Synth 8-638] synthesizing module 'control_ball' [c:/Users/ibai/ESDC/Final_Optional/Final_Optional.srcs/sources_1/bd/Final_Optional/ipshared/eb35/control_ball.vhd:29]
+WARNING: [Synth 8-6014] Unused sequential element ld_color_white_reg was removed.  [c:/Users/ibai/ESDC/Final_Optional/Final_Optional.srcs/sources_1/bd/Final_Optional/ipshared/eb35/control_ball.vhd:98]
+WARNING: [Synth 8-6014] Unused sequential element ld_color_red_reg was removed.  [c:/Users/ibai/ESDC/Final_Optional/Final_Optional.srcs/sources_1/bd/Final_Optional/ipshared/eb35/control_ball.vhd:99]
+WARNING: [Synth 8-6014] Unused sequential element ld_var_old_reg was removed.  [c:/Users/ibai/ESDC/Final_Optional/Final_Optional.srcs/sources_1/bd/Final_Optional/ipshared/eb35/control_ball.vhd:100]
+WARNING: [Synth 8-6014] Unused sequential element ld_var_new_reg was removed.  [c:/Users/ibai/ESDC/Final_Optional/Final_Optional.srcs/sources_1/bd/Final_Optional/ipshared/eb35/control_ball.vhd:101]
+INFO: [Synth 8-256] done synthesizing module 'control_ball' (1#1) [c:/Users/ibai/ESDC/Final_Optional/Final_Optional.srcs/sources_1/bd/Final_Optional/ipshared/eb35/control_ball.vhd:29]
+INFO: [Synth 8-256] done synthesizing module 'Final_Optional_control_ball_0_1' (2#1) [c:/Users/ibai/ESDC/Final_Optional/Final_Optional.srcs/sources_1/bd/Final_Optional/ip/Final_Optional_control_ball_0_1/synth/Final_Optional_control_ball_0_1.vhd:75]
+WARNING: [Synth 8-3331] design control_ball has unconnected port sw[3]
+WARNING: [Synth 8-3331] design control_ball has unconnected port sw[2]
+WARNING: [Synth 8-3331] design control_ball has unconnected port sw[1]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 430.387 ; gain = 113.277
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 430.387 ; gain = 113.277
+---------------------------------------------------------------------------------
+INFO: [Device 21-403] Loading part xc7z010clg400-1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Completed Processing XDC Constraints
+
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.017 . Memory (MB): peak = 721.574 ; gain = 0.000
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:13 ; elapsed = 00:00:14 . Memory (MB): peak = 721.574 ; gain = 404.465
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7z010clg400-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:13 ; elapsed = 00:00:14 . Memory (MB): peak = 721.574 ; gain = 404.465
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:13 ; elapsed = 00:00:14 . Memory (MB): peak = 721.574 ; gain = 404.465
+---------------------------------------------------------------------------------
+INFO: [Synth 8-802] inferred FSM for state register 'st_reg' in module 'control_ball'
+WARNING: [Synth 8-6014] Unused sequential element st_reg was removed.  [c:/Users/ibai/ESDC/Final_Optional/Final_Optional.srcs/sources_1/bd/Final_Optional/ipshared/eb35/control_ball.vhd:57]
+INFO: [Synth 8-5544] ROM "done_ball" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "ld_new" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "ld_old" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+WARNING: [Synth 8-6014] Unused sequential element new_sw_x_reg was removed.  [c:/Users/ibai/ESDC/Final_Optional/Final_Optional.srcs/sources_1/bd/Final_Optional/ipshared/eb35/control_ball.vhd:121]
+WARNING: [Synth 8-6014] Unused sequential element new_sw_y_reg was removed.  [c:/Users/ibai/ESDC/Final_Optional/Final_Optional.srcs/sources_1/bd/Final_Optional/ipshared/eb35/control_ball.vhd:122]
+WARNING: [Synth 8-6014] Unused sequential element st_reg was removed.  [c:/Users/ibai/ESDC/Final_Optional/Final_Optional.srcs/sources_1/bd/Final_Optional/ipshared/eb35/control_ball.vhd:57]
+WARNING: [Synth 8-6014] Unused sequential element st_reg was removed.  [c:/Users/ibai/ESDC/Final_Optional/Final_Optional.srcs/sources_1/bd/Final_Optional/ipshared/eb35/control_ball.vhd:57]
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                    init |                      00000000001 |                             0000
+                send_req |                      00000000010 |                             0011
+                 rcv_req |                      00000001000 |                             0100
+               wait_vs_0 |                      00000010000 |                             0010
+                  sw0_on |                      00000100000 |                             0101
+              wait_erase |                      00001000000 |                             0110
+               write_new |                      00010000000 |                             0111
+              wait_write |                      00100000000 |                             1000
+               send_done |                      01000000000 |                             1001
+                  vs_one |                      10000000000 |                             1010
+                 wait_sw |                      00000000100 |                             0001
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'st_reg' using encoding 'one-hot' in module 'control_ball'
+WARNING: [Synth 8-6014] Unused sequential element st_reg was removed.  [c:/Users/ibai/ESDC/Final_Optional/Final_Optional.srcs/sources_1/bd/Final_Optional/ipshared/eb35/control_ball.vhd:57]
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:14 ; elapsed = 00:00:15 . Memory (MB): peak = 721.574 ; gain = 404.465
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      9 Bit       Adders := 6     
+	   2 Input      8 Bit       Adders := 4     
++---Registers : 
+	                9 Bit    Registers := 3     
+	                8 Bit    Registers := 3     
+	                3 Bit    Registers := 1     
+	                1 Bit    Registers := 3     
++---Muxes : 
+	  11 Input     11 Bit        Muxes := 1     
+	   2 Input      9 Bit        Muxes := 1     
+	   2 Input      8 Bit        Muxes := 1     
+	   3 Input      3 Bit        Muxes := 1     
+	  11 Input      1 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 11    
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Hierarchical Component Statistics 
+---------------------------------------------------------------------------------
+Hierarchical RTL Component report 
+Module control_ball 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      9 Bit       Adders := 6     
+	   2 Input      8 Bit       Adders := 4     
++---Registers : 
+	                9 Bit    Registers := 3     
+	                8 Bit    Registers := 3     
+	                3 Bit    Registers := 1     
+	                1 Bit    Registers := 3     
++---Muxes : 
+	  11 Input     11 Bit        Muxes := 1     
+	   2 Input      9 Bit        Muxes := 1     
+	   2 Input      8 Bit        Muxes := 1     
+	   3 Input      3 Bit        Muxes := 1     
+	  11 Input      1 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 11    
+---------------------------------------------------------------------------------
+Finished RTL Hierarchical Component Statistics
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 80 (col length:40)
+BRAMs: 120 (col length: RAMB18 40 RAMB36 20)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+WARNING: [Synth 8-6014] Unused sequential element U0/new_sw_y_reg was removed.  [c:/Users/ibai/ESDC/Final_Optional/Final_Optional.srcs/sources_1/bd/Final_Optional/ipshared/eb35/control_ball.vhd:122]
+WARNING: [Synth 8-6014] Unused sequential element U0/new_sw_x_reg was removed.  [c:/Users/ibai/ESDC/Final_Optional/Final_Optional.srcs/sources_1/bd/Final_Optional/ipshared/eb35/control_ball.vhd:121]
+WARNING: [Synth 8-3331] design Final_Optional_control_ball_0_1 has unconnected port sw[3]
+WARNING: [Synth 8-3331] design Final_Optional_control_ball_0_1 has unconnected port sw[2]
+WARNING: [Synth 8-3331] design Final_Optional_control_ball_0_1 has unconnected port sw[1]
+INFO: [Synth 8-3886] merging instance 'U0/color_t_reg[0]' (FDRE) to 'U0/color_t_reg[2]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\U0/color_t_reg[2] )
+INFO: [Synth 8-3332] Sequential element (U0/color_t_reg[2]) is unused and will be removed from module Final_Optional_control_ball_0_1.
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:15 ; elapsed = 00:00:16 . Memory (MB): peak = 721.574 ; gain = 404.465
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:25 ; elapsed = 00:00:26 . Memory (MB): peak = 721.574 ; gain = 404.465
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:25 ; elapsed = 00:00:26 . Memory (MB): peak = 721.574 ; gain = 404.465
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:25 ; elapsed = 00:00:26 . Memory (MB): peak = 721.574 ; gain = 404.465
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:26 ; elapsed = 00:00:27 . Memory (MB): peak = 721.574 ; gain = 404.465
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:26 ; elapsed = 00:00:27 . Memory (MB): peak = 721.574 ; gain = 404.465
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:26 ; elapsed = 00:00:27 . Memory (MB): peak = 721.574 ; gain = 404.465
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:26 ; elapsed = 00:00:27 . Memory (MB): peak = 721.574 ; gain = 404.465
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:26 ; elapsed = 00:00:27 . Memory (MB): peak = 721.574 ; gain = 404.465
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:26 ; elapsed = 00:00:27 . Memory (MB): peak = 721.574 ; gain = 404.465
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+-------+------+
+|      |Cell   |Count |
++------+-------+------+
+|1     |CARRY4 |    21|
+|2     |LUT1   |     6|
+|3     |LUT2   |    19|
+|4     |LUT3   |    23|
+|5     |LUT4   |    52|
+|6     |LUT5   |    36|
+|7     |LUT6   |    32|
+|8     |FDRE   |    66|
++------+-------+------+
+
+Report Instance Areas: 
++------+---------+-------------+------+
+|      |Instance |Module       |Cells |
++------+---------+-------------+------+
+|1     |top      |             |   255|
+|2     |  U0     |control_ball |   255|
++------+---------+-------------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:26 ; elapsed = 00:00:27 . Memory (MB): peak = 721.574 ; gain = 404.465
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 11 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:16 ; elapsed = 00:00:21 . Memory (MB): peak = 721.574 ; gain = 113.277
+Synthesis Optimization Complete : Time (s): cpu = 00:00:26 ; elapsed = 00:00:27 . Memory (MB): peak = 721.574 ; gain = 404.465
+INFO: [Project 1-571] Translating synthesized netlist
+INFO: [Netlist 29-17] Analyzing 21 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+23 Infos, 18 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:28 ; elapsed = 00:00:29 . Memory (MB): peak = 721.574 ; gain = 412.098
+INFO: [Common 17-1381] The checkpoint 'C:/Users/ibai/ESDC/Final_Optional/Final_Optional.runs/Final_Optional_control_ball_0_1_synth_1/Final_Optional_control_ball_0_1.dcp' has been generated.

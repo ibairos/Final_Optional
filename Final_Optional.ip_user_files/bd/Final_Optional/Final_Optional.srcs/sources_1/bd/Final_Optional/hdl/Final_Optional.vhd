@@ -1,8 +1,8 @@
 --Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
 ----------------------------------------------------------------------------------
 --Tool Version: Vivado v.2017.2 (win64) Build 1909853 Thu Jun 15 18:39:09 MDT 2017
---Date        : Thu May 30 14:19:31 2019
---Host        : c4d1 running 64-bit major release  (build 9200)
+--Date        : Fri May 31 12:16:30 2019
+--Host        : ibaipc running 64-bit major release  (build 9200)
 --Command     : generate_target Final_Optional.bd
 --Design      : Final_Optional
 --Purpose     : IP block netlist
@@ -119,6 +119,21 @@ architecture STRUCTURE of Final_Optional is
     out_we : out STD_LOGIC
   );
   end component Final_Optional_mux_control_0_2;
+  component Final_Optional_control_bar_0_0 is
+  port (
+    clk_25 : in STD_LOGIC;
+    done : in STD_LOGIC;
+    v_sync : in STD_LOGIC;
+    x_t : out STD_LOGIC_VECTOR ( 9 downto 1 );
+    y_t : out STD_LOGIC_VECTOR ( 8 downto 1 );
+    color_t : out STD_LOGIC_VECTOR ( 2 downto 0 );
+    start : out STD_LOGIC;
+    btn : in STD_LOGIC_VECTOR ( 3 downto 0 );
+    req : out STD_LOGIC;
+    done_bar : out STD_LOGIC;
+    wr : in STD_LOGIC
+  );
+  end component Final_Optional_control_bar_0_0;
   component Final_Optional_control_ball_0_1 is
   port (
     clk_25 : in STD_LOGIC;
@@ -137,21 +152,6 @@ architecture STRUCTURE of Final_Optional is
     wr : in STD_LOGIC
   );
   end component Final_Optional_control_ball_0_1;
-  component Final_Optional_control_bar_0_0 is
-  port (
-    clk_25 : in STD_LOGIC;
-    done : in STD_LOGIC;
-    v_sync : in STD_LOGIC;
-    x_t : out STD_LOGIC_VECTOR ( 9 downto 1 );
-    y_t : out STD_LOGIC_VECTOR ( 8 downto 1 );
-    color_t : out STD_LOGIC_VECTOR ( 2 downto 0 );
-    start : out STD_LOGIC;
-    btn : in STD_LOGIC_VECTOR ( 3 downto 0 );
-    req : out STD_LOGIC;
-    done_bar : out STD_LOGIC;
-    wr : in STD_LOGIC
-  );
-  end component Final_Optional_control_bar_0_0;
   signal VGA_SYNC_0_pixel_column : STD_LOGIC_VECTOR ( 9 downto 0 );
   signal VGA_SYNC_0_pixel_row : STD_LOGIC_VECTOR ( 9 downto 0 );
   signal VGA_SYNC_0_vga_b : STD_LOGIC_VECTOR ( 4 downto 0 );

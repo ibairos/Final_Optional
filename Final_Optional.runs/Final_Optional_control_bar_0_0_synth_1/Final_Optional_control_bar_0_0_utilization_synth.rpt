@@ -1,8 +1,8 @@
 Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
 -------------------------------------------------------------------------------------------------------------------------------------------------------
 | Tool Version : Vivado v.2017.2 (win64) Build 1909853 Thu Jun 15 18:39:09 MDT 2017
-| Date         : Thu May 30 14:20:02 2019
-| Host         : c4d1 running 64-bit major release  (build 9200)
+| Date         : Fri May 31 12:05:22 2019
+| Host         : ibaipc running 64-bit major release  (build 9200)
 | Command      : report_utilization -file Final_Optional_control_bar_0_0_utilization_synth.rpt -pb Final_Optional_control_bar_0_0_utilization_synth.pb
 | Design       : Final_Optional_control_bar_0_0
 | Device       : 7z010clg400-1
@@ -147,14 +147,14 @@ Table of Contents
 | Ref Name | Used | Functional Category |
 +----------+------+---------------------+
 | FDRE     |   32 |        Flop & Latch |
-| LUT5     |   16 |                 LUT |
+| LUT5     |   17 |                 LUT |
 | LUT4     |   12 |                 LUT |
 | LUT2     |    5 |                 LUT |
-| CARRY4   |    3 |          CarryLogic |
 | LUT3     |    2 |                 LUT |
-| LUT1     |    2 |                 LUT |
+| CARRY4   |    2 |          CarryLogic |
 | MUXF7    |    1 |               MuxFx |
 | LUT6     |    1 |                 LUT |
+| LUT1     |    1 |                 LUT |
 +----------+------+---------------------+
 
 

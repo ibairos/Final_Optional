@@ -1,6 +1,153 @@
 Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
 ------------------------------------------------------------------------------------
 | Tool Version : Vivado v.2017.2 (win64) Build 1909853 Thu Jun 15 18:39:09 MDT 2017
+| Date         : Fri May 31 12:26:12 2019
+| Host         : ibaipc running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z010clg400-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'Final_Optional_control_ball_0_1'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of Final_Optional_control_ball_0_1 (ALU:user:control_ball:1.0) from (Rev. 12) to (Rev. 13)
+
+
+
+
+
+
+Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2017.2 (win64) Build 1909853 Thu Jun 15 18:39:09 MDT 2017
+| Date         : Fri May 31 12:16:20 2019
+| Host         : ibaipc running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z010clg400-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'Final_Optional_control_ball_0_1'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of Final_Optional_control_ball_0_1 (ALU:user:control_ball:1.0) from (Rev. 11) to (Rev. 12)
+
+
+
+
+
+
+Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2017.2 (win64) Build 1909853 Thu Jun 15 18:39:09 MDT 2017
+| Date         : Fri May 31 12:04:22 2019
+| Host         : ibaipc running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z010clg400-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'Final_Optional_control_bar_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of Final_Optional_control_bar_0_0 (ALU:user:control_bar:1.0) from (Rev. 6) to (Rev. 7)
+
+
+
+
+
+
+Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2017.2 (win64) Build 1909853 Thu Jun 15 18:39:09 MDT 2017
+| Date         : Fri May 31 12:04:22 2019
+| Host         : ibaipc running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z010clg400-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'Final_Optional_control_ball_0_1'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of Final_Optional_control_ball_0_1 (ALU:user:control_ball:1.0) from (Rev. 10) to (Rev. 11)
+
+
+
+
+
+
+Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2017.2 (win64) Build 1909853 Thu Jun 15 18:39:09 MDT 2017
+| Date         : Fri May 31 11:56:38 2019
+| Host         : ibaipc running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z010clg400-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'Final_Optional_control_ball_0_1'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of Final_Optional_control_ball_0_1 (ALU:user:control_ball:1.0) from (Rev. 9) to (Rev. 10)
+
+
+
+
+
+
+Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2017.2 (win64) Build 1909853 Thu Jun 15 18:39:09 MDT 2017
+| Date         : Fri May 31 11:29:04 2019
+| Host         : ibaipc running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z010clg400-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'Final_Optional_control_ball_0_1'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of Final_Optional_control_ball_0_1 (ALU:user:control_ball:1.0) from (Rev. 8) to (Rev. 9)
+
+
+
+
+
+
+Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2017.2 (win64) Build 1909853 Thu Jun 15 18:39:09 MDT 2017
+| Date         : Fri May 31 11:16:26 2019
+| Host         : ibaipc running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z010clg400-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'Final_Optional_control_ball_0_1'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of Final_Optional_control_ball_0_1 (ALU:user:control_ball:1.0) from (Rev. 7) to (Rev. 8)
+
+
+
+
+
+
+Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2017.2 (win64) Build 1909853 Thu Jun 15 18:39:09 MDT 2017
 | Date         : Thu May 30 14:24:25 2019
 | Host         : c4d1 running 64-bit major release  (build 9200)
 | Command      : upgrade_ip

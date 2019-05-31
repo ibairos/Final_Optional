@@ -1,10 +1,10 @@
 // Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
 // --------------------------------------------------------------------------------
 // Tool Version: Vivado v.2017.2 (win64) Build 1909853 Thu Jun 15 18:39:09 MDT 2017
-// Date        : Thu May 30 14:20:02 2019
-// Host        : c4d1 running 64-bit major release  (build 9200)
+// Date        : Fri May 31 12:05:22 2019
+// Host        : ibaipc running 64-bit major release  (build 9200)
 // Command     : write_verilog -force -mode funcsim
-//               C:/Users/ibai.ros/Final_Optional/Final_Optional.srcs/sources_1/bd/Final_Optional/ip/Final_Optional_control_bar_0_0/Final_Optional_control_bar_0_0_sim_netlist.v
+//               C:/Users/ibai/ESDC/Final_Optional/Final_Optional.srcs/sources_1/bd/Final_Optional/ip/Final_Optional_control_bar_0_0/Final_Optional_control_bar_0_0_sim_netlist.v
 // Design      : Final_Optional_control_bar_0_0
 // Purpose     : This verilog netlist is a functional simulation representation of the design and should not be modified
 //               or synthesized. This netlist cannot be used for SDF annotated simulation.
@@ -119,6 +119,7 @@ module Final_Optional_control_bar_0_0_control_bar
   wire ld_new_left;
   wire ld_new_right;
   wire ld_old;
+  wire \new_sw[1]_i_1_n_0 ;
   wire \new_sw[9]_i_1_n_0 ;
   wire \new_sw[9]_i_2_n_0 ;
   wire \new_sw[9]_i_3_n_0 ;
@@ -130,7 +131,6 @@ module Final_Optional_control_bar_0_0_control_bar
   wire plusOp_carry__0_i_2_n_0;
   wire plusOp_carry__0_i_3_n_0;
   wire plusOp_carry__0_i_4_n_0;
-  wire plusOp_carry__0_n_0;
   wire plusOp_carry__0_n_1;
   wire plusOp_carry__0_n_2;
   wire plusOp_carry__0_n_3;
@@ -138,8 +138,6 @@ module Final_Optional_control_bar_0_0_control_bar
   wire plusOp_carry__0_n_5;
   wire plusOp_carry__0_n_6;
   wire plusOp_carry__0_n_7;
-  wire plusOp_carry__1_i_1_n_0;
-  wire plusOp_carry__1_n_7;
   wire plusOp_carry_i_1_n_0;
   wire plusOp_carry_i_2_n_0;
   wire plusOp_carry_i_3_n_0;
@@ -160,8 +158,7 @@ module Final_Optional_control_bar_0_0_control_bar
   wire wr;
   wire [9:1]x_t;
   wire \x_t[9]_i_1_n_0 ;
-  wire [3:0]NLW_plusOp_carry__1_CO_UNCONNECTED;
-  wire [3:1]NLW_plusOp_carry__1_O_UNCONNECTED;
+  wire [3:3]NLW_plusOp_carry__0_CO_UNCONNECTED;
 
   LUT4 #(
     .INIT(16'h5439)) 
@@ -278,6 +275,11 @@ module Final_Optional_control_bar_0_0_control_bar
         .I2(st[0]),
         .I3(st[3]),
         .O(done_bar));
+  LUT1 #(
+    .INIT(2'h1)) 
+    \new_sw[1]_i_1 
+       (.I0(new_sw_reg__0[1]),
+        .O(\new_sw[1]_i_1_n_0 ));
   LUT6 #(
     .INIT(64'h22FFF2F2FFFFF2E2)) 
     \new_sw[9]_i_1 
@@ -334,7 +336,7 @@ module Final_Optional_control_bar_0_0_control_bar
     \new_sw_reg[1] 
        (.C(clk_25),
         .CE(\new_sw[9]_i_1_n_0 ),
-        .D(plusOp_carry_n_7),
+        .D(\new_sw[1]_i_1_n_0 ),
         .Q(new_sw_reg__0[1]),
         .R(1'b0));
   FDRE #(
@@ -342,7 +344,7 @@ module Final_Optional_control_bar_0_0_control_bar
     \new_sw_reg[2] 
        (.C(clk_25),
         .CE(\new_sw[9]_i_1_n_0 ),
-        .D(plusOp_carry_n_6),
+        .D(plusOp_carry_n_7),
         .Q(new_sw_reg__0[2]),
         .R(1'b0));
   FDRE #(
@@ -350,7 +352,7 @@ module Final_Optional_control_bar_0_0_control_bar
     \new_sw_reg[3] 
        (.C(clk_25),
         .CE(\new_sw[9]_i_1_n_0 ),
-        .D(plusOp_carry_n_5),
+        .D(plusOp_carry_n_6),
         .Q(new_sw_reg__0[3]),
         .R(1'b0));
   FDRE #(
@@ -358,7 +360,7 @@ module Final_Optional_control_bar_0_0_control_bar
     \new_sw_reg[4] 
        (.C(clk_25),
         .CE(\new_sw[9]_i_1_n_0 ),
-        .D(plusOp_carry_n_4),
+        .D(plusOp_carry_n_5),
         .Q(new_sw_reg__0[4]),
         .R(1'b0));
   FDRE #(
@@ -366,7 +368,7 @@ module Final_Optional_control_bar_0_0_control_bar
     \new_sw_reg[5] 
        (.C(clk_25),
         .CE(\new_sw[9]_i_1_n_0 ),
-        .D(plusOp_carry__0_n_7),
+        .D(plusOp_carry_n_4),
         .Q(new_sw_reg__0[5]),
         .R(1'b0));
   FDRE #(
@@ -374,7 +376,7 @@ module Final_Optional_control_bar_0_0_control_bar
     \new_sw_reg[6] 
        (.C(clk_25),
         .CE(\new_sw[9]_i_1_n_0 ),
-        .D(plusOp_carry__0_n_6),
+        .D(plusOp_carry__0_n_7),
         .Q(new_sw_reg__0[6]),
         .R(1'b0));
   FDRE #(
@@ -382,7 +384,7 @@ module Final_Optional_control_bar_0_0_control_bar
     \new_sw_reg[7] 
        (.C(clk_25),
         .CE(\new_sw[9]_i_1_n_0 ),
-        .D(plusOp_carry__0_n_5),
+        .D(plusOp_carry__0_n_6),
         .Q(new_sw_reg__0[7]),
         .R(1'b0));
   FDRE #(
@@ -390,7 +392,7 @@ module Final_Optional_control_bar_0_0_control_bar
     \new_sw_reg[8] 
        (.C(clk_25),
         .CE(\new_sw[9]_i_1_n_0 ),
-        .D(plusOp_carry__0_n_4),
+        .D(plusOp_carry__0_n_5),
         .Q(new_sw_reg__0[8]),
         .R(1'b0));
   FDRE #(
@@ -398,7 +400,7 @@ module Final_Optional_control_bar_0_0_control_bar
     \new_sw_reg[9] 
        (.C(clk_25),
         .CE(\new_sw[9]_i_1_n_0 ),
-        .D(plusOp_carry__1_n_7),
+        .D(plusOp_carry__0_n_4),
         .Q(new_sw_reg__0[9]),
         .R(1'b0));
   LUT4 #(
@@ -484,54 +486,41 @@ module Final_Optional_control_bar_0_0_control_bar
   CARRY4 plusOp_carry
        (.CI(1'b0),
         .CO({plusOp_carry_n_0,plusOp_carry_n_1,plusOp_carry_n_2,plusOp_carry_n_3}),
-        .CYINIT(1'b0),
-        .DI({plusOp_carry_i_1_n_0,new_sw_reg__0[3:2],1'b0}),
+        .CYINIT(new_sw_reg__0[1]),
+        .DI({new_sw_reg__0[4],plusOp_carry_i_1_n_0,new_sw_reg__0[3:2]}),
         .O({plusOp_carry_n_4,plusOp_carry_n_5,plusOp_carry_n_6,plusOp_carry_n_7}),
         .S({plusOp_carry_i_2_n_0,plusOp_carry_i_3_n_0,plusOp_carry_i_4_n_0,plusOp_carry_i_5_n_0}));
   CARRY4 plusOp_carry__0
        (.CI(plusOp_carry_n_0),
-        .CO({plusOp_carry__0_n_0,plusOp_carry__0_n_1,plusOp_carry__0_n_2,plusOp_carry__0_n_3}),
+        .CO({NLW_plusOp_carry__0_CO_UNCONNECTED[3],plusOp_carry__0_n_1,plusOp_carry__0_n_2,plusOp_carry__0_n_3}),
         .CYINIT(1'b0),
-        .DI(new_sw_reg__0[7:4]),
+        .DI({1'b0,new_sw_reg__0[7:5]}),
         .O({plusOp_carry__0_n_4,plusOp_carry__0_n_5,plusOp_carry__0_n_6,plusOp_carry__0_n_7}),
         .S({plusOp_carry__0_i_1_n_0,plusOp_carry__0_i_2_n_0,plusOp_carry__0_i_3_n_0,plusOp_carry__0_i_4_n_0}));
   LUT2 #(
     .INIT(4'h9)) 
     plusOp_carry__0_i_1
-       (.I0(new_sw_reg__0[7]),
-        .I1(new_sw_reg__0[8]),
+       (.I0(new_sw_reg__0[8]),
+        .I1(new_sw_reg__0[9]),
         .O(plusOp_carry__0_i_1_n_0));
   LUT2 #(
     .INIT(4'h9)) 
     plusOp_carry__0_i_2
-       (.I0(new_sw_reg__0[6]),
-        .I1(new_sw_reg__0[7]),
+       (.I0(new_sw_reg__0[7]),
+        .I1(new_sw_reg__0[8]),
         .O(plusOp_carry__0_i_2_n_0));
   LUT2 #(
     .INIT(4'h9)) 
     plusOp_carry__0_i_3
-       (.I0(new_sw_reg__0[5]),
-        .I1(new_sw_reg__0[6]),
+       (.I0(new_sw_reg__0[6]),
+        .I1(new_sw_reg__0[7]),
         .O(plusOp_carry__0_i_3_n_0));
   LUT2 #(
     .INIT(4'h9)) 
     plusOp_carry__0_i_4
-       (.I0(new_sw_reg__0[4]),
-        .I1(new_sw_reg__0[5]),
+       (.I0(new_sw_reg__0[5]),
+        .I1(new_sw_reg__0[6]),
         .O(plusOp_carry__0_i_4_n_0));
-  CARRY4 plusOp_carry__1
-       (.CI(plusOp_carry__0_n_0),
-        .CO(NLW_plusOp_carry__1_CO_UNCONNECTED[3:0]),
-        .CYINIT(1'b0),
-        .DI({1'b0,1'b0,1'b0,1'b0}),
-        .O({NLW_plusOp_carry__1_O_UNCONNECTED[3:1],plusOp_carry__1_n_7}),
-        .S({1'b0,1'b0,1'b0,plusOp_carry__1_i_1_n_0}));
-  LUT2 #(
-    .INIT(4'h9)) 
-    plusOp_carry__1_i_1
-       (.I0(new_sw_reg__0[8]),
-        .I1(new_sw_reg__0[9]),
-        .O(plusOp_carry__1_i_1_n_0));
   LUT4 #(
     .INIT(16'h0010)) 
     plusOp_carry_i_1
@@ -540,14 +529,11 @@ module Final_Optional_control_bar_0_0_control_bar
         .I2(st[3]),
         .I3(st[1]),
         .O(plusOp_carry_i_1_n_0));
-  LUT5 #(
-    .INIT(32'h0004FFFB)) 
+  LUT2 #(
+    .INIT(4'h9)) 
     plusOp_carry_i_2
-       (.I0(st[1]),
-        .I1(st[3]),
-        .I2(st[2]),
-        .I3(st[0]),
-        .I4(new_sw_reg__0[4]),
+       (.I0(new_sw_reg__0[4]),
+        .I1(new_sw_reg__0[5]),
         .O(plusOp_carry_i_2_n_0));
   LUT5 #(
     .INIT(32'h0004FFFB)) 
@@ -556,17 +542,25 @@ module Final_Optional_control_bar_0_0_control_bar
         .I1(st[3]),
         .I2(st[2]),
         .I3(st[0]),
-        .I4(new_sw_reg__0[3]),
+        .I4(new_sw_reg__0[4]),
         .O(plusOp_carry_i_3_n_0));
-  LUT1 #(
-    .INIT(2'h1)) 
+  LUT5 #(
+    .INIT(32'h0004FFFB)) 
     plusOp_carry_i_4
-       (.I0(new_sw_reg__0[2]),
+       (.I0(st[1]),
+        .I1(st[3]),
+        .I2(st[2]),
+        .I3(st[0]),
+        .I4(new_sw_reg__0[3]),
         .O(plusOp_carry_i_4_n_0));
-  LUT1 #(
-    .INIT(2'h2)) 
+  LUT5 #(
+    .INIT(32'hAAAAAA9A)) 
     plusOp_carry_i_5
-       (.I0(new_sw_reg__0[1]),
+       (.I0(new_sw_reg__0[2]),
+        .I1(st[1]),
+        .I2(st[3]),
+        .I3(st[2]),
+        .I4(st[0]),
         .O(plusOp_carry_i_5_n_0));
   LUT4 #(
     .INIT(16'h0454)) 

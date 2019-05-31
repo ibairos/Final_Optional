@@ -1,8 +1,8 @@
 Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 | Tool Version     : Vivado v.2017.2 (win64) Build 1909853 Thu Jun 15 18:39:09 MDT 2017
-| Date             : Thu May 30 14:26:24 2019
-| Host             : c4d1 running 64-bit major release  (build 9200)
+| Date             : Fri May 31 12:29:04 2019
+| Host             : ibaipc running 64-bit major release  (build 9200)
 | Command          : report_power -file Final_Optional_wrapper_power_routed.rpt -pb Final_Optional_wrapper_power_summary_routed.pb -rpx Final_Optional_wrapper_power_routed.rpx
 | Design           : Final_Optional_wrapper
 | Device           : xc7z010clg400-1
@@ -49,14 +49,14 @@ Table of Contents
 +----------------+-----------+----------+-----------+-----------------+
 | On-Chip        | Power (W) | Used     | Available | Utilization (%) |
 +----------------+-----------+----------+-----------+-----------------+
-| Clocks         |    <0.001 |        8 |       --- |             --- |
-| Slice Logic    |    <0.001 |      621 |       --- |             --- |
-|   LUT as Logic |    <0.001 |      289 |     17600 |            1.64 |
-|   CARRY4       |    <0.001 |       24 |      4400 |            0.55 |
-|   Register     |    <0.001 |      230 |     35200 |            0.65 |
+| Clocks         |     0.001 |        8 |       --- |             --- |
+| Slice Logic    |    <0.001 |      755 |       --- |             --- |
+|   LUT as Logic |    <0.001 |      356 |     17600 |            2.02 |
+|   CARRY4       |    <0.001 |       47 |      4400 |            1.07 |
+|   Register     |    <0.001 |      233 |     35200 |            0.66 |
 |   F7/F8 Muxes  |    <0.001 |        1 |     17600 |           <0.01 |
-|   Others       |     0.000 |       34 |       --- |             --- |
-| Signals        |    <0.001 |      446 |       --- |             --- |
+|   Others       |     0.000 |       38 |       --- |             --- |
+| Signals        |    <0.001 |      492 |       --- |             --- |
 | Block RAM      |     0.003 |       12 |        60 |           20.00 |
 | MMCM           |     0.106 |        1 |         2 |           50.00 |
 | I/O            |     0.001 |       22 |       100 |           22.00 |
@@ -153,7 +153,7 @@ Table of Contents
 | Name                                           | Power (W) |
 +------------------------------------------------+-----------+
 | Final_Optional_wrapper                         |     0.112 |
-|   Final_Optional_i                             |     0.110 |
+|   Final_Optional_i                             |     0.111 |
 |     VGA_SYNC_0                                 |    <0.001 |
 |       U0                                       |    <0.001 |
 |     add_generator_0                            |     0.000 |

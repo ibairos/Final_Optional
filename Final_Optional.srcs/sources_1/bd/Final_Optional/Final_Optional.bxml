@@ -2,9 +2,9 @@
 <Root MajorVersion="0" MinorVersion="33">
   <CompositeFile CompositeFileTopName="Final_Optional" CanBeSetAsTop="false" CanDisplayChildGraph="true">
     <Description>Composite Fileset</Description>
-    <Generation Name="SYNTHESIS" State="GENERATED" Timestamp="1559219072"/>
-    <Generation Name="IMPLEMENTATION" State="GENERATED" Timestamp="1559219072"/>
-    <Generation Name="SIMULATION" State="GENERATED" Timestamp="1559219072"/>
+    <Generation Name="SYNTHESIS" State="GENERATED" Timestamp="1559298380"/>
+    <Generation Name="IMPLEMENTATION" State="GENERATED" Timestamp="1559298380"/>
+    <Generation Name="SIMULATION" State="GENERATED" Timestamp="1559298380"/>
     <FileCollection Name="SOURCES" Type="SOURCES">
       <File Name="ip\Final_Optional_VGA_SYNC_0_0\Final_Optional_VGA_SYNC_0_0.xci" Type="IP">
         <Instance HierarchyPath="VGA_SYNC_0"/>

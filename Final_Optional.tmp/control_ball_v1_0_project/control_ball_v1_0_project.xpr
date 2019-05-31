@@ -3,10 +3,10 @@
 <!--                                                         -->
 <!-- Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.   -->
 
-<Project Version="7" Minor="20" Path="c:/users/ibai.ros/final_optional/final_optional.tmp/control_ball_v1_0_project/control_ball_v1_0_project.xpr">
+<Project Version="7" Minor="20" Path="c:/users/ibai/esdc/final_optional/final_optional.tmp/control_ball_v1_0_project/control_ball_v1_0_project.xpr">
   <DefaultLaunch Dir="$PRUNDIR"/>
   <Configuration>
-    <Option Name="Id" Val="64e76902dc984033898aabce213c9e90"/>
+    <Option Name="Id" Val="1701722db7a048efabc9d5cb936d0630"/>
     <Option Name="Part" Val="xc7z010clg400-1"/>
     <Option Name="CompiledLibDir" Val="$PCACHEDIR/compile_simlib"/>
     <Option Name="CompiledLibDirXSim" Val=""/>
@@ -20,14 +20,14 @@
     <Option Name="BoardPart" Val="digilentinc.com:zybo:part0:1.0"/>
     <Option Name="ActiveSimSet" Val="sim_1"/>
     <Option Name="DefaultLib" Val="xil_defaultlib"/>
-    <Option Name="IPRepoPath" Val="$PPRDIR/../../../../../Users/ibai.ros/Final_Optional/IPs/control_ball"/>
-    <Option Name="IPRepoPath" Val="$PPRDIR/../../../../../Users/ibai.ros/Final_Optional/IPs/memory_bar"/>
-    <Option Name="IPRepoPath" Val="$PPRDIR/../../../../../Users/ibai.ros/Final_Optional/IPs/mem_control_unit"/>
-    <Option Name="IPRepoPath" Val="$PPRDIR/../../../../../Users/ibai.ros/Final_Optional/IPs/mux_control"/>
-    <Option Name="IPRepoPath" Val="$PPRDIR/../../../../../Users/ibai.ros/Final_Optional/IPs/memory_ball"/>
-    <Option Name="IPRepoPath" Val="$PPRDIR/../../../../../Users/ibai.ros/Final_Optional/IPs/control_bar"/>
-    <Option Name="IPRepoPath" Val="$PPRDIR/../../../../../Users/ibai.ros/Final_Optional/IPs/add_generator"/>
-    <Option Name="IPRepoPath" Val="$PPRDIR/../../../../../Users/ibai.ros/Final_Optional/IPs/VGA_SYNC"/>
+    <Option Name="IPRepoPath" Val="$PPRDIR/../../../../../../Users/ibai/ESDC/Final_Optional/IPs/control_ball"/>
+    <Option Name="IPRepoPath" Val="$PPRDIR/../../../../../../Users/ibai/ESDC/Final_Optional/IPs/memory_bar"/>
+    <Option Name="IPRepoPath" Val="$PPRDIR/../../../../../../Users/ibai/ESDC/Final_Optional/IPs/mem_control_unit"/>
+    <Option Name="IPRepoPath" Val="$PPRDIR/../../../../../../Users/ibai/ESDC/Final_Optional/IPs/mux_control"/>
+    <Option Name="IPRepoPath" Val="$PPRDIR/../../../../../../Users/ibai/ESDC/Final_Optional/IPs/memory_ball"/>
+    <Option Name="IPRepoPath" Val="$PPRDIR/../../../../../../Users/ibai/ESDC/Final_Optional/IPs/control_bar"/>
+    <Option Name="IPRepoPath" Val="$PPRDIR/../../../../../../Users/ibai/ESDC/Final_Optional/IPs/add_generator"/>
+    <Option Name="IPRepoPath" Val="$PPRDIR/../../../../../../Users/ibai/ESDC/Final_Optional/IPs/VGA_SYNC"/>
     <Option Name="IPOutputRepo" Val="$PCACHEDIR/ip"/>
     <Option Name="IPCachePermission" Val="read"/>
     <Option Name="IPCachePermission" Val="write"/>
@@ -61,19 +61,19 @@
   <FileSets Version="1" Minor="31">
     <FileSet Name="sources_1" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1">
       <Filter Type="Srcs"/>
-      <File Path="$PPRDIR/../../../../../Users/ibai.ros/Final_Optional/IPs/control_ball/control_ball.vhd">
+      <File Path="$PPRDIR/../../../../../../Users/ibai/ESDC/Final_Optional/IPs/control_ball/control_ball.vhd">
         <FileInfo>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
       </File>
-      <File Path="$PPRDIR/../../../../../Users/ibai.ros/Final_Optional/IPs/control_ball/component.xml">
+      <File Path="$PPRDIR/../../../../../../Users/ibai/ESDC/Final_Optional/IPs/control_ball/component.xml">
         <FileInfo SFType="IPXACT"/>
       </File>
       <Config>
         <Option Name="DesignMode" Val="RTL"/>
         <Option Name="TopModule" Val="control_ball"/>
-        <Option Name="TopRTLFile" Val="$PPRDIR/../../../../../Users/ibai.ros/Final_Optional/IPs/control_ball/control_ball.vhd"/>
+        <Option Name="TopRTLFile" Val="$PPRDIR/../../../../../../Users/ibai/ESDC/Final_Optional/IPs/control_ball/control_ball.vhd"/>
       </Config>
     </FileSet>
     <FileSet Name="constrs_1" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1">
