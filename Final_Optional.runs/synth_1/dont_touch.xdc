@@ -9,9 +9,6 @@ set_property DONT_TOUCH TRUE [get_cells -hier -filter {REF_NAME==Final_Optional 
 # IP: bd/Final_Optional/ip/Final_Optional_VGA_SYNC_0_0/Final_Optional_VGA_SYNC_0_0.xci
 set_property DONT_TOUCH TRUE [get_cells -hier -filter {REF_NAME==Final_Optional_VGA_SYNC_0_0 || ORIG_REF_NAME==Final_Optional_VGA_SYNC_0_0}]
 
-# IP: bd/Final_Optional/ip/Final_Optional_clk_wiz_0_0/Final_Optional_clk_wiz_0_0.xci
-set_property DONT_TOUCH TRUE [get_cells -hier -filter {REF_NAME==Final_Optional_clk_wiz_0_0 || ORIG_REF_NAME==Final_Optional_clk_wiz_0_0}]
-
 # IP: bd/Final_Optional/ip/Final_Optional_add_generator_0_0/Final_Optional_add_generator_0_0.xci
 set_property DONT_TOUCH TRUE [get_cells -hier -filter {REF_NAME==Final_Optional_add_generator_0_0 || ORIG_REF_NAME==Final_Optional_add_generator_0_0}]
 
@@ -35,5 +32,29 @@ set_property DONT_TOUCH TRUE [get_cells -hier -filter {REF_NAME==Final_Optional_
 
 # IP: bd/Final_Optional/ip/Final_Optional_control_ball_0_1/Final_Optional_control_ball_0_1.xci
 set_property DONT_TOUCH TRUE [get_cells -hier -filter {REF_NAME==Final_Optional_control_ball_0_1 || ORIG_REF_NAME==Final_Optional_control_ball_0_1}]
+
+# IP: bd/Final_Optional/ip/Final_Optional_processing_system7_0_0/Final_Optional_processing_system7_0_0.xci
+set_property DONT_TOUCH TRUE [get_cells -hier -filter {REF_NAME==Final_Optional_processing_system7_0_0 || ORIG_REF_NAME==Final_Optional_processing_system7_0_0}]
+
+# IP: bd/Final_Optional/ip/Final_Optional_axi_gpio_0_0/Final_Optional_axi_gpio_0_0.xci
+set_property DONT_TOUCH TRUE [get_cells -hier -filter {REF_NAME==Final_Optional_axi_gpio_0_0 || ORIG_REF_NAME==Final_Optional_axi_gpio_0_0}]
+
+# IP: bd/Final_Optional/ip/Final_Optional_axi_gpio_1_0/Final_Optional_axi_gpio_1_0.xci
+set_property DONT_TOUCH TRUE [get_cells -hier -filter {REF_NAME==Final_Optional_axi_gpio_1_0 || ORIG_REF_NAME==Final_Optional_axi_gpio_1_0}]
+
+# IP: bd/Final_Optional/ip/Final_Optional_axi_gpio_2_0/Final_Optional_axi_gpio_2_0.xci
+set_property DONT_TOUCH TRUE [get_cells -hier -filter {REF_NAME==Final_Optional_axi_gpio_2_0 || ORIG_REF_NAME==Final_Optional_axi_gpio_2_0}]
+
+# IP: bd/Final_Optional/ip/Final_Optional_ps7_0_axi_periph_0/Final_Optional_ps7_0_axi_periph_0.xci
+set_property DONT_TOUCH TRUE [get_cells -hier -filter {REF_NAME==Final_Optional_ps7_0_axi_periph_0 || ORIG_REF_NAME==Final_Optional_ps7_0_axi_periph_0}]
+
+# IP: bd/Final_Optional/ip/Final_Optional_rst_ps7_0_100M_0/Final_Optional_rst_ps7_0_100M_0.xci
+set_property DONT_TOUCH TRUE [get_cells -hier -filter {REF_NAME==Final_Optional_rst_ps7_0_100M_0 || ORIG_REF_NAME==Final_Optional_rst_ps7_0_100M_0}]
+
+# IP: bd/Final_Optional/ip/Final_Optional_xbar_0/Final_Optional_xbar_0.xci
+set_property DONT_TOUCH TRUE [get_cells -hier -filter {REF_NAME==Final_Optional_xbar_0 || ORIG_REF_NAME==Final_Optional_xbar_0}]
+
+# IP: bd/Final_Optional/ip/Final_Optional_auto_pc_0/Final_Optional_auto_pc_0.xci
+set_property DONT_TOUCH TRUE [get_cells -hier -filter {REF_NAME==Final_Optional_auto_pc_0 || ORIG_REF_NAME==Final_Optional_auto_pc_0}]
 
 # XDC: bd/Final_Optional/Final_Optional_ooc.xdc

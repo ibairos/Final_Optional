@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<GenRun Id="synth_1" LaunchPart="xc7z010clg400-1" LaunchTime="1559298382">
+<GenRun Id="synth_1" LaunchPart="xc7z010clg400-1" LaunchTime="1559300226">
   <File Type="RDS-PROPCONSTRS" Name="Final_Optional_wrapper_drc_synth.rpt"/>
   <File Type="PA-TCL" Name="Final_Optional_wrapper.tcl"/>
   <File Type="RDS-RDS" Name="Final_Optional_wrapper.vds"/>
@@ -45,8 +45,15 @@
     <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2017"/>
     <Step Id="synth_design"/>
   </Strategy>
+  <BlockFileSet Type="BlockSrcs" Name="Final_Optional_xbar_0"/>
   <BlockFileSet Type="BlockSrcs" Name="Final_Optional_control_ball_0_1"/>
   <BlockFileSet Type="BlockSrcs" Name="Final_Optional_mem_control_unit_0_2"/>
+  <BlockFileSet Type="BlockSrcs" Name="Final_Optional_axi_gpio_0_0"/>
   <BlockFileSet Type="BlockSrcs" Name="Final_Optional_mux_control_0_2"/>
+  <BlockFileSet Type="BlockSrcs" Name="Final_Optional_axi_gpio_1_0"/>
   <BlockFileSet Type="BlockSrcs" Name="Final_Optional_control_bar_0_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="Final_Optional_rst_ps7_0_100M_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="Final_Optional_axi_gpio_2_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="Final_Optional_processing_system7_0_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="Final_Optional_auto_pc_0"/>
 </GenRun>

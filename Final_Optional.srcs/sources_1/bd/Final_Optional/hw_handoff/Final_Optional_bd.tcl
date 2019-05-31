@@ -154,11 +154,10 @@ proc create_root_design { parentCell } {
 
 
   # Create interface ports
+  set DDR [ create_bd_intf_port -mode Master -vlnv xilinx.com:interface:ddrx_rtl:1.0 DDR ]
+  set FIXED_IO [ create_bd_intf_port -mode Master -vlnv xilinx.com:display_processing_system7:fixedio_rtl:1.0 FIXED_IO ]
 
   # Create ports
-  set btn [ create_bd_port -dir I -from 3 -to 0 btn ]
-  set clk [ create_bd_port -dir I -type clk clk ]
-  set sw [ create_bd_port -dir I -from 3 -to 0 sw ]
   set vga_b [ create_bd_port -dir O -from 4 -to 0 vga_b ]
   set vga_g [ create_bd_port -dir O -from 5 -to 0 vga_g ]
   set vga_hs [ create_bd_port -dir O vga_hs ]
@@ -197,34 +196,26 @@ CONFIG.Write_Width_B {3} \
 CONFIG.use_bram_block {Stand_Alone} \
  ] $blk_mem_gen_0
 
-  # Create instance: clk_wiz_0, and set properties
-  set clk_wiz_0 [ create_bd_cell -type ip -vlnv xilinx.com:ip:clk_wiz:5.4 clk_wiz_0 ]
+  # Create instance: buttons, and set properties
+  set buttons [ create_bd_cell -type ip -vlnv xilinx.com:ip:axi_gpio:2.0 buttons ]
   set_property -dict [ list \
-CONFIG.CLKIN1_JITTER_PS {80.0} \
-CONFIG.CLKOUT1_JITTER {165.419} \
-CONFIG.CLKOUT1_PHASE_ERROR {96.948} \
-CONFIG.CLKOUT1_REQUESTED_OUT_FREQ {25.000} \
-CONFIG.CLKOUT2_JITTER {124.615} \
-CONFIG.CLKOUT2_PHASE_ERROR {96.948} \
-CONFIG.CLKOUT2_REQUESTED_OUT_FREQ {100.000} \
-CONFIG.CLKOUT2_USED {true} \
-CONFIG.CLK_IN1_BOARD_INTERFACE {sys_clock} \
-CONFIG.CLK_IN2_BOARD_INTERFACE {Custom} \
-CONFIG.MMCM_CLKFBOUT_MULT_F {8.000} \
-CONFIG.MMCM_CLKIN1_PERIOD {8.000} \
-CONFIG.MMCM_CLKOUT0_DIVIDE_F {40.000} \
-CONFIG.MMCM_CLKOUT1_DIVIDE {10} \
-CONFIG.MMCM_DIVCLK_DIVIDE {1} \
-CONFIG.NUM_OUT_CLKS {2} \
-CONFIG.USE_LOCKED {false} \
-CONFIG.USE_RESET {false} \
- ] $clk_wiz_0
+CONFIG.C_ALL_OUTPUTS {1} \
+CONFIG.C_GPIO_WIDTH {4} \
+ ] $buttons
 
   # Create instance: control_ball_0, and set properties
   set control_ball_0 [ create_bd_cell -type ip -vlnv ALU:user:control_ball:1.0 control_ball_0 ]
 
   # Create instance: control_bar_0, and set properties
   set control_bar_0 [ create_bd_cell -type ip -vlnv ALU:user:control_bar:1.0 control_bar_0 ]
+
+  # Create instance: game_over, and set properties
+  set game_over [ create_bd_cell -type ip -vlnv xilinx.com:ip:axi_gpio:2.0 game_over ]
+  set_property -dict [ list \
+CONFIG.C_ALL_INPUTS {1} \
+CONFIG.C_ALL_OUTPUTS {0} \
+CONFIG.C_GPIO_WIDTH {1} \
+ ] $game_over
 
   # Create instance: mem_control_unit_0, and set properties
   set mem_control_unit_0 [ create_bd_cell -type ip -vlnv ALU:user:mem_control_unit:1.0 mem_control_unit_0 ]
@@ -238,6 +229,168 @@ CONFIG.USE_RESET {false} \
   # Create instance: mux_control_0, and set properties
   set mux_control_0 [ create_bd_cell -type ip -vlnv ALU:user:mux_control:1.0 mux_control_0 ]
 
+  # Create instance: processing_system7_0, and set properties
+  set processing_system7_0 [ create_bd_cell -type ip -vlnv xilinx.com:ip:processing_system7:5.5 processing_system7_0 ]
+  set_property -dict [ list \
+CONFIG.PCW_APU_PERIPHERAL_FREQMHZ {650} \
+CONFIG.PCW_CRYSTAL_PERIPHERAL_FREQMHZ {50.000000} \
+CONFIG.PCW_ENET0_ENET0_IO {MIO 16 .. 27} \
+CONFIG.PCW_ENET0_GRP_MDIO_ENABLE {1} \
+CONFIG.PCW_ENET0_PERIPHERAL_ENABLE {1} \
+CONFIG.PCW_ENET0_RESET_ENABLE {0} \
+CONFIG.PCW_EN_CLK1_PORT {1} \
+CONFIG.PCW_FPGA0_PERIPHERAL_FREQMHZ {100} \
+CONFIG.PCW_FPGA1_PERIPHERAL_FREQMHZ {25} \
+CONFIG.PCW_GPIO_MIO_GPIO_ENABLE {1} \
+CONFIG.PCW_MIO_0_PULLUP {enabled} \
+CONFIG.PCW_MIO_10_PULLUP {enabled} \
+CONFIG.PCW_MIO_11_PULLUP {enabled} \
+CONFIG.PCW_MIO_12_PULLUP {enabled} \
+CONFIG.PCW_MIO_16_IOTYPE {HSTL 1.8V} \
+CONFIG.PCW_MIO_16_PULLUP {disabled} \
+CONFIG.PCW_MIO_16_SLEW {fast} \
+CONFIG.PCW_MIO_17_IOTYPE {HSTL 1.8V} \
+CONFIG.PCW_MIO_17_PULLUP {disabled} \
+CONFIG.PCW_MIO_17_SLEW {fast} \
+CONFIG.PCW_MIO_18_IOTYPE {HSTL 1.8V} \
+CONFIG.PCW_MIO_18_PULLUP {disabled} \
+CONFIG.PCW_MIO_18_SLEW {fast} \
+CONFIG.PCW_MIO_19_IOTYPE {HSTL 1.8V} \
+CONFIG.PCW_MIO_19_PULLUP {disabled} \
+CONFIG.PCW_MIO_19_SLEW {fast} \
+CONFIG.PCW_MIO_1_PULLUP {disabled} \
+CONFIG.PCW_MIO_1_SLEW {fast} \
+CONFIG.PCW_MIO_20_IOTYPE {HSTL 1.8V} \
+CONFIG.PCW_MIO_20_PULLUP {disabled} \
+CONFIG.PCW_MIO_20_SLEW {fast} \
+CONFIG.PCW_MIO_21_IOTYPE {HSTL 1.8V} \
+CONFIG.PCW_MIO_21_PULLUP {disabled} \
+CONFIG.PCW_MIO_21_SLEW {fast} \
+CONFIG.PCW_MIO_22_IOTYPE {HSTL 1.8V} \
+CONFIG.PCW_MIO_22_PULLUP {disabled} \
+CONFIG.PCW_MIO_22_SLEW {fast} \
+CONFIG.PCW_MIO_23_IOTYPE {HSTL 1.8V} \
+CONFIG.PCW_MIO_23_PULLUP {disabled} \
+CONFIG.PCW_MIO_23_SLEW {fast} \
+CONFIG.PCW_MIO_24_IOTYPE {HSTL 1.8V} \
+CONFIG.PCW_MIO_24_PULLUP {disabled} \
+CONFIG.PCW_MIO_24_SLEW {fast} \
+CONFIG.PCW_MIO_25_IOTYPE {HSTL 1.8V} \
+CONFIG.PCW_MIO_25_PULLUP {disabled} \
+CONFIG.PCW_MIO_25_SLEW {fast} \
+CONFIG.PCW_MIO_26_IOTYPE {HSTL 1.8V} \
+CONFIG.PCW_MIO_26_PULLUP {disabled} \
+CONFIG.PCW_MIO_26_SLEW {fast} \
+CONFIG.PCW_MIO_27_IOTYPE {HSTL 1.8V} \
+CONFIG.PCW_MIO_27_PULLUP {disabled} \
+CONFIG.PCW_MIO_27_SLEW {fast} \
+CONFIG.PCW_MIO_28_PULLUP {disabled} \
+CONFIG.PCW_MIO_28_SLEW {fast} \
+CONFIG.PCW_MIO_29_PULLUP {disabled} \
+CONFIG.PCW_MIO_29_SLEW {fast} \
+CONFIG.PCW_MIO_2_SLEW {fast} \
+CONFIG.PCW_MIO_30_PULLUP {disabled} \
+CONFIG.PCW_MIO_30_SLEW {fast} \
+CONFIG.PCW_MIO_31_PULLUP {disabled} \
+CONFIG.PCW_MIO_31_SLEW {fast} \
+CONFIG.PCW_MIO_32_PULLUP {disabled} \
+CONFIG.PCW_MIO_32_SLEW {fast} \
+CONFIG.PCW_MIO_33_PULLUP {disabled} \
+CONFIG.PCW_MIO_33_SLEW {fast} \
+CONFIG.PCW_MIO_34_PULLUP {disabled} \
+CONFIG.PCW_MIO_34_SLEW {fast} \
+CONFIG.PCW_MIO_35_PULLUP {disabled} \
+CONFIG.PCW_MIO_35_SLEW {fast} \
+CONFIG.PCW_MIO_36_PULLUP {disabled} \
+CONFIG.PCW_MIO_36_SLEW {fast} \
+CONFIG.PCW_MIO_37_PULLUP {disabled} \
+CONFIG.PCW_MIO_37_SLEW {fast} \
+CONFIG.PCW_MIO_38_PULLUP {disabled} \
+CONFIG.PCW_MIO_38_SLEW {fast} \
+CONFIG.PCW_MIO_39_PULLUP {disabled} \
+CONFIG.PCW_MIO_39_SLEW {fast} \
+CONFIG.PCW_MIO_3_SLEW {fast} \
+CONFIG.PCW_MIO_40_PULLUP {disabled} \
+CONFIG.PCW_MIO_40_SLEW {fast} \
+CONFIG.PCW_MIO_41_PULLUP {disabled} \
+CONFIG.PCW_MIO_41_SLEW {fast} \
+CONFIG.PCW_MIO_42_PULLUP {disabled} \
+CONFIG.PCW_MIO_42_SLEW {fast} \
+CONFIG.PCW_MIO_43_PULLUP {disabled} \
+CONFIG.PCW_MIO_43_SLEW {fast} \
+CONFIG.PCW_MIO_44_PULLUP {disabled} \
+CONFIG.PCW_MIO_44_SLEW {fast} \
+CONFIG.PCW_MIO_45_PULLUP {disabled} \
+CONFIG.PCW_MIO_45_SLEW {fast} \
+CONFIG.PCW_MIO_47_PULLUP {disabled} \
+CONFIG.PCW_MIO_48_PULLUP {disabled} \
+CONFIG.PCW_MIO_49_PULLUP {disabled} \
+CONFIG.PCW_MIO_4_SLEW {fast} \
+CONFIG.PCW_MIO_50_DIRECTION {inout} \
+CONFIG.PCW_MIO_50_PULLUP {disabled} \
+CONFIG.PCW_MIO_51_DIRECTION {inout} \
+CONFIG.PCW_MIO_51_PULLUP {disabled} \
+CONFIG.PCW_MIO_52_PULLUP {disabled} \
+CONFIG.PCW_MIO_52_SLEW {slow} \
+CONFIG.PCW_MIO_53_PULLUP {disabled} \
+CONFIG.PCW_MIO_53_SLEW {slow} \
+CONFIG.PCW_MIO_5_SLEW {fast} \
+CONFIG.PCW_MIO_6_SLEW {fast} \
+CONFIG.PCW_MIO_8_SLEW {fast} \
+CONFIG.PCW_MIO_9_PULLUP {enabled} \
+CONFIG.PCW_PRESET_BANK1_VOLTAGE {LVCMOS 1.8V} \
+CONFIG.PCW_QSPI_GRP_FBCLK_ENABLE {1} \
+CONFIG.PCW_QSPI_GRP_SINGLE_SS_ENABLE {1} \
+CONFIG.PCW_QSPI_PERIPHERAL_ENABLE {1} \
+CONFIG.PCW_SD0_GRP_CD_ENABLE {1} \
+CONFIG.PCW_SD0_GRP_CD_IO {MIO 47} \
+CONFIG.PCW_SD0_GRP_WP_ENABLE {1} \
+CONFIG.PCW_SD0_PERIPHERAL_ENABLE {1} \
+CONFIG.PCW_SDIO_PERIPHERAL_FREQMHZ {50} \
+CONFIG.PCW_TTC0_PERIPHERAL_ENABLE {1} \
+CONFIG.PCW_UART1_PERIPHERAL_ENABLE {1} \
+CONFIG.PCW_UIPARAM_DDR_BOARD_DELAY0 {0.176} \
+CONFIG.PCW_UIPARAM_DDR_BOARD_DELAY1 {0.159} \
+CONFIG.PCW_UIPARAM_DDR_BOARD_DELAY2 {0.162} \
+CONFIG.PCW_UIPARAM_DDR_BOARD_DELAY3 {0.187} \
+CONFIG.PCW_UIPARAM_DDR_DQS_TO_CLK_DELAY_0 {-0.073} \
+CONFIG.PCW_UIPARAM_DDR_DQS_TO_CLK_DELAY_1 {-0.034} \
+CONFIG.PCW_UIPARAM_DDR_DQS_TO_CLK_DELAY_2 {-0.03} \
+CONFIG.PCW_UIPARAM_DDR_DQS_TO_CLK_DELAY_3 {-0.082} \
+CONFIG.PCW_UIPARAM_DDR_FREQ_MHZ {525} \
+CONFIG.PCW_UIPARAM_DDR_PARTNO {MT41K128M16 JT-125} \
+CONFIG.PCW_UIPARAM_DDR_TRAIN_DATA_EYE {1} \
+CONFIG.PCW_UIPARAM_DDR_TRAIN_READ_GATE {1} \
+CONFIG.PCW_UIPARAM_DDR_TRAIN_WRITE_LEVEL {1} \
+CONFIG.PCW_USB0_PERIPHERAL_ENABLE {1} \
+CONFIG.PCW_USB0_RESET_ENABLE {1} \
+CONFIG.PCW_USB0_RESET_IO {MIO 46} \
+ ] $processing_system7_0
+
+  # Create instance: ps7_0_axi_periph, and set properties
+  set ps7_0_axi_periph [ create_bd_cell -type ip -vlnv xilinx.com:ip:axi_interconnect:2.1 ps7_0_axi_periph ]
+  set_property -dict [ list \
+CONFIG.NUM_MI {3} \
+ ] $ps7_0_axi_periph
+
+  # Create instance: rst_ps7_0_100M, and set properties
+  set rst_ps7_0_100M [ create_bd_cell -type ip -vlnv xilinx.com:ip:proc_sys_reset:5.0 rst_ps7_0_100M ]
+
+  # Create instance: switches, and set properties
+  set switches [ create_bd_cell -type ip -vlnv xilinx.com:ip:axi_gpio:2.0 switches ]
+  set_property -dict [ list \
+CONFIG.C_ALL_OUTPUTS {1} \
+CONFIG.C_GPIO_WIDTH {4} \
+ ] $switches
+
+  # Create interface connections
+  connect_bd_intf_net -intf_net processing_system7_0_DDR [get_bd_intf_ports DDR] [get_bd_intf_pins processing_system7_0/DDR]
+  connect_bd_intf_net -intf_net processing_system7_0_FIXED_IO [get_bd_intf_ports FIXED_IO] [get_bd_intf_pins processing_system7_0/FIXED_IO]
+  connect_bd_intf_net -intf_net processing_system7_0_M_AXI_GP0 [get_bd_intf_pins processing_system7_0/M_AXI_GP0] [get_bd_intf_pins ps7_0_axi_periph/S00_AXI]
+  connect_bd_intf_net -intf_net ps7_0_axi_periph_M00_AXI [get_bd_intf_pins game_over/S_AXI] [get_bd_intf_pins ps7_0_axi_periph/M00_AXI]
+  connect_bd_intf_net -intf_net ps7_0_axi_periph_M01_AXI [get_bd_intf_pins buttons/S_AXI] [get_bd_intf_pins ps7_0_axi_periph/M01_AXI]
+  connect_bd_intf_net -intf_net ps7_0_axi_periph_M02_AXI [get_bd_intf_pins ps7_0_axi_periph/M02_AXI] [get_bd_intf_pins switches/S_AXI]
+
   # Create port connections
   connect_bd_net -net VGA_SYNC_0_pixel_column [get_bd_pins VGA_SYNC_0/pixel_column] [get_bd_pins add_generator_0/pixel_column]
   connect_bd_net -net VGA_SYNC_0_pixel_row [get_bd_pins VGA_SYNC_0/pixel_row] [get_bd_pins add_generator_0/pixel_row]
@@ -248,11 +401,10 @@ CONFIG.USE_RESET {false} \
   connect_bd_net -net VGA_SYNC_0_vga_vs [get_bd_ports vga_vs] [get_bd_pins VGA_SYNC_0/vga_vs] [get_bd_pins control_ball_0/v_sync] [get_bd_pins control_bar_0/v_sync]
   connect_bd_net -net add_generator_0_adr_memo [get_bd_pins add_generator_0/adr_memo] [get_bd_pins blk_mem_gen_0/addrb]
   connect_bd_net -net blk_mem_gen_0_doutb [get_bd_pins VGA_SYNC_0/color_in] [get_bd_pins blk_mem_gen_0/doutb]
-  connect_bd_net -net btn_1 [get_bd_ports btn] [get_bd_pins control_bar_0/btn]
-  connect_bd_net -net clk_in1_1 [get_bd_ports clk] [get_bd_pins clk_wiz_0/clk_in1]
-  connect_bd_net -net clk_wiz_0_clk_out1 [get_bd_pins VGA_SYNC_0/clock_25Mhz] [get_bd_pins blk_mem_gen_0/clka] [get_bd_pins blk_mem_gen_0/clkb] [get_bd_pins clk_wiz_0/clk_out1] [get_bd_pins control_ball_0/clk_25] [get_bd_pins control_bar_0/clk_25] [get_bd_pins mem_control_unit_0/clk_25] [get_bd_pins memory_ball_0/clk_25] [get_bd_pins memory_bar_0/clk_25]
+  connect_bd_net -net buttons_gpio_io_o [get_bd_pins buttons/gpio_io_o] [get_bd_pins control_bar_0/btn]
   connect_bd_net -net control_ball_0_color_t [get_bd_pins control_ball_0/color_t] [get_bd_pins memory_ball_0/color_t]
   connect_bd_net -net control_ball_0_done_ball [get_bd_pins control_ball_0/done_ball] [get_bd_pins mem_control_unit_0/done_ball]
+  connect_bd_net -net control_ball_0_game_over [get_bd_pins control_ball_0/game_over] [get_bd_pins game_over/gpio_io_i]
   connect_bd_net -net control_ball_0_req [get_bd_pins control_ball_0/req] [get_bd_pins mem_control_unit_0/req_ball]
   connect_bd_net -net control_ball_0_start [get_bd_pins control_ball_0/start] [get_bd_pins memory_ball_0/start]
   connect_bd_net -net control_ball_0_x_t [get_bd_pins control_ball_0/x_t] [get_bd_pins memory_ball_0/x_t]
@@ -277,9 +429,17 @@ CONFIG.USE_RESET {false} \
   connect_bd_net -net mux_control_0_out_addr [get_bd_pins blk_mem_gen_0/addra] [get_bd_pins mux_control_0/out_addr]
   connect_bd_net -net mux_control_0_out_data [get_bd_pins blk_mem_gen_0/dina] [get_bd_pins mux_control_0/out_data]
   connect_bd_net -net mux_control_0_out_we [get_bd_pins blk_mem_gen_0/wea] [get_bd_pins mux_control_0/out_we]
-  connect_bd_net -net sw_1 [get_bd_ports sw] [get_bd_pins control_ball_0/sw]
+  connect_bd_net -net processing_system7_0_FCLK_CLK0 [get_bd_pins buttons/s_axi_aclk] [get_bd_pins game_over/s_axi_aclk] [get_bd_pins processing_system7_0/FCLK_CLK0] [get_bd_pins processing_system7_0/M_AXI_GP0_ACLK] [get_bd_pins ps7_0_axi_periph/ACLK] [get_bd_pins ps7_0_axi_periph/M00_ACLK] [get_bd_pins ps7_0_axi_periph/M01_ACLK] [get_bd_pins ps7_0_axi_periph/M02_ACLK] [get_bd_pins ps7_0_axi_periph/S00_ACLK] [get_bd_pins rst_ps7_0_100M/slowest_sync_clk] [get_bd_pins switches/s_axi_aclk]
+  connect_bd_net -net processing_system7_0_FCLK_CLK1 [get_bd_pins VGA_SYNC_0/clock_25Mhz] [get_bd_pins blk_mem_gen_0/clka] [get_bd_pins blk_mem_gen_0/clkb] [get_bd_pins control_ball_0/clk_25] [get_bd_pins control_bar_0/clk_25] [get_bd_pins mem_control_unit_0/clk_25] [get_bd_pins memory_ball_0/clk_25] [get_bd_pins memory_bar_0/clk_25] [get_bd_pins processing_system7_0/FCLK_CLK1]
+  connect_bd_net -net processing_system7_0_FCLK_RESET0_N [get_bd_pins processing_system7_0/FCLK_RESET0_N] [get_bd_pins rst_ps7_0_100M/ext_reset_in]
+  connect_bd_net -net rst_ps7_0_100M_interconnect_aresetn [get_bd_pins ps7_0_axi_periph/ARESETN] [get_bd_pins rst_ps7_0_100M/interconnect_aresetn]
+  connect_bd_net -net rst_ps7_0_100M_peripheral_aresetn [get_bd_pins buttons/s_axi_aresetn] [get_bd_pins game_over/s_axi_aresetn] [get_bd_pins ps7_0_axi_periph/M00_ARESETN] [get_bd_pins ps7_0_axi_periph/M01_ARESETN] [get_bd_pins ps7_0_axi_periph/M02_ARESETN] [get_bd_pins ps7_0_axi_periph/S00_ARESETN] [get_bd_pins rst_ps7_0_100M/peripheral_aresetn] [get_bd_pins switches/s_axi_aresetn]
+  connect_bd_net -net switches_gpio_io_o [get_bd_pins control_ball_0/sw] [get_bd_pins switches/gpio_io_o]
 
   # Create address segments
+  create_bd_addr_seg -range 0x00010000 -offset 0x41210000 [get_bd_addr_spaces processing_system7_0/Data] [get_bd_addr_segs buttons/S_AXI/Reg] SEG_buttons_Reg
+  create_bd_addr_seg -range 0x00010000 -offset 0x41200000 [get_bd_addr_spaces processing_system7_0/Data] [get_bd_addr_segs game_over/S_AXI/Reg] SEG_game_over_Reg
+  create_bd_addr_seg -range 0x00010000 -offset 0x41220000 [get_bd_addr_spaces processing_system7_0/Data] [get_bd_addr_segs switches/S_AXI/Reg] SEG_switches_Reg
 
 
   # Restore current instance

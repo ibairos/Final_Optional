@@ -1,0 +1,1127 @@
+13:07:04 **** Build of project Final_Optional_bsp ****
+make -k all 
+"Running Make include in ps7_cortexa9_0/libsrc/coresightps_dcc_v1_4/src"
+make -C ps7_cortexa9_0/libsrc/coresightps_dcc_v1_4/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_4/src"
+make -C ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_4/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/ddrps_v1_0/src"
+make -C ps7_cortexa9_0/libsrc/ddrps_v1_0/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/devcfg_v3_4/src"
+make -C ps7_cortexa9_0/libsrc/devcfg_v3_4/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/dmaps_v2_3/src"
+make -C ps7_cortexa9_0/libsrc/dmaps_v2_3/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/emacps_v3_4/src"
+make -C ps7_cortexa9_0/libsrc/emacps_v3_4/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/freertos901_xilinx_v1_0/src"
+make -C ps7_cortexa9_0/libsrc/freertos901_xilinx_v1_0/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+"include"
+"Running Make include in ps7_cortexa9_0/libsrc/gpio_v4_3/src"
+make -C ps7_cortexa9_0/libsrc/gpio_v4_3/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/gpiops_v3_3/src"
+make -C ps7_cortexa9_0/libsrc/gpiops_v3_3/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/qspips_v3_3/src"
+make -C ps7_cortexa9_0/libsrc/qspips_v3_3/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/scugic_v3_7/src"
+make -C ps7_cortexa9_0/libsrc/scugic_v3_7/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/scutimer_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/scutimer_v2_1/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/scuwdt_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/scuwdt_v2_1/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/sdps_v3_2/src"
+make -C ps7_cortexa9_0/libsrc/sdps_v3_2/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/ttcps_v3_3/src"
+make -C ps7_cortexa9_0/libsrc/ttcps_v3_3/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/uartps_v3_4/src"
+make -C ps7_cortexa9_0/libsrc/uartps_v3_4/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/usbps_v2_4/src"
+make -C ps7_cortexa9_0/libsrc/usbps_v2_4/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/xadcps_v2_2/src"
+make -C ps7_cortexa9_0/libsrc/xadcps_v2_2/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+"Running Make libs in ps7_cortexa9_0/libsrc/coresightps_dcc_v1_4/src"
+make -C ps7_cortexa9_0/libsrc/coresightps_dcc_v1_4/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+"Compiling coresightps_dcc"
+arm-none-eabi-ar: creating ../../../lib/libxil.a
+"Running Make libs in ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_4/src"
+make -C ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_4/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+"Compiling cpu_cortexa9"
+"Running Make libs in ps7_cortexa9_0/libsrc/ddrps_v1_0/src"
+make -C ps7_cortexa9_0/libsrc/ddrps_v1_0/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+"Compiling ddrps"
+"Running Make libs in ps7_cortexa9_0/libsrc/devcfg_v3_4/src"
+make -C ps7_cortexa9_0/libsrc/devcfg_v3_4/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+"Compiling devcfg"
+"Running Make libs in ps7_cortexa9_0/libsrc/dmaps_v2_3/src"
+make -C ps7_cortexa9_0/libsrc/dmaps_v2_3/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+"Compiling dmaps"
+"Running Make libs in ps7_cortexa9_0/libsrc/emacps_v3_4/src"
+make -C ps7_cortexa9_0/libsrc/emacps_v3_4/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+"Compiling emacps"
+"Running Make libs in ps7_cortexa9_0/libsrc/freertos901_xilinx_v1_0/src"
+make -C ps7_cortexa9_0/libsrc/freertos901_xilinx_v1_0/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+"Compiling standalone"
+"Compiling FreeRTOS"
+arm-none-eabi-ar: creating ../../../lib/libfreertos.a
+"Running Make libs in ps7_cortexa9_0/libsrc/gpio_v4_3/src"
+make -C ps7_cortexa9_0/libsrc/gpio_v4_3/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+"Compiling gpio"
+"Running Make libs in ps7_cortexa9_0/libsrc/gpiops_v3_3/src"
+make -C ps7_cortexa9_0/libsrc/gpiops_v3_3/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+"Compiling gpiops"
+"Running Make libs in ps7_cortexa9_0/libsrc/qspips_v3_3/src"
+make -C ps7_cortexa9_0/libsrc/qspips_v3_3/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+"Compiling qspips"
+"Running Make libs in ps7_cortexa9_0/libsrc/scugic_v3_7/src"
+make -C ps7_cortexa9_0/libsrc/scugic_v3_7/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+"Compiling scugic"
+xscugic_g.c:53:2: warning: missing initializer for field 'HandlerTable' of 'XScuGic_Config {aka struct <anonymous>}' [-Wmissing-field-initializers]
+  }
+  ^
+In file included from xscugic_g.c:41:0:
+xscugic.h:218:27: note: 'HandlerTable' declared here
+  XScuGic_VectorTableEntry HandlerTable[XSCUGIC_MAX_NUM_INTR_INPUTS];/**<
+                           ^~~~~~~~~~~~
+"Running Make libs in ps7_cortexa9_0/libsrc/scutimer_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/scutimer_v2_1/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+"Compiling scutimer"
+"Running Make libs in ps7_cortexa9_0/libsrc/scuwdt_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/scuwdt_v2_1/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+"Compiling scuwdt"
+"Running Make libs in ps7_cortexa9_0/libsrc/sdps_v3_2/src"
+make -C ps7_cortexa9_0/libsrc/sdps_v3_2/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+"Compiling sdps"
+"Running Make libs in ps7_cortexa9_0/libsrc/ttcps_v3_3/src"
+make -C ps7_cortexa9_0/libsrc/ttcps_v3_3/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+"Compiling ttcps"
+"Running Make libs in ps7_cortexa9_0/libsrc/uartps_v3_4/src"
+make -C ps7_cortexa9_0/libsrc/uartps_v3_4/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+"Compiling uartps"
+"Running Make libs in ps7_cortexa9_0/libsrc/usbps_v2_4/src"
+make -C ps7_cortexa9_0/libsrc/usbps_v2_4/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+"Compiling usbps"
+"Running Make libs in ps7_cortexa9_0/libsrc/xadcps_v2_2/src"
+make -C ps7_cortexa9_0/libsrc/xadcps_v2_2/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+"Compiling xadcps"
+'Finished building libraries'
+
+**** Build of configuration Debug for project Final_Optional ****
+
+Nothing to build for project Final_Optional
+13:19:41 **** Auto Build of project Final_Optional_bsp ****
+make -k all 
+"Running Make include in ps7_cortexa9_0/libsrc/coresightps_dcc_v1_4/src"
+make -C ps7_cortexa9_0/libsrc/coresightps_dcc_v1_4/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_4/src"
+make -C ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_4/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/ddrps_v1_0/src"
+make -C ps7_cortexa9_0/libsrc/ddrps_v1_0/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/devcfg_v3_4/src"
+make -C ps7_cortexa9_0/libsrc/devcfg_v3_4/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/dmaps_v2_3/src"
+make -C ps7_cortexa9_0/libsrc/dmaps_v2_3/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/emacps_v3_4/src"
+make -C ps7_cortexa9_0/libsrc/emacps_v3_4/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/freertos901_xilinx_v1_0/src"
+make -C ps7_cortexa9_0/libsrc/freertos901_xilinx_v1_0/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+"include"
+"Running Make include in ps7_cortexa9_0/libsrc/gpio_v4_3/src"
+make -C ps7_cortexa9_0/libsrc/gpio_v4_3/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/gpiops_v3_3/src"
+make -C ps7_cortexa9_0/libsrc/gpiops_v3_3/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/lwip141_v1_8/src"
+make -C ps7_cortexa9_0/libsrc/lwip141_v1_8/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/qspips_v3_3/src"
+make -C ps7_cortexa9_0/libsrc/qspips_v3_3/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/scugic_v3_7/src"
+make -C ps7_cortexa9_0/libsrc/scugic_v3_7/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/scutimer_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/scutimer_v2_1/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/scuwdt_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/scuwdt_v2_1/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/sdps_v3_2/src"
+make -C ps7_cortexa9_0/libsrc/sdps_v3_2/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/ttcps_v3_3/src"
+make -C ps7_cortexa9_0/libsrc/ttcps_v3_3/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/uartps_v3_4/src"
+make -C ps7_cortexa9_0/libsrc/uartps_v3_4/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/usbps_v2_4/src"
+make -C ps7_cortexa9_0/libsrc/usbps_v2_4/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/xadcps_v2_2/src"
+make -C ps7_cortexa9_0/libsrc/xadcps_v2_2/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+"Running Make libs in ps7_cortexa9_0/libsrc/coresightps_dcc_v1_4/src"
+make -C ps7_cortexa9_0/libsrc/coresightps_dcc_v1_4/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+"Compiling coresightps_dcc"
+arm-none-eabi-ar: creating ../../../lib/libxil.a
+"Running Make libs in ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_4/src"
+make -C ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_4/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+"Compiling cpu_cortexa9"
+"Running Make libs in ps7_cortexa9_0/libsrc/ddrps_v1_0/src"
+make -C ps7_cortexa9_0/libsrc/ddrps_v1_0/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+"Compiling ddrps"
+"Running Make libs in ps7_cortexa9_0/libsrc/devcfg_v3_4/src"
+make -C ps7_cortexa9_0/libsrc/devcfg_v3_4/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+"Compiling devcfg"
+"Running Make libs in ps7_cortexa9_0/libsrc/dmaps_v2_3/src"
+make -C ps7_cortexa9_0/libsrc/dmaps_v2_3/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+"Compiling dmaps"
+"Running Make libs in ps7_cortexa9_0/libsrc/emacps_v3_4/src"
+make -C ps7_cortexa9_0/libsrc/emacps_v3_4/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+"Compiling emacps"
+"Running Make libs in ps7_cortexa9_0/libsrc/freertos901_xilinx_v1_0/src"
+make -C ps7_cortexa9_0/libsrc/freertos901_xilinx_v1_0/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+"Compiling standalone"
+"Compiling FreeRTOS"
+arm-none-eabi-ar: creating ../../../lib/libfreertos.a
+"Running Make libs in ps7_cortexa9_0/libsrc/gpio_v4_3/src"
+make -C ps7_cortexa9_0/libsrc/gpio_v4_3/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+"Compiling gpio"
+"Running Make libs in ps7_cortexa9_0/libsrc/gpiops_v3_3/src"
+make -C ps7_cortexa9_0/libsrc/gpiops_v3_3/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+"Compiling gpiops"
+"Running Make libs in ps7_cortexa9_0/libsrc/lwip141_v1_8/src"
+make -C ps7_cortexa9_0/libsrc/lwip141_v1_8/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+"Compiling lwip src and adapter files"
+contrib/ports/xilinx/sys_arch.c: In function 'sys_mbox_trypost':
+contrib/ports/xilinx/sys_arch.c:597:3: warning: implicit declaration of function 'xil_printf' [-Wimplicit-function-declaration]
+   xil_printf("Queue is full\r\n");
+   ^
+contrib/ports/xilinx/sys_arch.c: In function 'sys_sem_new':
+contrib/ports/xilinx/sys_arch.c:765:49: warning: unused parameter 'ucCount' [-Wunused-parameter]
+ err_t sys_sem_new( sys_sem_t *pxSemaphore, u8_t ucCount )
+                                                 ^
+contrib/ports/xilinx/sys_arch.c: In function 'sys_thread_new':
+contrib/ports/xilinx/sys_arch.c:1009:35: warning: pointer targets in passing argument 2 of 'xTaskCreate' differ in signedness [-Wpointer-sign]
+  xResult = xTaskCreate( pxThread, ( signed char * ) pcName, iStackSize, pvArg, iPriority, &xCreatedTask );
+                                   ^
+In file included from ../../../include/arch/sys_arch.h:104:0,
+                 from contrib/ports/xilinx/sys_arch.c:465:
+../../../include/task.h:363:13: note: expected 'const char * const' but argument is of type 'signed char *'
+  BaseType_t xTaskCreate( TaskFunction_t pxTaskCode,
+             ^
+In file included from ../../../include/xemacps.h:345:0,
+                 from ../../../include/netif/xemacpsif.h:59,
+                 from contrib/ports/xilinx/netif/xemacpsif_dma.c:39:
+contrib/ports/xilinx/netif/xemacpsif_dma.c: In function 'init_dma':
+../../../include/xemacps_bd.h:163:62: warning: 'bdrxterminate' may be used uninitialized in this function [-Wmaybe-uninitialized]
+     (*(u32 *)((UINTPTR)(void*)(BaseAddress) + (u32)(Offset)) = (u32)(Data))
+                                                              ^
+contrib/ports/xilinx/netif/xemacpsif_dma.c:551:14: note: 'bdrxterminate' was declared here
+  XEmacPs_Bd *bdrxterminate;
+              ^
+In file included from ../../../include/xemacps.h:345:0,
+                 from ../../../include/netif/xemacpsif.h:59,
+                 from contrib/ports/xilinx/netif/xemacpsif_dma.c:39:
+../../../include/xemacps_bd.h:126:5: warning: 'bdtxterminate' may be used uninitialized in this function [-Wmaybe-uninitialized]
+     memset((BdPtr), 0, sizeof(XEmacPs_Bd))
+     ^
+contrib/ports/xilinx/netif/xemacpsif_dma.c:550:14: note: 'bdtxterminate' was declared here
+  XEmacPs_Bd *bdtxterminate;
+              ^
+"Running Make libs in ps7_cortexa9_0/libsrc/qspips_v3_3/src"
+make -C ps7_cortexa9_0/libsrc/qspips_v3_3/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+"Compiling qspips"
+"Running Make libs in ps7_cortexa9_0/libsrc/scugic_v3_7/src"
+make -C ps7_cortexa9_0/libsrc/scugic_v3_7/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+"Compiling scugic"
+xscugic_g.c:53:2: warning: missing initializer for field 'HandlerTable' of 'XScuGic_Config {aka struct <anonymous>}' [-Wmissing-field-initializers]
+  }
+  ^
+In file included from xscugic_g.c:41:0:
+xscugic.h:218:27: note: 'HandlerTable' declared here
+  XScuGic_VectorTableEntry HandlerTable[XSCUGIC_MAX_NUM_INTR_INPUTS];/**<
+                           ^~~~~~~~~~~~
+"Running Make libs in ps7_cortexa9_0/libsrc/scutimer_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/scutimer_v2_1/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+"Compiling scutimer"
+"Running Make libs in ps7_cortexa9_0/libsrc/scuwdt_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/scuwdt_v2_1/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+"Compiling scuwdt"
+"Running Make libs in ps7_cortexa9_0/libsrc/sdps_v3_2/src"
+make -C ps7_cortexa9_0/libsrc/sdps_v3_2/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+"Compiling sdps"
+"Running Make libs in ps7_cortexa9_0/libsrc/ttcps_v3_3/src"
+make -C ps7_cortexa9_0/libsrc/ttcps_v3_3/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+"Compiling ttcps"
+"Running Make libs in ps7_cortexa9_0/libsrc/uartps_v3_4/src"
+make -C ps7_cortexa9_0/libsrc/uartps_v3_4/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+"Compiling uartps"
+"Running Make libs in ps7_cortexa9_0/libsrc/usbps_v2_4/src"
+make -C ps7_cortexa9_0/libsrc/usbps_v2_4/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+"Compiling usbps"
+"Running Make libs in ps7_cortexa9_0/libsrc/xadcps_v2_2/src"
+make -C ps7_cortexa9_0/libsrc/xadcps_v2_2/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+"Compiling xadcps"
+'Finished building libraries'
+
+****  of configuration Debug for project Final_Optional ****
+
+Nothing to build for project Final_Optional
+
+****  of configuration Debug for project Final_Optional ****
+
+Nothing to build for project Final_Optional
+13:26:29 **** Auto Build of configuration Debug for project Final_Optional ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/client_rx_data.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/client_rx_data.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../Final_Optional_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/client_rx_data.d" -MT"src/client_rx_data.o" -o "src/client_rx_data.o" "../src/client_rx_data.c"
+../src/client_rx_data.c: In function 'rx_data':
+../src/client_rx_data.c:58:28: error: 'XPAR_BTNS_DEVICE_ID' undeclared (first use in this function)
+   XGpio_Initialize(&push,  XPAR_BTNS_DEVICE_ID);
+                            ^~~~~~~~~~~~~~~~~~~
+../src/client_rx_data.c:58:28: note: each undeclared identifier is reported only once for each function it appears in
+../src/client_rx_data.c:61:27: error: 'XPAR_LEDS_DEVICE_ID' undeclared (first use in this function)
+   XGpio_Initialize(&leds, XPAR_LEDS_DEVICE_ID);
+                           ^~~~~~~~~~~~~~~~~~~
+make: *** [src/client_rx_data.o] Error 1
+13:26:31 **** Auto Build of configuration Debug for project Final_Optional ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/client_rx_data.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/client_rx_data.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../Final_Optional_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/client_rx_data.d" -MT"src/client_rx_data.o" -o "src/client_rx_data.o" "../src/client_rx_data.c"
+../src/client_rx_data.c: In function 'rx_data':
+../src/client_rx_data.c:58:28: error: 'XPAR_BTNS_DEVICE_ID' undeclared (first use in this function)
+   XGpio_Initialize(&push,  XPAR_BTNS_DEVICE_ID);
+                            ^~~~~~~~~~~~~~~~~~~
+../src/client_rx_data.c:58:28: note: each undeclared identifier is reported only once for each function it appears in
+../src/client_rx_data.c:61:27: error: 'XPAR_LEDS_DEVICE_ID' undeclared (first use in this function)
+   XGpio_Initialize(&leds, XPAR_LEDS_DEVICE_ID);
+                           ^~~~~~~~~~~~~~~~~~~
+make: *** [src/client_rx_data.o] Error 1
+13:27:29 **** Auto Build of configuration Debug for project Final_Optional ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/client_rx_data.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/client_rx_data.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../Final_Optional_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/client_rx_data.d" -MT"src/client_rx_data.o" -o "src/client_rx_data.o" "../src/client_rx_data.c"
+../src/client_rx_data.c: In function 'rx_data':
+../src/client_rx_data.c:58:28: error: 'XPAR_BTNS_DEVICE_ID' undeclared (first use in this function)
+   XGpio_Initialize(&push,  XPAR_BTNS_DEVICE_ID);
+                            ^~~~~~~~~~~~~~~~~~~
+../src/client_rx_data.c:58:28: note: each undeclared identifier is reported only once for each function it appears in
+../src/client_rx_data.c:61:27: error: 'XPAR_LEDS_DEVICE_ID' undeclared (first use in this function)
+   XGpio_Initialize(&leds, XPAR_LEDS_DEVICE_ID);
+                           ^~~~~~~~~~~~~~~~~~~
+make: *** [src/client_rx_data.o] Error 1
+13:28:46 **** Auto Build of configuration Debug for project Final_Optional ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/client_rx_data.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/client_rx_data.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../Final_Optional_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/client_rx_data.d" -MT"src/client_rx_data.o" -o "src/client_rx_data.o" "../src/client_rx_data.c"
+../src/client_rx_data.c: In function 'rx_data':
+../src/client_rx_data.c:58:28: error: 'XPAR_BTNS_DEVICE_ID' undeclared (first use in this function)
+   XGpio_Initialize(&push,  XPAR_BTNS_DEVICE_ID);
+                            ^~~~~~~~~~~~~~~~~~~
+../src/client_rx_data.c:58:28: note: each undeclared identifier is reported only once for each function it appears in
+../src/client_rx_data.c:61:27: error: 'XPAR_LEDS_DEVICE_ID' undeclared (first use in this function)
+   XGpio_Initialize(&leds, XPAR_LEDS_DEVICE_ID);
+                           ^~~~~~~~~~~~~~~~~~~
+make: *** [src/client_rx_data.o] Error 1
+13:29:23 **** Auto Build of configuration Debug for project Final_Optional ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/client_rx_data.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/client_rx_data.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../Final_Optional_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/client_rx_data.d" -MT"src/client_rx_data.o" -o "src/client_rx_data.o" "../src/client_rx_data.c"
+../src/client_rx_data.c: In function 'rx_data':
+../src/client_rx_data.c:58:31: error: 'XPAR_BTNS_DEVICE_ID' undeclared (first use in this function)
+   XGpio_Initialize(&buttons,  XPAR_BTNS_DEVICE_ID);
+                               ^~~~~~~~~~~~~~~~~~~
+../src/client_rx_data.c:58:31: note: each undeclared identifier is reported only once for each function it appears in
+../src/client_rx_data.c:61:27: error: 'XPAR_LEDS_DEVICE_ID' undeclared (first use in this function)
+   XGpio_Initialize(&leds, XPAR_LEDS_DEVICE_ID);
+                           ^~~~~~~~~~~~~~~~~~~
+make: *** [src/client_rx_data.o] Error 1
+13:29:28 **** Auto Build of configuration Debug for project Final_Optional ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/client_rx_data.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/client_rx_data.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../Final_Optional_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/client_rx_data.d" -MT"src/client_rx_data.o" -o "src/client_rx_data.o" "../src/client_rx_data.c"
+../src/client_rx_data.c: In function 'rx_data':
+../src/client_rx_data.c:61:27: error: 'XPAR_LEDS_DEVICE_ID' undeclared (first use in this function)
+   XGpio_Initialize(&leds, XPAR_LEDS_DEVICE_ID);
+                           ^~~~~~~~~~~~~~~~~~~
+../src/client_rx_data.c:61:27: note: each undeclared identifier is reported only once for each function it appears in
+make: *** [src/client_rx_data.o] Error 1
+13:30:06 **** Auto Build of configuration Debug for project Final_Optional ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/client_rx_data.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/client_rx_data.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../Final_Optional_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/client_rx_data.d" -MT"src/client_rx_data.o" -o "src/client_rx_data.o" "../src/client_rx_data.c"
+../src/client_rx_data.c: In function 'rx_data':
+../src/client_rx_data.c:61:21: error: 'leds' undeclared (first use in this function)
+   XGpio_Initialize(&leds, XPAR_SWITCHES_DEVICE_ID);
+                     ^~~~
+../src/client_rx_data.c:61:21: note: each undeclared identifier is reported only once for each function it appears in
+make: *** [src/client_rx_data.o] Error 1
+13:30:38 **** Auto Build of configuration Debug for project Final_Optional ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/client_rx_data.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/client_rx_data.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../Final_Optional_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/client_rx_data.d" -MT"src/client_rx_data.o" -o "src/client_rx_data.o" "../src/client_rx_data.c"
+../src/client_rx_data.c: In function 'rx_data':
+../src/client_rx_data.c:100:27: error: 'leds' undeclared (first use in this function)
+      XGpio_DiscreteWrite(&leds, 1, led_value);
+                           ^~~~
+../src/client_rx_data.c:100:27: note: each undeclared identifier is reported only once for each function it appears in
+make: *** [src/client_rx_data.o] Error 1
+13:32:15 **** Auto Build of configuration Debug for project Final_Optional ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/client_rx_data.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/client_rx_data.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../Final_Optional_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/client_rx_data.d" -MT"src/client_rx_data.o" -o "src/client_rx_data.o" "../src/client_rx_data.c"
+../src/client_rx_data.c: In function 'rx_data':
+../src/client_rx_data.c:99:6: error: 'switches_value' undeclared (first use in this function)
+      switches_value = (int)rx_buf[0];
+      ^~~~~~~~~~~~~~
+../src/client_rx_data.c:99:6: note: each undeclared identifier is reported only once for each function it appears in
+make: *** [src/client_rx_data.o] Error 1
+13:32:26 **** Auto Build of configuration Debug for project Final_Optional ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/client_rx_data.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/client_rx_data.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../Final_Optional_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/client_rx_data.d" -MT"src/client_rx_data.o" -o "src/client_rx_data.o" "../src/client_rx_data.c"
+../src/client_rx_data.c: In function 'rx_data':
+../src/client_rx_data.c:101:41: error: 'led_value' undeclared (first use in this function)
+      xil_printf("Data Received %x\r\n", led_value);
+                                         ^~~~~~~~~
+../src/client_rx_data.c:101:41: note: each undeclared identifier is reported only once for each function it appears in
+make: *** [src/client_rx_data.o] Error 1
+13:32:54 **** Auto Build of configuration Debug for project Final_Optional ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/client_rx_data.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/client_rx_data.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../Final_Optional_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/client_rx_data.d" -MT"src/client_rx_data.o" -o "src/client_rx_data.o" "../src/client_rx_data.c"
+../src/client_rx_data.c: In function 'rx_data':
+../src/client_rx_data.c:101:41: error: 'led_value' undeclared (first use in this function)
+      xil_printf("Data Received %x\r\n", led_value);
+                                         ^~~~~~~~~
+../src/client_rx_data.c:101:41: note: each undeclared identifier is reported only once for each function it appears in
+make: *** [src/client_rx_data.o] Error 1
+13:33:06 **** Auto Build of configuration Debug for project Final_Optional ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/client_rx_data.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/client_rx_data.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../Final_Optional_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/client_rx_data.d" -MT"src/client_rx_data.o" -o "src/client_rx_data.o" "../src/client_rx_data.c"
+'Finished building: ../src/client_rx_data.c'
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../Final_Optional_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+'Finished building: ../src/main.c'
+' '
+'Building file: ../src/server_tx_data.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/server_tx_data.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../Final_Optional_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/server_tx_data.d" -MT"src/server_tx_data.o" -o "src/server_tx_data.o" "../src/server_tx_data.c"
+../src/server_tx_data.c: In function 'tx_data':
+../src/server_tx_data.c:128:25: error: 'XPAR_SWS_DEVICE_ID' undeclared (first use in this function)
+  XGpio_Initialize(&dip, XPAR_SWS_DEVICE_ID);
+                         ^~~~~~~~~~~~~~~~~~
+../src/server_tx_data.c:128:25: note: each undeclared identifier is reported only once for each function it appears in
+make: *** [src/server_tx_data.o] Error 1
+13:33:17 **** Auto Build of configuration Debug for project Final_Optional ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/client_rx_data.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/client_rx_data.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../Final_Optional_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/client_rx_data.d" -MT"src/client_rx_data.o" -o "src/client_rx_data.o" "../src/client_rx_data.c"
+'Finished building: ../src/client_rx_data.c'
+' '
+'Building file: ../src/server_tx_data.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/server_tx_data.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../Final_Optional_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/server_tx_data.d" -MT"src/server_tx_data.o" -o "src/server_tx_data.o" "../src/server_tx_data.c"
+../src/server_tx_data.c: In function 'tx_data':
+../src/server_tx_data.c:128:25: error: 'XPAR_SWS_DEVICE_ID' undeclared (first use in this function)
+  XGpio_Initialize(&dip, XPAR_SWS_DEVICE_ID);
+                         ^~~~~~~~~~~~~~~~~~
+../src/server_tx_data.c:128:25: note: each undeclared identifier is reported only once for each function it appears in
+make: *** [src/server_tx_data.o] Error 1
+13:38:50 **** Auto Build of configuration Debug for project Final_Optional ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/client_rx_data.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/client_rx_data.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../Final_Optional_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/client_rx_data.d" -MT"src/client_rx_data.o" -o "src/client_rx_data.o" "../src/client_rx_data.c"
+../src/client_rx_data.c: In function 'rx_data':
+../src/client_rx_data.c:111:5: error: unknown type name 'string'
+     string key = Console.ReadKey().Key.ToString();
+     ^~~~~~
+../src/client_rx_data.c:111:18: error: 'Console' undeclared (first use in this function)
+     string key = Console.ReadKey().Key.ToString();
+                  ^~~~~~~
+../src/client_rx_data.c:111:18: note: each undeclared identifier is reported only once for each function it appears in
+../src/client_rx_data.c:112:16: error: request for member 'ToUpper' in something not a structure or union
+     while (!key.ToUpper() != "Y") {
+                ^
+../src/client_rx_data.c:111:12: warning: variable 'key' set but not used [-Wunused-but-set-variable]
+     string key = Console.ReadKey().Key.ToString();
+            ^~~
+../src/client_rx_data.c:55:7: warning: variable 'buttons_check' set but not used [-Wunused-but-set-variable]
+   int buttons_check, switches_value;
+       ^~~~~~~~~~~~~
+make: *** [src/client_rx_data.o] Error 1
+13:40:20 **** Auto Build of configuration Debug for project Final_Optional ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/client_rx_data.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/client_rx_data.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../Final_Optional_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/client_rx_data.d" -MT"src/client_rx_data.o" -o "src/client_rx_data.o" "../src/client_rx_data.c"
+../src/client_rx_data.c: In function 'rx_data':
+../src/client_rx_data.c:111:5: error: unknown type name 'string'
+     string key = Console.ReadKey().Key.ToString();
+     ^~~~~~
+../src/client_rx_data.c:111:18: error: 'Console' undeclared (first use in this function)
+     string key = Console.ReadKey().Key.ToString();
+                  ^~~~~~~
+../src/client_rx_data.c:111:18: note: each undeclared identifier is reported only once for each function it appears in
+../src/client_rx_data.c:112:15: error: request for member 'ToUpper' in something not a structure or union
+     while (key.ToUpper() != "Y") {
+               ^
+../src/client_rx_data.c:111:12: warning: variable 'key' set but not used [-Wunused-but-set-variable]
+     string key = Console.ReadKey().Key.ToString();
+            ^~~
+../src/client_rx_data.c:55:7: warning: unused variable 'buttons_check' [-Wunused-variable]
+   int buttons_check, switches_value;
+       ^~~~~~~~~~~~~
+make: *** [src/client_rx_data.o] Error 1
+13:41:34 **** Auto Build of configuration Debug for project Final_Optional ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/client_rx_data.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/client_rx_data.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../Final_Optional_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/client_rx_data.d" -MT"src/client_rx_data.o" -o "src/client_rx_data.o" "../src/client_rx_data.c"
+../src/client_rx_data.c:22:18: fatal error: conio.h: No such file or directory
+ #include<conio.h>
+                  ^
+compilation terminated.
+make: *** [src/client_rx_data.o] Error 1
+13:41:36 **** Auto Build of configuration Debug for project Final_Optional ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/client_rx_data.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/client_rx_data.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../Final_Optional_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/client_rx_data.d" -MT"src/client_rx_data.o" -o "src/client_rx_data.o" "../src/client_rx_data.c"
+../src/client_rx_data.c:22:19: fatal error: conio.h: No such file or directory
+ #include <conio.h>
+                   ^
+compilation terminated.
+make: *** [src/client_rx_data.o] Error 1
+13:41:47 **** Auto Build of configuration Debug for project Final_Optional ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/client_rx_data.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/client_rx_data.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../Final_Optional_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/client_rx_data.d" -MT"src/client_rx_data.o" -o "src/client_rx_data.o" "../src/client_rx_data.c"
+../src/client_rx_data.c: In function 'rx_data':
+../src/client_rx_data.c:111:5: error: unknown type name 'string'
+     string key = Console.ReadKey().Key.ToString();
+     ^~~~~~
+../src/client_rx_data.c:111:18: error: 'Console' undeclared (first use in this function)
+     string key = Console.ReadKey().Key.ToString();
+                  ^~~~~~~
+../src/client_rx_data.c:111:18: note: each undeclared identifier is reported only once for each function it appears in
+../src/client_rx_data.c:112:15: error: request for member 'ToUpper' in something not a structure or union
+     while (key.ToUpper() != "Y") {
+               ^
+../src/client_rx_data.c:111:12: warning: variable 'key' set but not used [-Wunused-but-set-variable]
+     string key = Console.ReadKey().Key.ToString();
+            ^~~
+../src/client_rx_data.c:55:7: warning: unused variable 'buttons_check' [-Wunused-variable]
+   int buttons_check, switches_value;
+       ^~~~~~~~~~~~~
+make: *** [src/client_rx_data.o] Error 1
+13:42:09 **** Auto Build of configuration Debug for project Final_Optional ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/client_rx_data.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/client_rx_data.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../Final_Optional_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/client_rx_data.d" -MT"src/client_rx_data.o" -o "src/client_rx_data.o" "../src/client_rx_data.c"
+../src/client_rx_data.c: In function 'rx_data':
+../src/client_rx_data.c:111:5: error: unknown type name 'string'
+     string key = Console.ReadKey().Key.ToString();
+     ^~~~~~
+../src/client_rx_data.c:111:18: error: 'Console' undeclared (first use in this function)
+     string key = Console.ReadKey().Key.ToString();
+                  ^~~~~~~
+../src/client_rx_data.c:111:18: note: each undeclared identifier is reported only once for each function it appears in
+../src/client_rx_data.c:112:15: error: request for member 'ToUpper' in something not a structure or union
+     while (key.ToUpper() != "Y") {
+               ^
+../src/client_rx_data.c:111:12: warning: variable 'key' set but not used [-Wunused-but-set-variable]
+     string key = Console.ReadKey().Key.ToString();
+            ^~~
+make: *** [src/client_rx_data.o] Error 1
+13:44:44 **** Auto Build of configuration Debug for project Final_Optional ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/client_rx_data.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/client_rx_data.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../Final_Optional_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/client_rx_data.d" -MT"src/client_rx_data.o" -o "src/client_rx_data.o" "../src/client_rx_data.c"
+../src/client_rx_data.c: In function 'rx_data':
+../src/client_rx_data.c:112:32: error: 'STDIN' undeclared (first use in this function)
+     fgets (line, sizeof(line), STDIN);      /* read in a line */
+                                ^~~~~
+../src/client_rx_data.c:112:32: note: each undeclared identifier is reported only once for each function it appears in
+../src/client_rx_data.c:113:18: error: expected identifier before '!=' token
+     while (line. != "Y") {
+                  ^~
+../src/client_rx_data.c:116:6: error: 'key' undeclared (first use in this function)
+      key = Console.ReadKey().Key.ToString();
+      ^~~
+../src/client_rx_data.c:116:12: error: 'Console' undeclared (first use in this function)
+      key = Console.ReadKey().Key.ToString();
+            ^~~~~~~
+make: *** [src/client_rx_data.o] Error 1
+13:44:49 **** Auto Build of configuration Debug for project Final_Optional ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/client_rx_data.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/client_rx_data.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../Final_Optional_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/client_rx_data.d" -MT"src/client_rx_data.o" -o "src/client_rx_data.o" "../src/client_rx_data.c"
+../src/client_rx_data.c: In function 'rx_data':
+../src/client_rx_data.c:112:32: error: 'STDIN' undeclared (first use in this function)
+     fgets (line, sizeof(line), STDIN);      /* read in a line */
+                                ^~~~~
+../src/client_rx_data.c:112:32: note: each undeclared identifier is reported only once for each function it appears in
+../src/client_rx_data.c:113:17: warning: comparison with string literal results in unspecified behavior [-Waddress]
+     while (line != "Y") {
+                 ^~
+../src/client_rx_data.c:116:6: error: 'key' undeclared (first use in this function)
+      key = Console.ReadKey().Key.ToString();
+      ^~~
+../src/client_rx_data.c:116:12: error: 'Console' undeclared (first use in this function)
+      key = Console.ReadKey().Key.ToString();
+            ^~~~~~~
+make: *** [src/client_rx_data.o] Error 1
+13:46:10 **** Auto Build of configuration Debug for project Final_Optional ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/client_rx_data.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/client_rx_data.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../Final_Optional_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/client_rx_data.d" -MT"src/client_rx_data.o" -o "src/client_rx_data.o" "../src/client_rx_data.c"
+../src/client_rx_data.c: In function 'rx_data':
+../src/client_rx_data.c:111:5: error: unknown type name 'string'
+     string line;
+     ^~~~~~
+../src/client_rx_data.c:113:17: warning: comparison between pointer and integer
+     while (line != "Y") {
+                 ^~
+../src/client_rx_data.c:113:17: warning: comparison with string literal results in unspecified behavior [-Waddress]
+../src/client_rx_data.c:116:6: error: 'key' undeclared (first use in this function)
+      key = Console.ReadKey().Key.ToString();
+      ^~~
+../src/client_rx_data.c:116:6: note: each undeclared identifier is reported only once for each function it appears in
+../src/client_rx_data.c:116:12: error: 'Console' undeclared (first use in this function)
+      key = Console.ReadKey().Key.ToString();
+            ^~~~~~~
+make: *** [src/client_rx_data.o] Error 1
+13:46:42 **** Auto Build of configuration Debug for project Final_Optional ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/client_rx_data.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/client_rx_data.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../Final_Optional_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/client_rx_data.d" -MT"src/client_rx_data.o" -o "src/client_rx_data.o" "../src/client_rx_data.c"
+../src/client_rx_data.c: In function 'rx_data':
+../src/client_rx_data.c:111:5: error: unknown type name 'string'
+     string line = "";
+     ^~~~~~
+../src/client_rx_data.c:111:19: warning: initialization makes integer from pointer without a cast [-Wint-conversion]
+     string line = "";
+                   ^~
+../src/client_rx_data.c:113:17: warning: comparison between pointer and integer
+     while (line != "Y") {
+                 ^~
+../src/client_rx_data.c:113:17: warning: comparison with string literal results in unspecified behavior [-Waddress]
+../src/client_rx_data.c:116:6: error: 'key' undeclared (first use in this function)
+      key = Console.ReadKey().Key.ToString();
+      ^~~
+../src/client_rx_data.c:116:6: note: each undeclared identifier is reported only once for each function it appears in
+../src/client_rx_data.c:116:12: error: 'Console' undeclared (first use in this function)
+      key = Console.ReadKey().Key.ToString();
+            ^~~~~~~
+make: *** [src/client_rx_data.o] Error 1
+13:47:07 **** Auto Build of configuration Debug for project Final_Optional ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/client_rx_data.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/client_rx_data.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../Final_Optional_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/client_rx_data.d" -MT"src/client_rx_data.o" -o "src/client_rx_data.o" "../src/client_rx_data.c"
+../src/client_rx_data.c: In function 'rx_data':
+../src/client_rx_data.c:112:32: error: 'STDIN' undeclared (first use in this function)
+     fgets (line, sizeof(line), STDIN);      /* read in a line */
+                                ^~~~~
+../src/client_rx_data.c:112:32: note: each undeclared identifier is reported only once for each function it appears in
+../src/client_rx_data.c:113:5: error: unknown type name 'string'
+     string key;
+     ^~~~~~
+../src/client_rx_data.c:114:15: error: request for member 'ToUpper' in something not a structure or union
+     while (key.ToUpper() != "Y") {
+               ^
+../src/client_rx_data.c:117:12: error: 'Console' undeclared (first use in this function)
+      key = Console.ReadKey().Key.ToString();
+            ^~~~~~~
+../src/client_rx_data.c:113:12: warning: variable 'key' set but not used [-Wunused-but-set-variable]
+     string key;
+            ^~~
+make: *** [src/client_rx_data.o] Error 1
+13:48:08 **** Auto Build of configuration Debug for project Final_Optional ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/client_rx_data.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/client_rx_data.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../Final_Optional_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/client_rx_data.d" -MT"src/client_rx_data.o" -o "src/client_rx_data.o" "../src/client_rx_data.c"
+../src/client_rx_data.c: In function 'rx_data':
+../src/client_rx_data.c:113:32: error: 'STDIN' undeclared (first use in this function)
+     fgets (line, sizeof(line), STDIN);
+                                ^~~~~
+../src/client_rx_data.c:113:32: note: each undeclared identifier is reported only once for each function it appears in
+make: *** [src/client_rx_data.o] Error 1
+13:48:23 **** Auto Build of configuration Debug for project Final_Optional ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/client_rx_data.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/client_rx_data.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../Final_Optional_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/client_rx_data.d" -MT"src/client_rx_data.o" -o "src/client_rx_data.o" "../src/client_rx_data.c"
+../src/client_rx_data.c:21:19: fatal error: stdin.h: No such file or directory
+ #include <stdin.h>
+                   ^
+compilation terminated.
+make: *** [src/client_rx_data.o] Error 1
+13:48:31 **** Auto Build of configuration Debug for project Final_Optional ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/client_rx_data.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/client_rx_data.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../Final_Optional_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/client_rx_data.d" -MT"src/client_rx_data.o" -o "src/client_rx_data.o" "../src/client_rx_data.c"
+../src/client_rx_data.c: In function 'rx_data':
+../src/client_rx_data.c:113:32: error: 'STDIN' undeclared (first use in this function)
+     fgets (line, sizeof(line), STDIN);
+                                ^~~~~
+../src/client_rx_data.c:113:32: note: each undeclared identifier is reported only once for each function it appears in
+make: *** [src/client_rx_data.o] Error 1
+13:48:44 **** Auto Build of configuration Debug for project Final_Optional ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/client_rx_data.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/client_rx_data.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../Final_Optional_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/client_rx_data.d" -MT"src/client_rx_data.o" -o "src/client_rx_data.o" "../src/client_rx_data.c"
+../src/client_rx_data.c: In function 'rx_data':
+../src/client_rx_data.c:113:32: error: 'stdio' undeclared (first use in this function)
+     fgets (line, sizeof(line), stdio.STDIN);
+                                ^~~~~
+../src/client_rx_data.c:113:32: note: each undeclared identifier is reported only once for each function it appears in
+make: *** [src/client_rx_data.o] Error 1
+13:48:46 **** Auto Build of configuration Debug for project Final_Optional ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/client_rx_data.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/client_rx_data.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../Final_Optional_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/client_rx_data.d" -MT"src/client_rx_data.o" -o "src/client_rx_data.o" "../src/client_rx_data.c"
+../src/client_rx_data.c: In function 'rx_data':
+../src/client_rx_data.c:113:32: error: 'STDIN' undeclared (first use in this function)
+     fgets (line, sizeof(line), STDIN);
+                                ^~~~~
+../src/client_rx_data.c:113:32: note: each undeclared identifier is reported only once for each function it appears in
+make: *** [src/client_rx_data.o] Error 1
+13:49:28 **** Auto Build of configuration Debug for project Final_Optional ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/client_rx_data.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/client_rx_data.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../Final_Optional_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/client_rx_data.d" -MT"src/client_rx_data.o" -o "src/client_rx_data.o" "../src/client_rx_data.c"
+../src/client_rx_data.c: In function 'rx_data':
+../src/client_rx_data.c:114:32: error: 'STDIN' undeclared (first use in this function)
+     fgets (line, sizeof(line), STDIN);
+                                ^~~~~
+../src/client_rx_data.c:114:32: note: each undeclared identifier is reported only once for each function it appears in
+make: *** [src/client_rx_data.o] Error 1
+13:49:38 **** Auto Build of configuration Debug for project Final_Optional ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/client_rx_data.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/client_rx_data.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../Final_Optional_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/client_rx_data.d" -MT"src/client_rx_data.o" -o "src/client_rx_data.o" "../src/client_rx_data.c"
+'Finished building: ../src/client_rx_data.c'
+' '
+'Building file: ../src/server_tx_data.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/server_tx_data.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../Final_Optional_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/server_tx_data.d" -MT"src/server_tx_data.o" -o "src/server_tx_data.o" "../src/server_tx_data.c"
+../src/server_tx_data.c: In function 'tx_data':
+../src/server_tx_data.c:128:25: error: 'XPAR_SWS_DEVICE_ID' undeclared (first use in this function)
+  XGpio_Initialize(&dip, XPAR_SWS_DEVICE_ID);
+                         ^~~~~~~~~~~~~~~~~~
+../src/server_tx_data.c:128:25: note: each undeclared identifier is reported only once for each function it appears in
+make: *** [src/server_tx_data.o] Error 1
+13:49:54 **** Auto Build of configuration Debug for project Final_Optional ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/client_rx_data.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/client_rx_data.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../Final_Optional_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/client_rx_data.d" -MT"src/client_rx_data.o" -o "src/client_rx_data.o" "../src/client_rx_data.c"
+../src/client_rx_data.c: In function 'rx_data':
+../src/client_rx_data.c:113:5: error: unknown type name 'string'
+     string answer;
+     ^~~~~~
+make: *** [src/client_rx_data.o] Error 1
+13:49:59 **** Auto Build of configuration Debug for project Final_Optional ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/client_rx_data.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/client_rx_data.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../Final_Optional_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/client_rx_data.d" -MT"src/client_rx_data.o" -o "src/client_rx_data.o" "../src/client_rx_data.c"
+../src/client_rx_data.c: In function 'rx_data':
+../src/client_rx_data.c:113:5: error: unknown type name 'String'
+     String answer;
+     ^~~~~~
+make: *** [src/client_rx_data.o] Error 1
+13:50:05 **** Auto Build of configuration Debug for project Final_Optional ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/client_rx_data.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/client_rx_data.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../Final_Optional_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/client_rx_data.d" -MT"src/client_rx_data.o" -o "src/client_rx_data.o" "../src/client_rx_data.c"
+'Finished building: ../src/client_rx_data.c'
+' '
+'Building file: ../src/server_tx_data.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/server_tx_data.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../Final_Optional_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/server_tx_data.d" -MT"src/server_tx_data.o" -o "src/server_tx_data.o" "../src/server_tx_data.c"
+../src/server_tx_data.c: In function 'tx_data':
+../src/server_tx_data.c:128:25: error: 'XPAR_SWS_DEVICE_ID' undeclared (first use in this function)
+  XGpio_Initialize(&dip, XPAR_SWS_DEVICE_ID);
+                         ^~~~~~~~~~~~~~~~~~
+../src/server_tx_data.c:128:25: note: each undeclared identifier is reported only once for each function it appears in
+make: *** [src/server_tx_data.o] Error 1
+13:50:14 **** Auto Build of configuration Debug for project Final_Optional ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/client_rx_data.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/client_rx_data.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../Final_Optional_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/client_rx_data.d" -MT"src/client_rx_data.o" -o "src/client_rx_data.o" "../src/client_rx_data.c"
+'Finished building: ../src/client_rx_data.c'
+' '
+'Building file: ../src/server_tx_data.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/server_tx_data.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../Final_Optional_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/server_tx_data.d" -MT"src/server_tx_data.o" -o "src/server_tx_data.o" "../src/server_tx_data.c"
+../src/server_tx_data.c: In function 'tx_data':
+../src/server_tx_data.c:128:25: error: 'XPAR_SWS_DEVICE_ID' undeclared (first use in this function)
+  XGpio_Initialize(&dip, XPAR_SWS_DEVICE_ID);
+                         ^~~~~~~~~~~~~~~~~~
+../src/server_tx_data.c:128:25: note: each undeclared identifier is reported only once for each function it appears in
+make: *** [src/server_tx_data.o] Error 1
+13:51:33 **** Auto Build of configuration Debug for project Final_Optional ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/server_tx_data.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/server_tx_data.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../Final_Optional_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/server_tx_data.d" -MT"src/server_tx_data.o" -o "src/server_tx_data.o" "../src/server_tx_data.c"
+../src/server_tx_data.c: In function 'tx_data':
+../src/server_tx_data.c:128:30: error: 'XPAR_SWS_DEVICE_ID' undeclared (first use in this function)
+  XGpio_Initialize(&switches, XPAR_SWS_DEVICE_ID);
+                              ^~~~~~~~~~~~~~~~~~
+../src/server_tx_data.c:128:30: note: each undeclared identifier is reported only once for each function it appears in
+make: *** [src/server_tx_data.o] Error 1
+13:51:45 **** Auto Build of configuration Debug for project Final_Optional ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/server_tx_data.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/server_tx_data.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../Final_Optional_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/server_tx_data.d" -MT"src/server_tx_data.o" -o "src/server_tx_data.o" "../src/server_tx_data.c"
+'Finished building: ../src/server_tx_data.c'
+' '
+'Building target: Final_Optional.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../Final_Optional_bsp/ps7_cortexa9_0/lib -o "Final_Optional.elf"  ./src/client_rx_data.o ./src/main.o ./src/server_tx_data.o   -Wl,--start-group,-lxil,-lfreertos,-lgcc,-lc,--end-group -Wl,--start-group,-lxil,-llwip4,-lgcc,-lc,--end-group
+'Finished building target: Final_Optional.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size Final_Optional.elf  |tee "Final_Optional.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+ 231888	   4276	4233520	4469684	 4433b4	Final_Optional.elf
+'Finished building: Final_Optional.elf.size'
+' '
+13:51:55 **** Auto Build of configuration Debug for project Final_Optional ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/server_tx_data.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/server_tx_data.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../Final_Optional_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/server_tx_data.d" -MT"src/server_tx_data.o" -o "src/server_tx_data.o" "../src/server_tx_data.c"
+'Finished building: ../src/server_tx_data.c'
+' '
+'Building target: Final_Optional.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../Final_Optional_bsp/ps7_cortexa9_0/lib -o "Final_Optional.elf"  ./src/client_rx_data.o ./src/main.o ./src/server_tx_data.o   -Wl,--start-group,-lxil,-lfreertos,-lgcc,-lc,--end-group -Wl,--start-group,-lxil,-llwip4,-lgcc,-lc,--end-group
+'Finished building target: Final_Optional.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size Final_Optional.elf  |tee "Final_Optional.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+ 231888	   4276	4233520	4469684	 4433b4	Final_Optional.elf
+'Finished building: Final_Optional.elf.size'
+' '
+13:53:11 **** Auto Build of configuration Debug for project Final_Optional ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/server_tx_data.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/server_tx_data.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../Final_Optional_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/server_tx_data.d" -MT"src/server_tx_data.o" -o "src/server_tx_data.o" "../src/server_tx_data.c"
+../src/server_tx_data.c: In function 'sw_to_net':
+../src/server_tx_data.c:64:38: error: 'switches' undeclared (first use in this function)
+  dip_check_old = XGpio_DiscreteRead(&switches, 1);
+                                      ^~~~~~~~
+../src/server_tx_data.c:64:38: note: each undeclared identifier is reported only once for each function it appears in
+../src/server_tx_data.c: In function 'tx_data':
+../src/server_tx_data.c:126:20: error: 'switches' undeclared (first use in this function)
+  XGpio_Initialize(&switches, XPAR_SWITCHES_DEVICE_ID);
+                    ^~~~~~~~
+make: *** [src/server_tx_data.o] Error 1
+13:53:24 **** Auto Build of configuration Debug for project Final_Optional ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/server_tx_data.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/server_tx_data.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../Final_Optional_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/server_tx_data.d" -MT"src/server_tx_data.o" -o "src/server_tx_data.o" "../src/server_tx_data.c"
+../src/server_tx_data.c: In function 'sw_to_net':
+../src/server_tx_data.c:62:2: error: 'dip_check_old' undeclared (first use in this function)
+  dip_check_old = XGpio_DiscreteRead(&switches, 1);
+  ^~~~~~~~~~~~~
+../src/server_tx_data.c:62:2: note: each undeclared identifier is reported only once for each function it appears in
+../src/server_tx_data.c:62:38: error: 'switches' undeclared (first use in this function)
+  dip_check_old = XGpio_DiscreteRead(&switches, 1);
+                                      ^~~~~~~~
+../src/server_tx_data.c:69:3: error: 'dip_check' undeclared (first use in this function)
+   dip_check = XGpio_DiscreteRead(&switches, 1);
+   ^~~~~~~~~
+../src/server_tx_data.c: In function 'tx_data':
+../src/server_tx_data.c:124:20: error: 'switches' undeclared (first use in this function)
+  XGpio_Initialize(&switches, XPAR_SWITCHES_DEVICE_ID);
+                    ^~~~~~~~
+make: *** [src/server_tx_data.o] Error 1
+13:53:45 **** Auto Build of configuration Debug for project Final_Optional ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/server_tx_data.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/server_tx_data.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../Final_Optional_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/server_tx_data.d" -MT"src/server_tx_data.o" -o "src/server_tx_data.o" "../src/server_tx_data.c"
+../src/server_tx_data.c: In function 'sw_to_net':
+../src/server_tx_data.c:66:38: error: 'switches' undeclared (first use in this function)
+  dip_check_old = XGpio_DiscreteRead(&switches, 1);
+                                      ^~~~~~~~
+../src/server_tx_data.c:66:38: note: each undeclared identifier is reported only once for each function it appears in
+../src/server_tx_data.c: In function 'tx_data':
+../src/server_tx_data.c:128:20: error: 'switches' undeclared (first use in this function)
+  XGpio_Initialize(&switches, XPAR_SWITCHES_DEVICE_ID);
+                    ^~~~~~~~
+make: *** [src/server_tx_data.o] Error 1
+13:53:50 **** Auto Build of configuration Debug for project Final_Optional ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/server_tx_data.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/server_tx_data.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../Final_Optional_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/server_tx_data.d" -MT"src/server_tx_data.o" -o "src/server_tx_data.o" "../src/server_tx_data.c"
+../src/server_tx_data.c: In function 'sw_to_net':
+../src/server_tx_data.c:66:38: error: 'switches' undeclared (first use in this function)
+  dip_check_old = XGpio_DiscreteRead(&switches, 1);
+                                      ^~~~~~~~
+../src/server_tx_data.c:66:38: note: each undeclared identifier is reported only once for each function it appears in
+make: *** [src/server_tx_data.o] Error 1
+13:53:55 **** Auto Build of configuration Debug for project Final_Optional ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/server_tx_data.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/server_tx_data.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../Final_Optional_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/server_tx_data.d" -MT"src/server_tx_data.o" -o "src/server_tx_data.o" "../src/server_tx_data.c"
+../src/server_tx_data.c: In function 'sw_to_net':
+../src/server_tx_data.c:73:35: error: 'switches' undeclared (first use in this function)
+   dip_check = XGpio_DiscreteRead(&switches, 1);
+                                   ^~~~~~~~
+../src/server_tx_data.c:73:35: note: each undeclared identifier is reported only once for each function it appears in
+make: *** [src/server_tx_data.o] Error 1
+13:53:58 **** Auto Build of configuration Debug for project Final_Optional ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/server_tx_data.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/server_tx_data.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../Final_Optional_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/server_tx_data.d" -MT"src/server_tx_data.o" -o "src/server_tx_data.o" "../src/server_tx_data.c"
+../src/server_tx_data.c: In function 'sw_to_net':
+../src/server_tx_data.c:73:35: error: 'switches' undeclared (first use in this function)
+   dip_check = XGpio_DiscreteRead(&switches, 1);
+                                   ^~~~~~~~
+../src/server_tx_data.c:73:35: note: each undeclared identifier is reported only once for each function it appears in
+make: *** [src/server_tx_data.o] Error 1
+13:54:01 **** Auto Build of configuration Debug for project Final_Optional ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/server_tx_data.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/server_tx_data.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../Final_Optional_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/server_tx_data.d" -MT"src/server_tx_data.o" -o "src/server_tx_data.o" "../src/server_tx_data.c"
+../src/server_tx_data.c: In function 'sw_to_net':
+../src/server_tx_data.c:75:28: warning: 'dip_check' is used uninitialized in this function [-Wuninitialized]
+   if ( (dip_check & LSB_1) ^ (dip_check_old & LSB_1) )
+        ~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~
+'Finished building: ../src/server_tx_data.c'
+' '
+'Building target: Final_Optional.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../Final_Optional_bsp/ps7_cortexa9_0/lib -o "Final_Optional.elf"  ./src/client_rx_data.o ./src/main.o ./src/server_tx_data.o   -Wl,--start-group,-lxil,-lfreertos,-lgcc,-lc,--end-group -Wl,--start-group,-lxil,-llwip4,-lgcc,-lc,--end-group
+'Finished building target: Final_Optional.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size Final_Optional.elf  |tee "Final_Optional.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+ 231736	   4276	4233520	4469532	 44331c	Final_Optional.elf
+'Finished building: Final_Optional.elf.size'
+' '
+13:54:04 **** Auto Build of configuration Debug for project Final_Optional ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/server_tx_data.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/server_tx_data.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../Final_Optional_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/server_tx_data.d" -MT"src/server_tx_data.o" -o "src/server_tx_data.o" "../src/server_tx_data.c"
+../src/server_tx_data.c: In function 'sw_to_net':
+../src/server_tx_data.c:75:9: error: 'dip_check' undeclared (first use in this function)
+   if ( (dip_check & LSB_1) ^ (dip_check_old & LSB_1) )
+         ^~~~~~~~~
+../src/server_tx_data.c:75:9: note: each undeclared identifier is reported only once for each function it appears in
+../src/server_tx_data.c:75:31: error: 'dip_check_old' undeclared (first use in this function)
+   if ( (dip_check & LSB_1) ^ (dip_check_old & LSB_1) )
+                               ^~~~~~~~~~~~~
+make: *** [src/server_tx_data.o] Error 1
+13:54:18 **** Auto Build of configuration Debug for project Final_Optional ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/server_tx_data.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/server_tx_data.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../Final_Optional_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/server_tx_data.d" -MT"src/server_tx_data.o" -o "src/server_tx_data.o" "../src/server_tx_data.c"
+../src/server_tx_data.c: In function 'sw_to_net':
+../src/server_tx_data.c:91:3: warning: "/*" within comment [-Wcomment]
+   /* changing the status of this task to not running for 10000 thick time units */
+    
+../src/server_tx_data.c:93:4: error: expected expression before '/' token
+   */
+    ^
+../src/server_tx_data.c:62:7: warning: unused variable 'tx_buf' [-Wunused-variable]
+  char tx_buf[BUFF_SIZE]; //buffer to transmit
+       ^~~~~~
+make: *** [src/server_tx_data.o] Error 1
+13:54:28 **** Auto Build of configuration Debug for project Final_Optional ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/server_tx_data.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/server_tx_data.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../Final_Optional_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/server_tx_data.d" -MT"src/server_tx_data.o" -o "src/server_tx_data.o" "../src/server_tx_data.c"
+../src/server_tx_data.c: In function 'sw_to_net':
+../src/server_tx_data.c:91:3: warning: "/*" within comment [-Wcomment]
+   /* changing the status of this task to not running for 10000 thick time units */
+    
+../src/server_tx_data.c:62:7: warning: unused variable 'tx_buf' [-Wunused-variable]
+  char tx_buf[BUFF_SIZE]; //buffer to transmit
+       ^~~~~~
+'Finished building: ../src/server_tx_data.c'
+' '
+'Building target: Final_Optional.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../Final_Optional_bsp/ps7_cortexa9_0/lib -o "Final_Optional.elf"  ./src/client_rx_data.o ./src/main.o ./src/server_tx_data.o   -Wl,--start-group,-lxil,-lfreertos,-lgcc,-lc,--end-group -Wl,--start-group,-lxil,-llwip4,-lgcc,-lc,--end-group
+'Finished building target: Final_Optional.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size Final_Optional.elf  |tee "Final_Optional.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+ 231472	   4276	4233520	4469268	 443214	Final_Optional.elf
+'Finished building: Final_Optional.elf.size'
+' '
+13:54:48 **** Auto Build of configuration Debug for project Final_Optional ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/server_tx_data.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/server_tx_data.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../Final_Optional_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/server_tx_data.d" -MT"src/server_tx_data.o" -o "src/server_tx_data.o" "../src/server_tx_data.c"
+../src/server_tx_data.c: In function 'sw_to_net':
+../src/server_tx_data.c:62:7: warning: unused variable 'tx_buf' [-Wunused-variable]
+  char tx_buf[BUFF_SIZE]; //buffer to transmit
+       ^~~~~~
+'Finished building: ../src/server_tx_data.c'
+' '
+'Building target: Final_Optional.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../Final_Optional_bsp/ps7_cortexa9_0/lib -o "Final_Optional.elf"  ./src/client_rx_data.o ./src/main.o ./src/server_tx_data.o   -Wl,--start-group,-lxil,-lfreertos,-lgcc,-lc,--end-group -Wl,--start-group,-lxil,-llwip4,-lgcc,-lc,--end-group
+'Finished building target: Final_Optional.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size Final_Optional.elf  |tee "Final_Optional.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+ 231472	   4276	4233520	4469268	 443214	Final_Optional.elf
+'Finished building: Final_Optional.elf.size'
+' '
+13:56:36 **** Incremental Build of configuration Debug for project Final_Optional ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for `main-build'.
+13:57:33 **** Incremental Build of configuration Debug for project Final_Optional ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for `main-build'.
+13:58:22 **** Incremental Build of configuration Debug for project Final_Optional ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for `main-build'.

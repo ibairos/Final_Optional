@@ -1,7 +1,7 @@
 Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
 ------------------------------------------------------------------------------------
 | Tool Version : Vivado v.2017.2 (win64) Build 1909853 Thu Jun 15 18:39:09 MDT 2017
-| Date         : Fri May 31 12:28:41 2019
+| Date         : Fri May 31 13:01:13 2019
 | Host         : ibaipc running 64-bit major release  (build 9200)
 | Command      : report_drc -file Final_Optional_wrapper_drc_opted.rpt
 | Design       : Final_Optional_wrapper
@@ -24,18 +24,12 @@ Table of Contents
       Design limits: <entire design considered>
            Ruledeck: default
              Max violations: <unlimited>
-             Violations found: 1
-+--------+----------+--------------------+------------+
-| Rule   | Severity | Description        | Violations |
-+--------+----------+--------------------+------------+
-| ZPS7-1 | Warning  | PS7 block required | 1          |
-+--------+----------+--------------------+------------+
+             Violations found: 0
++------+----------+-------------+------------+
+| Rule | Severity | Description | Violations |
++------+----------+-------------+------------+
++------+----------+-------------+------------+
 
 2. REPORT DETAILS
 -----------------
-ZPS7-1#1 Warning
-PS7 block required  
-The PS7 cell must be used in this Zynq design in order to enable correct default configuration.
-Related violations: <none>
-
 

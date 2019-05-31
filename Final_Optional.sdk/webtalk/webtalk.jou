@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Webtalk v2017.2 (64-bit)
+# SW Build 1909853 on Thu Jun 15 18:39:09 MDT 2017
+# 
+# Start of session at: Fri May 31 13:58:57 2019
+# Process ID: 12128
+# Current directory: C:/Users/ibai/ESDC/Final_Optional/Final_Optional.sdk/webtalk
+# Command line: wbtcv.exe -mode batch -source sdk_webtalk.tcl
+# Log file: C:/Users/ibai/ESDC/Final_Optional/Final_Optional.sdk/webtalk/webtalk.log
+# Journal file: C:/Users/ibai/ESDC/Final_Optional/Final_Optional.sdk/webtalk\webtalk.jou
+#-----------------------------------------------------------
+source sdk_webtalk.tcl
